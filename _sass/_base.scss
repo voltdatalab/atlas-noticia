@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Aquawax Black';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('{{site.baseurl}}/fonts/Aquawax_Black.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Aquawax Medium';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('{{site.baseurl}}/fonts/Aquawax_Medium.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Aquawax Light';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('{{site.baseurl}}/fonts/Aquawax_Light.ttf')  format('truetype')
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: $texto-font-family;
+}
+
+body {
+    @include serif-font;
+}
+
+hr {
+    border-color: $laranja;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: white;
+}
+
+a {
+    @include transition-all;
+    color: $azul;
+    &:hover,
+    &:focus {
+        color: $laranja;
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titulo-font-family;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: $cinza-escuro;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    background-color: $cinza-claro;
+    color: $cinza-escuro;
+}
+
+.bg-dark {
+    background-color: $cinza-escuro;
+    color: white;
+}
+
+.text-faded {
+    color: rgba(white, .7);
+}
+
+section {
+    padding: 100px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+// Navigation
+
+.navbar-default {
+    background-color: white;
+    border-color: rgba($cinza-escuro, .5);
+    @include sans-serif-font;
+    @include transition-all;
+    .navbar-header .navbar-brand {
+        color: $laranja;
+        @include sans-serif-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,
+        &:focus {
+            color: darken($laranja, 10%);
+        }
+    }
+    .nav {
+        > li {
+            > a,
+            > a:focus {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: $cinza-escuro;
+                &:hover {
+                    color: $laranja;
+                }
+            }
+            &.active {
+                > a,
+                > a:focus {
+                    color: $laranja !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        background-color: transparent;
+        border-color: rgba(white, .3);
+        .navbar-header .navbar-brand {
+            color: rgba(white, .7);
+            &:hover,
+            &:focus {
+                color: white;
+            }
+        }
+        .nav > li > a,
+        .nav > li > a:focus {
+            color: rgba(white, .7);
+            &:hover {
+                color: white;
+            }
+        }
+        &.affix {
+            background-color: white;
+            border-color: rgba($cinza-escuro, .5);
+            .navbar-header .navbar-brand {
+                color: $laranja;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    color: darken($laranja, 10%);
+                }
+            }
+            .nav > li > a,
+            .nav > li > a:focus {
+                color: $cinza-escuro;
+                &:hover {
+                    color: $laranja;
+                }
+            }
+        }
+    }
+}
+
+// Homepage Header
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/header.jpg');
+    text-align: center;
+    color: white;
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 100px 15px 100px;
+        width: 100%;
+        .header-content-inner {
+            h1 {
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            hr {
+                margin: 30px auto;
+            }
+            h2 {
+                font-weight: 300;
+                color: rgba(white, .9);
+                margin-bottom: 50px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}
+
+// Sections
+
+.section-heading {
+    margin-top: 0;
+}
+
+.service-box {
+    max-width: 400px;
+    margin: 50px auto 0;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.call-to-action {
+    h2 {
+        margin: 0 auto 20px;
+    }
+}
+
+// Bootstrap Overrides
+.text-primary {
+    color: $laranja;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+// Button Styles
+.btn-default {
+    @include button-variant($cinza-escuro, white, white);
+}
+
+.btn-primary {
+    @include button-variant(white, $laranja, $laranja);
+}
+
+.btn-primary:hover{
+    @include button-variant(white, $azul, $azul);
+}
+
+.btn {
+    font-family: $titulo-font-family;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.botao-news {
+    padding: 10px 15px;
+    font-family: $titulo-font-family;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.botao-news {
+    @include button-variant(white, $laranja, $laranja);
+}
+
+.botao-news:hover{
+    @include button-variant(white, $azul, $azul);
+}
+
+.arrow, .arrow a{
+  color: $laranja;
+  font-size: 1.8em;
+  margin-top: 15%;
+  margin-left: 7px;
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
+}
+
+// contato
+#contato .fa {
+    color: $cinza-escuro;
+    font-size: 2em;
+}
+
+#contato {
+    background-color: $cinza;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: $cinza-escuro;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: $cinza-escuro;
+}
+
+img::selection {
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: white;
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: $cinza-escuro;
+}
