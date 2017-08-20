@@ -310,6 +310,10 @@ header {
   margin-left: 7px;
 }
 
+.arrow a:hover {
+  color: $azul-escuro;
+}
+
 @media (max-width: 768px) {
   .arrow {
     display: none;
@@ -324,6 +328,37 @@ header {
 
 #contato {
     background-color: $cinza;
+}
+
+#newsletter{
+  background-color: $laranja;
+  font-size: 2em;
+}
+
+.assinar {
+  border:0;
+  background-color: #515151;
+  width:300px;
+  color:white;
+  font-family:'Droid Sans';
+  font-size:.8em;
+  text-align:left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
 }
 
 // Extras

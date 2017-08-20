@@ -327,6 +327,9 @@ header {
   margin-top: 15%;
   margin-left: 7px; }
 
+.arrow a:hover {
+  color: #004E98; }
+
 @media (max-width: 768px) {
   .arrow {
     display: none; } }
@@ -336,6 +339,37 @@ header {
 
 #contato {
   background-color: #B7B7B7; }
+
+#newsletter {
+  background-color: #E88A23;
+  font-size: 2em; }
+
+.assinar {
+  border: 0;
+  background-color: #515151;
+  width: 300px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-size: .8em;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff; }
 
 ::-moz-selection {
   color: white;
