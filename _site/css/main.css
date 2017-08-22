@@ -337,8 +337,7 @@ header {
 .arrow, .arrow a {
   color: #821818;
   font-size: 1.8em;
-  margin-top: 7%;
-  margin-left: 7px; }
+  margin-top: 7%; }
 
 .arrow a:hover {
   color: #188282; }
