@@ -146,7 +146,6 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-image: url("../img/cover_atlas.png");
   text-align: center;
   color: #CDCDC1; }
