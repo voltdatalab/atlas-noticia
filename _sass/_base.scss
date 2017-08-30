@@ -59,6 +59,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .bg-primary {
@@ -252,8 +253,18 @@ header {
 
 // Sections
 
+.anuncio {
+  font-size: 1.8em;
+}
+
+#formbase{
+  width: 100%;
+  min-height: 3000px;
+}
+
 .section-heading {
     margin-top: 0;
+    text-align: center;
 }
 
 .service-box {

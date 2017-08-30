@@ -1,15 +1,103 @@
 <section class="bg-primary" id="sobre">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Sobre o projeto</h2>
-                <hr>
-                <p>Mantenedor do <a href="http://observatoriodaimprensa.com.br/" target="_blank">Observatório da Imprensa</a>, o Instituto para o Desenvolvimento do Jornalismo (Projor), em parceria com <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>, está desenvolvendo um banco de dados inédito para mapear os veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro.</p>
-                <p>Queremos identificar veículos que publiquem, mesmo que só esparsamente, notícias de interesse público – sejam impressos ou digitais – e com periodicidade diária, semanal ou quinzenal. Estamos falando de produtores de notícias sobre a prefeitura e a câmara municipal e temas como contas públicas, saúde, educação, segurança, mobilidade e meio-ambiente.</p>
-                <p>Contamos com a <a href="https://goo.gl/forms/2wWj3QUxKpT2Dv1g2" target="_blank">sua ajuda</a> para identificar e documentar a existência desses veículos.</p>
-                <p> <strong>O período de colaboração vai de 31/08/2017 a 30/09/2017</strong></p>
-                <a href="{{site.baseurl}}/img/release_final-Atlas da Notícia.pdf" target="_blank" class="btn btn-default btn-xl">Saiba mais</a>
+            <div class="col-lg-8 col-lg-offset-2">
+                <p class="anuncio">O <strong>Atlas da Notícia</strong> é uma iniciativa para mapear veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro.</p>
+                <p> O período de colaboração vai de 31/08/2017 a 30/09/2017</p>
+                <article>
+                  <input type="checkbox" id="read_more" role="button">
+                  <label for="read_more" onclick=""><span>Saiba mais...</span><span>Fechar</span></label>
+                  <section class="texto-interno">
+                    <hr />
+                    <p>Queremos identificar veículos que publiquem, mesmo que só esparsamente, notícias de interesse público – sejam impressos ou digitais – e com periodicidade diária, semanal ou quinzenal. Estamos falando de produtores de notícias sobre a prefeitura e a câmara municipal e temas como contas públicas, saúde, educação, segurança, mobilidade e meio-ambiente.</p>
+                    <p>Contamos com a <a href="indique.html" target="_blank">sua ajuda</a> para identificar e documentar a existência desses veículos.</p>
+                    <p>O projeto é uma iniciativa do o Instituto para o Desenvolvimento do Jornalismo (Projor), mantenedor do <a href="http://observatoriodaimprensa.com.br/" target="_blank">Observatório da Imprensa</a>, em parceria com <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>.</p>
+                    <p>O <strong>Atlas da Notícia</strong> é inspirado no projeto <a href="https://www.cjr.org/local_news/american-news-deserts-donuts-local.php" target="_blank">America’s Growing News Desert</a>, da revista Columbia Journalism Review, que mapeou a presença de jornais nos Estados Unidos em meio às mudanças no modelo de negócios do jornalismo que levaram ao fechamento de diversos veículos.</p>
+                    <p>A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros</p>
+                    <p>Esse projeto propõe a realização de um estudo amplo para a criação de um banco de dados, de um mapa, de gráficos e, finalmente, de um estudo compreensivo sobre os vazios jornalísticos no Brasil, levando em conta principalmente um levantamento quantitativo.</p>
+                    <p>Os dados e códigos deste projeto serão abertos após a conclusão da plataforma.</p>
+                    <p>Links para imprensa: </p>
+                      <ul>
+                        <li>
+                          <a href="{{site.baseurl}}/img/release_final-Atlas da Notícia.pdf" target="_blank">Release de lançamento</a>
+                        </li>
+                        <li>
+                          <a href="" target="_blank">Texto no Observatório da Imprensa</a>
+                        </li>
+                        <li>
+                          <a href="{{site.baseurl}}/img/social.png">Imagem do projeto para divulgação</a>
+                        </li>
+                      </ul>
+                  </section>
+                </article>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+/*Botão para hide/show explicação */
+article {
+  position: relative;
+}
+article section:last-of-type {
+  display: none;
+  visibility: hidden;
+  padding: 0 !important;
+}
+
+.texto-interno {
+  padding: 0 !important;
+}
+
+section {
+  -webkit-transition: .125s linear;
+  -moz-transition: .125s linear;
+  -ms-transition: .125s linear;
+  -o-transition: .125s linear;
+  transition: .125s linear;
+}
+
+input[type=checkbox] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  display: none;
+}
+[for="read_more"] {
+  position: relative;
+  left: 0;
+  text-align: left;
+  text-decoration: underline;
+}
+[for="read_more"]:hover {
+  background: rgba(0, 0, 0, .5);
+  padding: 5px;
+  color: #fff;
+}
+[for="read_more"] span:last-of-type {
+  display: none;
+  visibility: hidden;
+}
+input[type=checkbox]:checked ~ section {
+  display: block;
+  visibility: visible;
+  margin-top: 20px;
+}
+input[type=checkbox]:checked ~ figure {
+  max-width: 600px;
+}
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+  display: none;
+  visibility: hidden;
+}
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+  display: none;
+  visibility: visible;
+}
+</style>
