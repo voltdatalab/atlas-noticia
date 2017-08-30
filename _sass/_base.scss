@@ -285,7 +285,12 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($cinza-escuro, white, white);
+    @include button-variant($cinza-claro, white, white);
+    background-color: $cinza-escuro
+}
+
+.btn-default:hover{
+    @include button-variant(white, $verde, $verde);
 }
 
 .btn-primary {
@@ -299,7 +304,7 @@ header {
 .btn {
     font-family: $titulo-font-family;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     text-transform: uppercase;
 }
 
@@ -313,6 +318,7 @@ header {
     border: none;
     border-radius: 10px;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .botao-news {

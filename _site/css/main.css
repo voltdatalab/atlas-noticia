@@ -218,14 +218,15 @@ header {
   padding-left: 0; }
 
 .btn-default {
-  color: #515151;
+  color: #EDEDED;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
-  transition: all 0.35s; }
+  transition: all 0.35s;
+  background-color: #515151; }
   .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
-    color: #515151;
+    color: #EDEDED;
     background-color: #f2f2f2;
     border-color: #ededed; }
   .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
@@ -235,7 +236,27 @@ header {
     border-color: white; }
   .btn-default .badge {
     color: white;
-    background-color: #515151; }
+    background-color: #EDEDED; }
+
+.btn-default:hover {
+  color: white;
+  background-color: #188282;
+  border-color: #188282;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s; }
+  .btn-default:hover:hover, .btn-default:hover:focus, .btn-default:hover.focus, .btn-default:hover:active, .btn-default:hover.active, .open > .dropdown-toggle .btn-default:hover {
+    color: white;
+    background-color: #146c6c;
+    border-color: #126464; }
+  .btn-default:hover:active, .btn-default:hover.active, .open > .dropdown-toggle .btn-default:hover {
+    background-image: none; }
+  .btn-default:hover.disabled, .btn-default:hover.disabled:hover, .btn-default:hover.disabled:focus, .btn-default:hover.disabled.focus, .btn-default:hover.disabled:active, .btn-default:hover.disabled.active, .btn-default:hover[disabled], .btn-default:hover[disabled]:hover, .btn-default:hover[disabled]:focus, .btn-default:hover[disabled].focus, .btn-default:hover[disabled]:active, .btn-default:hover[disabled].active, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:hover:hover, fieldset[disabled] .btn-default:hover:focus, fieldset[disabled] .btn-default:hover.focus, fieldset[disabled] .btn-default:hover:active, fieldset[disabled] .btn-default:hover.active {
+    background-color: #188282;
+    border-color: #188282; }
+  .btn-default:hover .badge {
+    color: #188282;
+    background-color: white; }
 
 .btn-primary {
   color: white;
@@ -280,7 +301,7 @@ header {
 .btn {
   font-family: "Futura", sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: uppercase; }
 
 .btn-xl {
@@ -291,7 +312,8 @@ header {
   font-family: "Futura", sans-serif;
   border: none;
   border-radius: 10px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 20px; }
 
 .botao-news {
   color: white;
