@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Futura';
   src: url("{{site.baseurl}}/fonts/Futura_Medium.ttf") format("truetype"); }
@@ -128,6 +129,66 @@ aside {
           .navbar-default.affix .nav > li > a:focus:hover {
             color: #821818; } }
 
+/* Navegação 2 */
+.navbar-dois {
+  background-color: white;
+  border-color: rgba(81, 81, 81, 0);
+  font-family: 'Aquawax Medium', sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s; }
+  .navbar-dois .navbar-header .navbar-brand {
+    color: #188282;
+    font-family: 'Aquawax Medium', sans-serif;
+    font-weight: 700;
+    text-transform: none; }
+    .navbar-dois .navbar-header .navbar-brand:hover, .navbar-dois .navbar-header .navbar-brand:focus {
+      color: #571010; }
+  .navbar-dois .nav > li > a,
+  .navbar-dois .nav > li > a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #515151; }
+    .navbar-dois .nav > li > a:hover,
+    .navbar-dois .nav > li > a:focus:hover {
+      color: #821818; }
+  .navbar-dois .nav > li.active > a,
+  .navbar-dois .nav > li.active > a:focus {
+    color: #821818 !important;
+    background-color: transparent; }
+    .navbar-dois .nav > li.active > a:hover,
+    .navbar-dois .nav > li.active > a:focus:hover {
+      background-color: transparent; }
+  @media (min-width: 768px) {
+    .navbar-dois {
+      background-color: transparent;
+      border-color: rgba(255, 255, 255, 0); }
+      .navbar-dois .navbar-header .navbar-brand {
+        color: rgba(0, 0, 0, 0.8); }
+        .navbar-dois .navbar-header .navbar-brand:hover, .navbar-dois .navbar-header .navbar-brand:focus {
+          color: #571010; }
+      .navbar-dois .nav > li > a,
+      .navbar-dois .nav > li > a:focus {
+        color: rgba(0, 0, 0, 0.5); }
+        .navbar-dois .nav > li > a:hover,
+        .navbar-dois .nav > li > a:focus:hover {
+          color: #571010; }
+      .navbar-dois.affix {
+        background-color: white;
+        border-color: rgba(81, 81, 81, 0.5); }
+        .navbar-dois.affix .navbar-header .navbar-brand {
+          color: #821818;
+          font-size: 14px; }
+          .navbar-dois.affix .navbar-header .navbar-brand:hover, .navbar-dois.affix .navbar-header .navbar-brand:focus {
+            color: #571010; }
+        .navbar-dois.affix .nav > li > a,
+        .navbar-dois.affix .nav > li > a:focus {
+          color: #515151; }
+          .navbar-dois.affix .nav > li > a:hover,
+          .navbar-dois.affix .nav > li > a:focus:hover {
+            color: #821818; } }
+
 .redes-inicio {
   margin-top: 50px;
   font-size: 1.2em;
@@ -201,7 +262,7 @@ header {
 
 #formbase {
   width: 100%;
-  min-height: 3000px; }
+  min-height: 3400px; }
 
 .section-heading {
   margin-top: 0;
