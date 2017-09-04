@@ -107,7 +107,7 @@
 <style>
 /* Tabela de veículos */
 table {
-  border: 0px solid $cinza-escuro;
+  border: 0px solid #515151;
   padding: 18px;
   width: 100%;
   border-spacing: 0;
@@ -134,30 +134,13 @@ tr {
 }
 
 #fullTableFilter{
-  background-color: $cinza-escuro;
+  background-color: #515151;
   min-width: 300px;
   border: none;
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 10px;
   color: #fff
-}
-
-.clear{
-  padding: 5px;
-  background-color: $vermelho;
-  margin-top: 10px;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.clear:hover{
-  padding: 5px;
-  background-color: $verde;
-  margin-top: 10px;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
 }
 </style>
 
@@ -203,7 +186,6 @@ tr {
 
           <div style="max-width: 300px; margin: 0 auto;">
           <input id="fullTableFilter" type="text" placeholder="Busque aqui o veículo"></input>
-          <a class="clear">Limpar busca</a>
           </div>
 
           <div id="fullTable">Carregando...</div>
