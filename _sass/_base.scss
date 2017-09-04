@@ -503,3 +503,58 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $cinza-escuro;
 }
+
+/* Tabela de veículos */
+table {
+  border: 0px solid $cinza-escuro;
+  padding: 18px;
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #cbcbcb;
+}
+
+td, th {
+  min-width: 140px;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.tHeader {
+  text-align: center;
+}
+
+tr {
+  height: 50px;
+}
+
+#fullTableFilter{
+  background-color: $cinza-escuro;
+  min-width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #fff
+}
+
+.clear{
+  padding: 5px;
+  background-color: $vermelho;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.clear:hover{
+  padding: 5px;
+  background-color: $verde;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -3,61 +3,102 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/img/favico.png" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/img/favico.png" />
 
-    <title>Atlas da Notícia</title>
+  <title>Atlas da Notícia</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Fontes Google -->
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-    <!-- Plugin para CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+  <!-- Plugin para CSS -->
+  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
-    <!-- CSS customizado-->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+  <!-- CSS customizado-->
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <!-- Metas para Facebook -->
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://atlas.jor.br">
-    <meta property="og:title" content="Atlas da Notícia">
-    <meta property="og:site_name" content="Atlas da Notícia">
-    <meta property="og:description" content="Um projeto inédito para mapear os veículos produtores de notícias no território brasileiro">
-    <meta property="og:image" content="https://github.com/voltdatalab/atlas-noticia/blob/gh-pages/img/social.png?raw=true">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:type" content="website">
-    <meta name="description" content="Mapeando o jornalismo local no Brasil">
-    <meta name='subtitle' content='Mapeando o jornalismo local no Brasil'>
-    <meta name="author" content="Projor - Volt Data Lab">
-    <meta name="keywords" content="Brasil, jornalismo de dados, jornalismo, mapa, jornalismo local, Observatório da Imprensa, Projor, Volt Data Lab">
-    <meta name='url' content='http://atlas.jor.br'>
-    <meta name='coverage' content='Brasil'>
-    <meta name='distribution' content='Global'>
-    <meta name='rating' content='General'>
-    <meta name='target' content='all'>
-    <meta name='HandheldFriendly' content='True'>
+  <!-- Metas para Facebook -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="http://atlas.jor.br">
+  <meta property="og:title" content="Atlas da Notícia">
+  <meta property="og:site_name" content="Atlas da Notícia">
+  <meta property="og:description" content="Uma iniciativa inédita para mapear os veículos produtores de notícias no território brasileiro">
+  <meta property="og:image" content="https://www.atlas.jor.br/img/social.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:type" content="website">
+  <meta name="description" content="Mapeando o jornalismo local no Brasil">
+  <meta name='subtitle' content='Mapeando o jornalismo local no Brasil'>
+  <meta name="author" content="Projor - Volt Data Lab">
+  <meta name="keywords" content="Brasil, jornalismo de dados, jornalismo, mapa, jornalismo local, Observatório da Imprensa, Projor, Volt Data Lab">
+  <meta name='url' content='http://atlas.jor.br'>
+  <meta name='coverage' content='Brasil'>
+  <meta name='distribution' content='Global'>
+  <meta name='rating' content='General'>
+  <meta name='target' content='all'>
+  <meta name='HandheldFriendly' content='True'>
 
-    <!-- Analytics do Google -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- Analytics do Google -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-104963816-1', 'auto');
     ga('send', 'pageview');
-    </script>
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1243945425635655');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1243945425635655&ev=PageView&noscript=1"
+/></noscript>
+  <!-- End Facebook Pixel Code -->
+
 
 </head>
 
 
 <body id="page-top">
+  <script>
+  fbq('track', 'ViewContent'), {
+    content_ids: sobre, quem,
+  });
+</script>
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -77,8 +118,8 @@
                 <li><a class="page-scroll" href="#sobre">Sobre</a></li>
                 <li><a class="page-scroll" href="#quem">Quem Faz</a></li>
                 <li><a class="page-scroll" href="#contato">Contato</a></li>
-                <li><a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=http://atlas.jor.br/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </li>
-                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> </li>          
+                <li><a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=https://atlas.jor.br/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -173,7 +214,7 @@
                           <a href="/img/release.pdf" target="_blank">Release de lançamento</a>
                         </li>
                         <li>
-                          <a href="" target="_blank">Texto no Observatório da Imprensa</a>
+                          <a href="http://observatoriodaimprensa.com.br/imprensa-em-questao/projor-lanca-o-atlas-da-noticia/" target="_blank">Texto no Observatório da Imprensa</a>
                         </li>
                         <li>
                           <a href="/img/social.png" target="_blank">Imagem do projeto para divulgação</a>
@@ -299,7 +340,7 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
                 <h2 class="section-heading">Entre em contato</h2>
                 <hr class="primary">
                 <p>Tem outras sugestões para ajudar este projeto?
-                Mande um email pra gente:<a href="mailto:info@voltdata.info">info [a] voltdata.info</a></p>
+                Mande um email pra gente:<a href="mailto:info@voltdata.info"> info [a] voltdata.info</a></p>
                 <br />
             </div>
         <div class="col-lg-1 col-lg-offset-2 text-center">
