@@ -1,18 +1,21 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Futura';
-  src: url("{{site.baseurl}}/fonts/Futura_Medium.ttf") format("truetype"); }
+  src: url("{{site.baseurl}}/fonts/Futura.ttf") format("truetype"); }
 @font-face {
   font-family: 'Futura Light';
   src: url("{{site.baseurl}}/fonts/Futura_Light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Futura Book';
+  src: url("{{site.baseurl}}/fonts/Futura_Book.ttf") format("truetype"); }
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Droid Sans", sans-serif; }
+  font-family: 'Futura Light'; }
 
 body {
-  font-family: 'Droid Sans', sans-serif; }
+  font-family: 'Futura Ligh', sans-serif; }
 
 hr {
   border-color: #821818;
@@ -73,13 +76,13 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(81, 81, 81, 0);
-  font-family: 'Aquawax Medium', sans-serif;
+  font-family: 'Futura', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
     color: #188282;
-    font-family: 'Aquawax Medium', sans-serif;
+    font-family: 'Futura', sans-serif;
     font-weight: 700;
     text-transform: none; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
@@ -133,13 +136,13 @@ aside {
 .navbar-dois {
   background-color: white;
   border-color: rgba(81, 81, 81, 0);
-  font-family: 'Aquawax Medium', sans-serif;
+  font-family: 'Futura', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-dois .navbar-header .navbar-brand {
     color: #188282;
-    font-family: 'Aquawax Medium', sans-serif;
+    font-family: 'Futura', sans-serif;
     font-weight: 700;
     text-transform: none; }
     .navbar-dois .navbar-header .navbar-brand:hover, .navbar-dois .navbar-header .navbar-brand:focus {
@@ -494,50 +497,3 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #515151; }
-
-/* Tabela de veículos */
-table {
-  border: 0px solid #515151;
-  padding: 18px;
-  width: 100%;
-  border-spacing: 0;
-  margin-top: 20px;
-  text-align: center; }
-
-tbody tr:nth-child(odd) {
-  background-color: #cbcbcb; }
-
-td, th {
-  min-width: 140px;
-  vertical-align: middle;
-  padding: 8px; }
-
-.tHeader {
-  text-align: center; }
-
-tr {
-  height: 50px; }
-
-#fullTableFilter {
-  background-color: #515151;
-  min-width: 300px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
-  color: #fff; }
-
-.clear {
-  padding: 5px;
-  background-color: #821818;
-  margin-top: 10px;
-  color: #fff;
-  border-radius: 5px; }
-
-.clear:hover {
-  padding: 5px;
-  background-color: #188282;
-  margin-top: 10px;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer; }

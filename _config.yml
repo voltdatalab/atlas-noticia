@@ -6,6 +6,7 @@ logo: logo_atlas.png
 description: "Mapeando o jornalismo local no Brasil"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://atlas.jor.br" # the base hostname & protocol for your site
+permalink: "/:title" #/:categories/:year/:title.html
 
 twitter_username: observatorio
 facebook_username: Site.ObservatoriodaImprensa

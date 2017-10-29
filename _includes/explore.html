@@ -1,0 +1,87 @@
+<section class="bg-primary" id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="category-page-posts animated fadeIn ">
+                {% for post in site.posts %}
+
+                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+                            {{ post.descricao }}
+
+
+                            <hr />
+
+                {% endfor %}
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/*Botão para hide/show explicação */
+article {
+  position: relative;
+}
+article section:last-of-type {
+  display: none;
+  visibility: hidden;
+  padding: 0 !important;
+}
+
+.texto-interno {
+  padding: 0 !important;
+}
+
+section {
+  -webkit-transition: .125s linear;
+  -moz-transition: .125s linear;
+  -ms-transition: .125s linear;
+  -o-transition: .125s linear;
+  transition: .125s linear;
+}
+
+input[type=checkbox] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  display: none;
+}
+[for="read_more"] {
+  position: relative;
+  left: 0;
+  text-align: left;
+  text-decoration: underline;
+}
+[for="read_more"]:hover {
+  background: rgba(0, 0, 0, .5);
+  padding: 5px;
+  color: #fff;
+}
+[for="read_more"] span:last-of-type {
+  display: none;
+  visibility: hidden;
+}
+input[type=checkbox]:checked ~ section {
+  display: block;
+  visibility: visible;
+  margin-top: 20px;
+}
+input[type=checkbox]:checked ~ figure {
+  max-width: 600px;
+}
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+  display: none;
+  visibility: hidden;
+}
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+  display: none;
+  visibility: visible;
+}
+</style>
