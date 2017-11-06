@@ -122,7 +122,7 @@
 <div class="content">
     <h1>Cidades - Renda - Jornais e Online</h1>
 
-    <h2>Concentração de veículos mapeados em relação ao índice de renda medido no IDH (IDHM-E) em 1.032 municípios no Brasil, excluindo o eixo SP-RJ-BSB. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></h2>
+    <h2>Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de renda medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></h2>
 </div>
 
 <div id="scatter"> </div>
@@ -139,6 +139,8 @@
         <p><strong>Fontes:</strong> Levantamento Atlas da Notícia, com informações do <a href="http://www.atlasbrasil.org.br/2013/pt/o_atlas/idhm/">Atlas do Desenvolvimento Humano no Brasil - IDHM</a></p>
 
 <p><strong>Notas:</strong> Os dados sobre jornais têm referência em 2017, ao passo que os do IDHM foram publicados em 2013 como base no Censo de 2010 do Instituto Brasileiro de Geografia e Estatística (IBGE)</p>
+
+<p>Foram consideradas apenas cidades com mais de 100.000 habitantes para esta análise.</p>
 
 <p><strong>Tabela de referência:</strong> Cidades - 100khab - Jornais + Online (dados agregados)</p>
 
@@ -306,7 +308,7 @@
     }
 
     .dot {
-      stroke: #fff;
+      stroke: ;
     }
 
     .tooltip {
@@ -395,7 +397,7 @@
       .ticks(5);
 
     var yValue = function(d) {
-      return d.veiculos_mapeados;
+      return d.vei100milh;
     },
       yScale = d3.scale.linear().range([height, 0]),
       yMap = function(d) {
@@ -445,13 +447,13 @@
     //  dados
     d3.csv
     
-    ("/dados/atlas_slim_cidades_idhm_jornal_online_exSPRJBSB.csv"
+    ("/dados/atlas_slim_cidades_100khab_jornais_online.csv"
     ,
       function(error, data) {
         // csv para numero
         data.forEach(function(d) {
           d.IDHM_R = +d.IDHM_R;
-          d.veiculos_mapeados = +d.veiculos_mapeados;
+          d.vei100milh = +d.vei100milh;
           d.POP = +d.POP
         });
 
@@ -503,7 +505,7 @@
           //.attr("r", 4) Math.sqrt(d *4/Math.PI)
           //.attr("r", function (d) { return Math.sqrt(d.POP *4/Math.PI); })
           .attr("r", function(d) { return sizeScale(d.POP)} )
-          .style("opacity", 0.3)
+          .style("opacity", 0.8)
           .attr("cx", xMap)
           .attr("cy", yMap)
           .style("fill", function(d) {
@@ -571,7 +573,7 @@
                 .style("cursor", "pointer")
                 .style("opacity", 0.2);
             d3.select(this)
-                .style("opacity", 0.3);
+                .style("opacity", 0.8);
             d3.selectAll(".dot")
                 .style("cursor", "pointer")
                 .transition()
@@ -580,7 +582,7 @@
                 .filter(function(d) {
                 return d.regiao == type;
             })
-            .style("opacity", 0.3) // need this line to unhide dots
+            .style("opacity", 0.8) // need this line to unhide dots
             .style("stroke", "none")
             // apply stroke rule
             .style("fill", function(d) {
@@ -597,7 +599,7 @@
               .style("cursor", "pointer")
               .style("opacity", 0.2);
           d3.select(this)
-              .style("opacity", 0.3);
+              .style("opacity", 0.8);
           d3.selectAll(".dot")
               .style("cursor", "pointer")
               .transition()
@@ -606,7 +608,7 @@
               .filter(function(d) {
               return d.regiao == type;
           })
-          .style("opacity", 0.3) // need this line to unhide dots
+          .style("opacity", 0.8) // need this line to unhide dots
           .style("stroke", "none")
           // apply stroke rule
           .style("fill", function(d) {
@@ -622,15 +624,15 @@
             d3.selectAll(".legend")
                 .transition()
                 .duration(1500)
-                .style("opacity", 0.3);
+                .style("opacity", 0.8);
             d3.select(this)
                 .transition()
                 .duration(1500)
-                .style("opacity", 0.3);
+                .style("opacity", 0.8);
             d3.selectAll(".dot")
                 .transition()
                 .duration(5500)
-                .style("opacity", 0.3)
+                .style("opacity", 0.8)
               })
 
 

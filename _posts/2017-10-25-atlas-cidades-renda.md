@@ -2,11 +2,11 @@
 layout: dispersao
 
 # coloque o link para os dados
-dados: atlas_slim_cidades_idhm_jornal_online_exSPRJBSB.csv
+dados: atlas_slim_cidades_100khab_jornais_online.csv
 
 title: Cidades - Renda - Jornais e Online
 date: 2017-10-20
-descricao: "Concentração de veículos mapeados em relação ao índice de renda medido no IDH (IDHM-E) em 1.032 municípios no Brasil, excluindo o eixo SP-RJ-BSB. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>"
+descricao: "Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de renda medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>"
 fonte: Atlas da Notícia
 category: "Grandes Cidades"
 
@@ -19,7 +19,7 @@ valor_x: IDHM_R
 texto_eixo_x: IDHM-R
 numero_ticks_x: 5 # a partir de 1
 
-valor_y: veiculos_mapeados
+valor_y: vei100milh
 texto_eixo_y: "Veículos mapeados"
 ticks_y: "" # "%", entre aspas para porcentagens, ou qualquer sinal desejado
 numero_ticks_y: 10 # a partir de 1
@@ -41,7 +41,7 @@ tipo_dado: csv
 link_externo: nao # sim para URL externa ou não ou deixe em branco para _data
 
 # opacidade dos círculos dos dados
-opacidade: 0.3 # de 0 a 1
+opacidade: 0.8 # de 0 a 1
 tamanho_pts: POP # nome da coluna que você quer dimensionar o tamanho dos pontos
 tamanho_min: 3
 tamanho_max: 30
@@ -72,6 +72,8 @@ item_tres:
 **Fontes:** Levantamento Atlas da Notícia, com informações do [Atlas do Desenvolvimento Humano no Brasil - IDHM](http://www.atlasbrasil.org.br/2013/pt/o_atlas/idhm/)
 
 **Notas:** Os dados sobre jornais têm referência em 2017, ao passo que os do IDHM foram publicados em 2013 como base no Censo de 2010 do Instituto Brasileiro de Geografia e Estatística (IBGE)
+
+Foram consideradas apenas cidades com mais de 100.000 habitantes para esta análise.
 
 **Tabela de referência:** Cidades - 100khab - Jornais + Online (dados agregados)
 
