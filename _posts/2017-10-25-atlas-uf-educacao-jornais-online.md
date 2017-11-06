@@ -78,8 +78,7 @@ item_tres:
 
 **Arquivos:**
 - Tabela no [Google Sheets](https://docs.google.com/spreadsheets/d/1SudAc6RAQuYu4bWj_gJnuGrRmJXTP_TYMdx7huHkrbA/edit#gid=1972133213);
-- Tabela de [Excel](link);
 - Tabela com valores separados por vírgulas [.csv]({{baseurl}}/dados/atlas_slim_uf_100khab_jornais_online.csv);
-- Para mais formatos, acesse o [GitHub](https://github.com/voltdatalab/atlas-analytics) do Atlas da Notícia.
+- Para mais formatos, acesse o [GitHub](https://github.com/voltdatalab/Atlas-Analytics/tree/master/tabelas-oficiais/estados) do Atlas da Notícia.
 
 **Utilização**: Creative Commons 4.0, com atribuição para *Atlas da Notícia*
