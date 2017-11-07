@@ -2,12 +2,38 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                Nesta seção, você poderá ter acessos a todos os dados levantados pelo Atlas da Notícia,
+                inclusive tabelas e ao nosso banco de dados modelado para SQLite.
+              </p>
+              <p>
+                Para ter completo acesso ao levantamento do <strong>Atlas da Notícia</strong> e à documentação, inclusive com as tabelas utilizadas para o 1º relatório sobre desertos de notícias e cruzamentos com o Índice de Desenvolvimento Humano dos Municípios (IDHM), recomendamos o acesso à página no Github.
+              </p>
+              <p>
+                Para acesso mais rápido e simplificado, recomendamos as outras opções.
+              </p>
+              <p>
+                Leve em conta que esta é apenas uma primera etapa para o projeto. Pretendemos constantemente construir novas funcionalidades e recursos para este banco de dados, como busca, downloads, cruzamentos, gráficos e mapas interativos, assim como atualizar com novas informações e pesquisas.
+              </p>
+
+              <div style="margin: 0 auto;text-align:center;">
+              <a href="https://github.com/voltdatalab/Atlas-Analytics" target="_blank"><span class="btn btn-primary btn-xl page-scroll">No Github (completo)</span></a>
+              <a href="https://docs.google.com/spreadsheets/d/1SudAc6RAQuYu4bWj_gJnuGrRmJXTP_TYMdx7huHkrbA/edit?usp=sharing" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Google Sheets</span></a>
+              <a href="{{site.baseurl}}/dados/atlas.csv" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Em .CSV (apenas veículos)</span></a>
+
+              </div>
+
+              <div class="sep">
+
+              </div>
               <div class="category-page-posts animated fadeIn ">
+                <h3>Interativos</h3>
+                <br />
                 {% for post in site.posts %}
 
                             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-                            {{ post.descricao }}
+                            <p>{{ post.descricao }}</p>
 
 
                             <hr />
@@ -20,68 +46,20 @@
 </section>
 
 <style>
-/*Botão para hide/show explicação */
-article {
-  position: relative;
-}
-article section:last-of-type {
-  display: none;
-  visibility: hidden;
-  padding: 0 !important;
+p{
+  font-family: 'Futura', sans-serif;
 }
 
-.texto-interno {
-  padding: 0 !important;
+.sep {
+  height: 3px;
+  background-color: #cbcbcb;
+  width: 100%;
+  margin: 50px 0;
 }
 
-section {
-  -webkit-transition: .125s linear;
-  -moz-transition: .125s linear;
-  -ms-transition: .125s linear;
-  -o-transition: .125s linear;
-  transition: .125s linear;
+.btn {
+  margin-bottom: 10px;
+  font-size: .8em
 }
 
-input[type=checkbox] {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-  display: none;
-}
-[for="read_more"] {
-  position: relative;
-  left: 0;
-  text-align: left;
-  text-decoration: underline;
-}
-[for="read_more"]:hover {
-  background: rgba(0, 0, 0, .5);
-  padding: 5px;
-  color: #fff;
-}
-[for="read_more"] span:last-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ section {
-  display: block;
-  visibility: visible;
-  margin-top: 20px;
-}
-input[type=checkbox]:checked ~ figure {
-  max-width: 600px;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
-  display: none;
-  visibility: visible;
-}
 </style>

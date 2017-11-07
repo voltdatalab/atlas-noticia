@@ -18,10 +18,13 @@
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
   <!-- Plugin para CSS -->
-  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
 
   <!-- CSS customizado-->
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura.ttf" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura_Light.ttf" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura_Book.ttf" type="text/css">
 
   <!-- Metas para Facebook -->
   <meta property="og:locale" content="pt_BR">
@@ -98,7 +101,7 @@
     content_ids: sobre, quem,
   });
 </script>
-  <nav id="mainNav" class="navbar navbar-dois navbar-fixed-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -114,9 +117,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Início</a></li>
-              <li><a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=https://atlas.jor.br/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </li>
-              <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> </li>
+                <li><a class="page-scroll" href="#sobre">Sobre</a></li>
+                <li><a class="page-scroll" href="#quem">Quem Faz</a></li>
+                <li><a class="page-scroll" href="#contato">Contato</a></li>
+                <li><a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=https://atlas.jor.br/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -128,12 +133,38 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                Nesta seção, você poderá ter acessos a todos os dados levantados pelo Atlas da Notícia,
+                inclusive tabelas e ao nosso banco de dados modelado para SQLite.
+              </p>
+              <p>
+                Para ter completo acesso ao levantamento do <strong>Atlas da Notícia</strong> e à documentação, inclusive com as tabelas utilizadas para o 1º relatório sobre desertos de notícias e cruzamentos com o Índice de Desenvolvimento Humano dos Municípios (IDHM), recomendamos o acesso à página no Github.
+              </p>
+              <p>
+                Para acesso mais rápido e simplificado, recomendamos as outras opções.
+              </p>
+              <p>
+                Leve em conta que esta é apenas uma primera etapa para o projeto. Pretendemos constantemente construir novas funcionalidades e recursos para este banco de dados, como busca, downloads, cruzamentos, gráficos e mapas interativos, assim como atualizar com novas informações e pesquisas.
+              </p>
+
+              <div style="margin: 0 auto;text-align:center;">
+              <a href="https://github.com/voltdatalab/Atlas-Analytics" target="_blank"><span class="btn btn-primary btn-xl page-scroll">No Github (completo)</span></a>
+              <a href="https://docs.google.com/spreadsheets/d/1SudAc6RAQuYu4bWj_gJnuGrRmJXTP_TYMdx7huHkrbA/edit?usp=sharing" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Google Sheets</span></a>
+              <a href="/dados/atlas.csv" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Em .CSV (apenas veículos)</span></a>
+
+              </div>
+
+              <div class="sep">
+
+              </div>
               <div class="category-page-posts animated fadeIn ">
+                <h3>Interativos</h3>
+                <br />
                 
 
                             <h2><a href="/atlas-uf-renda-jornais-online">Estados - Renda - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados em relação ao índice de renda medido no IDH (IDHM-R) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados em relação ao índice de renda medido no IDH (IDHM-R) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -142,7 +173,7 @@
 
                             <h2><a href="/atlas-uf-idhm-jornais-online">Estados - IDHM - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados em relação ao índice de desenvolvimento humano (IDHM) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados em relação ao índice de desenvolvimento humano (IDHM) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -151,7 +182,7 @@
 
                             <h2><a href="/atlas-uf-educacao-jornais-online">Estados - Educação - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados em relação ao índice de educação medido no IDH (IDHM-R) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados em relação ao índice de educação medido no IDH (IDHM-R) nas 27 Unidades Federativas do Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -160,7 +191,7 @@
 
                             <h2><a href="/atlas-cidades-renda">Cidades - Renda - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de renda medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de renda medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -169,7 +200,7 @@
 
                             <h2><a href="/atlas-cidades-idhm">Cidades - IDHM - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados por 100.00 habitantes em relação ao Índice de Desenvolvimento Humano (IDHM) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados por 100.00 habitantes em relação ao Índice de Desenvolvimento Humano (IDHM) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -178,7 +209,7 @@
 
                             <h2><a href="/atlas-cidades-educacao">Cidades - Educação - Jornais e Online</a></h2>
 
-                            Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de escolaridade medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span>
+                            <p>Concentração de veículos mapeados por 100.00 habitantes em relação ao índice de escolaridade medido no IDH (IDHM-E) em 245 municípios no Brasil. Tamanho dos pontos corresponde à população. <span class='badge'>Gráfico interativo</span></p>
 
 
                             <hr />
@@ -191,70 +222,22 @@
 </section>
 
 <style>
-/*Botão para hide/show explicação */
-article {
-  position: relative;
-}
-article section:last-of-type {
-  display: none;
-  visibility: hidden;
-  padding: 0 !important;
+p{
+  font-family: 'Futura', sans-serif;
 }
 
-.texto-interno {
-  padding: 0 !important;
+.sep {
+  height: 3px;
+  background-color: #cbcbcb;
+  width: 100%;
+  margin: 50px 0;
 }
 
-section {
-  -webkit-transition: .125s linear;
-  -moz-transition: .125s linear;
-  -ms-transition: .125s linear;
-  -o-transition: .125s linear;
-  transition: .125s linear;
+.btn {
+  margin-bottom: 10px;
+  font-size: .8em
 }
 
-input[type=checkbox] {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-  display: none;
-}
-[for="read_more"] {
-  position: relative;
-  left: 0;
-  text-align: left;
-  text-decoration: underline;
-}
-[for="read_more"]:hover {
-  background: rgba(0, 0, 0, .5);
-  padding: 5px;
-  color: #fff;
-}
-[for="read_more"] span:last-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ section {
-  display: block;
-  visibility: visible;
-  margin-top: 20px;
-}
-input[type=checkbox]:checked ~ figure {
-  max-width: 600px;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
-  display: none;
-  visibility: visible;
-}
 </style>
 
   <section id="contato">

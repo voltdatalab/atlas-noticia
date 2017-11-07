@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Futura';
-  src: url('{{site.baseurl}}/fonts/Futura.ttf')  format('truetype')
+  src: url('fonts/Futura.ttf')  format('truetype')
 }
 
 @font-face {
   font-family: 'Futura Light';
-  src: url('{{site.baseurl}}/fonts/Futura_Light.ttf')  format('truetype')
+  src: url('fonts/Futura_Light.ttf')  format('truetype')
 }
 
 @font-face {
   font-family: 'Futura Book';
-  src: url('{{site.baseurl}}/fonts/Futura_Book.ttf')  format('truetype')
+  src: url('fonts/Futura_Book.ttf')  format('truetype')
 }
 
 
@@ -138,7 +138,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, 0);
         .navbar-header .navbar-brand {
-            color: rgba(white, .9);
+            color: rgba(black, .8);
             &:hover,
             &:focus {
                 color: white;
@@ -146,7 +146,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .9);
+            color: rgba($vermelho, .8);
             &:hover {
                 color: white;
             }
@@ -272,7 +272,8 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/cover_atlas.png');
+    /*background-image: url('../img/cover_atlas.png');*/
+    background-color: #f4f4f4;
     text-align: center;
     color: #CDCDC1;
     .header-content {

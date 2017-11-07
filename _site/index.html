@@ -18,10 +18,13 @@
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
   <!-- Plugin para CSS -->
-  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
 
   <!-- CSS customizado-->
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura.ttf" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura_Light.ttf" type="text/css">
+  <link rel="stylesheet" href="/fonts/Futura_Book.ttf" type="text/css">
 
   <!-- Metas para Facebook -->
   <meta property="og:locale" content="pt_BR">
@@ -130,12 +133,18 @@
 
     <div class="header-content">
         <div class="header-content-inner">
-            <!--<img src="img/logo_atlas.png" alt="logotipo" />-->
+            <!--<img src="img/logo_atlas.png" alt="logotipo" />
             <h1><span id="cima" style="color:#188282;border-bottom: 3px solid #821818;line-height: 1.5em">Atlas</span><br /><span id="baixo" style="color:#188282">da Notícia</span> </h1>
             <br />
-            <h2> Mapeando o jornalismo local no Brasil</h2>
+            <h2> Mapeando o jornalismo local no Brasil</h2>-->
+
+
+            <iframe width="100%" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video-init"></iframe>
+            <br /><br /><br />
             <br />
-            <span class="btn btn-primary btn-xl page-scroll">Colaborações encerradas! <br />Em breve, os resultados</span>
+            <!--
+            <a href="/dados/Atlas da Notícia - resultados.pdf" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Baixe o 1º relatório</span></a> -->
+            <a href="/explore.html"><span class="btn btn-primary btn-xl page-scroll">Dados</span></a>
             <!--
             <div class="redesdiv">
               <ul class="redes-inicio">
@@ -144,76 +153,50 @@
                 <li><a href="mailto:?subject=Veja esse projeto sobre jornalismo no Brasil&amp;body=Atlas da Notícia - Mapeando o jornalismo no Brasil: http://www.atlas.jor.br."><i class="fa fa-envelope-o fa-2x" style="color:#fff"></i></a></li>
               </ul>
             </div>
-          -->
+
             <div class="arrow">
                     <a href="#sobre" class="page-scroll arrow">
                     <i class="fa fa-arrow-down" aria-hidden="true"></i> <br />
                     </a>
-            </div>
+            </div>-->
         </div>
     </div>
   </div>
-</header>
-
-  <section id="newsletter" class="newsletter">
-    <div class="text-center">
-      <h2 style="color:#fff">Receba atualizações por email</h2>
-      <form action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="text-align:center"><label for="tlemail"></label> <input class="assinar" style="border:0;
-      background-color: #515151;
-      width:300px;
-      color:white;
-      font-family:'Droid Sans';
-      font-size:.8em;
-      text-align:left;
-      padding: 10px;
-      border-radius: 10px;" type="text" name="email" id="tlemail" placeholder="Coloque seu email aqui" />
-      <input type="hidden" value="1" name="embed"/>
-      <input class="botao-news" type="submit" value="assinar" /></p>
-      </form>
-    </div>
-</section>
-
 <style>
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
+.video-init{
+  height: 500px;
+  margin-top: 10%;
 }
 
-::-moz-placeholder { /* Firefox 19+ */
-  color: #fff;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #fff;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #fff;
+@media screen and (max-width: 520px) {
+  .video-init{
+    height: 300px;
+    margin-top: 10%;
+  }
 }
 </style>
+</header>
 
   <section class="bg-primary" id="sobre">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <p class="anuncio">O <strong>Atlas da Notícia</strong> é uma iniciativa para mapear veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro.</p>
-                <p> O período de colaboração vai de 31/08/2017 a 30/09/2017</p>
                 <article>
                   <input type="checkbox" id="read_more" role="button">
                   <label for="read_more" onclick=""><span>Saiba mais...</span><span>Fechar</span></label>
                   <section class="texto-interno">
                     <hr />
                     <p>Queremos identificar veículos que publiquem, mesmo que só esparsamente, notícias de interesse público – sejam impressos ou digitais – e com periodicidade diária, semanal ou quinzenal. Estamos falando de produtores de notícias sobre a prefeitura e a câmara municipal e temas como contas públicas, saúde, educação, segurança, mobilidade e meio-ambiente.</p>
-                    <p>Contamos com a <a href="indique.html" target="_blank">sua ajuda</a> para identificar e documentar a existência desses veículos.</p>
                     <p>O projeto é uma iniciativa do o Instituto para o Desenvolvimento do Jornalismo (Projor), mantenedor do <a href="http://observatoriodaimprensa.com.br/" target="_blank">Observatório da Imprensa</a>, em parceria com <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>.</p>
                     <p>O <strong>Atlas da Notícia</strong> é inspirado no projeto <a href="https://www.cjr.org/local_news/american-news-deserts-donuts-local.php" target="_blank">America’s Growing News Desert</a>, da revista Columbia Journalism Review, que mapeou a presença de jornais nos Estados Unidos em meio às mudanças no modelo de negócios do jornalismo que levaram ao fechamento de diversos veículos.</p>
-                    <p>A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros</p>
-                    <p>Esse projeto propõe a realização de um estudo amplo para a criação de um banco de dados, de um mapa, de gráficos e, finalmente, de um estudo compreensivo sobre os vazios jornalísticos no Brasil, levando em conta principalmente um levantamento quantitativo.</p>
-                    <p>Os dados e códigos deste projeto serão abertos após a conclusão da plataforma.</p>
+                    <p>A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros.</p>
                     <p>Links para imprensa: </p>
                       <ul>
                         <li>
-                          <a href="/img/release.pdf" target="_blank">Release de lançamento</a>
-                        </li>
+                          <a href="/explore.html">Dados</a>
                         <li>
-                          <a href="http://observatoriodaimprensa.com.br/imprensa-em-questao/projor-lanca-o-atlas-da-noticia/" target="_blank">Texto no Observatório da Imprensa</a>
+                          <a href="/img/release.pdf" target="_blank">Release de lançamento</a>
                         </li>
                         <li>
                           <a href="/img/social.png" target="_blank">Imagem do projeto para divulgação</a>
@@ -290,6 +273,40 @@ input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
 input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   display: none;
   visibility: visible;
+}
+</style>
+
+  <section id="newsletter" class="newsletter">
+    <div class="text-center">
+      <h2 style="color:#fff">Receba atualizações por email</h2>
+      <form action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="text-align:center"><label for="tlemail"></label> <input class="assinar" style="border:0;
+      background-color: #515151;
+      width:300px;
+      color:white;
+      font-family:'Droid Sans';
+      font-size:.8em;
+      text-align:left;
+      padding: 10px;
+      border-radius: 10px;" type="text" name="email" id="tlemail" placeholder="Coloque seu email aqui" />
+      <input type="hidden" value="1" name="embed"/>
+      <input class="botao-news" type="submit" value="assinar" /></p>
+      </form>
+    </div>
+</section>
+
+<style>
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
 }
 </style>
 

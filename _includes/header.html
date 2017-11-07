@@ -2,12 +2,18 @@
 
     <div class="header-content">
         <div class="header-content-inner">
-            <!--<img src="img/{{ site.logo }}" alt="logotipo" />-->
+            <!--<img src="img/{{ site.logo }}" alt="logotipo" />
             <h1><span id="cima" style="color:#188282;border-bottom: 3px solid #821818;line-height: 1.5em">{{ site.title }}</span><br /><span id="baixo" style="color:#188282">{{ site.comp }}</span> </h1>
             <br />
-            <h2> {{ site.description }}</h2>
+            <h2> {{ site.description }}</h2>-->
+
+
+            <iframe width="100%" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video-init"></iframe>
+            <br /><br /><br />
             <br />
-            <span class="btn btn-primary btn-xl page-scroll">Colaborações encerradas! <br />Em breve, os resultados</span>
+            <!--
+            <a href="{{site.baseurl}}/dados/Atlas da Notícia - resultados.pdf" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Baixe o 1º relatório</span></a> -->
+            <a href="/explore.html"><span class="btn btn-primary btn-xl page-scroll">Dados</span></a>
             <!--
             <div class="redesdiv">
               <ul class="redes-inicio">
@@ -16,13 +22,26 @@
                 <li><a href="mailto:?subject=Veja esse projeto sobre jornalismo no Brasil&amp;body=Atlas da Notícia - Mapeando o jornalismo no Brasil: http://www.atlas.jor.br."><i class="fa fa-envelope-o fa-2x" style="color:#fff"></i></a></li>
               </ul>
             </div>
-          -->
+
             <div class="arrow">
                     <a href="#sobre" class="page-scroll arrow">
                     <i class="fa fa-arrow-down" aria-hidden="true"></i> <br />
                     </a>
-            </div>
+            </div>-->
         </div>
     </div>
   </div>
+<style>
+.video-init{
+  height: 500px;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 520px) {
+  .video-init{
+    height: 300px;
+    margin-top: 10%;
+  }
+}
+</style>
 </header>
