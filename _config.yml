@@ -10,7 +10,7 @@ permalink: "/:title" #/:categories/:year/:title.html
 
 twitter_username: observatorio
 facebook_username: Site.ObservatoriodaImprensa
-github_username: voltdatalab/atlas-noticia
+github_username: voltdatalab/Atlas-Analytics
 
 # Build settings
 markdown: kramdown
