@@ -31,7 +31,7 @@ page_nav:
 
 #### Operando no espectro de Rádio e TV
 
-- 2.520 cidades possuem esses veículos, representando cerca de 125 milhões de brasileiros (73% da população)
+- 2.520 cidades possuem esses veículos, representando cerca de 150 milhões de brasileiros (75% da população)
 
 - Veículos 3.753 emissoras de rádio e 2.727 emissoras de televisão.
 
