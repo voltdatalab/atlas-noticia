@@ -1,434 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Atlas da Notícia</title>
 
-<head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="/img/favico.png" />
-
-  <title>Atlas da Notícia</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-
-  <!-- Fontes Google -->
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Droid+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
-
-  <!-- Plugin para CSS -->
-  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-
-  <!-- CSS customizado-->
-  <link rel="stylesheet" href="/css/main.css" type="text/css">
-  <link rel="stylesheet" href="/fonts/Futura.ttf" type="text/css">
-  <link rel="stylesheet" href="/fonts/Futura_Light.ttf" type="text/css">
-  <link rel="stylesheet" href="/fonts/Futura_Book.ttf" type="text/css">
-
-  <!-- Metas para Facebook -->
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:url" content="http://atlas.jor.br">
-  <meta property="og:title" content="Atlas da Notícia">
-  <meta property="og:site_name" content="Atlas da Notícia">
-  <meta property="og:description" content="Uma iniciativa inédita para mapear os veículos produtores de notícias no território brasileiro">
-  <meta property="og:image" content="https://www.atlas.jor.br/img/social.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:type" content="website">
-  <meta name="description" content="Mapeando o jornalismo local no Brasil">
-  <meta name='subtitle' content='Mapeando o jornalismo local no Brasil'>
-  <meta name="author" content="Projor - Volt Data Lab">
-  <meta name="keywords" content="Brasil, jornalismo de dados, jornalismo, mapa, jornalismo local, Observatório da Imprensa, Projor, Volt Data Lab">
-  <meta name='url' content='http://atlas.jor.br'>
-  <meta name='coverage' content='Brasil'>
-  <meta name='distribution' content='Global'>
-  <meta name='rating' content='General'>
-  <meta name='target' content='all'>
-  <meta name='HandheldFriendly' content='True'>
-
-  <!-- Analytics do Google -->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-104963816-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    ! function(f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function() {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1243945425635655');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1243945425635655&ev=PageView&noscript=1"
-/></noscript>
-  <!-- End Facebook Pixel Code -->
-
-</head>
+	<meta name="description" content="Mapeando o jornalismo local no Brasil">
 
 
-<body id="page-top">
-  <script>
-  fbq('track', 'ViewContent'), {
-    content_ids: sobre, quem,
-  });
-</script>
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Menu</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="index.html"><span>Atlas</span> <span>da Notícia</span></a>
-        </div>
+	<meta name="keywords" content="jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo, transparência">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="index.html#sobre">Sobre</a></li>
-                <li><a class="page-scroll" href="index.html#quem">Quem Faz</a></li>
-                <li><a class="page-scroll" href="#contato">Contato</a></li>
-                <li><a class="page-scroll" href="en.html">English</a></li>
-                <li><a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=https://atlas.jor.br/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </li>
-                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700" rel="stylesheet">
 
-  <header>
+	</head>
+	<body class="red">
+		<div class="hero-subheader hero-subheader--before-out">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								<img src="/doks-theme/assets/images/Atlas_verde_vermelho.svg" alt="logo" width="400px"/ style="margin-left:-35px"><br />
+								<!-- 
+									<h1 class="hero-subheader__title">Atlas da Notícia</h1>
+								
+								
+									<p class="hero-subheader__desc">Mapeando o jornalismo local no Brasil</p>
+								 -->
+								
+									
+									<a href="english" class="btn btn--dark btn--rounded btn--w-icon">
+										
+										English
+									</a>
+									
+								
+									
+									<a href="https://github.com/voltdatalab/atlas-analytics" class="btn btn--dark btn--rounded btn--w-icon">
+										<i class="icon icon--github"></i>
+										Dados completos
+									</a>
+									
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+						<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+							<div class="align-container" data-mh>
+								<div class="align-inner">
+									<div class="hero-subheader__author">
+										<p class="hero-subheader__author-title">
+											
+											<a href="sobre" class="btn btn--read-more">
+												Conheça o Atlas
+												<i class="icon icon--arrow-right"></i>
+											</a>
+											
+										</p><!-- /.hero-subheader__author-title -->
+										<p>Assista ao vídeo <br><br> <iframe width="100%" height="160" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+									</div><!-- /.hero-subheader__author -->
+								</div><!-- /.align-inner -->
+							</div><!-- /.align-container -->
+						</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		
+			<div class="section section--darker-theme-color-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="nav-grid nav-grid--out">
+								<div class="row">
+									
+										<div class="col-sm-6 col-lg-4">
+											<a href="estatisticas" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h2 class="nav-grid__title">Estatísticas</h2>
+													<p>Principais dados do levantamento do Atlas da Notícia</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													Veja os dados
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									
+										<div class="col-sm-6 col-lg-4">
+											<a href="radiodifusao" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h2 class="nav-grid__title">Radiodifusão</h2>
+													<p>NOVO! Análises sobre dispersão de rádios e televisões que operam no espectro de radiodifusão brasileiro</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													Veja os dados
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									
+										<div class="col-sm-6 col-lg-4">
+											<a href="jornais-online" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h2 class="nav-grid__title">Jornais e Online</h2>
+													<p>Análises sobre dispersão de jornais e sites de notícia no território brasileiro</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													Veja os dados
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									
+										<div class="col-sm-6 col-lg-4">
+											<a href="sobre" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h2 class="nav-grid__title">Sobre o Atlas</h2>
+													<p>Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													Acesse
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									
+										<div class="col-sm-6 col-lg-4">
+											<a href="http://observatoriodaimprensa.com.br/busca/?q=atlas%20da%20not%C3%ADcia" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h2 class="nav-grid__title">Observatório da Imprensa</h2>
+													<p>Tudo o que você precisa saber sobre a 1ª edição do Atlas da Notícia</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													Acesse
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									
+								</div><!-- /.row -->
+							</div><!-- /.nav-grid -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.section -->
+		
+		
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h6>Realização <img src="/doks-theme/assets/images/outros_logos/logo_projor.png" class="logosfooter" /></h6>
+					<h6>Desenvolvimento <img src="/doks-theme/assets/images/outros_logos/logo_volt.png" width="90px" class="logosfooter"/> </h6>
+					<h6>Apoio <img src="/doks-theme/assets/images/outros_logos/facebook_logo.png" class="logosfooter"/> </h6>
+					<hr />
+					
+					
+						<p class="site-footer__copyright">2018 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.</p>
+					
+				</div><!-- /.col -->
+				
+					<div class="col-sm-6 align-right">
+						<ul class="social-list">
+							<h6><strong>Email: info [a] voltdata.info</strong></h6>
+							<h6><a href="https://tinyletter.com/atlasjor" target="_blank">Assine a newsletter</a></h6>
+							
+								<li>
+									<a href="https://www.facebook.com/Site.ObservatoriodaImprensa/" target="_blank" class="social-list__item social-list__item--facebook">
+										<i class="icon icon--facebook"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://twitter.com/observatorio" target="_blank" class="social-list__item social-list__item--twitter">
+										<i class="icon icon--twitter"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://github.com/voltdatalab/atlas-analytics" target="_blank" class="social-list__item social-list__item--github">
+										<i class="icon icon--github"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://www.youtube.com/watch?v=dVYrf29Qsdc" target="_blank" class="social-list__item social-list__item--youtube">
+										<i class="icon icon--youtube"></i>
+									</a>
+								</li>
+							
+						</ul><!-- /.social-list -->
+					</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
 
-    <div class="header-content">
-        <div class="header-content-inner">
-            <!--<img src="img/logo_atlas.png" alt="logotipo" />
-            <h1><span id="cima" style="color:#188282;border-bottom: 3px solid #821818;line-height: 1.5em">Atlas</span><br /><span id="baixo" style="color:#188282">da Notícia</span> </h1>
-            <br />
-            <h2> Mapeando o jornalismo local no Brasil</h2>-->
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
 
 
-            <iframe width="100%" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video-init"></iframe>
-            <br /><br /><br />
-            <br />
 
-            <a href="https://github.com/voltdatalab/Atlas-Analytics/blob/master/Atlas%20da%20Not%C3%ADcia%20-%20resultados.pdf" target="_blank"><span class="btn btn-primary btn-xl page-scroll">Baixe o 1º relatório</span></a>
-            <a href="/explore.html"><span class="btn btn-primary btn-xl page-scroll">Dados</span></a>
-            <!--
-            <div class="redesdiv">
-              <ul class="redes-inicio">
-                <li> <a href="http://twitter.com/share?text=Atlas da Notícia - Mapeando o jornalismo local no Brasil, por @observatorio e @voltdatalab &url=http://atlas.jor.br/" target="_blank"><i class="fa fa-twitter fa-2x" style="color:#fff"></i></a></li>
-                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.atlas.jor.br" target="_blank"><i class="fa fa-facebook fa-2x" style="color:#fff"></i></a></li>
-                <li><a href="mailto:?subject=Veja esse projeto sobre jornalismo no Brasil&amp;body=Atlas da Notícia - Mapeando o jornalismo no Brasil: http://www.atlas.jor.br."><i class="fa fa-envelope-o fa-2x" style="color:#fff"></i></a></li>
-              </ul>
-            </div>
 
-            <div class="arrow">
-                    <a href="#sobre" class="page-scroll arrow">
-                    <i class="fa fa-arrow-down" aria-hidden="true"></i> <br />
-                    </a>
-            </div>-->
-        </div>
-    </div>
-  </div>
-<style>
-.video-init{
-  height: 500px;
-  margin-top: 10%;
-}
-
-@media screen and (max-width: 520px) {
-  .video-init{
-    height: 300px;
-    margin-top: 10%;
-  }
-}
-</style>
-</header>
-
-  <section class="bg-primary" id="sobre">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <p class="anuncio">O <strong>Atlas da Notícia</strong> é uma iniciativa para mapear veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro.</p>
-                <article>
-                  <input type="checkbox" id="read_more" role="button">
-                  <label for="read_more" onclick=""><span>Saiba mais...</span><span>Fechar</span></label>
-                  <section class="texto-interno">
-                    <hr />
-                    <p>Queremos identificar veículos que publiquem, mesmo que só esparsamente, notícias de interesse público – sejam impressos ou digitais – e com periodicidade diária, semanal ou quinzenal. Estamos falando de produtores de notícias sobre a prefeitura e a câmara municipal e temas como contas públicas, saúde, educação, segurança, mobilidade e meio-ambiente.</p>
-                    <p>O projeto é uma iniciativa do o Instituto para o Desenvolvimento do Jornalismo (Projor), mantenedor do <a href="http://observatoriodaimprensa.com.br/" target="_blank">Observatório da Imprensa</a>, em parceria com <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>.</p>
-                    <p>O <strong>Atlas da Notícia</strong> é inspirado no projeto <a href="https://www.cjr.org/local_news/american-news-deserts-donuts-local.php" target="_blank">America’s Growing News Desert</a>, da revista Columbia Journalism Review, que mapeou a presença de jornais nos Estados Unidos em meio às mudanças no modelo de negócios do jornalismo que levaram ao fechamento de diversos veículos.</p>
-                    <p>A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros.</p>
-                    <p>Links para imprensa: </p>
-                      <ul>
-                        <li>
-                          <a href="/explore.html">Dados</a>
-                        <li>
-                          <a href="/img/release.pdf" target="_blank">Release de lançamento</a>
-                        </li>
-                        <li>
-                          <a href="/img/social.png" target="_blank">Imagem do projeto para divulgação</a>
-                        </li>
-                      </ul>
-                  </section>
-                </article>
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-/*Botão para hide/show explicação */
-article {
-  position: relative;
-}
-article section:last-of-type {
-  display: none;
-  visibility: hidden;
-  padding: 0 !important;
-}
-
-.texto-interno {
-  padding: 0 !important;
-}
-
-section {
-  -webkit-transition: .125s linear;
-  -moz-transition: .125s linear;
-  -ms-transition: .125s linear;
-  -o-transition: .125s linear;
-  transition: .125s linear;
-}
-
-input[type=checkbox] {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-  display: none;
-}
-[for="read_more"] {
-  position: relative;
-  left: 0;
-  text-align: left;
-  text-decoration: underline;
-}
-[for="read_more"]:hover {
-  background: rgba(0, 0, 0, .5);
-  padding: 5px;
-  color: #fff;
-}
-[for="read_more"] span:last-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ section {
-  display: block;
-  visibility: visible;
-  margin-top: 20px;
-}
-input[type=checkbox]:checked ~ figure {
-  max-width: 600px;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
-  display: none;
-  visibility: hidden;
-}
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
-  display: none;
-  visibility: visible;
-}
-</style>
-
-  <section id="newsletter" class="newsletter">
-    <div class="text-center">
-      <h2 style="color:#fff">Receba atualizações por email</h2>
-      <form action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="text-align:center"><label for="tlemail"></label> <input class="assinar" style="border:0;
-      background-color: #515151;
-      width:300px;
-      color:white;
-      font-family:'Droid Sans';
-      font-size:.8em;
-      text-align:left;
-      padding: 10px;
-      border-radius: 10px;" type="text" name="email" id="tlemail" placeholder="Coloque seu email aqui" />
-      <input type="hidden" value="1" name="embed"/>
-      <input class="botao-news" type="submit" value="assinar" /></p>
-      </form>
-    </div>
-</section>
-
-<style>
-  input{
-    font-size:12px !important;
-  }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
-}
-
-::-moz-placeholder { /* Firefox 19+ */
-  color: #fff;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #fff;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #fff;
-}
-</style>
-
-  <section id="quem">
-    <div class="container">
-      <!--
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Quem faz</h2>
-                <hr class="primary">
-            </div>
-        </div>
-      -->
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 text-center">
-                <div class="service-box">
-                    <h3>Realização</h3>
-                    <a href="http://observatoriodaimprensa.com.br/sobre/" target="_blank"><img src="../img/logo_projor.png" width="250px"/></a>
-                            <a href="http://observatoriodaimprensa.com.br/" target="_blank"><img src="../img/logo_oi.png" width="200px"/></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 text-center">
-                <div class="service-box">
-                    <h3>Em parceria com</h3>
-                  <a href="https://voltdata.info" target="_blank">  <img src="../img/logo_volt.png" width="130px"/></a>
-                </div>
-            </div>
-            <!--
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Made with Love</h3>
-                    <p class="text-muted">You have to make your websites with love these days!</p>
-                </div>
-            </div>
-          -->
-        </div>
-    </div>
-</section>
-
-  <div class="container" style="max-width:800px;">
-<div class="category-page-posts">
-<h3 style="text-align:center">A equipe</h3>
-<br />
-<p><strong>Angela Pimenta, Presidente do Projor </strong> – Jornalista e mestre em Jornalismo pela Columbia University School (2001). Presidente do Projor desde julho de 2015, é coordenadora-executiva do Projeto Credibilidade. Foi editora-sênior da revista Exame em Brasília (2007-2011), sócia da consultoria Patri Políticas Públicas (2012-2014) e representante da Online News Association no Brasil (2009-2014).</p>
-<p><strong>Adriana Garcia, Diretora de Operações do Projor</strong> – Jornalista, professora e consultora em design estratégico e mídias digitais, tem mestrado pela Escola de Comunicações e Artes da Universidade de São Paulo (USP) e foi J.S.Knight fellow na Universidade de Stanford, na Califórnia (2013). Atuou na Reuters, Folha de S.Paulo, VejaSP e Exame. Foi diretora de Comunicação Digital da Rio 2016. Fundadora da Orbital Mídia.</p>
-<p><strong>Pedro Varoni, Diretor Editorial e editor do Observatório da Imprensa</strong> –  Jornalista, professor e pesquisador, formou-se em jornalismo em 1989 pela Universidade Federal de Minas Gerais (UFMG). É mestre e doutor em Linguística pela Universidade Federal de São Carlos (UFSCar). Esteve no Grupo EPTV e foi diretor de Jornalismo da TV Sergipe. Foi diretor geral da Empresa Brasil de Comunicação (EBC) em 2016.</p>
-<p><strong>Francisco Belda, Conselheiro do Projor</strong> – Jornalista, professor do Departamento de Comunicação Social e vice-coordenador do Programa de Pós-Graduação em Mídia e Tecnologia (PPGMiT) na Universidade Estadual Paulista (Unesp). Foi repórter, editor, gerente e diretor de empresas jornalísticas no interior de São Paulo. Professor visitante na Brandeis University, em Massachusetts, Estados Unidos, é doutor em Engenharia de Produção e mestre em Ciências da Comunicação, ambos na Universidade de São Paulo (USP).</p>
-<p><strong>Sérgio Spagnuolo, Editor do Volt Data Lab</strong> – Sérgio Spagnuolo é jornalista, fundador e editor da agência de jornalismo de dados Volt Data Lab, além de mestre em Relações Internacionais e Direitos Humanos pela PUC-SP e colaborador do site de checagem Aos Fatos. Paulistano não praticante, divide seu tempo entre São Paulo, Curitiba e Rio de Janeiro. Em 2016, foi fellowdo Tow-Knight Center for Entrepreneurial Journalism, um programa de empreendedorismo para jornalistas, em Nova York. Já atuou pelas as agências Reuters e Mergermarket, publicou nas revistas AméricaEconomia, Época NegóciosIstoÉ Dinheiro e Capital Aberto, entre outras, e colaborou com os portais piauí, Yahoo News, Jota Estadao.com, UOLe Último Segundo. Também trabalhou no Programa das Nações Unidas para o Desenvolvimento (PNUD), como oficial de comunicação do Centro Mundial para o Desenvolvimento Sustentável (Centro RIO+).</p>
-<p><strong>Renata Hirota, Analista de Dados</strong> - Renata é graduada em Jornalismo pela Universidade de São Paulo (USP) e atualmente cursa Estatística na mesma instituição. Já viveu na Espanha, Portugal e EUA, escrevendo para agências de notícias e revistas de viagem. No VOLT, une seu ofício antigo à nova empreitada no universo dos dados, com destaque para atuação nos grandes projetos da agência, como o Atlas da Notícia e reportagens que envolvem mais capacidade analítica.</p>
-  </div>
-</div>
-
-  <section id="contato">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Entre em contato</h2>
-                <hr class="primary">
-                <p>Tem outras sugestões para ajudar este projeto?
-                Mande um email pra gente:<a href="mailto:info@voltdata.info"> info [a] voltdata.info</a></p>
-                <br />
-            </div>
-        <div class="col-lg-1 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/observatorio">
-                <i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
-        </div>
-        <div class="col-lg-1 col-lg-offset-1 text-center">
-            <a href="mailto:?subject=Veja esse projeto sobre jornalismo no Brasil&amp;body=Atlas da Notícia - Mapeando o jornalismo no Brasil: http://www.atlas.jor.br.">
-            <i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
-        </div>
-        <div class="col-lg-1 col-lg-offset-1 text-center">
-            <a href="https://facebook.com/voltdatalab/Atlas-Analytics">
-            <i class="fa fa-facebook wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
-        </div>
-        <div class="col-lg-1 col-lg-offset-1 text-center">
-            <a href="https://github.com/voltdatalab/Atlas-Analytics">
-            <i class="fa fa-github wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
-        </div>
-    </div>
-    <br /><br /><br />
-    <div class="text-center">
-      <form action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="text-align:center"<label for="tlemail"></label> <input class="assinar" style="border:0;
-      background-color: #515151;
-      width:300px;
-      color:white;
-      font-family:'Droid Sans';
-      font-size:.8em;
-      text-align:left;
-      padding: 10px;
-      border-radius: 10px;" type="text" name="email" id="tlemail" placeholder="Receba novidades por email" />
-      <input type="hidden" value="1" name="embed"/>
-      <input class="botao-news" type="submit" value="assinar" /></p>
-      </form>
-    </div>
-</section>
-
-  <!-- jQuery -->
-<script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fittext.js"></script>
-<script src="js/wow.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="js/creative.js"></script>
-
-</body>
-
+	</body>
 </html>

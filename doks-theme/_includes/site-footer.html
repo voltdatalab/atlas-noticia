@@ -1,0 +1,47 @@
+{% if site.doks.footer.content.logo.image or site.doks.footer.content.logo.text or site.doks.footer.content.copyright or site.doks.footer.social_list %}
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h6>Realização <img src="{{ site.baseurl}}/doks-theme/assets/images/outros_logos/logo_projor.png" class="logosfooter" /></h6>
+					<h6>Desenvolvimento <img src="{{ site.baseurl}}/doks-theme/assets/images/outros_logos/logo_volt.png" width="90px" class="logosfooter"/> </h6>
+					<h6>Apoio <img src="{{ site.baseurl}}/doks-theme/assets/images/outros_logos/facebook_logo.png" class="logosfooter"/> </h6>
+					<hr />
+					{% if site.doks.footer.content.logo.text %}
+						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-footer__logo">{{ site.doks.footer.content.logo.text }}</a>
+					{% elsif site.doks.footer.content.logo.image %}
+						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-footer__logo">
+							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-footer.png">
+						</a><!-- /.site-footer__logo -->
+					{% endif %}
+					{% if site.doks.footer.content.copyright %}
+						<p class="site-footer__copyright">{{ site.doks.footer.content.copyright }}</p>
+					{% endif %}
+				</div><!-- /.col -->
+				{% if site.doks.footer.social_list %}
+					<div class="col-sm-6 align-right">
+						<ul class="social-list">
+							<h6><strong>Email: info [a] voltdata.info</strong></h6>
+							<h6><a href="https://tinyletter.com/atlasjor" target="_blank">Assine a newsletter</a></h6>
+							{% for item in site.doks.footer.social_list %}
+								<li>
+									<a href="{{ item.profile_url }}" target="_blank" class="social-list__item social-list__item--{{ item.network_name }}">
+										<i class="icon icon--{{ item.network_name }}"></i>
+									</a>
+								</li>
+							{% endfor %}
+						</ul><!-- /.social-list -->
+					</div><!-- /.col -->
+				{% endif %}
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+{% endif %}
+
+<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/scripts.min.js"></script>
+
+{% include google-analytics.html %}

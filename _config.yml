@@ -1,16 +1,43 @@
-# Site settings
-title: Atlas
-comp: da Notícia
-email: info@voltdata.info
-logo: logo_atlas.png
-description: "Mapeando o jornalismo local no Brasil"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://atlas.jor.br" # the base hostname & protocol for your site
-permalink: "/:title" #/:categories/:year/:title.html
+# Theme settings
+doks:
+    baseurl: /an-site/
+    color_theme: red # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo:
+            text: Atlas da Notícia
+            image:
+        nav:
+            - item_name: Sobre o Atlas
+              item_url: 'sobre'
+            - item_name: English
+              item_url: 'en'
+    footer:
+        content:
+            logo:
+                text:
+                image:
+            copyright: 2018 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
+        social_list:
+            - network_name: facebook
+              profile_url: 'https://www.facebook.com/Site.ObservatoriodaImprensa/'
+            - network_name: twitter
+              profile_url: 'https://twitter.com/observatorio'
+            - network_name: github
+              profile_url: 'https://github.com/voltdatalab/atlas-analytics'
+            - network_name: youtube
+              profile_url: 'https://www.youtube.com/watch?v=dVYrf29Qsdc'
+    google_analytics:
+        tracking_code: UA-104963816-1 # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
 
-twitter_username: observatorio
-facebook_username: Site.ObservatoriodaImprensa
-github_username: voltdatalab/Atlas-Analytics
+# SASS settings
+sass:
+    sass_dir: ./doks-theme/_sass
+    style: :compressed
 
-# Build settings
-markdown: kramdown
+# Jekyll settings
+layouts_dir: ./doks-theme/_layouts
+includes_dir: ./doks-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
