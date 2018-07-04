@@ -3,7 +3,7 @@
 layout: default
 keywords: jornalismo, veículos de comunicação, atlas da notícia, jornais, sites de notícias
 comments: false
-atualizacao: 20.jun.2018
+atualizacao: 4.jul.2018
 
 # Hero section
 title: Jornais e Online

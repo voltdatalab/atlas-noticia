@@ -3,7 +3,7 @@
 layout: default
 keywords:
 comments: false
-atualizacao: 20.jun.2018
+atualizacao: 4.jul.2018
 
 # Hero section
 title: Sobre o Atlas da Notícia
@@ -65,6 +65,5 @@ A primeira edição do **Atlas da Notícia** foi publicada em novembro de 2017
 | **Sérgio Spagnuolo** | Editor                | Volt Data Lab            |
 | **Renata M. Hirota** | Analista              | Volt Data Lab            |
 | **Felippe Mercurio** | Banco de Dados        | Volt Data Lab            |
-| **Heloisa Pizzo**    | Pesquisadora          | Volt Data Lab            |
 | **Angélica Martins** | Assistente de análise | Volt Data Lab            |
 | **Yasodara Córdova** | Consultora de design  | Volt Data Lab            |

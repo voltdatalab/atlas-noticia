@@ -3,7 +3,7 @@
 layout: default
 keywords:
 comments: false
-atualizacao: 20.jun.2018
+atualizacao: 4.jul.2018
 
 # Hero section
 title: Sobre o Atlas da Notícia

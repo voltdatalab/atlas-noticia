@@ -44,6 +44,9 @@ grid_navigation:
       excerpt: Tudo o que você precisa saber sobre a 1ª edição do Atlas da Notícia
       cta: Acesse
       url: 'http://observatoriodaimprensa.com.br/busca/?q=atlas%20da%20not%C3%ADcia'
-
+    - title: Atlas na mídia
+      excerpt: Veja o que saiu na imprensa sobre o Atlas da Notícia
+      cta: Acesse
+      url: 'clipping'
 
 ---
