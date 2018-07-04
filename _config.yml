@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: /an-site/
+    baseurl: #/an-site/
     color_theme: red # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
