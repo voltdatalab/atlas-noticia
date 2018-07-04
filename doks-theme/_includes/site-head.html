@@ -14,6 +14,8 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700" rel="stylesheet">
 <meta property="og:url"                content="https://www.atlas.jor.br/" />
 <meta property="og:type"               content="page" />
-<meta property="og:title"              content="Atlas da Notícia" />
-<meta property="og:description"        content="Uma iniciativa para mapear veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro." />
+<meta property="og:title"              content="{{ page.title }} - Atlas da Notícia" />
+{% if page.description %}
+	<meta property="og:description" content="{{ page.description }}">
+{% endif %}
 <meta property="og:image"              content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlas_social_img.png?token=AM9unqvx602hkQH3Y1DXNqy1V_BSV0cYks5bRhKFwA%3D%3D" />
