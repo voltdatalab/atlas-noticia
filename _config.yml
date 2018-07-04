@@ -8,9 +8,9 @@ doks:
             image:
         nav:
             - item_name: Sobre o Atlas
-              item_url: 'sobre'
+              item_url: '../sobre'
             - item_name: English
-              item_url: 'en'
+              item_url: '../en'
     footer:
         content:
             logo:
