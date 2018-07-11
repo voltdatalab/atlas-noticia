@@ -8,7 +8,7 @@ title: Atlas da Notícia
 description: Mapeando o jornalismo local no Brasil
 buttons:
     - content: English
-      url: 'english'
+      url: 'en'
       external_url: false
     - icon: github
       content: Dados completos
