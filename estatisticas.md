@@ -34,10 +34,12 @@ page_nav:
 
 #### Mapeando os desertos de notícia
 
-- Total de veículos mapeados (impresso + online + rádio + televisão): 11.820
-- Total de cidades mapeadas: 2.691 (48% dos municípios brasileiros) - média de 4,4 veículos por cidade
-- População coberta por veículos de comunidação: 161.008.798 (84% da população total, segundo Censo de 2010)
-- 74% do total das cidades brasileiras (um quarto da população) conta com apenas um ou nenhum veículo de notícias.
+- *Total de veículos mapeados*: 11.820 (impresso + online + rádio + televisão)
+- *Total de cidades mapeadas*: 2.691 (48% dos municípios brasileiros) - média de 4,4 veículos por cidade
+- *Deserto de notícias*: 2.879 cidades (52% dos municípios brasileiros), representando cerca de 40 milhões de habitantes, não possuem jornais, sites de notícias e emissoras de TV ou rádio
+- *População coberta por veículos de comunidação*: 161.008.798 (84% da população total)
+
+#### Considera dados do senso de 2010
 
 ![](../graficos/total_jornal_online_radio_tv.svg)
 <small><a id="download" href="../graficos/total_jornal_online_radio_tv.svg" download="atlas_totais.svg">Faça o download do gráfico (.svg - 164 KB)</a></small> -

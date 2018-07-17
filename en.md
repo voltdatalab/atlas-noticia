@@ -47,6 +47,12 @@ The second phase aims to improve Atlas' interactive platform and database and al
 
 To have full access to the current data featuring print and online media organizations, click on the links bellow.
 
+![broadcasting map english](../graficos/english/news_deserts_brazil_radio_tv.png)
+<small><a id="download" href="..graficos/english/news_deserts_brazil_radio_tv.png" download="radio_tv_totais.png">Download this map (.png - 112 KB)</a></small>
+
+![newspapers map english](../graficos/english/news_deserts_brazil_newspaper_online.png)
+<small><a id="download" href="..graficos/english/news_deserts_brazil_newspaper_online.png" download="radio_tv_totais.png">Download this map (.png - 112 KB)</a></small>
+
 #### Key Figures
 
 - Key Figures
