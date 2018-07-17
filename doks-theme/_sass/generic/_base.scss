@@ -103,7 +103,7 @@ small a:hover{
 /* ----- Paragraphs ----- */
 p, li, table{
 	margin: 0 0 1.25rem 0;
-	font-weight: 300 !important;
+	font-weight: 400 !important;
 	color: #333 !important;
 }
 
@@ -153,7 +153,7 @@ q {
 /* ----- Lists ----- */
 ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 0 0 0 1.25rem;
 	margin: 0 0 1.25rem 0;
 
 	li {
