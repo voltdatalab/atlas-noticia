@@ -7,6 +7,9 @@ keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo
 title: Atlas da Notícia
 description: Mapeando o jornalismo local no Brasil
 buttons:
+    - content: Indique um veículo (formulário)
+      url: 'formulario'
+      external_url: false
     - content: English
       url: 'en'
       external_url: false
@@ -24,8 +27,8 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Estatísticas
-      excerpt: Principais dados do levantamento do Atlas da Notícia
+    - title: Estatísticas e tabelas
+      excerpt: Principais dados e tabelas completas do levantamento do Atlas da Notícia
       cta: Veja os dados
       url: 'estatisticas'
     - title: Radiodifusão
