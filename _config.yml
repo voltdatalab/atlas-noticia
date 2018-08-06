@@ -13,8 +13,8 @@ doks:
               item_url: '../formulario'
             - item_name: 'Newsletter'
               item_url: 'https://tinyletter.com/atlasjor'
-           - item_name: English
-             item_url: '../en'
+            - item_name: English
+              item_url: '../en'
     footer:
         content:
             logo:
