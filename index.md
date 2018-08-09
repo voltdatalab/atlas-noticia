@@ -27,6 +27,14 @@ author:
 
 # Grid navigation
 grid_navigation:
+    - title: Indique um veículo
+      excerpt: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
+      cta: Acesse
+      url: 'formulario'
+    - title: Ajude o Atlas da Notícia
+      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é o destaque desta edição do Observatório da Imprensa
+      cta: Via Observatório da Imprensa
+      url: 'http://bit.ly/2Mdb7pj'
     - title: Estatísticas e tabelas
       excerpt: Principais dados e tabelas completas do levantamento do Atlas da Notícia
       cta: Veja os dados
@@ -43,13 +51,17 @@ grid_navigation:
       excerpt: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
       cta: Acesse
       url: 'sobre'
-    - title: Observatório da Imprensa
-      excerpt: Tudo o que você precisa saber sobre a 1ª edição do Atlas da Notícia
-      cta: Acesse
-      url: 'http://observatoriodaimprensa.com.br/busca/?q=atlas%20da%20not%C3%ADcia'
     - title: Atlas na mídia
       excerpt: Veja o que saiu na imprensa sobre o Atlas da Notícia
       cta: Acesse
       url: 'clipping'
+    - title: Mais jornalismo local
+      excerpt: É preciso aprofundar o conhecimento sobre jornalismo no Brasil. Na segunda fase, a meta é ampliar o crowdsourcing a partir de um formulário disponibilizado na rede
+      cta: Via Observatório da Imprensa
+      url: 'http://bit.ly/2Mjkioe'
+    - title: Conheça a 1ª fase
+      excerpt: A primeira etapa do Atlas da Notícia foi lançada em novembro de 2017 na edição especial 965 do Observatório da Imprensa. Reveja os principais conteúdos daquela edição
+      cta: Via Observatório da Imprensa
+      url: 'http://bit.ly/2MfO6SI'
 
 ---
