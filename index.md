@@ -52,7 +52,7 @@ grid_navigation:
       cta: Acesse
       url: 'sobre'
     - title: Equipe
-      excerpt: Saiba quem desenvolve o projeto no dia a dia
+      excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
       cta: Acesse
       url: 'equipe'
     - title: Atlas na mídia
