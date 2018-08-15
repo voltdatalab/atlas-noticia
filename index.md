@@ -32,7 +32,7 @@ grid_navigation:
       cta: Acesse
       url: 'formulario'
     - title: Ajude o Atlas da Notícia
-      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é o destaque desta edição do Observatório da Imprensa
+      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é destaque no Observatório da Imprensa
       cta: Via Observatório da Imprensa
       url: 'http://bit.ly/2Mdb7pj'
     - title: Estatísticas e tabelas
@@ -51,6 +51,10 @@ grid_navigation:
       excerpt: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
       cta: Acesse
       url: 'sobre'
+    - title: Equipe
+      excerpt: Saiba quem desenvolve o projeto no dia a dia
+      cta: Acesse
+      url: 'equipe'
     - title: Atlas na mídia
       excerpt: Veja o que saiu na imprensa sobre o Atlas da Notícia
       cta: Acesse

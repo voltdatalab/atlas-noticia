@@ -56,6 +56,8 @@ A primeira edição do **Atlas da Notícia** foi publicada em novembro de 2017
 
 #### Créditos
 
+[Saiba mais sobre a equipe aqui](../equipe)
+
 | Quem é               | O que faz             | De onde é                |
 |----------------------|-----------------------|--------------------------|
 | **Angela Pimenta**   | Presidente            | Projor                   |

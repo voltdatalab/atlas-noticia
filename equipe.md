@@ -32,6 +32,8 @@ page_nav:
 
 Quem faz o principal estudo de mapeamento da imprensa no Brasil. Para saber mais sobre o projeto em geral, [acesse este link](../sobre)
 
+## Equipe institucional
+
 #### Angela Pimenta, Presidente do Projor
 Jornalista e mestre em Jornalismo pela Columbia University School (2001). Presidente do Projor desde julho de 2015, é coordenadora-executiva do Projeto Credibilidade. Foi editora-sênior da revista Exame em Brasília (2007-2011), sócia da consultoria Patri Políticas Públicas (2012-2014) e representante da Online News Association no Brasil (2009-2014).
 
@@ -44,8 +46,27 @@ Jornalista, professor e pesquisador, formou-se em jornalismo em 1989 pela Univer
 #### Francisco Belda, Conselheiro do Projor
 Jornalista, professor do Departamento de Comunicação Social e vice-coordenador do Programa de Pós-Graduação em Mídia e Tecnologia (PPGMiT) na Universidade Estadual Paulista (Unesp). Foi repórter, editor, gerente e diretor de empresas jornalísticas no interior de São Paulo. Professor visitante na Brandeis University, em Massachusetts, Estados Unidos, é doutor em Engenharia de Produção e mestre em Ciências da Comunicação, ambos na Universidade de São Paulo (USP).
 
+## Equipe operacional
+
 #### Sérgio Spagnuolo, Editor do Volt Data Lab
 Sérgio Spagnuolo é jornalista, fundador e editor da agência de jornalismo de dados Volt Data Lab, além de mestre em Relações Internacionais e Direitos Humanos pela PUC-SP e colaborador do site de checagem Aos Fatos. Paulistano não praticante, divide seu tempo entre São Paulo, Curitiba e Rio de Janeiro. Em 2016, foi fellowdo Tow-Knight Center for Entrepreneurial Journalism, um programa de empreendedorismo para jornalistas, em Nova York. Já atuou pelas as agências Reuters e Mergermarket, publicou nas revistas AméricaEconomia, Época NegóciosIstoÉ Dinheiro e Capital Aberto, entre outras, e colaborou com os portais piauí, Yahoo News, Jota Estadao.com, UOLe Último Segundo. Também trabalhou no Programa das Nações Unidas para o Desenvolvimento (PNUD), como oficial de comunicação do Centro Mundial para o Desenvolvimento Sustentável (Centro RIO+).
 
 #### Renata Hirota, Analista de Dados
 Renata é graduada em Jornalismo pela Universidade de São Paulo (USP) e atualmente cursa Estatística na mesma instituição. Já viveu na Espanha, Portugal e EUA, escrevendo para agências de notícias e revistas de viagem. No VOLT, une seu ofício antigo à nova empreitada no universo dos dados, com destaque para atuação nos grandes projetos da agência, como o Atlas da Notícia e reportagens que envolvem mais capacidade analítica.
+
+## Pesquisadores regionais
+
+#### Marcela Donini
+Jornalista baseada em Porto Alegre com experiência de mercado desde 2004, graduou-se pela Universidade Federal do Rio Grande do Sul (UFRGS). Passou pelo jornal Zero Hora e pelas agências de conteúdo Cartola e Fronteira. Como freelancer, já escreveu para as revistas Piauí, Superinteressante e Galileu, além dos portais Ig, Veja e Terra. É mestra em Comunicação Social e especialista em Jornalismo Digital e em Teorias e Práticas do Ensino. Leciona na faculdade de Jornalismo da ESPM-Sul, onde também coordena a agência experimental de jornalismo. É cofundadora do Farol Jornalismo, iniciativa independente de produção e pesquisa em jornalismo. Email: *marcela[a]faroljornalismo.cc*
+
+#### Dubes Sônego
+Jornalista formado pela Universidade Federal de Santa Catarina (UFSC). Em 19 anos de profissão, atuou nas redações de Gazeta Mercantil, Valor Econômico, Meio&Mensagem, Revista Foco, América Economia, Brasil Econômico, iG e Época Negócios. Atualmente, trabalha como freelancer. É também fotógrafo diletante e estudante de Letras na Universidade de São Paulo (USP). Email: *dsonegojunior[a]gmail.com*
+
+#### Jéssica Botelho
+Jornalista e pesquisadora. É diretora da Agência Ajuri (projeto acelerado pelo New Ventures Lab das Chicas Poderosas), mestranda no Programa de Pós-graduação em Ciências da Comunicação da Universidade Federal do Amazonas e colaboradora no Centro Popular do Audiovisual. Atua em temas relacionados à jornalismo e questões digitais na perspectiva amazônica. É embaixadora do Youth Safernet Brasil no Amazonas e integrante do Youth Observatory of Internet Society e egressa da Escola de Governança da Internet do CGI.Br e da Escola InternetLab para Jornalistas. Email: *jessicabotelho[a]agenciaajuri.com*
+
+#### Juan Torres
+Editor de Inovação no Correio (BA) e gerente da Escola de Dados. Foi fellow ICFJ no programa Caminho Digital para Empreendedorismo e Inovação na América Latina e atuou no The Texas Tribune (2016). Também foi bolsista do Programa Balboa (Espanha). Tem passagens pelo diário Marca (Madri), Globesporte.com (RJ), jornal Extra (RJ), Agencia EFE (RJ) e colaborou com revistas da Editora Abril. Teve trabalhos reconhecidos em prêmios como Esso, Petrobras, Vladimir Herzog, Tim Lopes, Data Journalism Awards, newsawards, INMA Global Media, Latam Digital Media e Kurt Schork.
+
+#### Loraine França
+Graduada em Jornalismo pela Universidade Federal de Mato Grosso do Sul (UFMS). Autora da grande reportagem multimídia "Eles vivem no meio da rodovia". Foi produtora na TV MS Record e repórter na Rádio Educativa UFMS. Atualmente, é repórter na Rádio CBN Campo Grande. Pesquisadora no Laboratório de Investigação em Jornalismo, Direitos Humanos e Narrativas Complexas. (GRIOT/UFMS/CNPq).
