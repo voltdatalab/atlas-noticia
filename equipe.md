@@ -65,8 +65,5 @@ Jornalista formado pela Universidade Federal de Santa Catarina (UFSC). Em 19 ano
 #### Jéssica Botelho
 Jornalista e pesquisadora. É diretora da Agência Ajuri (projeto acelerado pelo New Ventures Lab das Chicas Poderosas), mestranda no Programa de Pós-graduação em Ciências da Comunicação da Universidade Federal do Amazonas e colaboradora no Centro Popular do Audiovisual. Atua em temas relacionados à jornalismo e questões digitais na perspectiva amazônica. É embaixadora do Youth Safernet Brasil no Amazonas e integrante do Youth Observatory of Internet Society e egressa da Escola de Governança da Internet do CGI.Br e da Escola InternetLab para Jornalistas. Email: *jessicabotelho[a]agenciaajuri.com*
 
-#### Juan Torres
-Editor de Inovação no Correio (BA) e gerente da Escola de Dados. Foi fellow ICFJ no programa Caminho Digital para Empreendedorismo e Inovação na América Latina e atuou no The Texas Tribune (2016). Também foi bolsista do Programa Balboa (Espanha). Tem passagens pelo diário Marca (Madri), Globesporte.com (RJ), jornal Extra (RJ), Agencia EFE (RJ) e colaborou com revistas da Editora Abril. Teve trabalhos reconhecidos em prêmios como Esso, Petrobras, Vladimir Herzog, Tim Lopes, Data Journalism Awards, newsawards, INMA Global Media, Latam Digital Media e Kurt Schork.
-
 #### Loraine França
 Graduada em Jornalismo pela Universidade Federal de Mato Grosso do Sul (UFMS). Autora da grande reportagem multimídia "Eles vivem no meio da rodovia". Foi produtora na TV MS Record e repórter na Rádio Educativa UFMS. Atualmente, é repórter na Rádio CBN Campo Grande. Pesquisadora no Laboratório de Investigação em Jornalismo, Direitos Humanos e Narrativas Complexas. (GRIOT/UFMS/CNPq).
