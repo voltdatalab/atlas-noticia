@@ -67,3 +67,6 @@ Jornalista e pesquisadora. É diretora da Agência Ajuri (projeto acelerado pelo
 
 #### Loraine França
 Graduada em Jornalismo pela Universidade Federal de Mato Grosso do Sul (UFMS). Autora da grande reportagem multimídia "Eles vivem no meio da rodovia". Foi produtora na TV MS Record e repórter na Rádio Educativa UFMS. Atualmente, é repórter na Rádio CBN Campo Grande. Pesquisadora no Laboratório de Investigação em Jornalismo, Direitos Humanos e Narrativas Complexas. (GRIOT/UFMS/CNPq).
+
+#### Mariama Correia
+Mariama Correia trabalhou por mais de três anos como repórter do caderno de Economia da Folha de Pernambuco. Também assinou matérias na Veja Comer e Beber, da Editora Abril, no portal The Intercept Brasil e no Projeto Draft. Tem cursos nas áreas de jornalismo de dados (Associação Brasileira de Jornalismo Investigativo), fact-checking e mídias digitais (Kings Brighton). Atualmente escreve para o coletivo de jornalismo investigativo Marco Zero Conteúdo.

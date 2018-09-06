@@ -6,8 +6,8 @@ comments: false
 atualizacao:
 
 # Hero section
-title: About this News Atlas
-description: A project to identify and map all news media in Brazil
+title: About the News Atlas
+description: A project to identify and map news media in Brazil
 
 # Author box
 author:
@@ -31,19 +31,19 @@ page_nav:
 
 <a href="https://github.com/voltdatalab/atlas-analytics" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">Access all the data here (Portuguese-only) </a>
 
-#### Context
+#### Background
 
-Atlas da Notícia (News Atlas) is a pioneering project aimed at mapping the local and regional press in Brazil amidst the digital revolution. It is carried on through a partnership between Projor – Instituto para o Desenvolvimento do Jornalismo and Volt Data Lab.
+Atlas da Notícia (News Atlas) is a pioneering project aimed at mapping the local and regional press in Brazil amidst the digital revolution. It is carried on through a partnership between Projor – Instituto para o Desenvolvimento do Jornalismo and the data-driven news agency [Volt Data Lab](https://voltdata.info).
 
 Atlas is focused on identifying local outlets covering civic local subjects, such as public spending, local law making process, health, education, security, mobility and the environment. It has also been planned into incremental phases.
 
-Completed and published in November 2017, the first phase identified 5,354 news outlets (both print and digital) in 1,125 of a total of Brazilian 5,570 municipalities. Conversely, Atlas revealed the existence of so-called “news deserts” in 4,500 municipalities, home to 70 million people, some 35% of Brazilian population.
+Completed and published in November 2017, the first phase has identified 5,354 news outlets (both print and digital) in 1,125 of a total of Brazilian 5,570 municipalities. Conversely, Atlas has revealed the existence of so-called “news deserts” in 4,500 municipalities, home to 70 million people, some 35% of Brazilian population.
 
 The first phase has also delivered an open database and a report including a series of analytical texts, maps and charts published by Observatório da Imprensa, Projor’s media watchdog website.
 
 Atlas da Notícia is inspired by the America’s Growing Deserts of News project, developed by the Columbia Journalism Review to map local newspapers in the United States.
 
-The second phase aims to improve Atlas' interactive platform and database and also to develop deeper on-site analytical research in a sample of “news deserts."
+The second phase aims to improve Atlas's interactive platform and database and also to develop deeper on-site analytical research in a sample of “news deserts."
 
 To have full access to the current data featuring print and online media organizations, click on the links bellow.
 
@@ -60,27 +60,22 @@ To have full access to the current data featuring print and online media organiz
   - Print newspapers: 3,379 (63%)
   - Online news: 1,984 (37%)
 
-- Cities at least print or online news outlet: 1,125
+- Municipalities with at least one print or online news outlet: 1,125
   - They represent around 65% of Brazil's population (130 million people)
-Average Human Development Index of cities mapped: 0,727
-Average national Human Development Index: 0,659
+Average Human Development Index of cities mapped: 0.727
+Average national Human Development Index: 0.659
 
-#### Key Findings
+#### Atlas da Notícia key findings:
 
-- Newspapers and online news were mapped in 1,125 cities, which means that in over 4,500, representing over 70 million people, it was not possible to identify such local news outlets.
+- 416 municipalities, home of more than 15 million people, count with only one newspaper or local news website
 
-- The so called "news deserts" account for some 35% of Brazil's population
+- Brazil’s three main cities (Sao Paulo, Rio de Janeiro and the federal capital Brasilia) account for 1,112 mapped newspapers and/or websites, representing 20.7% of the total. Together, they are home of some 10% of the national population
 
-- 416 cities, representing more than 15 million people, had only one newspaper or local news website
-Major cities disparities
+- State capitals ranked in the 11 first spots mapped newspapers and/or news websites
 
-- Brazil's three main cities (Sao Paulo, Rio de Janeiro and the capital Brasilia) account for 1,112 mapped newspapers or websites, representing 20.7% of the total, although they have only some 10% of the national population.
+- Florianópolis, capital of the Southern state of Santa Catarina, ranked first nationally in number of newspapers and/or news websites per citizens in municipalities with population above 100,000 habitants, with 16.7 news media outlets by a group of that many people
 
-- State capitals ranked in the 11 first spots in the ranking in number of mapped newspapers and news websites.
-News density
-
-- The Southern city of Florianopilies ranked first in the number of newspapers or news websites per citizens in municipalities above 100,000 people, with 16.7 media outlets by a group of that many people.
-Ther Northern city of Fortaleza was the worse, with just 0,87 media outlets per 100,000 people.
+- Fortaleza, the capital of the Northeastern state of Ceará, presented the lowest rate of 0.87 news media vehicles per 100,000 habitants
 
 
 #### The team
