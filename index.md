@@ -7,14 +7,17 @@ keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo
 title: Atlas da Notícia
 description: Mapeando o jornalismo local no Brasil
 buttons:
-    - content: Indique um veículo (formulário)
+    - content: Indique um veículo
       url: 'formulario'
+      external_url: false
+    - content: Estatísticas
+      url: 'estatisticas'
       external_url: false
     - content: English
       url: 'en'
       external_url: false
     - icon: github
-      content: Dados completos
+      content: Repositório
       url: 'https://github.com/voltdatalab/atlas-analytics'
       external_url: true
 
@@ -29,16 +32,16 @@ author:
 grid_navigation:
     - title: Indique um veículo
       excerpt: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
-      cta: Acesse
+      cta: Preencha o formulário
       url: 'formulario'
-    - title: Ajude o Atlas da Notícia
-      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é destaque no Observatório da Imprensa
-      cta: Via Observatório da Imprensa
-      url: 'http://bit.ly/2Mdb7pj'
     - title: Estatísticas e tabelas
       excerpt: Principais dados e tabelas completas do levantamento do Atlas da Notícia
       cta: Veja os dados
       url: 'estatisticas'
+    - title: Ajude o Atlas da Notícia
+      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é destaque no Observatório da Imprensa
+      cta: Via Observatório da Imprensa
+      url: 'http://bit.ly/2Mdb7pj'
     - title: Radiodifusão
       excerpt: NOVO! Análises sobre dispersão de rádios e televisões que operam no espectro de radiodifusão brasileiro
       cta: Veja os dados

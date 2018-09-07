@@ -41,13 +41,19 @@ page_nav:
 
 #### Tabelas completas dos veículos mapeados (Google Sheets)
 
-*NOTA: para utilizar as tabelas, faça uma cópia delas em Arquivo > Fazer uma cópia*
-
 - [Região Sul](https://docs.google.com/spreadsheets/d/1Ewlly_uu2tonsDtR8iZnGmCggBDeEAJ6aWWFYqHFJs8/edit#gid=0)
 - [Região Sudeste](https://docs.google.com/spreadsheets/d/1y7MGIeIfoRYTvL5o3m0YP8PmnnL2-ti8nqb7ZXDuR2Y/edit#gid=0)
 - [Região Nordeste](https://docs.google.com/spreadsheets/d/1kq-mCdViPCTKJtLcVpxh7J13GDfoOdIO-TAjwFRmnGA/edit#gid=624440017)
 - [Região Norte](https://docs.google.com/spreadsheets/d/1KRytDLPN4N-pOxj9Pu2SJf6zLwlLkeUJLec-J7T4qeg/edit?usp=drive_web&ouid=116923582836460804252)
 - [Região Centro-Oeste](https://docs.google.com/spreadsheets/d/1tGNJKxYbXQP6jUXfBRH07cE4Pfo6OA-GLBXjK7qwwCI/edit#gid=0)
+
+*<small><em>NOTA: para utilizar as tabelas, faça uma cópia delas em Arquivo > Fazer uma cópia</em></small>
+
+#### Tabela de desertos de notícias*
+
+- [Desertos de notícias](https://docs.google.com/spreadsheets/d/1bD4t4rzIY_aHw6uoydyo7OC_QwU_OqVR2U4oK7yeRWs/edit?usp=sharing)
+
+*<small><em>cidades sem veículos mapeados na primeira edição do Atlas da Notícia</em></small>
 
 #### Considera dados do senso de 2010
 
