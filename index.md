@@ -34,8 +34,12 @@ grid_navigation:
       excerpt: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
       cta: Preencha o formulário
       url: 'formulario'
+    - title: Fechamento de veículos
+      excerpt: Se você conhece algum jornal, site, revista, rádio ou TV que tenha fechado as portas, preencha o formulário abaixo e nos ajude a monitorar os desertos de notícia no país
+      cta: Preencha o formulário
+      url: 'fechamentos'
     - title: Estatísticas e tabelas
-      excerpt: Principais dados e tabelas completas do levantamento do Atlas da Notícia
+      excerpt: Principais dados, análises, gráficos e tabelas completas do levantamento do Atlas da Notícia
       cta: Veja os dados
       url: 'estatisticas'
     - title: Ajude o Atlas da Notícia
