@@ -30,6 +30,7 @@ page_nav:
 ---
 
 <small>Caso queira reportar o fechamento de algum veículo, acesse <a href="/fechamentos">este formuário</a></small>
+<small>Antes de preencher, <a href="https://docs.google.com/spreadsheets/d/1IEUYbY0NUHvWoaBujd0JodN5Qtn5iJKKcFxNVpQinQ4/edit#gid=0" target="_blank">consulte a tabela com os veículos já inclusos no levantamento</small>
 
 O **Atlas da Notícia** precisa da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
 
@@ -47,9 +48,10 @@ Esse formulário leva em torno de 6 minutos para ser totalmente preenchido, dado
 
 Para responder esse questionário com maior eficiência, tenha em mãos os seguintes dados de certo veículo:
 
-- Links (site, redes sociais, RSS)
-- Noção sobre aspectos gerais do veículo, como segmentos de atuação ou orientação política, se cabível
-- Propriedade do veículo, se cabível
-- Código do município onde o veículo se baseia. Obtido facilmente <a href="https://cidades.ibge.gov.br/" target="_blank">neste link do IBGE</a>.
+- Links (site, redes sociais, RSS);
+- Noção sobre aspectos gerais do veículo, como segmentos de atuação ou orientação política, se cabível;
+- Propriedade do veículo, se cabível;
+- Código do município onde o veículo se baseia. Obtido facilmente <a href='https://cidades.ibge.gov.br/' target='_blank'>neste link do IBGE</a>;
+- Antes de preencher, <a href="https://docs.google.com/spreadsheets/d/1IEUYbY0NUHvWoaBujd0JodN5Qtn5iJKKcFxNVpQinQ4/edit#gid=0" target="_blank">consulte a tabela com os veículos já inclusos no levantamento
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtAgoEkpFsK6wXxFJJTU500TM2zncI17Csp603XfMCO38hKQ/viewform?embedded=true" width="100%" height="4420" frameborder="0" marginheight="0" marginwidth="0">Carregando...</iframe>
