@@ -3,10 +3,10 @@
 layout: default
 keywords: jornalismo, veículos de comunicação, atlas da notícia
 comments: false
-atualizacao: 4.jul.2018
+atualizacao:
 
 # Hero section
-title: Estatísticas
+title: Estatísticas V.2.0
 description: Os principais dados sobre o levantamento e o mapeamento de veículos de comunicação e jornalismo no Brasil
 
 # Author box
@@ -29,41 +29,45 @@ page_nav:
         url: '#'
 ---
 
-<small>[Acesse o estudo de radiofusão](../radiodifusao)</small> -
-<small>[Acesse o estudo de jornais e notícias online](../jornais-online)</small>
+### Mapeando os desertos de notícia
 
-#### Mapeando os desertos de notícia
+- *Total de veículos mapeados*: 12.467 (impresso + online + rádio + televisão)
+- *Total de cidades mapeadas*: 2.710 (49% dos municípios brasileiros)
+ - 177 milhões de pessoas, ou 85% da população
+- *Deserto de notícias*: 2.879 cidades (52% dos municípios brasileiros),
+  - 30 mi de pessoas
+- *Quase desertos*: 30% dos municípios, possuem apenas 1 ou 2 veículos de notícia, em um total de 34 mi de pessoas
 
-- *Total de veículos mapeados*: 11.820 (impresso + online + rádio + televisão)
-- *Total de cidades mapeadas*: 2.691 (48% dos municípios brasileiros) - média de 4,4 veículos por cidade
-- *Deserto de notícias*: 2.879 cidades (52% dos municípios brasileiros), representando cerca de 40 milhões de habitantes, não possuem jornais, sites de notícias e emissoras de TV ou rádio
-- *População coberta por veículos de comunidação*: 161.008.798 (84% da população total)
+### Relatório de Apresentação
 
-#### Tabelas completas dos veículos mapeados (Google Sheets)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRhkhSPChHjXap_MLmLoGmZpWj_8L4vn2n_U-v33_8_ldGZh6U6LTomKDYCxhW75Rhzg6XYWvCIG3aW/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-- [Região Sul](https://docs.google.com/spreadsheets/d/1Ewlly_uu2tonsDtR8iZnGmCggBDeEAJ6aWWFYqHFJs8/edit#gid=0)
-- [Região Sudeste](https://docs.google.com/spreadsheets/d/1y7MGIeIfoRYTvL5o3m0YP8PmnnL2-ti8nqb7ZXDuR2Y/edit#gid=0)
-- [Região Nordeste](https://docs.google.com/spreadsheets/d/1kq-mCdViPCTKJtLcVpxh7J13GDfoOdIO-TAjwFRmnGA/edit#gid=624440017)
-- [Região Norte](https://docs.google.com/spreadsheets/d/1KRytDLPN4N-pOxj9Pu2SJf6zLwlLkeUJLec-J7T4qeg/edit?usp=drive_web&ouid=116923582836460804252)
-- [Região Centro-Oeste](https://docs.google.com/spreadsheets/d/1tGNJKxYbXQP6jUXfBRH07cE4Pfo6OA-GLBXjK7qwwCI/edit#gid=0)
+
+### Tabelas completas dos veículos mapeados (Google Sheets)
+
+- Em breve
 
 *<small><em>NOTA: para utilizar as tabelas, faça uma cópia delas em Arquivo > Fazer uma cópia</em></small>
 
-#### Tabela de desertos de notícias*
+### Tabela de desertos de notícias*
 
-- [Desertos de notícias](https://docs.google.com/spreadsheets/d/1bD4t4rzIY_aHw6uoydyo7OC_QwU_OqVR2U4oK7yeRWs/edit?usp=sharing)
+- Em breve
 
 *<small><em>cidades sem veículos mapeados na primeira edição do Atlas da Notícia</em></small>
 
-#### Considera dados do senso de 2010
+### Considera dados populacionais de 2017
 
-![](../graficos/total_jornal_online_radio_tv.svg)
-<small><a id="download" href="../graficos/total_jornal_online_radio_tv.svg" download="atlas_totais.svg">Faça o download do gráfico (.svg - 164 KB)</a></small> -
-<small><a id="download" href="../graficos/total_jornal_online_radio_tv.png" download="atlas_totais.png">Faça o download do gráfico (.png - 119 KB)</a></small>
 
-#### Fontes do levantamento Atlas da Notícia
-- Levantamento próprio do Atlas da Notícia
-- Atlas Brasil/PNUD/IDHM
-- Instituto Brasileiro de Geografia e Estatística
-- Secretaria de Comunicação da Presidência da República
-- Ministério da Ciência, Tecnologia, Inovações e Comunicações
+### Fontes do levantamento Atlas da Notícia 2.0
+
+| fonte                             | total | % da base | tipo*     |
+|-----------------------------------|-------|-----------|-----------|
+| MCTIC                             | 6475  | 51.9%     | Atlas 2.0 |
+| Secom/PR                          | 4388  | 35.2%     | Atlas 2.0 |
+| Crowdsoucing Atlas da Notícia 2.0 | 856   | 6.9%      | Atlas 2.0 |
+| Atlas da Notícia 1.0              | 233   | 1.9%      | Atlas 2.0 |
+| Adjori-RS                         | 204   | 1.6%      | Atlas 2.0 |
+| Adjori-SC                         | 129   | 1.0%      | Atlas 2.0 |
+| Central de Diários                | 89    | 0.7%      | Atlas 2.0 |
+| Adjori-SP                         | 62    | 0.5%      | Atlas 2.0 |
+| Adjori-PR                         | 31    | 0.2%      | Atlas 2.0 |
