@@ -3,7 +3,7 @@
 layout: default
 keywords: jornalismo, veículos de comunicação, atlas da notícia, jornais, sites de notícias
 comments: false
-atualizacao: 2018
+atualizacao: Em andamento
 
 # Hero section
 title: Formulário de resposta

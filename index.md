@@ -7,17 +7,17 @@ keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo
 title: Atlas da Notícia
 description: Mapeando o jornalismo local no Brasil
 buttons:
-    - content: Indique um veículo
-      url: 'formulario'
-      external_url: false
     - content: Estatísticas
       url: 'estatisticas'
       external_url: false
     - content: English
       url: 'en'
       external_url: false
+    - content: Inscreva um veículo
+      url: 'formulario'
+      external_url: false
     - icon: github
-      content: Repositório
+      content: Repo
       url: 'https://github.com/voltdatalab/atlas-analytics'
       external_url: true
 
@@ -30,6 +30,10 @@ author:
 
 # Grid navigation
 grid_navigation:
+    - title: Estatísticas e tabelas
+      excerpt: Principais dados, análises, gráficos e tabelas completas do levantamento do Atlas da Notícia
+      cta: Veja os dados
+      url: 'estatisticas'
     - title: Indique um veículo
       excerpt: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
       cta: Preencha o formulário
@@ -38,22 +42,14 @@ grid_navigation:
       excerpt: Se você conhece algum jornal, site, revista, rádio ou TV que tenha fechado as portas, preencha o formulário abaixo e nos ajude a monitorar os desertos de notícia no país
       cta: Preencha o formulário
       url: 'fechamentos'
-    - title: Estatísticas e tabelas
-      excerpt: Principais dados, análises, gráficos e tabelas completas do levantamento do Atlas da Notícia
+    - title: Atlas no OI
+      excerpt: Veja o que saiu no site do Observatório da Imprensa sobre o Atlas da Notícia
+      cta: Acesse a página
+      url: 'observatorio'
+    - title: Atlas v.1.0
+      excerpt: Veja os levantamentos (Jornais e Online e Radiodifusão) da versão 1.0 do Atlas da Notícia
       cta: Veja os dados
-      url: 'estatisticas'
-    - title: Ajude o Atlas da Notícia
-      excerpt: O lançamento da segunda fase da campanha de crowdsourcing do Atlas da Notícia é destaque no Observatório da Imprensa
-      cta: Via Observatório da Imprensa
-      url: 'http://bit.ly/2Mdb7pj'
-    - title: Radiodifusão
-      excerpt: NOVO! Análises sobre dispersão de rádios e televisões que operam no espectro de radiodifusão brasileiro
-      cta: Veja os dados
-      url: 'radiodifusao'
-    - title: Jornais e Online
-      excerpt: Análises sobre dispersão de jornais e sites de notícia no território brasileiro
-      cta: Veja os dados
-      url: 'jornais-online'
+      url: 'atlas1'
     - title: Sobre o Atlas
       excerpt: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
       cta: Acesse
@@ -66,13 +62,5 @@ grid_navigation:
       excerpt: Veja o que saiu na imprensa sobre o Atlas da Notícia
       cta: Acesse
       url: 'clipping'
-    - title: Mais jornalismo local
-      excerpt: É preciso aprofundar o conhecimento sobre jornalismo no Brasil. Na segunda fase, a meta é ampliar o crowdsourcing a partir de um formulário disponibilizado na rede
-      cta: Via Observatório da Imprensa
-      url: 'http://bit.ly/2Mjkioe'
-    - title: Conheça a 1ª fase
-      excerpt: A primeira etapa do Atlas da Notícia foi lançada em novembro de 2017 na edição especial 965 do Observatório da Imprensa. Reveja os principais conteúdos daquela edição
-      cta: Via Observatório da Imprensa
-      url: 'http://bit.ly/2MfO6SI'
 
 ---
