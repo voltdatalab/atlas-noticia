@@ -29,6 +29,10 @@ page_nav:
         url: '#'
 ---
 
+<small>Para os dados e análises do levantamento, [clique aqui](../dados)</small>
+
+---
+
 ### Mapeando os desertos de notícia
 
 |                                             | resultados                                                             |
@@ -43,7 +47,7 @@ page_nav:
 | **Desertos + Quase Desertos**               | 4.508 (~80% dos municípios brasileiros)                                |
 | **Habitantes em desertos + quase desertos** | 64 milhões (~31% da população nacional)                                |
 
-![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/atlas2.0_total_por_meio.svg)
+![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/atlas2.0_total_por_meio.jpeg)
 
 #### **Nota importante**
 Os dados não são diretamente comparáveis com o [primeiro levantamento](../atlas1/) feito em novembro de 2017, considerando que na ocasião foram considerados apenas desertos de notícias em relação a jornais impressos e veículos online. Em julho de 2018, os desertos foram calculados apenas para rádio e televisão.
@@ -53,18 +57,6 @@ Agora, pela primeira vez, o levantamento inclui todas as mídias.
 Além disso, as análises anteriores usaram dados populacionais do Censo de 2010, ao passo que a versão mais recente utiliza dados mais atuais, de 2017.
 
 
-
----
-
-### Tabelas completas e bancos de dados
-
-| dado                               | descrição                                                                                                                                                                       | arquivo             | link                                                                                                 |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------|
-| Banco de dados do Atlas da Notícia | Arquivo principal. Inclui todas as tabelas do Atlas: v.1 revisada; v.2; agregado de v.1 + v.2; tabelas populacionais do IBGE; tabelas com índices de IDHM; tabelas suplementares | atlas2.db           | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/atlas2.db)           |
-| Dados populacionais                | Tabela populacional do IBGE para 2017                                                                                                                                           | IBGE - pop.csv      | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/IBGE%20-%20pop.csv)  |
-| Tabela Atlas v.1.0                 | Tabela revisada com dados do primeiro levantamento do Atlas da Notícia                                                                                                          | atlas_1.csv         | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/atlas_1.csv)         |
-| Tabela Atlas v.2.0                 | Tabela com dados detalhados sobre cerca de 1.000 veículos de imprensa, parte do *crowdsourcing* da segunda versão do Atlas da Notícia                                           | atlas_2.csv         |   [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v2.csv)                                                                                                   |
-| Tabela suplementar                 | Informações sobre veículos que não entraram no levantamento final (ex. veículos pertencentes ao poder público)                                                                  | info_jornalismo.csv | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/info_jornalismo.csv) |
 
 ---
 
@@ -78,12 +70,6 @@ Desertos de notícia são municípios sem veículos jornalísticos, ou seja, sem
 Por conta do vasto território brasileiro e pelo fato de municípios ao norte do país terem áreas consideravelmente maiores do que mais ao sul, podemos fazer um *zoom* em cada região para visualizarmos melhor os desertos em cada lugar.
 
 ![Desertos de notícias do Brasil](../graficos/graficos_atlas2/mapas/atlas2_regioes_aprox_explicado.png)
-
-###### Fonte de dados
-
-| dado                 | descrição                                      | arquivo         | link                                                                                          |
-|----------------------|------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------|
-| Desertos de notícias | Lista de municípios sem nenhum veículo mapeado | desertos_v2.csv | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/desertos_v2.csv) |
 
 ---
 
@@ -101,19 +87,13 @@ Também conseguimos fazer uma aproximação por região para facilitar a visuali
 
 ![Desertos de notícias do Brasil](../graficos/graficos_atlas2/mapas/quase_desertos_regioes_zoom_explicado.png)
 
-###### Fonte de dados
-
-| dado                       | descrição                                               | arquivo               | link                                                                                                |
-|----------------------------|---------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------------|
-| Quase desertos de notícias | Lista de municípios com apenas 1 ou 2 veículos mapeados | quase_desertos_v2.csv | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/quase_desertos_v2.csv) |
-
 ---
 
 ### Outras análises
 
 #### 1. Foi constatada uma dependência ainda de Rádio e do Impresso, especialmente fora dos grandes centros (Rio de Janeiro-São Paulo-Brasília)
 
-![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/atlas2.0_pct_sobre_base_por_meio.svg)
+![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/atlas2.0_pct_sobre_base_por_meio.jpeg)
 
 Já nos grande centros de notícias do Brasil, veículos digitais representam uma proporção bastante significativa. No município de São Paulo, sites de jornalismo representam 67% do total de veículos, ao passo que no Rio de Janeiro o nímero é 62%. No Distrito Federal, 45%.
 
@@ -123,7 +103,7 @@ Já nos grande centros de notícias do Brasil, veículos digitais representam um
     - Desertos de notícia > **~11 mil habitantes**
     - Não desertos > **~65 mil habitantes**
 
-![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/desertos_regioes.svg)
+![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/desertos_regioes.png)
 
 #### 3. Cidades com presença de imprensa possuem IDH maior
 

@@ -116,6 +116,10 @@ a {
 	padding-bottom: .125em;
 }
 
+a:hover{
+	color: #d73027 !important
+}
+
 /* ----- Images ----- */
 img {
 	max-width: 100%;
@@ -194,7 +198,7 @@ em {
 table {
 	width: 100%;
 	text-align: left;
-	font-size: $font-size-base;
+	font-size: $font-size-base / 1.2;
 	border-collapse: collapse;
 	margin: 0 0 1.25rem 0;
 
