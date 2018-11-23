@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>{{ page.title }}</title>
+		{% if page.description %}
+			<meta name="description" content="{{ page.description }}">
+		{% endif %}
+		{% if page.keywords %}
+			<meta name="keywords" content="{{ page.keywords }}">
+		{% endif %}
+		<meta property="og:url"                content="https://www.atlas.jor.br/" />
+		<meta property="og:type"               content="page" />
+		<meta property="og:title"              content="{{ page.title }} - Atlas da Notícia" />
+		{% if page.description %}
+			<meta property="og:description" content="{{ page.description }}">
+		{% endif %}
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">

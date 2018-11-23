@@ -1,13 +1,13 @@
 ---
 # Page settings
 layout: default
-keywords: jornalismo, veículos de comunicação, atlas da notícia
+keywords: jornalismo, veículos de comunicação, atlas da notícia, desertos de notícias
 comments: false
 atualizacao:
 
 # Hero section
-title: Estatísticas V.2.0
-description: Os principais dados sobre o levantamento e o mapeamento de veículos de comunicação e jornalismo no Brasil
+title: 'Estatísticas V.2.0'
+description: 'Os principais dados sobre o levantamento e o mapeamento de veículos de comunicação e jornalismo no Brasil'
 
 # Author box
 author:
