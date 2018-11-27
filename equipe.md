@@ -3,11 +3,11 @@
 layout: default
 keywords:
 comments: false
-atualizacao: 4.jul.2018
+atualizacao:
 
 # Hero section
 title: Sobre o Atlas da Notícia
-description: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
+description: "Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil. <br><small>Conheça também nossos <a href='../colaboradores'>colaboradores e voluntários</a></small>."
 
 # Author box
 author:

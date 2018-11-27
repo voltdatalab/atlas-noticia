@@ -7,7 +7,7 @@ atualizacao:
 
 # Hero section
 title: Dados do Atlas da Notícia 2.0
-description: Acesse todos os dados, tabelas e gráficos do segundo levantamento do Atlas da Notícia
+description: "Acesse todos os dados, tabelas e gráficos do segundo levantamento do Atlas da Notícia. <br><small>Para os dados e análises do levantamento, <a href='../estatisticas'>clique aqui</a></small>"
 
 # Author box
 author:

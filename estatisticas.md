@@ -6,8 +6,8 @@ comments: false
 atualizacao:
 
 # Hero section
-title: 'Estatísticas V.2.0'
-description: 'Os principais dados sobre o levantamento e o mapeamento de veículos de comunicação e jornalismo no Brasil'
+title: 'Estatísticas v.2.0'
+description: "As principais análises sobre o mapeamento de veículos de jornalismo no Brasil. <br><small>Para a relação completa de tabelas, <a href='../dados'>clique aqui</a></small>"
 
 # Author box
 author:
@@ -27,10 +27,6 @@ page_nav:
     next:
         content:
         url: '#'
----
-
-<small>Para os dados e análises do levantamento, [clique aqui](../dados)</small>
-
 ---
 
 ### Mapeando os desertos de notícia
@@ -55,8 +51,6 @@ Os dados não são diretamente comparáveis com o [primeiro levantamento](../atl
 Agora, pela primeira vez, o levantamento inclui todas as mídias.
 
 Além disso, as análises anteriores usaram dados populacionais do Censo de 2010, ao passo que a versão mais recente utiliza dados mais atuais, de 2017.
-
-
 
 ---
 

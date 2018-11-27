@@ -10,11 +10,11 @@ buttons:
     - content: Estatísticas
       url: 'estatisticas'
       external_url: false
+    - content: Colaboradores
+      url: 'colaboradores'
+      external_url: false
     - content: English
       url: 'en'
-      external_url: false
-    - content: Inscreva um veículo
-      url: 'formulario'
       external_url: false
     - icon: github
       content: Repo
@@ -22,11 +22,11 @@ buttons:
       external_url: true
 
 # Author box
-author:
-    title: Conheça o Atlas
-    title_url: 'sobre'
-    external_url: true
-    description: Assista ao vídeo <br><br> <iframe width="100%" height="160" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+# author:
+  #  title: Conheça o Atlas
+  #  title_url: 'sobre'
+  #  external_url: true
+  #  description: Assista ao vídeo <br><br> <iframe width="100%" height="160" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Grid navigation
 grid_navigation:
