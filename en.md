@@ -45,25 +45,18 @@ Atlas da Notícia is inspired by the America’s Growing Deserts of News project
 
 The second phase aims to improve Atlas's interactive platform and database and also to develop deeper on-site analytical research in a sample of “news deserts."
 
-To have full access to the current data featuring print and online media organizations, click on the links bellow.
-
-![broadcasting map english](../graficos/english/news_deserts_brazil_radio_tv.png)
-<small><a id="download" href="..graficos/english/news_deserts_brazil_radio_tv.png" download="radio_tv_totais.png">Download this map (.png - 112 KB)</a></small>
-
-![newspapers map english](../graficos/english/news_deserts_brazil_newspaper_online.png)
-<small><a id="download" href="..graficos/english/news_deserts_brazil_newspaper_online.png" download="radio_tv_totais.png">Download this map (.png - 112 KB)</a></small>
-
 #### Key Figures
 
 - Key Figures
-  - Total mapped media organizations: 5,354
-  - Print newspapers: 3,379 (63%)
-  - Online news: 1,984 (37%)
+  - Total mapped media organizations: 12,467
+    - Radio stations: 4,007
+    - Print newspapers: 3,368
+    - TV stations: 2,773
+    - Online news: 2,263
+    - Magazines: 56
 
-- Municipalities with at least one print or online news outlet: 1,125
-  - They represent around 65% of Brazil's population (130 million people)
-Average Human Development Index of cities mapped: 0.727
-Average national Human Development Index: 0.659
+- Municipalities with at least one print or online news outlet: 2,710
+  - They represent around 15% of Brazil's population (30 million people)
 
 #### Atlas da Notícia key findings:
 

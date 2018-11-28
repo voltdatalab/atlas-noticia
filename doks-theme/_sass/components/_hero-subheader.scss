@@ -9,6 +9,8 @@
 	background-image: url('../../../cover.svg') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
 	@media (min-width: $screen-sm-min) {
