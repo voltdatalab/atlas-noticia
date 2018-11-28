@@ -34,7 +34,7 @@ page_nav:
 
 Veja quem contribuiu para a pesquisa do Atlas da Notícia v.2.0.
 
-A segunda edição do **Atlas da Notícia** só foi possível graças à participação voluntária de uma rede de quase cem pessoas que levantaram e registraram dados sobre a existência e o fechamento de veículos noticiosos.
+A segunda edição do **Atlas da Notícia** só foi possível graças à participação voluntária de uma rede de mais de 300 pessoas, entre estudantes, jornalistas voluntários e comunicadores, que levantaram e registraram dados sobre a existência e o fechamento de veículos noticiosos.
 
 A pesquisa do **Atlas da Notícia** é um esforço coletivo liderado pela agência de jornalismo Volt Data Lab, com a coordenação do Projor.
 
@@ -95,7 +95,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 #### Pontifícia Universidade Católica de Campinas (PUC-Campinas)
 
-| colaborador                       |
+| colaborador(a)                    |
 |-----------------------------------|
 | Gabriela Alves Pessanha           |
 | Juliana Cavalcante da Silva       |
@@ -252,9 +252,10 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Mariana Moraes    |
 
 #### Universidade Federal do Tocantins
-| colaborador(a)       |
-|----------------------|
-| Helga Midori Iwamoto |
+
+| colaborador(a)          |
+|-------------------------|
+| Helga Midori Iwamoto    |
 
 #### Universidade Federal Fluminense (UFF)
 
@@ -269,7 +270,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 #### Jornalistas, assessores de imprensa, comunicadores em geral
 
-| colaborador(a)    |
+| colaborador(a)                                |                                                 |
 |-----------------------------------------------|-------------------------------------------------|
 | Aliane Villa                                  |                                                 |
 | Aline Zarur Pereira                           |                                                 |
@@ -313,7 +314,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Frederico Celso Santana Bastos                |                                                 |
 | Gerson Rodrigues                              | Revista Afinal                                  |
 | Guilherme Wunder                              |                                                 |
-| Guilherme Alpendre                            |  |
+| Guilherme Alpendre                            |                                                 |
 | Gustavo de Mello Louzada                      |                                                 |
 | Heitor Rossi Ambiel Facini                    |                                                 |
 | Helena Matta                                  |                                                 |
@@ -385,83 +386,84 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 #### Dono / administrador / representante de veículo de jornalismo (exceto jornalista de redação)
 
-| A Folha Regional - Vagner Alves                                      |         |
-|----------------------------------------------------------------------|---------|
-| Ageu Ebert                                                           |         |
-| Alex Faria                                                           |         |
-| Allan dos Reis                                                       |         |
-| Ana Paula Machado Kikuchi                                            |         |
-| Anderson Meneses                                                     |         |
-| André Reis                                                           |         |
-| Antonio Saad Gebran Sobrinho                                         |         |
-| Argemiro Rocha                                                       |         |
-| Bruno de Oliveira Rocha                                              |         |
-| Bruno de Oliveira Rocha | Ponto BC Comunicação                                |
-| Carlos R. Crema                                                      |         |
-| Claudio Krauss Morais                                                |         |
-| Cristian Garcia Boeck                                                |         |
-| Diogo Rafael Nunes Devitte                                           |         |
-| Edison Roberto Gazonato                                              |         |
-| Eliane Saboto                                                        |         |
-| Elias Lubaque                                                        |         |
-| Evaldo Cemin                                                         |         |
-| Fabio Ramos Berti                                                    |         |
-| Fabio Regis de Toledo                                                |         |
-| Fernando Araújo Filho                                                |         |
-| Fernando Costa de Sousa                                              |         |
-| Flávia Gomes                                                         |         |
-| Francisco Oliveira                                                   |         |
-| Gabriel Afonso Rotta                                                 |         |
-| Geórgia Santos                                                       |         |
-| Gilberto Gonçalves  | Agência de Notícias e Editora Comunicativa Ltda| |
-| Helio de Carvalho Araujo                                             |         |
-| Jaciara Barros                                                       |         |
-| Jefferson Oliveira                                                   |         |
-| João Paulo Arruda de Lima                                            |         |
-| João Tomaz da Silva ME                                               |         |
-| José Augusto Doná | Empresa Jornalística J.A. Ltda |
-| Juliana Collaziol                                                    |         |
-| Kátia Brasil                                                         |         |
-| Lelis José da Silva                                                  |         |
-| Lenita da Silveira Barbosa                                           |         |
-| Lucineia Vieira                                                      |         |
-| Marcelo Thin Kobayashi Wun                                           |         |
-| Marco Antônio Sapia                                                  |         |
-| Marcos Paulo Assis                                                   |         |
-| Mari                                                                 |         |
-| Maria do Socorro Diogo                                               |         |
-| Mario Vicenti                                                        |         |
-| Mauricio Ferreira dos Santos                                         |         |
-| Nailson Costa Pereira                                                |         |
-| Nilton Jose Alves                                                    |         |
-| Paulina Zampar Silva                                                 |         |
-| Paulo Felipe Saliba Silva Rendeiro de Noronha                        |         |
-| Paulo Floro                                      | Revista O Grito!            |
-| Paulo Ricardo Tomasini                                               |         |
-| Paulo Santanna                                                       |         |
-| Pedro Evangelista                                                    |         |
-| Pedro Jorge dos Reis                                                 |         |
-| Rafael Ventura                      | Associação Brasileira de Imprensa        |
-| Roberto Gomes de Gomes                                               |         |
-| Roberto Oscar Patzlaff                                               |         |
-| Rodrigo Malagoli                                                     |         |
-| Rodrigo Matos Mariano                                                |         |
-| Rogério Reinheimer Bernardes                                         |         |
-| Rosana bueno                                                         |         |
-| Sabrina Cicareli                                                     |         |
-| Sergio Barbosa da Silva                                              |         |
-| Sérgio Yashushi Kikushi                                              |         |
-| Thiago Gabriel                                                       | Vaidapé |
-| Tiago Lobo                                             | Pensamento.org        |
-| Túlio Darros                                                         |         |
-| Victor Martins                                                       |         |
-| Waldiclei Barboza                                                    |         |
-| Washington Luis                                                      |         |
-| Wilson do Nascimento Santos                                          |         |
+|  colaborador(a)                               |                                                 |
+|-----------------------------------------------|-------------------------------------------------|
+| Ageu Ebert                                    |                                                 |
+| Alex Faria                                    |                                                 |
+| Allan dos Reis                                |                                                 |
+| Ana Paula Machado Kikuchi                     |                                                 |
+| Anderson Meneses                              |                                                 |
+| André Reis                                    |                                                 |
+| Antonio Saad Gebran Sobrinho                  |                                                 |
+| Argemiro Rocha                                |                                                 |
+| Bruno de Oliveira Rocha                       |                                                 |
+| Bruno de Oliveira Rocha                       | Ponto BC Comunicação                            |
+| Carlos R. Crema                               |                                                 |
+| Claudio Krauss Morais                         |                                                 |
+| Cristian Garcia Boeck                         |                                                 |
+| Diogo Rafael Nunes Devitte                    |                                                 |
+| Edison Roberto Gazonato                       |                                                 |
+| Eliane Saboto                                 |                                                 |
+| Elias Lubaque                                 |                                                 |
+| Evaldo Cemin                                  |                                                 |
+| Fabio Ramos Berti                             |                                                 |
+| Fabio Regis de Toledo                         |                                                 |
+| Fernando Araújo Filho                         |                                                 |
+| Fernando Costa de Sousa                       |                                                 |
+| Flávia Gomes                                  |                                                 |
+| Francisco Oliveira                            |                                                 |
+| Gabriel Afonso Rotta                          |                                                 |
+| Geórgia Santos                                |                                                 |
+| Gilberto Gonçalves                            | Agência de Notícias e Editora Comunicativa Ltda |
+| Helio de Carvalho Araujo                      |                                                 |
+| Jaciara Barros                                |                                                 |
+| Jefferson Oliveira                            |                                                 |
+| João Paulo Arruda de Lima                     |                                                 |
+| João Tomaz da Silva ME                        |                                                 |
+| José Augusto Doná                             | Empresa Jornalística J.A. Ltda                  |
+| Juliana Collaziol                             |                                                 |
+| Kátia Brasil                                  |                                                 |
+| Lelis José da Silva                           |                                                 |
+| Lenita da Silveira Barbosa                    |                                                 |
+| Lucineia Vieira                               |                                                 |
+| Marcelo Thin Kobayashi Wun                    |                                                 |
+| Marco Antônio Sapia                           |                                                 |
+| Marcos Paulo Assis                            |                                                 |
+| Mari                                          |                                                 |
+| Maria do Socorro Diogo                        |                                                 |
+| Mario Vicenti                                 |                                                 |
+| Mauricio Ferreira dos Santos                  |                                                 |
+| Nailson Costa Pereira                         |                                                 |
+| Nilton Jose Alves                             |                                                 |
+| Paulina Zampar Silva                          |                                                 |
+| Paulo Felipe Saliba Silva Rendeiro de Noronha |                                                 |
+| Paulo Floro                                   | Revista O Grito!                                |
+| Paulo Ricardo Tomasini                        |                                                 |
+| Paulo Santanna                                |                                                 |
+| Pedro Evangelista                             |                                                 |
+| Pedro Jorge dos Reis                          |                                                 |
+| Rafael Ventura                                | Associação Brasileira de Imprensa               |
+| Roberto Gomes de Gomes                        |                                                 |
+| Roberto Oscar Patzlaff                        |                                                 |
+| Rodrigo Malagoli                              |                                                 |
+| Rodrigo Matos Mariano                         |                                                 |
+| Rogério Reinheimer Bernardes                  |                                                 |
+| Rosana bueno                                  |                                                 |
+| Sabrina Cicareli                              |                                                 |
+| Sergio Barbosa da Silva                       |                                                 |
+| Sérgio Yashushi Kikushi                       |                                                 |
+| Thiago Gabriel                                | Vaidapé                                         |
+| Tiago Lobo                                    | Pensamento.org                                  |
+| Túlio Darros                                  |                                                 |
+| Vagner Alves                                  | A Folha Regional                                |
+| Victor Martins                                |                                                 |
+| Waldiclei Barboza                             |                                                 |
+| Washington Luis                               |                                                 |
+| Wilson do Nascimento Santos                   |                                                 |
 
 #### Outros voluntários
 
-| colaborador(a)                                |
+| colaborador(a)                                           |
 |----------------------------------------------------------|
 | Bruno Cidadão                                            |
 | Francista Felícia                                        |
@@ -477,7 +479,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 ## Outras organizações
 
-#### Veículos de jornalismo, agências de comunicação
+#### Veículos de jornalismo, agências de comunicação e outros
 
 | colaborador(a)                                |
 |-----------------------------------------------|
@@ -485,12 +487,12 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Agora no RS                                   |
 | Alternativa Editorial / Revista Móbile        |
 | Becsouman Casa de Noticias Ltda               |
-| Blog Café com Pauta                                                  |        
+| Blog Café com Pauta                           |        
 | Casa de Notícias                              |    
 | CGN                                           |       
 | Coletiva.net                                  |
 | Correio do Povo                               |
-| Costa & Macedo Ltda                                                  |        
+| Costa & Macedo Ltda                           |        
 | CRP Comunicação Ltda                          |
 | Debate Empresa Jornalistica Ltda              |
 | Diário de Araxá                               |
