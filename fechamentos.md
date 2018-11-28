@@ -8,6 +8,7 @@ atualizacao: 2018
 # Hero section
 title: Fechamentos de veículos
 description: Preencha o formulário abaixo se você conhece algum veículo de jornalismo que tenha fechado as portas
+links: Conheça também a <a href='../equipe'>equipe do Atlas</a> e veja nossas <a href='../estatisticas'>análises</a>
 
 # Author box
 author:

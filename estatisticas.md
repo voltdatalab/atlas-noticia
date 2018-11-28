@@ -7,14 +7,15 @@ atualizacao:
 
 # Hero section
 title: 'Estatísticas v.2.0'
-description: "As principais análises sobre o mapeamento de veículos de jornalismo no Brasil. <br><small>Para a relação completa de tabelas, <a href='../dados'>clique aqui</a></small>"
+description: "Principais análises sobre o mapeamento de veículos de jornalismo no Brasil."
+links: Para a relação completa de tabelas, <a href='../dados'>clique aqui</a>
 
 # Author box
 author:
-    title:
-    title_url:
+    title: Relatório
+    title_url: ../graficos/Atlas da Notícia - Relatório 2.0.pdf
     external_url: true
-    description:
+    description: PDF (4,9MB)
 
 # Micro navigation
 micro_nav: true

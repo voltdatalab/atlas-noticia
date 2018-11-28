@@ -8,6 +8,7 @@ atualizacao: 7.nov.2017
 # Hero section
 title: Jornais e Online
 description: Os principais dados sobre jornais impressos e veículos online de notícia em todo o Brasil
+links: Conheça também a <a href='../equipe'>equipe do Atlas v.2.0</a> e veja nossas <a href='../estatisticas'>análises</a>
 
 # Author box
 author:

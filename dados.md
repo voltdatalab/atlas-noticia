@@ -6,15 +6,16 @@ comments: false
 atualizacao:
 
 # Hero section
-title: Dados do Atlas da Notícia 2.0
-description: "Acesse todos os dados, tabelas e gráficos do segundo levantamento do Atlas da Notícia. <br><small>Para os dados e análises do levantamento, <a href='../estatisticas'>clique aqui</a></small>"
+title: Dados do Atlas 2.0
+description: "Acesse todos os dados e tabelas do segundo levantamento."
+links: Para os dados e análises do levantamento, <a href='../estatisticas'>clique aqui</a>
 
 # Author box
 author:
     title: Acesse os gráficos
     title_url: https://drive.google.com/drive/u/0/folders/1zj6pSQuiHAnCYWshJYVOC23dpEeGZlGG
     external_url: true
-    description: Encontre todos os gráficos de nossas análises em formato PNG e SVG
+    description: Em formato PNG e SVG
 
 # Micro navigation
 micro_nav: true
@@ -64,7 +65,7 @@ Todos os dados podem ser acessados no [Github do Atlas da Notícia](https://gith
 
 ---
 
-### Fechamentos de veículos de info_jornalismo
+### Fechamentos de veículos de jornalismo
 
 | dado                       | descrição                                               | arquivo               | link                                                                                                |
 |----------------------------|---------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------------|

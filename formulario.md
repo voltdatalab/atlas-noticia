@@ -8,6 +8,7 @@ atualizacao: Em andamento
 # Hero section
 title: Formulário de resposta
 description: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
+links: Para a relação completa de tabelas do Atlas v.2.0, <a href='../dados'>clique aqui</a>
 
 # Author box
 author:

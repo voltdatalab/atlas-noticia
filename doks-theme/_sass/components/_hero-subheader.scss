@@ -53,12 +53,23 @@
 
 /* ----- Author ----- */
 .hero-subheader__author {
-	border-left: 2px solid;
+	border: 2px solid rgba(0, 133, 150, .5);
 	padding-left: 2.5rem;
+	/* background-color: rgba(0, 133, 150, .2) !important;*/
+	max-width: 70%;
+
+	p{
+		display: inline;
+		font-size: 0.85em
+	}
 
 	.btn {
 		margin-bottom: 0;
 	}
+}
+
+.hero-subheader__author:hover{
+	background-color: rgba(0, 133, 150, .4) !important;
 }
 
 .hero-subheader__author-title {

@@ -7,7 +7,8 @@ atualizacao:
 
 # Hero section
 title: 'Colaboradores'
-description: "Lista dos principais colaboradores e voluntários para o levantamento do Atlas da Notícia v.2.0. <br><small>Conheça também a <a href='../equipe'>equipe do Atlas</a> e veja nossas <a href='../estatisticas'>análises</a></small>."
+description: "Lista dos principais colaboradores e voluntários para o levantamento do Atlas da Notícia v.2.0."
+links: Conheça também a <a href='../equipe'>equipe do Atlas</a> e veja nossas <a href='../estatisticas'>análises</a>
 
 # Author box
 author:
@@ -29,16 +30,21 @@ page_nav:
         url: '#'
 ---
 
+## Nosso agradecimento aos colaboradores
 
----
+Veja quem contribuiu para a pesquisa do Atlas da Notícia v.2.0.
 
-O levantamento do **Atlas da Notícia** é uma construção coletiva coordenada pela agência de jornalismo Volt Data Lab, com a supervisão do Projor. Mas a construção desse banco de dados deve-se também à valiosa contribuição de diversos voluntários e instituições que ajudaram principalmente na compilação dos dados e na obtenção de informações.
+A segunda edição do **Atlas da Notícia** só foi possível graças à participação voluntária de uma rede de quase cem pessoas que levantaram e registraram dados sobre a existência e o fechamento de veículos noticiosos.
 
-Para colaborar com a nossa base e a próxima versão do **Atlas**, basta preencher o formulário indicando um veículo que você conhece e fornecendo detalhes sobre ele.
+A pesquisa do **Atlas da Notícia** é um esforço coletivo liderado pela agência de jornalismo Volt Data Lab, com a coordenação do Projor.
 
-Abaixo organizamos algumas listas, em orgem alfabética por nome de instituição, a fim de reconhecer o valioso trabalho de nossos voluntários.
+Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos colaboradores.
 
-*Se você colaborou com o levantamento mas seu nome não consta abaixo, mande um email para [info {a} voltdata.info](info@voltdata.info)*
+- *Se você colaborou com o levantamento mas seu nome não consta abaixo, mande um email para info {a} voltdata.info.*
+
+- *O mesmo e-mail deve ser usado para colaboradores que não queiram ter seus nomes divulgados.*
+
+- *Para continuar colaborando com a nossa base e a Terceira edição do Atlas, basta preencher o formulário indicando um veículo que você conhece e fornecendo detalhes sobre ele.*
 
 ---
 
