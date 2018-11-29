@@ -48,7 +48,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 ---
 
-## Instituições de Ensino
+## Instituições de Ensino parceiras
 
 #### Centro Universitário Internacional (UNINTER)  
 
@@ -122,11 +122,6 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Mariana Vicente Zilli             |
 | Lucas de Biazzi Neves             |
 
-#### Pontifícia Universidade Católica do RS (PUC-RS)
-
-| colaborador(a)               |
-|------------------------------|
-| Diego Furtado                |
 
 #### Universidade de Passo Fundo
 
@@ -194,7 +189,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Natália Serão da Silva     |
 
 
-#### Universidade Federal do Pampa - Unipampa
+#### Universidade Federal do Pampa - Unipampa*
 
 | colaborador(a)                |
 |-------------------------------|
@@ -214,6 +209,8 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Paula Bica Flores             |
 | Tchaylen de Souza             |
 | Wenandra Sommer               |
+
+<small><em>Grupo de pesquisa t3xto</em></small>
 
 #### Universidade Federal do Pará
 
@@ -241,7 +238,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Julia Noia      |
 
 
-#### Universidade Federal do Rio Grande do Sul (UFRS)
+#### Universidade Federal do Rio Grande do Sul (UFRGS)
 
 | colaborador(a)    |
 |-------------------|
@@ -250,19 +247,6 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Marcelo Träsel    |
 | Mariana Barcellos |
 | Mariana Moraes    |
-
-#### Universidade Federal do Tocantins
-
-| colaborador(a)          |
-|-------------------------|
-| Helga Midori Iwamoto    |
-
-#### Universidade Federal Fluminense (UFF)
-
-| colaborador(a)                |
-|-------------------------------|
-| Juliana Nascimento Bossardi   |
-
 
 ---
 
@@ -476,6 +460,9 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Yasmim Brito                                             |
 | Glauco Malta                                             |
 | Josilaine                                                |
+| Diego Furtado (PUC-RS)                                   |
+| Helga Midori Iwamoto  (Universidade Federal do Tocantins)|
+| Juliana Nascimento Bossardi (Universidade Federal Fluminense)|
 
 ## Outras organizações
 
