@@ -50,6 +50,13 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 ## Instituições de Ensino parceiras
 
+#### Associacao Educacional Luterana Bom Jesus (Faculdade Ielusc)
+
+| colaborador(a)    |
+|-------------------|
+| Larissa Hort      |
+| Lívia Vieira      |
+
 #### Centro Universitário Internacional (UNINTER)  
 
 | colaborador(a)        |
@@ -86,12 +93,6 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 |-------------------|
 | Nattasha Pollyane |
 
-#### Associacao Educacional Luterana Bom Jesus (Faculdade Ielusc)
-
-| colaborador(a)    |
-|-------------------|
-| Larissa Hort      |
-| Lívia Vieira      |
 
 #### Pontifícia Universidade Católica de Campinas (PUC-Campinas)
 
@@ -224,9 +225,9 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 
 | colaborador(a)  |
 |-----------------|
-| Ana Carolina    |
+| Ana Carolina Dias  |
 | Ananda Oliveira |
-| Bruno Chaves    |
+| Bruno de Freitas Chaves Eduardo    |
 | Fernanda Sales  |
 | Laís Suassuna   |
 | Leonardo Mendes |
@@ -352,6 +353,7 @@ Abaixo as listas, em orgem alfabética por nome de instituição, com o nome dos
 | Priscila Rocha                                |                                                 |
 | Raisa Brito                                   |                                                 |
 | Raquel Salgado                                |                                                 |
+| Raquel Freitas                                | jornalista voluntária                           |
 | Rodolfo Brito / Sr. Goool                     |                                                 |
 | Rodrigo Veiga                                 |                                                 |
 | Roger Lerina                                  |                                                 |
