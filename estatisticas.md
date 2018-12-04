@@ -13,7 +13,7 @@ links: Para a relação completa de tabelas, <a href='../dados'>clique aqui</a>
 # Author box
 author:
     title: Relatório
-    title_url: ../graficos/Atlas da Notícia - Relatório 2.0.pdf
+    title_url: ../graficos/atlas_relatorio_v2.pdf
     external_url: true
     description: PDF (4,9MB)
 
