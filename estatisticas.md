@@ -34,7 +34,7 @@ page_nav:
 
 |                                             | resultados                                                             |
 |---------------------------------------------|------------------------------------------------------------------------|
-| **Total de veículos mapeados**              | 12.467 (impresso + online + rádio + televisão)                         |
+| **Total de veículos mapeados**              | 12.467 (impresso + online + rádio + televisão)*                        |
 | **Total de cidades mapeadas**               | 2.710 (~49% dos municípios brasileiros)                                |
 | **Habitantes em não desertos**              | 177 milhões (~85% da população)                                        |
 | **Deserto de notícias**                     | 2.860 (~52% dos municípios brasileiros)                                |
@@ -45,6 +45,8 @@ page_nav:
 | **Habitantes em desertos + quase desertos** | 64 milhões (~31% da população nacional)                                |
 
 ![Desertos de notícias do Brasil](../graficos/graficos_atlas2/charts/atlas2.0_total_por_meio.jpeg)
+
+*Inclui TVs municipais locais*
 
 #### **Nota importante**
 Os dados não são diretamente comparáveis com o [primeiro levantamento](../atlas1/) feito em novembro de 2017, considerando que na ocasião foram considerados apenas desertos de notícias em relação a jornais impressos e veículos online. Em julho de 2018, os desertos foram calculados apenas para rádio e televisão.
