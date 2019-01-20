@@ -58,6 +58,18 @@ The second phase aims to improve Atlas's interactive platform and database and a
 - Municipalities with at least one print or online news outlet: 2,710
   - They represent around 15% of Brazil's population (30 million people)
 
+#### Corrections and update policies
+
+**Atlas da Notícia 2.0** has been carried out by a network of five regional researchers who analyzed the data provided by volunteer collaborators through our crowdsourcing effort under the oversight of Volt Data Lab
+
+The resulting mapping brings the best possible panorama with detailed information on the existence, medium and periodicity of news vehicles in Brazil
+
+Since this is a new database,  figures should considered as  estimates,  given the changing nature of the Brazilian media landscape, marked by closures and the creation of new
+vehicles
+
+As our project advances , we will  refine our database, identifying new vehicles and removing those who do not fit our methodology  (closed and non-journalistic vehicles)
+
+We welcome corrections and data updates. Our next edition (November 2019) will incorporate the new information to be verified by our team
 
 #### The team
 

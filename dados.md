@@ -72,3 +72,15 @@ Todos os dados podem ser acessados no [Github do Atlas da Notícia](https://gith
 | dado                       | descrição                                               | arquivo               | link                                                                                                |
 |----------------------------|---------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------------|
 | Fechamentos de veículos | Lista de veículos de jornalismo fechados pelo menos desde 2011 | gsheet | [Link](https://docs.google.com/spreadsheets/d/11EQAr1iCr9QUYeL8RGrOxiKA71e45xemzUMZZ3KGcBs/edit#gid=762283206) |
+
+### Política de correções e atualizações
+
+O Atlas da Notícia 2.0 foi produzido por uma rede de cinco pesquisadores regionais que analisaram os dados fornecidos por colaboradores voluntários através do nossa campanha de crowdsourcing sob a supervisão do Volt Data Lab
+
+O mapeamento resultante traz o melhor panorama possível com informações detalhadas sobre a existência, o meio e a periodicidade dos veículos jornalísticos no Brasil
+
+Por se tratar de um banco de dados novo, os números devem ser considerados como estimativas, dada a natureza mutável do panorama midiático brasileiro, marcado por fechamentos e pelo surgimento de novos veículos
+
+À medida que nosso projeto avança, iremos refinar o nosso banco de dados, identificando novos veículos e removendo aqueles que não se enquadram em nossa metodologia (veículos fechados e não jornalísticos)
+
+Solicitamos correções e atualizações de dados. Nossa próxima edição (novembro de 2019) incorporará as novas informações a serem verificadas  por nossa equipe
