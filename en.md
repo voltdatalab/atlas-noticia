@@ -10,11 +10,11 @@ title: About the News Atlas
 description: A project to identify and map news media in Brazil
 
 # Author box
-#author:
-#    title: Full Report
-#    title_url: ../graficos/atlas_report_english_v2.pdf
-#    external_url: true
-#    description: PDF (4.3MB)
+author:
+    title: Full Report (PDF)
+    title_url: ../graficos/atlas_report_english_v2.pdf
+    external_url: true
+    description: PDF (4.3MB)
 
 # Micro navigation
 micro_nav: true
@@ -29,6 +29,7 @@ page_nav:
         url: '#'
 ---
 
+<a href="../graficos/atlas_report_english_v2.pdf" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">Full report in English (PDF)</a>
 <a href="https://github.com/voltdatalab/atlas-analytics" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">Access all the data here (Portuguese-only) </a>
 
 #### Background
