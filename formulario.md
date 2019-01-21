@@ -31,7 +31,7 @@ page_nav:
 ---
 
 <small>Caso queira reportar o fechamento de algum veículo, acesse <a href="/fechamentos">este formuário</a></small>
-<small>Antes de preencher, <a href="https://docs.google.com/spreadsheets/d/1IEUYbY0NUHvWoaBujd0JodN5Qtn5iJKKcFxNVpQinQ4/edit#gid=0" target="_blank">consulte a tabela com os veículos já inclusos no levantamento</small>
+<small>Antes de preencher, <a href="https://docs.google.com/spreadsheets/d/1IEUYbY0NUHvWoaBujd0JodN5Qtn5iJKKcFxNVpQinQ4/edit#gid=0" target="_blank">consulte a tabela com os veículos já inclusos no levantamento</a></small>
 
 O **Atlas da Notícia** precisa da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
 
