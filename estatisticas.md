@@ -3,7 +3,7 @@
 layout: default
 keywords: jornalismo, veículos de comunicação, atlas da notícia, desertos de notícias
 comments: false
-atualizacao:
+atualizacao: Janeiro de 2019
 
 # Hero section
 title: 'Estatísticas v.2.0'
@@ -15,7 +15,7 @@ author:
     title: Relatório
     title_url: ../graficos/atlas_relatorio_v2.pdf
     external_url: true
-    description: PDF (4,9MB)
+    description: PDF (4,9MB) - Atualizado em janeiro de 2019
 
 # Micro navigation
 micro_nav: true

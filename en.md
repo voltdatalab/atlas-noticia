@@ -7,14 +7,14 @@ atualizacao:
 
 # Hero section
 title: About the News Atlas
-description: A project to identify and map news media in Brazil
+description: A project to identify and map news media in Brazil. Last update in January, 2019
 
 # Author box
 author:
     title: Full Report (PDF)
     title_url: ../graficos/atlas_report_english_v2.pdf
     external_url: true
-    description: PDF (4.3MB)
+    description: PDF (4.3MB) - Jan.2019
 
 # Micro navigation
 micro_nav: true
