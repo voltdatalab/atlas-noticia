@@ -2,6 +2,7 @@
 doks:
     baseurl: #/an-site/
     color_theme: red # Available themes: blue (default), green, purple, red and yellow
+    atualizacao: Última atualização em Junho/2019
     header:
         logo:
             text: Atlas da Notícia
@@ -20,7 +21,7 @@ doks:
             logo:
                 text:
                 image:
-            copyright: 2018 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
+            copyright: Criado em 2018 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
         social_list:
             - network_name: facebook
               profile_url: 'https://www.facebook.com/Site.ObservatoriodaImprensa/'

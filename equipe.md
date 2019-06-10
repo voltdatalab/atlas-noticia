@@ -35,17 +35,17 @@ Quem faz o principal estudo de mapeamento da imprensa no Brasil. Para saber mais
 
 ## Equipe institucional
 
-#### Angela Pimenta, Presidente do Projor
+#### Francisco Belda, Presidente do Projor
+Jornalista, professor do Departamento de Comunicação Social e vice-coordenador do Programa de Pós-Graduação em Mídia e Tecnologia (PPGMiT) na Universidade Estadual Paulista (Unesp). Foi repórter, editor, gerente e diretor de empresas jornalísticas no interior de São Paulo. Professor visitante na Brandeis University, em Massachusetts, Estados Unidos, é doutor em Engenharia de Produção e mestre em Ciências da Comunicação, ambos na Universidade de São Paulo (USP).
+
+#### Angela Pimenta, Diretora de Operações
 Jornalista e mestre em Jornalismo pela Columbia University School (2001). Presidente do Projor desde julho de 2015, é coordenadora-executiva do Projeto Credibilidade. Foi editora-sênior da revista Exame em Brasília (2007-2011), sócia da consultoria Patri Políticas Públicas (2012-2014) e representante da Online News Association no Brasil (2009-2014).
 
-#### Adriana Garcia, Diretora de Operações do Projor
+#### Adriana Garcia, Projor
 Jornalista, professora e consultora em design estratégico e mídias digitais, tem mestrado pela Escola de Comunicações e Artes da Universidade de São Paulo (USP) e foi J.S.Knight fellow na Universidade de Stanford, na Califórnia (2013). Atuou na Reuters, Folha de S.Paulo, VejaSP e Exame. Foi diretora de Comunicação Digital da Rio 2016. Fundadora da Orbital Mídia.
 
 #### Pedro Varoni, Diretor Editorial e editor do Observatório da Imprensa
 Jornalista, professor e pesquisador, formou-se em jornalismo em 1989 pela Universidade Federal de Minas Gerais (UFMG). É mestre e doutor em Linguística pela Universidade Federal de São Carlos (UFSCar). Esteve no Grupo EPTV e foi diretor de Jornalismo da TV Sergipe. Foi diretor geral da Empresa Brasil de Comunicação (EBC) em 2016. Cursa pós-doutorado no Departamento de informação e Cultura da USP.
-
-#### Francisco Belda, Conselheiro do Projor
-Jornalista, professor do Departamento de Comunicação Social e vice-coordenador do Programa de Pós-Graduação em Mídia e Tecnologia (PPGMiT) na Universidade Estadual Paulista (Unesp). Foi repórter, editor, gerente e diretor de empresas jornalísticas no interior de São Paulo. Professor visitante na Brandeis University, em Massachusetts, Estados Unidos, é doutor em Engenharia de Produção e mestre em Ciências da Comunicação, ambos na Universidade de São Paulo (USP).
 
 ## Equipe operacional
 

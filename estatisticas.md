@@ -8,7 +8,7 @@ atualizacao: Janeiro de 2019
 # Hero section
 title: 'Estatísticas v.2.0'
 description: "Principais análises sobre o mapeamento de veículos de jornalismo no Brasil."
-links: Para a relação completa de tabelas, <a href='../dados'>clique aqui</a>
+links: dados
 
 # Author box
 author:

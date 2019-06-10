@@ -31,10 +31,10 @@
 									<p class="hero-subheader__desc">{{ page.description }}</p>
 								{% endif %}
 								{% if page.links %}
-									<small>{{ page.links }}</small>
+									<small>Para outros dados do levantamento, <a href='../{{ page.links }}'>clique aqui</a></small>
 								{% endif %}
 								{% if page.atualizacao %}
-									<small>Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small>
+									<br /><em><small>Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small></em>
 								{% endif %}
 
 								{% if page.page_nav.prev.content or page.page_nav.next.content %}

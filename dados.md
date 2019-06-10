@@ -3,12 +3,12 @@
 layout: default
 keywords: jornalismo, veículos de comunicação, atlas da notícia
 comments: false
-atualizacao:
+atualizacao: Junho de 2019
 
 # Hero section
 title: Dados do Atlas 2.0
 description: "Acesse todos os dados e tabelas do segundo levantamento."
-links: Para os dados e análises do levantamento, <a href='../estatisticas'>clique aqui</a>
+links: estatisticas
 
 # Author box
 author:
@@ -40,13 +40,15 @@ Todos os dados podem ser acessados no [Github do Atlas da Notícia](https://gith
 
 | dado                               | descrição                                                                                                                                                                       | arquivo             | link                                                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------|
-| Banco de dados do Atlas da Notícia | Arquivo principal modelado como banco de dados (SQL). O arquivo pode ser explorado utilizando o software [DB Browser](https://sqlitebrowser.org/). Inclui todas as tabelas do Atlas: v.1 revisada; v.2; agregado de v.1 + v.2; tabelas populacionais do IBGE; tabelas com índices de IDHM; tabelas suplementares. **Atualizado com revisão em jan/2019** | atlas2.db           | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v2.db)           |
-| Tabela Atlas v.2.0 agregado        | Tabela revisada com dados agregados do primeiro e do segundo levantamentos do Atlas da Notícia. **Atualizada com revisão em jan/2019**                                                                                                        | atlas_v1_v2_agregado.csv         | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v1_v2_agregado.csv)         |
+| Banco de dados do Atlas da Notícia | Arquivo principal modelado como banco de dados (SQL). O arquivo pode ser explorado utilizando o software [DB Browser](https://sqlitebrowser.org/). Inclui todas as tabelas do Atlas: v.1 revisada; v.2; agregado de v.1 + v.2; tabelas populacionais do IBGE; tabelas com índices de IDHM; tabelas suplementares. **Atualizado com revisão em jun/2019** | atlas2.db           | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v2.db)           |
+| Tabela Atlas v.2.0 agregado        | Tabela revisada com dados agregados do primeiro e do segundo levantamentos do Atlas da Notícia. **Atualizada com revisão em jun/2019**                                                                                                        | atlas_v1_v2_agregado.csv         | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v1_v2_agregado.csv)         |
 | Tabela Atlas v.1.0                 | Tabela revisada com dados do primeiro levantamento do Atlas da Notícia                                                                                                          | atlas_1.csv         | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v1.csv)         |
 | Tabela Atlas v.2.0                 | Tabela com dados detalhados sobre cerca de 1.000 veículos de imprensa, parte do *crowdsourcing* da segunda versão do Atlas da Notícia                                           | atlas_2.csv         |   [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v2.csv)                                                                                                   |
 | Tabela suplementar                 | Informações sobre veículos que não entraram no levantamento final (ex. veículos pertencentes ao poder público)                                                                  | info_jornalismo.csv | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/info_jornalismo.csv) |
 | Dados populacionais                | Tabela populacional do IBGE para 2017                                                                                                                                           | IBGE - pop.csv      | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_fase2/IBGE%20-%20pop.csv)  |
 | Veículos não jornalísticos         | Tabela com veículos considerados não jornalísticos, mas que conta na base do Ministério das Comunicações e que precisa transmitir conteúdo jornalístico (ex. emissora de TV da Prefeitura)                                                                                                                                           | nao_jornalisticos.csv      | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/nao_jornalisticos.csv)  |
+
+_Os dados de radiodifusão são do [Painel Geral de Radiodifusão](https://app.powerbi.com/view?r=eyJrIjoiM2M2OTgzYTgtZjUwMC00ZjhiLWE2MjEtNjU1NTNkNTNiYTBkIiwidCI6Ijg4MGRkN2YxLWQwMmMtNGUxOS04MTVmLTQ2NDlkMzNmNWM2MyJ9), do [Ministério da Ciência, Tecnologia, Inovações e Comunicações](https://www.mctic.gov.br/mctic/opencms/comunicacao/SERAD/radiofusao/detalhe_tema/Paineis-de-Radiodifusao.html)._
 
 ---
 

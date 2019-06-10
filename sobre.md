@@ -61,10 +61,10 @@ A primeira edição do **Atlas da Notícia** foi publicada em novembro de 2017
 
 | Quem é               | O que faz             | De onde é                |
 |----------------------|-----------------------|--------------------------|
-| **Angela Pimenta**   | Presidente            | Projor                   |
+| **Francisco Belda**  | Presidente            | Projor                   |
+| **Angela Pimenta**   | Diretora de Operações | Projor                   |
 | **Pedro Varoni**     | Editor                | Observatório da Imprensa |
 | **Adriana Garcia**   | Diretora              | Projor                   |
-| **Francisco Belda**  | Conselheiro           | Projor                   |
 | **Sérgio Spagnuolo** | Editor                | Volt Data Lab            |
 | **Renata M. Hirota** | Analista              | Volt Data Lab            |
 | **Felippe Mercurio** | Banco de Dados        | Volt Data Lab            |
