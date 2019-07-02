@@ -32,7 +32,7 @@ page_nav:
 <a href="../graficos/atlas_report_english_v2.pdf" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">Full report in English (PDF)</a>
 <a href="https://github.com/voltdatalab/atlas-analytics" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">Access all the data here (Portuguese-only) </a>
 
-#### Background
+## Background
 
 Atlas da Notícia (News Atlas) is a pioneering project aimed at mapping the local and regional press in Brazil amidst the digital revolution. It is carried on through a partnership between Projor – Instituto para o Desenvolvimento do Jornalismo and the data-driven news agency [Volt Data Lab](https://voltdata.info).
 
@@ -46,20 +46,54 @@ The first phase has also delivered an open database and a report including a ser
 
 The second phase aims to improve Atlas's interactive platform and database and also to develop deeper on-site analytical research in a sample of “news deserts."
 
-#### Key Figures
+## Key Figures
 
-- Key Figures
-  - Total mapped media organizations: 12,467
-    - Radio stations: 4,007
-    - Print newspapers: 3,368
-    - TV stations: 2,773
-    - Online news: 2,263
-    - Magazines: 56
+- Total mapped media organizations: 12,467
+  - Radio stations: 4,007
+  - Print newspapers: 3,368
+  - TV stations: 2,773
+  - Online news: 2,263
+  - Magazines: 56
+
+![Chart 1 - per media](../graficos/english/chart1.png)
+
+
+#### Main maps
 
 - Municipalities with at least one print or online news outlet: 2,710
   - They represent around 15% of Brazil's population (30 million people)
 
-#### Corrections and update policies
+![Chart 2 - main map](../graficos/english/map1.png)
+
+![Chart 3 - main map](../graficos/english/map2.png)
+
+
+#### Almost deserts
+
+- Municipalities with only one or two news organizations
+
+
+![Chart 4 - main map](../graficos/english/map3.png)
+
+![Chart 5 - main map](../graficos/english/map4.png)
+
+## The database
+
+| Source |Total |   %           |
+|-------------------------------|
+| MCTIC     |6475 | 51.9%              |
+| Secom/PR  |4388 | 35.2%           |
+| Crowdsoucing Atlas da Notícia 2.0 | 856 | 6.9% |
+| Atlas da Notícia 1.0 | 233 | 1.9% |
+| Adjori-RS | 204 | 1.6%            |
+| Adjori-SC | 129 | 1.0%            |
+| Central de Diários | 89 | 0.7%    |
+| Adjori-SP | 62 | 0.5%             |
+| Adjori-PR | 31 | 0.2%             |
+
+
+
+## Corrections and update policies
 
 **Atlas da Notícia 2.0** has been carried out by a network of five regional researchers who analyzed the data provided by volunteer collaborators through our crowdsourcing effort under the oversight of Volt Data Lab
 
@@ -72,7 +106,7 @@ As our project advances , we will  refine our database, identifying new vehicles
 
 We welcome corrections and data updates. Our next edition (November 2019) will incorporate the new information to be verified by our team
 
-#### The team
+## The team
 
 **Angela Pimenta** – President of Projor since July 2015, holds a Master’s in Journalism from Columbia Journalism School (2001). She is the executive-coordinator of Projeto Credibilidade and was a senior editor for Exame magazine in Brasília (2007-2011), partner of Patri Políticas Públicas consultancy (2012-2014) and representative of the Online News Association in Brazil (2009-2014).
 
