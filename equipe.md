@@ -8,7 +8,7 @@ atualizacao:
 # Hero section
 title: Sobre o Atlas da Notícia
 description: "Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil."
-links: Conheça também nossos <a href='../colaboradores'>colaboradores e voluntários</a>
+links: colaboradores
 
 # Author box
 author:
