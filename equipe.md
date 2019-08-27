@@ -59,22 +59,22 @@ Lucas é graduado em Direito e mestre em Ciência Política pela UFMG. Atualment
 Especialista em planejamento e estruturação de tecnologias, recursos e outras capacidades adequadas aos projetos. No VOLT, lidera os esforços de capacidade técnica de backend, de modelagem de bancos de dados e de nerdices do noticiário envolvendo dados. Também atua como consultor independente, especialista em processos e sistemas de gestão empresarial com foco na estruturação de bancos de dados e implementação de sistemas empresariais (do cabo ao código, literalmente). Paulistano radicado em Santa Catarina, programador autodidata (uma relação de amor e ódio com códigos), fissurado por ciência, tecnologia e, claro, dados.
 
 ## Pesquisadores regionais
-#### Sérgio Lüdtke
+#### Sérgio Lüdtke (Coordenação)
 Jornalista com Master em Gestão de Negócios Jornalísticos pelo ISE / Universidade de Navarra e MBA em Marketing Digital da FGV. Foi editor de livros, editor de Internet e Inovação no Grupo RBS e editor de plataformas digitais na revista Época (Grupo Globo). Coordenou o Master em Jornalismo Digital no ISE e o Digital Video Accelerator (Facebook / ICFJ). Como pesquisador, estuda novos meios jornalísticos digitais no Brasil. Atualmente, lidera a consultoria de mídia digital Interatores.com; É editor-chefe do Projeto Comprova, uma coalizão de 24 meios de comunicação para verificar conteúdo falso sobre políticas públicas; Ele também é o coordenador acadêmico dos cursos Abraji.
 
-#### Dubes Sônego
+#### Dubes Sônego (Região Sul)
 Jornalista formado pela Universidade Federal de Santa Catarina (UFSC). Em 20 anos de profissão, atuou nas redações de Gazeta Mercantil, Valor Econômico, Meio&Mensagem, Revista Foco, América Economia, Brasil Econômico, iG e Época Negócios. Atualmente, trabalha como freelancer.
 
-#### Mariama Correia
+#### Mariama Correia (Região Nordeste)
 Jornalista formada pela Universidade Católica de Pernambuco (Unicap) e pós-graduada pela Universidade Federal de Pernambuco (UFPE). Repórter do coletivo de jornalismo investigativo e independente Marco Zero Conteúdo, com passagem pela editoria de Economia do jornal Folha de Pernambuco.  Já assinou matérias no The Intercept Brasil, em publicações da Editora Abril e no Jornal do Commercio. Contribuiu com o projeto de Fact-Checking "Truco nos Estados", da Agência Pública, durante as eleições de 2018. Tem curso de Jornalismo de Dados pela Associação Brasileira de Jornalismo Investigativo (Abraji) e de Mídias Digitais, na Kings (UK).
 
-#### Angela Werdemberg
+#### Angela Werdemberg (Região Centro-Oeste)
 Jornalista, professora e pesquisadora. Graduada em Jornalismo pela Universidade Católica Dom Bosco, mestre em Comunicação pela Universidade Federal de Mato Grosso do Sul e doutoranda em Jornalismo e Estudos Midiáticos pela Universidade Fernando Pessoa, em Portugal. Professora dos cursos de jornalismo e publicidade e propaganda da Uniderp e membro do grupo de pesquisa Ciberjor-UFMS.
 
-#### Marcelo Fontoura
+#### Marcelo Fontoura (Região Sul)
 Professor de jornalismo na PUCRS. Fellow do International Center for Journalists em 2015. Tem experiência com startups, conteúdo digital e marketing. Leciona disciplinas de jornalismo digital e jornalismo de dados. Membro do laboratório Ubilab, onde pesquisa internet das coisas e mobilidade junto a empresas e universidades. Doutorando em Comunicação Social sobre fronteiras do jornalismo digital, com doutorado-sanduíche na Northwestern University, em Chicago, por meio de bolsa Capes-PrInt. Possui mestrado em Comunicação Social, com pesquisa sobre hackers e dados públicos.
 
-#### Jéssica Botelho
+#### Jéssica Botelho (Região Norte)
 Pesquisadora e jornalista. Mestre em Ciências da Comunicação pela Universidade Federal do Amazonas. Integrante do Centro Popular do Audiovisual/Núcleo de Estudos e Práticas em Cibercultura(Manaus/AM). Embaixadora do Safer Internet Day no Amazonas. Atua especialmente em temas sobre jornalismo digital, Internet e Direitos Humanos na perspectiva amazônica. Participou do projeto de fact ckecking O Poder de Eleger, como checadora em 2018.
 
 
