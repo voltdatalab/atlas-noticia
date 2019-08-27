@@ -106,7 +106,7 @@ As our project advances , we will  refine our database, identifying new vehicles
 
 We welcome corrections and data updates. Our next edition (November 2019) will incorporate the new information to be verified by our team
 
-## The team
+# The team
 
 **Angela Pimenta** – President of Projor since July 2015, holds a Master’s in Journalism from Columbia Journalism School (2001). She is the executive-coordinator of Projeto Credibilidade and was a senior editor for Exame magazine in Brasília (2007-2011), partner of Patri Políticas Públicas consultancy (2012-2014) and representative of the Online News Association in Brazil (2009-2014).
 
