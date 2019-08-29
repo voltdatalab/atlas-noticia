@@ -62,7 +62,7 @@ Especialista em planejamento e estruturação de tecnologias, recursos e outras 
 #### Sérgio Lüdtke (Coordenação)
 Jornalista com Master em Gestão de Negócios Jornalísticos pelo ISE / Universidade de Navarra e MBA em Marketing Digital da FGV. Foi editor de livros, editor de Internet e Inovação no Grupo RBS e editor de plataformas digitais na revista Época (Grupo Globo). Coordenou o Master em Jornalismo Digital no ISE e o Digital Video Accelerator (Facebook / ICFJ). Como pesquisador, estuda novos meios jornalísticos digitais no Brasil. Atualmente, lidera a consultoria de mídia digital Interatores.com; É editor-chefe do Projeto Comprova, uma coalizão de 24 meios de comunicação para verificar conteúdo falso sobre políticas públicas; Ele também é o coordenador acadêmico dos cursos Abraji.
 
-#### Dubes Sônego (Região Sul)
+#### Dubes Sônego (Região Sudeste)
 Jornalista formado pela Universidade Federal de Santa Catarina (UFSC). Em 20 anos de profissão, atuou nas redações de Gazeta Mercantil, Valor Econômico, Meio&Mensagem, Revista Foco, América Economia, Brasil Econômico, iG e Época Negócios. Atualmente, trabalha como freelancer.
 
 #### Mariama Correia (Região Nordeste)
@@ -80,14 +80,14 @@ Pesquisadora e jornalista. Mestre em Ciências da Comunicação pela Universidad
 
 ## Pesquisadores (Atlas v2.0)
 
-#### Marcela Donini
+#### Marcela Donini (Região Sul)
 Jornalista baseada em Porto Alegre com experiência de mercado desde 2004, graduou-se pela Universidade Federal do Rio Grande do Sul (UFRGS). Passou pelo jornal Zero Hora e pelas agências de conteúdo Cartola e Fronteira. Como freelancer, já escreveu para as revistas Piauí, Superinteressante e Galileu, além dos portais Ig, Veja e Terra. É mestra em Comunicação Social e especialista em Jornalismo Digital e em Teorias e Práticas do Ensino. Leciona na faculdade de Jornalismo da ESPM-Sul, onde também coordena a agência experimental de jornalismo. É cofundadora do Farol Jornalismo, iniciativa independente de produção e pesquisa em jornalismo. Email: *marcela[a]faroljornalismo.cc*
+
+#### Loraine França (Região Centro-Oeste)
+Graduada em Jornalismo pela Universidade Federal de Mato Grosso do Sul (UFMS). Autora da grande reportagem multimídia "Eles vivem no meio da rodovia". Foi produtora na TV MS Record e repórter na Rádio Educativa UFMS. Atualmente, é repórter na Rádio CBN Campo Grande. Pesquisadora no Laboratório de Investigação em Jornalismo, Direitos Humanos e Narrativas Complexas. (GRIOT/UFMS/CNPq).
 
 #### Renata Hirota, Analista de Dados
 Renata é graduada em Jornalismo pela Universidade de São Paulo (USP) e atualmente cursa Estatística na mesma instituição. Já viveu na Espanha, Portugal e EUA, escrevendo para agências de notícias e revistas de viagem. No VOLT, une seu ofício antigo à nova empreitada no universo dos dados, com destaque para atuação nos grandes projetos da agência, como o Atlas da Notícia e reportagens que envolvem mais capacidade analítica.
-
-#### Loraine França
-Graduada em Jornalismo pela Universidade Federal de Mato Grosso do Sul (UFMS). Autora da grande reportagem multimídia "Eles vivem no meio da rodovia". Foi produtora na TV MS Record e repórter na Rádio Educativa UFMS. Atualmente, é repórter na Rádio CBN Campo Grande. Pesquisadora no Laboratório de Investigação em Jornalismo, Direitos Humanos e Narrativas Complexas. (GRIOT/UFMS/CNPq).
 
 #### Dubes Sônego
 
