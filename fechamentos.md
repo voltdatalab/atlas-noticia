@@ -8,7 +8,7 @@ atualizacao: 2018
 # Hero section
 title: Fechamentos de veículos
 description: Preencha o formulário abaixo se você conhece algum veículo de jornalismo que tenha fechado as portas
-links: Conheça também a <a href='../equipe'>equipe do Atlas</a> e veja nossas <a href='../estatisticas'>análises</a>
+links:
 
 # Author box
 author:
@@ -30,7 +30,7 @@ page_nav:
         url: '#'
 ---
 
-<small>Caso queira reportar a existência de algum veículo, acesse <a href="/formulario">este formuário</a></small>
+<small>Caso queira reportar a existência de algum veículo, acesse <a href="https://api.atlas.jor.br/formulario">este formuário</a></small>
 
 O **Atlas da Notícia** tem por missão mapear o jornalismo local no Brasil, assim como tentar rastrear o fechamento de veículos jornalísticos no Brasil -- o que, por sua vez, contribui para um cenário de desertos noticiosos no Brasil.
 
@@ -40,4 +40,4 @@ Para responder esse questionário com maior eficiência, tenha em mãos os segui
 
 - Código do município onde o veículo se baseia. Obtido facilmente <a href="https://cidades.ibge.gov.br/" target="_blank">neste link do IBGE</a>.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUD0rGgDaEDhnRiKN1Weh670elIaxJM3IsADUlS02Yt1hhqw/viewform?embedded=true" width="640" height="1396" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUD0rGgDaEDhnRiKN1Weh670elIaxJM3IsADUlS02Yt1hhqw/viewform?embedded=true" width="640" height="1396" frameborder="0" marginheight="0" marginwidth="0">carregando...</iframe>
