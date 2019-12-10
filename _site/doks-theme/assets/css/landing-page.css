@@ -1,0 +1,514 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  /*background-image: url('../img/bg.png') !important;
+  background-repeat: repeat;*/
+  background-color: #008596;
+  background-image: -webkit-linear-gradient(360deg, #ffffff 50%, #fff 50%);
+  min-height: 500px;
+}
+
+.split-header{
+
+}
+
+hr{
+  border-top:2px solid #cbcbcb
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo{
+  width: 590px;
+  max-width: 100%;
+  padding: 30px;
+  max-width: 900px
+}
+
+.intro-header {
+    padding-top: 1%; /* If you're making other pages, make sure there is 50px of padding to make sure the  doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: left;
+    color: #241F21;
+    /* background: url(img/intro-bg.jpg) no-repeat center center;
+    background-color: #f4f4f4;*/
+    background-size: cover;
+}
+
+.call{
+  background-color: #241F21;
+  border: none;
+  position: absolute;
+  top: 40;
+}
+
+.call:hover{
+  background-color: #008596 ;
+  border: none;
+}
+
+.navbar-default, .navbar-toggle{
+  background-color: transparent;
+  border-color: transparent;
+  border: 0px
+}
+
+.navbar{
+  min-height: 100px;
+}
+
+.navbar-right a{
+  min-height: 100px;
+  color: #241F21 !important
+}
+
+.navbar-right a:hover{
+  min-height: 100px;
+  color: #555555 !important
+}
+
+.nav-color{
+  background-color: rgba(244, 244, 244, .5);
+  height: 120px;
+}
+
+.banner-img{
+  margin-top: -52%;
+  margin-left: 30%;
+  z-index:0;
+}
+
+.tagline {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  top: 230;
+  width: 150px;
+}
+
+.intro-message {
+    position: relative;
+    padding: 10% 5% 10%;
+    background-color: rgba(173, 189, 48, .8);
+    /*border-left: 5px solid #241F21*/
+}
+
+.intro-message-alt {
+    position: relative;
+    padding: 10% 5% 10%;
+    /*border-left: 5px solid #241F21*/
+}
+
+.img-responsive{
+  margin: 0 auto;
+  width: 40%;
+}
+
+.img-principal{
+  width: 80%
+}
+
+.socialmedia{
+  padding-right: 9px;
+}
+
+.intro-social-buttons a{
+  color:  #241F21 !important
+}
+
+.intro-social-buttons a:hover{
+  color:  #ffffff !important
+}
+
+#socialfooter a{
+  color: #ffffff !important
+}
+
+#socialfooter a:hover{
+  color: #241F21 !important
+}
+
+.intro-message > h2 {
+    margin: 0;
+    font-size: 4.5em;
+    color: #241F21
+}
+
+.intro-message-alt > h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #241F21
+}
+
+.desc{
+  line-height: 1.3em;
+  color:#ffffff
+}
+
+.abertura{
+  margin-top: 15%;
+  margin-right:-7%;
+  margin-left: 10%;
+  z-index:1000
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 3%;
+    }
+
+    .intro-message > h2 {
+      margin: 0;
+      font-size: 3em;
+      color: #241F21;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #008596;
+}
+
+.content-section-b {
+    padding: 250px 0;
+    background-color: #f4f4f4;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 0px 0;
+    color: #f8f8f8;
+    background-color: #008596;
+    max-height: 150px
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.col-md-8{
+  width: 100% !important;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+    .banner-img{
+      margin-top: 0;
+      margin-left: 0;
+      z-index:0;
+    }
+    .abertura{
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .logo{
+      width: 150%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .title-perfil{
+      font-size: 1.6em !important
+    }
+    .foto-perfil{
+      width: 200px;
+    }
+    .img-principal{
+      width: 100%
+    }
+    .intro-message > h2 {
+      margin: 0;
+      font-size: 4  em;
+      color: #241F21;
+    }
+    .intro-message-alt {
+      margin: 30px 0 0;
+      background-color: #fff
+    }
+    body{
+      background-color: #fff;
+      background-image: -webkit-linear-gradient(360deg, #ffffff 50%, #ffffff 50%);
+      min-height: 200px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .abertura{
+      margin-top: 5%;
+      margin-right: 0%;
+      z-index:1000
+    }
+
+    .logo{
+      width: 100%;
+      padding: 0px;
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .intro-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+    .intro-social-buttons a{
+      margin-top: 90px !important;
+    }
+
+    .banner-img{
+      margin-top: 0;
+      margin-left: 0;
+      z-index:0;
+    }
+    .desc-perfil{
+      max-width: 100% !important;
+    }
+    body{
+      background-color: #fff;
+      background-image: -webkit-linear-gradient(360deg, #ffffff 50%, #ffffff 50%);
+      min-height: 200px;
+    }
+
+}
+
+footer {
+    padding: 10px 0 10px;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/*
+a {
+  color: #008596 !important;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #241F21 !important;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+ EQUIPE */
+
+#equipe {
+  padding: 5% 0;
+}
+
+.foto-perfil{
+  width: 250px;
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 15px;
+  padding: 10px 8px;
+}
+
+.email-perfil{
+  font-size: .9em !important
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  .foto-perfil{
+    width: 100% !important
+  }
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-perfil {
+  color: #333333;
+  font-family: 'Lato';
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.sub-perfil{
+  font-family: 'Lato';
+  color: #999999;
+  font-size: 1em;
+  margin: 0 0 10px
+}
+
+.button {
+  color: #fff;
+  background-color: #008596;
+  padding: .7rem 1.5rem;
+  transition: color .2s, background-color .2s;
+  margin-right: .9375rem;
+  border-radius: .425rem;
+  font-family: "Vollkorn",sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0 0 1.25rem 1rem;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* HEADER */
+
+.output {
+text-align:left;
+color: #241F21;
+}
+
+.output > h2 {
+  font-size: 2em
+}
+
+.output > p {
+  font-size: 1.4em !important
+}
+
+#banner{
+  padding: 0;
+  text-align: right;
+  background-image: url(../img/vortex-header-plenario.jpg);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Cursor Styling */
+
+.cursor::after {
+content:'';
+display:inline-block;
+margin-left:3px;
+background-color:#241F21;
+animation-name:blink;
+animation-duration:0.5s;
+animation-iteration-count: infinite;
+}
+
+h2.cursor::after {
+height:24px;
+width:9px;
+}
+
+p.cursor::after {
+height:23px;
+width:4px;
+}
+
+@keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+}

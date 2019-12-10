@@ -6,7 +6,7 @@ comments: false
 atualizacao:
 
 # Hero section
-title: Formulário de respostas (link inativo)
+title: Formulário de respostas
 description: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
 links:
 
@@ -30,4 +30,4 @@ page_nav:
         url: '#'
 ---
 
-O link para o formulário do Atlas da Notícia mudou para este [link](https://api.atlas.jor.br/formulario)
+<iframe src="https://api.atlas.jor.br/formulario" width="100%" frameborder="no" height="4500px"></iframe>

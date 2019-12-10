@@ -1,0 +1,106 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+  <h1>
+  <a class="navbar-brand page-scroll" href="#home">
+    <img class="logo" src="img/logo.svg" alt="Vortex Media"/> <br /></a>
+  </h1>
+
+      <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding:30px !important">
+            <ul class="nav navbar-nav navbar-right" style="display: inline-flex">
+                  {% for social in site.social %}
+                  <li>
+                    <a class="page-scroll" href="{{ social.url }}" class=""><i class="fa fa-{{ social.title }} fa-2x"></i></a>
+                  </li>
+                  {% endfor %}
+                </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<section id="home">
+<!-- Header -->
+	<div class="intro-header">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="intro-message abertura">
+						<h2>Jornalismo em
+              <div class="flex">
+	               <p class="header-sub-title" id="dinamico" style="color:#ffffff"></p><p class="header-sub-title blink">|</p>
+               </div>
+            </h2>
+            <!--
+            <br />
+						<h4 class="desc">{{ page.subTitle }}</h4>
+            <br /><br />
+            -->
+					</div>
+				</div>
+        <div class="col-lg-8">
+          <img class="banner-img" src="img/img-principal.png" width="100%"/>
+          <h6><small style="padding: 0px 10px;margin:0;float: right;color:#cbcbcb">Crédito: Intervenção sobre fotografias da Agência Brasil</small></h6>
+				</div>
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+
+	<!-- /.intro-header -->
+</section>
+
+<script type="text/javascript">
+  const words = ["movimento", "transformação", "profundidade"];
+  let i = 0;
+  let timer;
+
+  function typingEffect() {
+  	let word = words[i].split("");
+  	var loopTyping = function() {
+  		if (word.length > 0) {
+  			document.getElementById('dinamico').innerHTML += word.shift();
+  		} else {
+  			deletingEffect();
+  			return false;
+  		};
+  		timer = setTimeout(loopTyping, 200);
+  	};
+  	loopTyping();
+  };
+
+  function deletingEffect() {
+  	let word = words[i].split("");
+  	var loopDeleting = function() {
+  		if (word.length > 0) {
+  			word.pop();
+  			document.getElementById('dinamico').innerHTML = word.join("");
+  		} else {
+  			if (words.length > (i + 1)) {
+  				i++;
+  			} else {
+  				i = 0;
+  			};
+  			typingEffect();
+  			return false;
+  		};
+  		timer = setTimeout(loopDeleting, 100);
+  	};
+  	loopDeleting();
+  };
+
+  typingEffect();
+</script>

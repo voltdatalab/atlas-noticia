@@ -1,0 +1,24 @@
+<section id="contact">
+	<div class="banner">
+		<div class="container">
+
+			<div class="row" style="padding: 5% 0; text-align:center">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6">
+					<ul class="list-inline intro-social-buttons">
+						<li><big>Compartilhe</big></li>
+						{% for social in site.social %}
+
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="socialmedia" id="socialfooter"><a href="{{ social.url }}" "><i class="fab fa-{{ social.title }} fa-2x" style="color: #241F21"></i></a></span>
+
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+</section>
+<!-- /.banner -->

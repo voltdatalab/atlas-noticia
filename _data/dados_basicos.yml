@@ -1,0 +1,179 @@
+- titulo: Veículos totais mapeados
+  subtitulo: 'Considera iniciativas jornalísticas e que estejam em funcionamento'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">versão atlas</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">% sobre ano anterior</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">v.1.0</td>
+    <td class="tg-0lax">11.829</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">v.2.0</td>
+    <td class="tg-0lax">12.467</td>
+    <td class="tg-0lax">5,4%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">v.3.0</td>
+    <td class="tg-0lax">13.732</td>
+    <td class="tg-0lax">10,1%</td>
+  </tr>
+</table>'
+
+- titulo: Veículos por caráter jornalístico
+  subtitulo: 'Considera apenas veículos que estejam em funcionamento'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">tipo</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">proporção</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">jornalísticos</td>
+    <td class="tg-0lax">11.833</td>
+    <td class="tg-0lax">86%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">não-jornalísticos</td>
+    <td class="tg-0lax">1.899</td>
+    <td class="tg-0lax">14%</td>
+  </tr>
+</table>'
+
+- titulo: Veículos fechados
+  subtitulo: 'Considera iniciativas jornalísticas ou não-jornalísticas que tenham encerrado atividades'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">tipo</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">proporção</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">jornalísticos</td>
+    <td class="tg-0lax">331</td>
+    <td class="tg-0lax">93,3%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">não-jornalísticos</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">4,4%</td>
+  </tr>
+</table>'
+
+- titulo: Veículos por fonte
+  subtitulo: 'Considera iniciativas jornalísticas e não-jornalísticas que estejam em funcionamento'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">fonte</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">proporção</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">MCTIC</td>
+    <td class="tg-0lax">6.460</td>
+    <td class="tg-0lax">47%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Secom/PR</td>
+    <td class="tg-0lax">4.164</td>
+    <td class="tg-0lax">30,3%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Atlas da Notícia</td>
+    <td class="tg-0lax">2.613</td>
+    <td class="tg-0lax">19%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Adjori-RS</td>
+    <td class="tg-0lax">193</td>
+    <td class="tg-0lax">1,4%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Adjori-SC</td>
+    <td class="tg-0lax">128</td>
+    <td class="tg-0lax">0,9%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Central de Diários</td>
+    <td class="tg-0lax">86</td>
+    <td class="tg-0lax">0,6%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Adjori-SP</td>
+    <td class="tg-0lax">60</td>
+    <td class="tg-0lax">0,4%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Adjori-PR</td>
+    <td class="tg-0lax">28</td>
+    <td class="tg-0lax">0,2%</td>
+  </tr>
+</table>'
+
+- titulo: Veículos por região
+  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">região</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">proporção</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Sudeste</td>
+    <td class="tg-0lax">4.521</td>
+    <td class="tg-0lax">38%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Sul</td>
+    <td class="tg-0lax">3.164</td>
+    <td class="tg-0lax">27%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Nordeste</td>
+    <td class="tg-0lax">1.722</td>
+    <td class="tg-0lax">15%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Centro-Oeste</td>
+    <td class="tg-0lax">1.612</td>
+    <td class="tg-0lax">14%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Norte</td>
+    <td class="tg-0lax">814</td>
+    <td class="tg-0lax">7%</td>
+  </tr>
+</table>'
+
+- titulo: Veículos por segmento
+  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento'
+  desc: '<table class="tg">
+  <tr>
+    <th class="tg-0lax">segmento</th>
+    <th class="tg-0lax">veículos</th>
+    <th class="tg-0lax">proporção</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Rádio</td>
+    <td class="tg-0lax">4.195</td>
+    <td class="tg-0lax">35,5%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Impresso</td>
+    <td class="tg-0lax">3.429</td>
+    <td class="tg-0lax">29%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Online</td>
+    <td class="tg-0lax">3.051</td>
+    <td class="tg-0lax">25,8%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Televisão</td>
+    <td class="tg-0lax">1.158</td>
+    <td class="tg-0lax">9,8%</td>
+  </tr>
+</table>'

@@ -1,8 +1,14 @@
+title: Atlas da Notícia
+description: Mapeando o jornalismo local no Brasil
+author: Volt Data Lab
+email: contato@atlas.jor.br
+tags: "jornalismo, jornalismo local, Atlas da Notícia, dados abertos"
+
 # Theme settings
 doks:
-    baseurl: #/an-site/
+    baseurl: #/plataforma/
     color_theme: red # Available themes: blue (default), green, purple, red and yellow
-    atualizacao: Última atualização em Junho/2019
+    atualizacao: Última atualização em dezembro/2019
     header:
         logo:
             text: Atlas da Notícia
@@ -21,16 +27,14 @@ doks:
             logo:
                 text:
                 image:
-            copyright: Criado em 2018 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
+            copyright: 2020 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
         social_list:
             - network_name: facebook
               profile_url: 'https://www.facebook.com/Site.ObservatoriodaImprensa/'
             - network_name: twitter
-              profile_url: 'https://twitter.com/observatorio'
+              profile_url: 'https://twitter.com/atlasdanoticia'
             - network_name: github
               profile_url: 'https://github.com/voltdatalab/atlas-analytics'
-            - network_name: youtube
-              profile_url: 'https://www.youtube.com/watch?v=dVYrf29Qsdc'
     google_analytics:
         tracking_code: UA-104963816-1 # Add your Google Analytics tracking code to activate Google Analytics
     comments:

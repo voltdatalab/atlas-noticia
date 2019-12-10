@@ -1,0 +1,27 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;width:100%}
+.tg td{font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;background-color:#8ba8b0; color:#f4f4f4;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<section id="equipe" class="content-section-b">
+  <div class="container">
+    <div style="max-width:900px">
+
+  <h2>Principais dados do mapeamento do Atlas da Notícia</h2>
+  <p>Os dados abaixo fazem parte da terceira edição do <strong>Atlas da Notícia</strong> (v.3.0). As informações coletadas aqui foram apuradas até 30 de novembro de 2019 por pesquisadores e voluntários em todas as regiões brasileiras.</p>
+  <hr />
+  </div>
+    <div class="row" style="display: flex; flex-wrap: wrap">
+      {% for dados in site.data.dados_basicos %}
+      <div class="column">
+        <div class="col-lg-12" style="margin: 0">
+          <h3 class="title-perfil">{{ dados.titulo }}</h3>
+          <h3 class="sub-perfil"> {{ dados.subtitulo }} </h3>
+          <p> {{ dados.desc }} </p>
+        </div>
+        </div>
+    {% endfor %}
+    </div>
+    </div>
+</section>
