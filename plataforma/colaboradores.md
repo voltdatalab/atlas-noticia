@@ -7,7 +7,7 @@ atualizacao:
 
 # Hero section
 title: 'Colaboradores'
-description: "Lista dos principais colaboradores e voluntários para o levantamento do Atlas da Notícia v.2.0."
+description: "Lista dos principais colaboradores e voluntários para o levantamento do Atlas da Notícia v.3.0."
 links: equipe
 
 # Author box
