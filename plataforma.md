@@ -33,7 +33,7 @@ grid_navigation:
     - title: Acesse a API
       excerpt: Tenha acesso à Interface de Programação de Aplicações do Atlas da Notícia
       cta: Registre-se
-      url: 'https://api.atlas.jor.br/login'
+      url: 'https://api.atlas.jor.br/register'
     - title: Documentação da API
       excerpt: Saiba como utilizar a API do Atlas da Notícia e acessar os dados diretamente
       cta: Leia os docs
