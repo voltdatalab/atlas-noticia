@@ -1216,7 +1216,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #eee;
 }
 ul,
 ol {
@@ -1274,7 +1274,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #777;
+  border-bottom: 0px dotted #777;
 }
 .initialism {
   font-size: 90%;
