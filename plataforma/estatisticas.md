@@ -39,6 +39,17 @@ Veículos excluídos são, em sua grande maioria, mídias institucionais e estat
 
 Os dados abaixo consideram **apenas** veículos identificados como jornalísticos que se encontram em operação.
 
+<button> [Download de Dados](https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&single=true&output=csv)</button>
+
+**Clique no botão acima para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019**.
+
+Colunas e exemplo de dados:
+
+|cidade	| estado | regiao	| codmun_ibge	| populacao	 | ano    | qtd_veiculos | veiculos_por_100k_hab | tipo |
+|-------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Abadia de Goiás	| GO | Centro-Oeste	| 5200050 | 8583	 |2018| 	2 |	23.3 | quase deserto |
+
+
 ## Quadro Geral
 
 #### População total com ou sem acesso a veículos jornalísticos
