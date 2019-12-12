@@ -43,8 +43,6 @@ Os dados abaixo consideram **apenas** veículos identificados como jornalístico
 
 #### População total com ou sem acesso a veículos jornalísticos
 
-Desertos de notícia são municípios sem veículos jornalísticos, ou seja, sem cobertura significativa de imprensa. Eles representam 51% dos municípios brasileiros, com um total de 30 milhões de pessoas.
-
 
 | tipo         | população   | proporção |
 |--------------|-------------|-----------|
@@ -98,8 +96,6 @@ Desertos de notícia são municípios sem veículos jornalísticos, ou seja, sem
 ---
 
 ## Desertos e quase desertos de notícias
-
-Há também os quase desertos, municípios que possuem apenas 1 ou 2 veículos jornalísticos. São localidades que correm o risco de se tornar desertos. Esses locais representam 30% dos municípios do Brasil, com um total de 34 milhões de pessoas.
 
 | tipo                            | população   | proporção |
 |---------------------------------|-------------|-----------|
