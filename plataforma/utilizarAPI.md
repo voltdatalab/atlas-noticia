@@ -43,7 +43,9 @@ O primeiro passo para acessar a API do **Atlas da Notícia** é fazendo um cadas
 Caso tenha alguma dúvida e precise de uma nova senha, por favor entre mande um email para [contato@atlas.jor.br](mailto:contato@atlas.jor.br), e nossa equipe emitirá uma senha nova para você.
 
 ### Terceiro passo: métodos de acesso
-Por enquanto, ao fazer o registro, você possui acesso apenas ao retorno de dados da API. Para saber mais como utilizar esse recurso, vá para a [página de documentação completa](https://api.atlas.jor.br/docs) ou veja nosso breve tutorial abaixo.
+Por enquanto, ao fazer o registro, você possui acesso apenas ao retorno de dados da API. Para saber mais como utilizar esse recurso, vá para a página de documentação completa ou veja nosso breve tutorial abaixo.
+
+<a href="https://api.atlas.jor.br/docs"><button class="btn btn--dark btn--rounded btn--w-icon"> Acesse a documentação da API </button></a>
 
 A API funciona com geração de tokens, e para isso você vai precisar utilizar o usuário e senha que criou pelo portal do **Atlas da Notícia**.
 
@@ -87,6 +89,10 @@ Mas antes, é necessário informar à sua aplicação o token que você vai util
 é possível colar o token que você acabou de gerar na outra aba. Lembrando que esse token se renova a cada uma hora.
 
 Um exemplo de API que você pode testar para ver se seu retorno está funcionando é `https://api.atlas.jor.br/api/v1/data/analytic?estado=RO`, a qual retorna todos os veículos do Estado de Rondônia.
+
+Para saber as URLs válidas, que retornam dados, é preciso ler a documentação da API e entender as combinações possíveis. Por exemplo a URL `https://api.atlas.jor.br/api/v1/data/analytic?segmento=Online&estado=SP` retorna todos os veículos online do Estado de São Paulo.
+
+<a href="https://api.atlas.jor.br/docs"><button class="btn btn--dark btn--rounded btn--w-icon"> Acesse a documentação da API </button></a>
 
 Basta clicar em `SEND` e ver abaixo na tela o resultado.
 
