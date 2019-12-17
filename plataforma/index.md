@@ -14,7 +14,7 @@ buttons:
       url: 'estatisticas'
       external_url: false
     - content: 'Cadastre um veículo'
-      url: '../formulario'
+      url: 'formulario'
       external_url: false
     - icon: github
       content: Repo
@@ -34,10 +34,10 @@ grid_navigation:
       excerpt: Tenha acesso à Interface de Programação de Aplicações do Atlas da Notícia
       cta: Registre-se
       url: 'https://api.atlas.jor.br/register'
-    - title: Documentação da API
-      excerpt: Saiba como utilizar a API do Atlas da Notícia e acessar os dados diretamente
-      cta: Leia os docs
-      url: 'https://api.atlas.jor.br/docs'
+    - title: Utilizando a API
+      excerpt: Saiba o passo a passo para você utilizar a API do Atlas da Notícia
+      cta: Saiba como usar
+      url: 'utilizarAPI'
     - title: Colaboradores
       excerpt: O Atlas da Notícia conta com uma valiosa rede de voluntários, que ajudam a obter dados do mapeamento. Veja quem nos ajudou nessa jornada.
       cta: Acesse a lista de nomes
@@ -74,6 +74,10 @@ grid_navigation:
       excerpt: Veja o que saiu na imprensa e em projetos acadêmicos sobre o Atlas da Notícia
       cta: Acessar v.2
       url: 'atlas2'
+    - title: Documentação da API
+      excerpt: Saiba todos os detalhes da API do Atlas da Notícia para acessar os dados diretamente
+      cta: Leia os docs
+      url: 'https://api.atlas.jor.br/docs'
     - title: Política de correções
       excerpt: Saiba como funciona a política de correção do Atlas da Notícia
       cta: Saiba mais
