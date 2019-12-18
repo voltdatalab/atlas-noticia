@@ -100,4 +100,6 @@ Basta clicar em `SEND` e ver abaixo na tela o resultado.
 
 #### Acesso via R ou Python
 
-O acesso utilizando a linguagem de programação R ou Python é fácil e direto. [Este é o link para o gist](https://gist.github.com/voltdatalab/f7b5bdd2fc430c791746a39d99319406) que contém os códigos.
+O acesso utilizando a linguagem de programação R ou Python é fácil e direto. [Este é o link para o gist](https://gist.github.com/voltdatalab/f7b5bdd2fc430c791746a39d99319406) que contém os códigos
+
+<script src="https://gist.github.com/voltdatalab/f7b5bdd2fc430c791746a39d99319406.js"></script>

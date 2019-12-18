@@ -6,7 +6,7 @@ tags: "jornalismo, jornalismo local, Atlas da Notícia, dados abertos"
 
 # Theme settings
 doks:
-    baseurl: /plataforma
+    baseurl: #/plataforma
     color_theme: red # Available themes: blue (default), green, purple, red and yellow
     atualizacao: Última atualização em dezembro/2019
     header:
