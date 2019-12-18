@@ -8,7 +8,7 @@ atualizacao: Dezembro de 2019
 # Hero section
 title: 'Estatísticas v.3.0'
 description: "Principais análises sobre o mapeamento de veículos de jornalismo no Brasil."
-links: dados
+links: Acessa nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a>
 
 # Author box
 author:
@@ -39,9 +39,9 @@ Veículos excluídos são, em sua grande maioria, mídias institucionais e estat
 
 Os dados abaixo consideram **apenas** veículos identificados como jornalísticos que se encontram em operação.
 
-<button> [Download de Dados](https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&single=true&output=csv)</button>
+Clique no botão abaixo para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019.
 
-**Clique no botão acima para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019**.
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&single=true&output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a>
 
 Colunas e exemplo de dados:
 

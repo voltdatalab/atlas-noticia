@@ -31,7 +31,7 @@ page_nav:
 ---
 
 
-Quem faz o principal estudo de mapeamento da imprensa no Brasil. Para saber mais sobre o projeto em geral, [acesse este link](../sobre)
+Quem faz o principal estudo de mapeamento da imprensa no Brasil. Para saber mais sobre o projeto em geral, [acesse este link](../../sobre)
 
 ## Equipe institucional
 
@@ -41,10 +41,10 @@ Jornalista, professor do Departamento de Comunicação Social e vice-coordenador
 #### Angela Pimenta, Diretora de Operações
 Jornalista e mestre em Jornalismo pela Columbia University School (2001). Presidente do Projor desde julho de 2015, é coordenadora-executiva do Projeto Credibilidade. Foi editora-sênior da revista Exame em Brasília (2007-2011), sócia da consultoria Patri Políticas Públicas (2012-2014) e representante da Online News Association no Brasil (2009-2014).
 
-#### Adriana Garcia, Projor
+#### Adriana Garcia, Conselheira do Projor
 Jornalista, professora e consultora em design estratégico e mídias digitais, tem mestrado pela Escola de Comunicações e Artes da Universidade de São Paulo (USP) e foi J.S.Knight fellow na Universidade de Stanford, na Califórnia (2013). Atuou na Reuters, Folha de S.Paulo, VejaSP e Exame. Foi diretora de Comunicação Digital da Rio 2016. Fundadora da Orbital Mídia.
 
-#### Pedro Varoni, Diretor Editorial e editor do Observatório da Imprensa
+#### Pedro Varoni, Editor do Observatório da Imprensa
 Jornalista, professor e pesquisador, formou-se em jornalismo em 1989 pela Universidade Federal de Minas Gerais (UFMG). É mestre e doutor em Linguística pela Universidade Federal de São Carlos (UFSCar). Esteve no Grupo EPTV e foi diretor de Jornalismo da TV Sergipe. Foi diretor geral da Empresa Brasil de Comunicação (EBC) em 2016. Cursa pós-doutorado no Departamento de informação e Cultura da USP.
 
 ## Equipe operacional

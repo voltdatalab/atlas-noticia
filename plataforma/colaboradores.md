@@ -6,9 +6,9 @@ comments: false
 atualizacao:
 
 # Hero section
-title: 'Colaboradores'
+title: 'Colaboradores da v.3.0'
 description: "Lista dos principais colaboradores e voluntários para o levantamento do Atlas da Notícia v.3.0."
-links: equipe
+links: Saiba quem é a equipe por trás da organização do Atlas, <a href='../equipe'>clique aqui</a>
 
 # Author box
 author:

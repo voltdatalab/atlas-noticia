@@ -7,8 +7,8 @@ keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo
 title: Atlas da Notícia
 description: Mapeando o jornalismo local no Brasil
 buttons:
-    - content: Sobre o Atlas
-      url: 'sobre'
+    - content: Dados abertos
+      url: 'consulta'
       external_url: false
     - content: Estatísticas
       url: 'estatisticas'
@@ -16,10 +16,13 @@ buttons:
     - content: 'Cadastre um veículo'
       url: 'formulario'
       external_url: false
-    - icon: github
-      content: Repo
-      url: 'https://github.com/voltdatalab/atlas-analytics'
-      external_url: true
+    - content: 'Sobre o Atlas'
+      url: 'sobre'
+      external_url: false
+    #- icon: github
+    #  content: Repo
+    #  url: 'https://github.com/voltdatalab/atlas-analytics'
+    #  external_url: true
 
 # Author box
 # author:
@@ -42,18 +45,6 @@ grid_navigation:
       excerpt: O Atlas da Notícia conta com uma valiosa rede de voluntários, que ajudam a obter dados do mapeamento. Veja quem nos ajudou nessa jornada.
       cta: Acesse a lista de nomes
       url: 'colaboradores'
-    - title: Estatísticas
-      excerpt: Principais dados, análises próprias e gráficos do Atlas da Notícia
-      cta: Veja os dados
-      url: 'estatisticas'
-    - title: Dados e tabelas
-      excerpt: Encontre tudo sobre dados e tabelas completas do levantamento do Atlas da Notícia
-      cta: Veja os dados
-      url: 'consulta'
-    - title: Cadastre um veículo
-      excerpt: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local. Inclui fechamentos.
-      cta: Preencha o formulário
-      url: 'formulario'
     - title: Sobre o Atlas
       excerpt: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
       cta: Acesse
@@ -62,6 +53,18 @@ grid_navigation:
       excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
       cta: Acesse
       url: 'equipe'
+    - title: Dados abertos
+      excerpt: Explore e faça download dos dados brutos completos do levantamento do Atlas da Notícia
+      cta: Veja os dados
+      url: 'consulta'
+    - title: Estatísticas
+      excerpt: Principais dados, análises próprias e gráficos do Atlas da Notícia
+      cta: Veja os dados
+      url: 'estatisticas'
+    - title: Cadastre um veículo
+      excerpt: Ajude a mapear os veículos de comunicação do Brasil para melhorarmos o conhecimento sobre o jornalismo local. Inclui fechamentos.
+      cta: Preencha o formulário
+      url: 'formulario'
     - title: Atlas na mídia
       excerpt: Veja o que saiu na imprensa e em projetos acadêmicos sobre o Atlas da Notícia
       cta: Acesse

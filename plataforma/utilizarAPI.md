@@ -98,27 +98,8 @@ Basta clicar em `SEND` e ver abaixo na tela o resultado.
 
 ![postman get](../../graficos/postman_results.png)
 
-#### Acesso via R (RStudio)
+#### Acesso via R ou Python
 
-O acesso utilizando a linguagem de programação R é mais fácil e direto. O código abaixo considera que você tenha as bibliotecas instaladas `httr` e `jsonlite`.
+O acesso utilizando a linguagem de programação R ou Python é fácil e direto. [Este é o link para o gist](https://gist.github.com/voltdatalab/f7b5bdd2fc430c791746a39d99319406) que contém os códigos.
 
-```
-library(httr)
-library(jsonlite)
-
-token = content(
-    POST(url = "https://api.atlas.jor.br/api/v1/auth/login",
-             body = list("email" = "email@email.com", "password" = "12345678"),
-             encode = "json", handle = NULL),
-        as = "text")
-
-token = fromJSON(token)
-
-tk <- token[[1]]
-
-tabela <- fromJSON(content(GET(url = "https://api.atlas.jor.br/api/v1/data/analytic?estado=RO",
-    add_headers(Authorization = paste("Bearer", tk, sep = " "))),
-    as = "text"))
-
-View(tabela)
-```
+<script src="https://gist.github.com/voltdatalab/f7b5bdd2fc430c791746a39d99319406.js"></script>
