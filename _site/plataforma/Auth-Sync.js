@@ -23,16 +23,21 @@ function getRegions() {
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-region",
+    "url": "https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-state",
     "method": "GET",
     "headers": {
       "Authorization": "Bearer " + token
-    }
+    },
+    "success": function(data) {
+        dumpData(data)
+    },
+    "dataType": 'JSON'
   }
-  
+
   $.ajax(settings).done(function (response) {
     console.log(response);
   });
+
 }
 
-console.log(token);
+// console.log(token);

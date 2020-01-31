@@ -1,0 +1,25 @@
+I"|<h3 id="desertos-de-notícias-por-região">Desertos de notícias por região</h3>
+
+<table id="desertos_rg">
+  <tr></tr>
+    <th>Região</th>
+    <th>Número de municípios</th>
+    <th>Número de desertos</th>
+</table>
+
+<h3 id="desertos-de-notícias-por-uf">Desertos de notícias por UF</h3>
+
+<table id="desertos_uf">
+  <tr></tr>
+    <th>UF</th>
+    <th>Número de municípios</th>
+    <th>Número de desertos</th>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="../tabelas-js/desertos_por_regiao.js"></script>
+
+<script src="../tabelas-js/desertos_por_uf.js"></script>
+
+:ET

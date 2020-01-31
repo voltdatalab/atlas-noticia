@@ -30,6 +30,13 @@ page_nav:
         url: '#'
 ---
 
-<link rel='stylesheet' type='application/json' media='screen' href='Auth-Cookie-aSync.css'>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='Auth-Cookie-aSync.js'></script>
+As tabelas abaixo são alimentadas em tempo real diretamente da API do Atlas da Notícia. O tempo de carregamento pode demorar um pouco.
+
+### Número de desertos de notícias por região
+
+<iframe src="../tabelas/desertos_regiao.html" frameborder="no" width="100%" height="300px" seamless></iframe>
+
+
+### Número de desertos de notícias por UF
+
+<iframe src="../tabelas/desertos_uf.html" frameborder="no" width="100%" height="950px" seamless></iframe>

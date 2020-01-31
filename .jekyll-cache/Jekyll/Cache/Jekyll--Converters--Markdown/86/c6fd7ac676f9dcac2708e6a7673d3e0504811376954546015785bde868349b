@@ -1,0 +1,647 @@
+I"�/<h3 id="nota-metodológica">Nota metodológica</h3>
+<p>Os dados contrastam com a edição anterior (49% dos municípios possuíam ao menos um veículo), na qual não foi contabilizada a categorização entre o que é ou não um veículo jornalístico.</p>
+
+<p>Quando levamos em conta somente veículos que publicam algum conteúdo jornalístico, encontramos mais desertos.</p>
+
+<p>Veículos excluídos são, em sua grande maioria, mídias institucionais e estatais, tais como canais de TV de prefeituras, assembleias legislativas, publicações sindicais ou de associações.</p>
+
+<p>Os dados abaixo consideram <strong>apenas</strong> veículos identificados como jornalísticos que se encontram em operação.</p>
+
+<p>Clique no botão abaixo para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019.</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&amp;single=true&amp;output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a></p>
+
+<p>Colunas e exemplo de dados:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>cidade</th>
+      <th>estado</th>
+      <th>regiao</th>
+      <th>codmun_ibge</th>
+      <th>populacao</th>
+      <th>ano</th>
+      <th>qtd_veiculos</th>
+      <th>veiculos_por_100k_hab</th>
+      <th>tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abadia de Goiás</td>
+      <td>GO</td>
+      <td>Centro-Oeste</td>
+      <td>5200050</td>
+      <td>8583</td>
+      <td>2018</td>
+      <td>2</td>
+      <td>23.3</td>
+      <td>quase deserto</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="quadro-geral">Quadro Geral</h2>
+
+<h4 id="população-total-com-ou-sem-acesso-a-veículos-jornalísticos">População total com ou sem acesso a veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>população</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>com veículos</td>
+      <td>171.197.923</td>
+      <td>82,1%</td>
+    </tr>
+    <tr>
+      <td>sem veículos</td>
+      <td>37.296.977</td>
+      <td>17,9%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="../../graficos/atlas_v3/atlas_nao_desertos.png" alt="Desertos de notícias do Brasil" /></p>
+
+<h4 id="população-total-com-ou-sem-acesso-a-veículos-jornalísticos-1">População total com ou sem acesso a veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>região</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sudeste</td>
+      <td>4.521</td>
+      <td>38%</td>
+    </tr>
+    <tr>
+      <td>Sul</td>
+      <td>3.164</td>
+      <td>27%</td>
+    </tr>
+    <tr>
+      <td>Nordeste</td>
+      <td>1.722</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>Centro-Oeste</td>
+      <td>1.612</td>
+      <td>14%</td>
+    </tr>
+    <tr>
+      <td>Norte</td>
+      <td>814</td>
+      <td>7%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="veículos-por-segmento-e-uf-apenas-veículos-jornalísticos">Veículos por segmento e UF apenas veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>estado</th>
+      <th>Impresso</th>
+      <th>Online</th>
+      <th>Rádio</th>
+      <th>Televisão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AC</td>
+      <td>9</td>
+      <td>35</td>
+      <td>15</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>AL</td>
+      <td>14</td>
+      <td>60</td>
+      <td>42</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td>15</td>
+      <td>72</td>
+      <td>51</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td>7</td>
+      <td>15</td>
+      <td>13</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>BA</td>
+      <td>71</td>
+      <td>110</td>
+      <td>246</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>CE</td>
+      <td>26</td>
+      <td>22</td>
+      <td>187</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>DF</td>
+      <td>78</td>
+      <td>140</td>
+      <td>41</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>ES</td>
+      <td>47</td>
+      <td>23</td>
+      <td>67</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>140</td>
+      <td>63</td>
+      <td>278</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>MA</td>
+      <td>26</td>
+      <td>31</td>
+      <td>74</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>MG</td>
+      <td>375</td>
+      <td>138</td>
+      <td>507</td>
+      <td>166</td>
+    </tr>
+    <tr>
+      <td>MS</td>
+      <td>82</td>
+      <td>156</td>
+      <td>164</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>MT</td>
+      <td>78</td>
+      <td>140</td>
+      <td>94</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>PA</td>
+      <td>30</td>
+      <td>41</td>
+      <td>86</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>PB</td>
+      <td>9</td>
+      <td>40</td>
+      <td>86</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>PE</td>
+      <td>26</td>
+      <td>51</td>
+      <td>111</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>PI</td>
+      <td>8</td>
+      <td>39</td>
+      <td>82</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>PR</td>
+      <td>298</td>
+      <td>382</td>
+      <td>369</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <td>RJ</td>
+      <td>248</td>
+      <td>211</td>
+      <td>139</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>RN</td>
+      <td>17</td>
+      <td>19</td>
+      <td>59</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>RO</td>
+      <td>32</td>
+      <td>47</td>
+      <td>55</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>RR</td>
+      <td>4</td>
+      <td>8</td>
+      <td>12</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>RS</td>
+      <td>450</td>
+      <td>197</td>
+      <td>486</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>SC</td>
+      <td>404</td>
+      <td>163</td>
+      <td>224</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>5</td>
+      <td>23</td>
+      <td>35</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>SP</td>
+      <td>906</td>
+      <td>795</td>
+      <td>641</td>
+      <td>183</td>
+    </tr>
+    <tr>
+      <td>TO</td>
+      <td>24</td>
+      <td>30</td>
+      <td>31</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="desertos-e-quase-desertos-de-notícias">Desertos e quase desertos de notícias</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>população</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Desertos(0 veículos)</td>
+      <td>37.296.977</td>
+      <td>17,9%</td>
+    </tr>
+    <tr>
+      <td>Quase desertos(1 ou 2 veículos)</td>
+      <td>27.495.351</td>
+      <td>13,2%</td>
+    </tr>
+    <tr>
+      <td>Não desertos(+3 veículos)</td>
+      <td>143.702.572</td>
+      <td>68,9%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cidades-e-desertos-por-região-considera-apenas-veículos-jornalísticos-abertos">Cidades e desertos por região considera apenas veículos jornalísticos abertos</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>região</th>
+      <th>qtd_cidades</th>
+      <th>qtd_desertos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Centro-Oeste</td>
+      <td>467</td>
+      <td>183</td>
+      <td>39,2%</td>
+    </tr>
+    <tr>
+      <td>Nordeste</td>
+      <td>1.794</td>
+      <td>1.318</td>
+      <td>73,5%</td>
+    </tr>
+    <tr>
+      <td>Norte</td>
+      <td>450</td>
+      <td>323</td>
+      <td>71,8%</td>
+    </tr>
+    <tr>
+      <td>Sudeste</td>
+      <td>1.668</td>
+      <td>1.010</td>
+      <td>60,6%</td>
+    </tr>
+    <tr>
+      <td>Sul</td>
+      <td>1.191</td>
+      <td>653</td>
+      <td>54,8%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="quantidade-de-desertos-por-uf">Quantidade de desertos por UF</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>estado</th>
+      <th>qtd_municipios</th>
+      <th>qtd_desertos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AC</td>
+      <td>22</td>
+      <td>13</td>
+      <td>59,1%</td>
+    </tr>
+    <tr>
+      <td>AL</td>
+      <td>102</td>
+      <td>75</td>
+      <td>73,5%</td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td>62</td>
+      <td>39</td>
+      <td>62,9%</td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td>16</td>
+      <td>9</td>
+      <td>56,3%</td>
+    </tr>
+    <tr>
+      <td>BA</td>
+      <td>417</td>
+      <td>270</td>
+      <td>64,7%</td>
+    </tr>
+    <tr>
+      <td>CE</td>
+      <td>184</td>
+      <td>105</td>
+      <td>57,1%</td>
+    </tr>
+    <tr>
+      <td>ES</td>
+      <td>78</td>
+      <td>41</td>
+      <td>52,6%</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>246</td>
+      <td>106</td>
+      <td>43,1%</td>
+    </tr>
+    <tr>
+      <td>MA</td>
+      <td>217</td>
+      <td>167</td>
+      <td>77,0%</td>
+    </tr>
+    <tr>
+      <td>MG</td>
+      <td>853</td>
+      <td>598</td>
+      <td>70,1%</td>
+    </tr>
+    <tr>
+      <td>MS</td>
+      <td>79</td>
+      <td>12</td>
+      <td>15,2%</td>
+    </tr>
+    <tr>
+      <td>MT</td>
+      <td>141</td>
+      <td>65</td>
+      <td>46,1%</td>
+    </tr>
+    <tr>
+      <td>PA</td>
+      <td>144</td>
+      <td>96</td>
+      <td>66,7%</td>
+    </tr>
+    <tr>
+      <td>PB</td>
+      <td>223</td>
+      <td>182</td>
+      <td>81,6%</td>
+    </tr>
+    <tr>
+      <td>PE</td>
+      <td>185</td>
+      <td>132</td>
+      <td>71,4%</td>
+    </tr>
+    <tr>
+      <td>PI</td>
+      <td>224</td>
+      <td>186</td>
+      <td>83,0%</td>
+    </tr>
+    <tr>
+      <td>PR</td>
+      <td>399</td>
+      <td>212</td>
+      <td>53,1%</td>
+    </tr>
+    <tr>
+      <td>RJ</td>
+      <td>92</td>
+      <td>24</td>
+      <td>26,1%</td>
+    </tr>
+    <tr>
+      <td>RN</td>
+      <td>167</td>
+      <td>143</td>
+      <td>85,6%</td>
+    </tr>
+    <tr>
+      <td>RO</td>
+      <td>52</td>
+      <td>31</td>
+      <td>59,6%</td>
+    </tr>
+    <tr>
+      <td>RR</td>
+      <td>15</td>
+      <td>11</td>
+      <td>73,3%</td>
+    </tr>
+    <tr>
+      <td>RS</td>
+      <td>497</td>
+      <td>283</td>
+      <td>56,9%</td>
+    </tr>
+    <tr>
+      <td>SC</td>
+      <td>295</td>
+      <td>158</td>
+      <td>53,6%</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>75</td>
+      <td>58</td>
+      <td>77,3%</td>
+    </tr>
+    <tr>
+      <td>SP</td>
+      <td>645</td>
+      <td>347</td>
+      <td>53,8%</td>
+    </tr>
+    <tr>
+      <td>TO</td>
+      <td>139</td>
+      <td>124</td>
+      <td>89,2%</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="fechamentos-de-veículos">Fechamentos de veículos</h2>
+
+<p>Foram mapeados os fechamentos de 331 veículos jornalísticos brasileiros desde 2011. Os dados foram obtidos junto à Associação Nacional dos Jornais (ANJ) e também via levantamento próprio do Atlas da Notícia.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>jornalísticos</td>
+      <td>331</td>
+      <td>93,3%</td>
+    </tr>
+    <tr>
+      <td>não-jornalísticos</td>
+      <td>10</td>
+      <td>4,4%</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="fontes-do-levantamento-atlas-da-notícia-30">Fontes do levantamento Atlas da Notícia 3.0</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>fonte</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MCTIC</td>
+      <td>6.460</td>
+      <td>47,04%</td>
+    </tr>
+    <tr>
+      <td>Secom/PR</td>
+      <td>4.164</td>
+      <td>30,32%</td>
+    </tr>
+    <tr>
+      <td>Atlas da Notícia</td>
+      <td>2.613</td>
+      <td>19,03%</td>
+    </tr>
+    <tr>
+      <td>Adjori-RS</td>
+      <td>193</td>
+      <td>1,41%</td>
+    </tr>
+    <tr>
+      <td>Adjori-SC</td>
+      <td>128</td>
+      <td>0,93%</td>
+    </tr>
+    <tr>
+      <td>Central de Diários</td>
+      <td>86</td>
+      <td>0,63%</td>
+    </tr>
+    <tr>
+      <td>Adjori-SP</td>
+      <td>60</td>
+      <td>0,44%</td>
+    </tr>
+    <tr>
+      <td>Adjori-PR</td>
+      <td>28</td>
+      <td>0,20%</td>
+    </tr>
+  </tbody>
+</table>
+:ET

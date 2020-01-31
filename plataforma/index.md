@@ -10,8 +10,8 @@ buttons:
     - content: Dados abertos
       url: 'consulta'
       external_url: false
-    - content: Estatísticas
-      url: 'estatisticas'
+    - content: Tabelas
+      url: 'tabelas'
       external_url: false
     - content: 'Cadastre um veículo'
       url: 'formulario'

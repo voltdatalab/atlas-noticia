@@ -35,6 +35,10 @@ grid_navigation:
       excerpt: Tenha acesso aos dados brutos da pesquisa, com links para o Github do Atlas da Notícia
       cta: Veja os dados
       url: 'dados'
+    - title: Key findings
+      excerpt: Access our data and reports in English
+      cta: Click here
+      url: 'en'
 
 
 ---

@@ -55,7 +55,7 @@ The second phase aims to improve Atlas's interactive platform and database and a
   - Online news: 2,263
   - Magazines: 56
 
-![Chart 1 - per media](../graficos/english/chart1.png)
+![Chart 1 - per media](../../../graficos/english/chart1.png)
 
 
 #### Main maps
@@ -63,9 +63,9 @@ The second phase aims to improve Atlas's interactive platform and database and a
 - Municipalities with at least one print or online news outlet: 2,710
   - They represent around 15% of Brazil's population (30 million people)
 
-![Chart 2 - main map](../graficos/english/map1.png)
+![Chart 2 - main map](../../../graficos/english/map1.png)
 
-![Chart 3 - main map](../graficos/english/map2.png)
+![Chart 3 - main map](../../../graficos/english/map2.png)
 
 
 #### Almost deserts
@@ -73,9 +73,9 @@ The second phase aims to improve Atlas's interactive platform and database and a
 - Municipalities with only one or two news organizations
 
 
-![Chart 4 - main map](../graficos/english/map3.png)
+![Chart 4 - main map](../../../graficos/english/map3.png)
 
-![Chart 5 - main map](../graficos/english/map4.png)
+![Chart 5 - main map](../../../graficos/english/map4.png)
 
 ## The database
 
