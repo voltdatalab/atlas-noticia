@@ -6,36 +6,41 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="stylesheet" href="../../doks-theme/assets/css/style.css">
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script src='../tabelas-js/desertos_por_regiao.js'></script>
+		<script src='../tabelas-js/veiculos_100khab_uf.js'></script>
 		<script src="../tabelas-js/table2csv.js"></script>
 	</head>
 	<body>
-    <table id="desertos_por_regiao">
-        <th>Região</th>
-        <th>Nº de municípios</th>
-        <th>Nº de desertos</th>
+		<table id="100khabuf">
+		    <th>UF</th>
+		    <th>Região</th>
+		    <th>IDHM médio</th>
+				<th>IDHM - Educação</th>
+		    <th>IDHM - Renda</th>
+		    <th>População</th>
+				<th>Quantidade de veículos</th>
+				<th>Veículos por 100 mil hab.</th>
 				<tr></tr>
-    </table>
+		</table>
 		<small><button id="button" class="btn btn--dark btn--rounded btn--w-icon">Download de dados</button></small>
 		<div id="out" class="well"></div>
 
 		<script>
 		let options = {
-									//"separator": ",",
-									"newline": "desertos",
+									"separator": ",",
+									"newline": "\n",
 									"quoteFields": true,
-									//"excludeColumns": "",
-									//"excludeRows": "",
-									//"trimContent": true,
-									"filename": "atlas_desertos_por_regiao.csv",
+									"excludeColumns": "",
+									"excludeRows": "",
+									"trimContent": true,
+									"filename": "atlas_veiculos_100khab_por_uf.csv",
 									"appendTo": "#out"
 								}
 
 			$("#button").click(function(){
-				$("#desertos_por_regiao").table2csv('output', {appendTo: '#out'});
-				$("#desertos_por_regiao").table2csv(options);
+				$("#100khabuf").table2csv('output', {appendTo: '#out'});
+				$("#100khabuf").table2csv(options);
 			})
 		</script>
+
 	</body>
 </html>

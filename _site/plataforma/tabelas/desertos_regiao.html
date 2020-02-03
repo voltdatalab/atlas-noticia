@@ -5,15 +5,37 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="stylesheet" href="../../doks-theme/assets/css/style.css">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src='../tabelas-js/desertos_por_regiao.js'></script>
+		<script src="../tabelas-js/table2csv.js"></script>
 	</head>
 	<body>
     <table id="desertos_por_regiao">
-      <tr></tr>
         <th>Região</th>
-        <th>Número de municípios</th>
-        <th>Número de desertos</th>
+        <th>Nº de municípios</th>
+        <th>Nº de desertos</th>
+				<tr></tr>
     </table>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <script src='../tabelas-js/desertos_por_regiao.js'></script>
+		<small><button id="button" class="btn btn--dark btn--rounded btn--w-icon">Download de dados</button></small>
+		<div id="out" class="well"></div>
+
+		<script>
+		let options = {
+									//"separator": ",",
+									"newline": "desertos",
+									"quoteFields": true,
+									//"excludeColumns": "",
+									//"excludeRows": "",
+									//"trimContent": true,
+									"filename": "atlas_desertos_por_regiao.csv",
+									"appendTo": "#out"
+								}
+
+			$("#button").click(function(){
+				$("#desertos_por_regiao").table2csv('output', {appendTo: '#out'});
+				$("#desertos_por_regiao").table2csv(options);
+			})
+		</script>
 	</body>
 </html>

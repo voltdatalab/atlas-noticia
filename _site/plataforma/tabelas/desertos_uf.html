@@ -5,15 +5,37 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="stylesheet" href="../../doks-theme/assets/css/style.css">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src='../tabelas-js/desertos_por_uf.js'></script>
+		<script src="../tabelas-js/table2csv.js"></script>
 	</head>
 	<body>
 		<table id="desertos_uf">
-		  <tr></tr>
 		    <th>UF</th>
-		    <th>Número de municípios</th>
-		    <th>Número de desertos</th>
+		    <th>Nº de cidades</th>
+		    <th>Nº de desertos</th>
+				<tr></tr>
 		</table>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <script src='../tabelas-js/desertos_por_uf.js'></script>
+		<small><button id="button" class="btn btn--dark btn--rounded btn--w-icon">Download de dados</button></small>
+		<div id="out" class="well"></div>
+
+		<script>
+		let options = {
+									"separator": ",",
+									"newline": "\n",
+									"quoteFields": true,
+									"excludeColumns": "",
+									"excludeRows": "",
+									"trimContent": true,
+									"filename": "atlas_desertos_por_uf.csv",
+									"appendTo": "#out"
+								}
+
+			$("#button").click(function(){
+				$("#desertos_uf").table2csv('output', {appendTo: '#out'});
+				$("#desertos_uf").table2csv(options);
+			})
+		</script>
 	</body>
 </html>

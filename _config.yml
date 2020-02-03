@@ -18,9 +18,9 @@ doks:
               item_url: '../sobre'
             - item_name: Indique um veículo
               item_url: '../formulario'
-            - item_name: 'Newsletter'
-              item_url: 'https://tinyletter.com/atlasjor'
-            - item_name: Twitter
+            - item_name: 'Dados abertos'
+              item_url: '../consulta'
+            - item_name: '<i class="icon icon--twitter fa-lg"></i>'
               item_url: 'https://twitter.com/atlasdanoticia'
 
     footer:

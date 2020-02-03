@@ -3,21 +3,21 @@
 	<head>
 		<title>Tabelas do Atlas da Notícia</title>
 		
-			<meta name="description" content="Veja o que saiu na imprensa sobre o Atlas da Notícia">
+			<meta name="description" content="Principais tabelas do levantamento publicado em dezembro de 2019">
 		
 		
 		<meta property="og:url"                content="https://www.atlas.jor.br/" />
 		<meta property="og:type"               content="page" />
 		<meta property="og:title"              content="Tabelas do Atlas da Notícia - Atlas da Notícia" />
 		
-			<meta property="og:description" content="Veja o que saiu na imprensa sobre o Atlas da Notícia">
+			<meta property="og:description" content="Principais tabelas do levantamento publicado em dezembro de 2019">
 		
 		<meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 <title>Tabelas do Atlas da Notícia</title>
 
-	<meta name="description" content="Veja o que saiu na imprensa sobre o Atlas da Notícia">
+	<meta name="description" content="Principais tabelas do levantamento publicado em dezembro de 2019">
 
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -28,7 +28,7 @@
 <meta property="og:type"               content="page" />
 <meta property="og:title"              content="Tabelas do Atlas da Notícia" />
 
-	<meta property="og:description" content="Veja o que saiu na imprensa sobre o Atlas da Notícia">
+	<meta property="og:description" content="Principais tabelas do levantamento publicado em dezembro de 2019">
 
 <meta property="og:image"              content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlas_banner_social_fb.jpeg" />
 
@@ -42,9 +42,9 @@
 			
 				<li><a href="../formulario">Indique um veículo</a></li>
 			
-				<li><a href="https://tinyletter.com/atlasjor">Newsletter</a></li>
+				<li><a href="../consulta">Dados abertos</a></li>
 			
-				<li><a href="https://twitter.com/atlasdanoticia">Twitter</a></li>
+				<li><a href="https://twitter.com/atlasdanoticia"><i class="icon icon--twitter fa-lg"></i></a></li>
 			
 		</ul><!-- /.offcanvas__nav -->
 	</div><!-- /.offcanvas -->
@@ -65,9 +65,9 @@
 							
 								<li><a href="../formulario">Indique um veículo</a></li>
 							
-								<li><a href="https://tinyletter.com/atlasjor">Newsletter</a></li>
+								<li><a href="../consulta">Dados abertos</a></li>
 							
-								<li><a href="https://twitter.com/atlasdanoticia">Twitter</a></li>
+								<li><a href="https://twitter.com/atlasdanoticia"><i class="icon icon--twitter fa-lg"></i></a></li>
 							
 						</ul><!-- /.site-header__nav -->
 						<button class="offcanvas-toggle visible-xs">
@@ -92,7 +92,7 @@
 									<h1 class="hero-subheader__title">Tabelas do Atlas da Notícia</h1>
 								
 								
-									<p class="hero-subheader__desc">Veja o que saiu na imprensa sobre o Atlas da Notícia</p>
+									<p class="hero-subheader__desc">Principais tabelas do levantamento publicado em dezembro de 2019</p>
 								
 								
 								
@@ -112,13 +112,29 @@
 						<div class="content">
 							<p>As tabelas abaixo são alimentadas em tempo real diretamente da API do Atlas da Notícia. O tempo de carregamento pode demorar um pouco.</p>
 
-<h3 id="número-de-desertos-de-notícias-por-região">Número de desertos de notícias por região</h3>
+<h3 id="nº-de-desertos-de-notícias-por-região">Nº de desertos de notícias por região</h3>
 
-<iframe src="../tabelas/desertos_regiao.html" frameborder="no" width="100%" height="300px" seamless=""></iframe>
+<p><small>
+Na API, essa tabela corresponde à URL: <br />
+<code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-region</code></small></p>
 
-<h3 id="número-de-desertos-de-notícias-por-uf">Número de desertos de notícias por UF</h3>
+<iframe src="../tabelas/desertos_regiao.html" frameborder="no" width="100%" height="500px" seamless=""></iframe>
 
-<iframe src="../tabelas/desertos_uf.html" frameborder="no" width="100%" height="950px" seamless=""></iframe>
+<h3 id="nº-de-desertos-de-notícias-por-uf">Nº de desertos de notícias por UF</h3>
+<p><small>
+Na API, essa tabela corresponde à URL: <br />
+<code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-state</code></small></p>
+
+<iframe src="../tabelas/desertos_uf.html" frameborder="no" width="100%" height="1250px" seamless=""></iframe>
+
+<h3 id="veículos-por-100-mil-habitantes-agrupados-por-uf">Veículos por 100 mil habitantes, agrupados por UF</h3>
+<p><small>
+Na API, essa tabela corresponde à URL: <br />
+<code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/data/med-idhm-2010-state-region</code></small></p>
+
+<p><small> <em>Arraste a tabela para o lado para ver todas as colunas</em> </small></p>
+
+<iframe src="../tabelas/veiculos_100khab_uf.html" frameborder="no" width="100%" height="1450px" seamless=""></iframe>
 
 						</div><!-- /.content -->
 					</div><!-- /.col -->
