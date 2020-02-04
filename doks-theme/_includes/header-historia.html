@@ -1,0 +1,191 @@
+<style>
+.headerhist{
+  text-align:center;
+  padding-top: 70px;
+}
+
+.headerhist h1{
+  font-size: 3em
+}
+
+.headerhist h2{
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.headerhist h3{
+  font-weight: 400;
+  font-size: 1em;
+}
+
+span{
+  color: #333333
+}
+
+</style>
+
+<!-- Navigation -->
+<div class="split-header" style="padding: 0; height: 100vh">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container headerhist">
+  <h1>
+  OS DESERTOS DE NOTÍCIA NO BRASIL
+  </h1>
+  <h2>Onde estão e como são os locais que não possuem acesso a jornalismo</h2>
+
+  <h3>Fevereiro de <span>2020</span> <br /> Texto por <span>Sérgio Spagnuolo</span> <br /> Gráficos por <span>Rodolfo Almeida</span></h3> <br />
+
+    <hr />
+    <p><small><a href="/plataforma" style="border-bottom: none">Acesse a plataforma</a> ou continue navegando para baixo para ver as estatísticas
+      </small></p>
+      <!--
+      <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding:30px !important">
+            <ul class="nav navbar-nav navbar-right" style="display: inline-flex; color: black">
+                  {% for social in site.social %}
+                  <li>
+                    <a class="page-scroll" href="{{ social.url }}" class=""><i class="fab fa-{{ social.title }} fa-2x"></i></a>
+                  </li>
+                  {% endfor %}
+                  <li style="padding-top:16px; padding-left: 2px">
+                    <img src="img/vortex-layout3-05.svg" alt="Vortex Media icon" width="26px" />
+                    </li>
+
+                </ul>
+        </div>
+        -->
+    </div>
+
+</nav>
+
+
+
+<section id="home">
+<!-- Header -->
+	<div class="intro-header">
+
+		<div class="container">
+
+			<div class="row">
+        <div class="col-lg-6" style="padding: 0; text-align:none">
+          <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/cover_2.png" width="100%" />
+				</div>
+				<div class="col-lg-6" style="padding: 0; height:320px;">
+          <!--<button type="button" class="btn btn-primary call btn-lg">Fique por dentro</button>-->
+					<div class="intro-message-alt">
+                    <div class="output" id="output">
+                    <h2 class="cursor"></h2>
+                      <p></p>
+                    </div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+	<!-- /.intro-header -->
+</section>
+
+<script type="text/javascript">
+  // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
+  var i = 0,
+      a = 0,
+      isBackspacing = false,
+      isParagraph = false;
+
+  // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
+  var textArray = [
+    "Um levantamento único.|Mapeamos os veículos de jornalismo no território brasileiro.",
+    "Dados abertos a todos.|Disponibilizamos integralmente nossa base de dados, de graça.",
+    "Fomento à pesquisa.|Nossos dados subsidiam estudos acadêmicos, jornalísticos e até de mercado.",
+    "Conheça o Atlas da Notícia"
+  ];
+
+  // Speed (in milliseconds) of typing.
+  var speedForward = 40, //Typing Speed
+      speedWait = 1000, // Wait between typing and backspacing
+      speedBetweenLines = 600, //Wait between first and second lines
+      speedBackspace = 10; //Backspace Speed
+
+  //Run the loop
+  typeWriter("output", textArray);
+
+  function typeWriter(id, ar) {
+    var element = $("#" + id),
+        aString = ar[a],
+        eHeader = element.children("h2"), //Header element
+        eParagraph = element.children("p"); //Subheader element
+
+    // Determine if animation should be typing or backspacing
+    if (!isBackspacing) {
+
+      // If full string hasn't yet been typed out, continue typing
+      if (i < aString.length) {
+
+        // If character about to be typed is a pipe, switch to second line and continue.
+        if (aString.charAt(i) == "|") {
+          isParagraph = true;
+          eHeader.removeClass("cursor");
+          eParagraph.addClass("cursor");
+          i++;
+          setTimeout(function(){ typeWriter(id, ar); }, speedBetweenLines);
+
+        // If character isn't a pipe, continue typing.
+        } else {
+          // Type header or subheader depending on whether pipe has been detected
+          if (!isParagraph) {
+            eHeader.text(eHeader.text() + aString.charAt(i));
+          } else {
+            eParagraph.text(eParagraph.text() + aString.charAt(i));
+          }
+          i++;
+          setTimeout(function(){ typeWriter(id, ar); }, speedForward);
+        }
+
+      // If full string has been typed, switch to backspace mode.
+      } else if (i == aString.length) {
+
+        isBackspacing = true;
+        setTimeout(function(){ typeWriter(id, ar); }, speedWait);
+
+      }
+
+    // If backspacing is enabled
+    } else {
+
+      // If either the header or the paragraph still has text, continue backspacing
+      if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+
+        // If paragraph still has text, continue erasing, otherwise switch to the header.
+        if (eParagraph.text().length > 0) {
+          eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+        } else if (eHeader.text().length > 0) {
+          eParagraph.removeClass("cursor");
+          eHeader.addClass("cursor");
+          eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+        }
+        setTimeout(function(){ typeWriter(id, ar); }, speedBackspace);
+
+      // If neither head or paragraph still has text, switch to next quote in array and start typing.
+      } else {
+
+        isBackspacing = false;
+        i = 0;
+        isParagraph = false;
+        a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+        setTimeout(function(){ typeWriter(id, ar); }, 50);
+
+      }
+    }
+  }</script>
