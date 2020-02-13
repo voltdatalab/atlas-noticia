@@ -1,17 +1,17 @@
 <style>
 .headerhist{
   text-align:center;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .headerhist h1{
-  font-size: 3em
+  font-size: 3em;
 }
 
 .headerhist h2{
   font-weight: 400;
-  color: #999;
-  margin-bottom: 20px;
+  color: #444;
+  text-align: center
 }
 
 .headerhist h3{
@@ -19,83 +19,50 @@
   font-size: 1em;
 }
 
+
+.hero-subheader{
+  background-color: #f4f4f4;
+}
+
 span{
-  color: #333333
+  color: #333;
+}
+
+.intro-message-alt{
+  margin: 0 auto;
+  max-width: 670px;
+  height: 200px;
+}
+
+.intro-message-alt h4{
+  margin: 0 auto;
+  max-width: 670px;
+  color: #008596;
+  font-size: 1.2em;
+  text-align: center
+
 }
 
 </style>
 
+<div class="hero-subheader">
 <!-- Navigation -->
-<div class="split-header" style="padding: 0; height: 100vh">
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container headerhist">
-  <h1>
-  OS DESERTOS DE NOTÍCIA NO BRASIL
-  </h1>
-  <h2>Onde estão e como são os locais que não possuem acesso a jornalismo</h2>
-
-  <h3>Fevereiro de <span>2020</span> <br /> Texto por <span>Sérgio Spagnuolo</span> <br /> Gráficos por <span>Rodolfo Almeida</span></h3> <br />
-
-    <hr />
-    <p><small><a href="/plataforma" style="border-bottom: none">Acesse a plataforma</a> ou continue navegando para baixo para ver as estatísticas
-      </small></p>
-      <!--
-      <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Navegação</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+    <div class="split-header" style="padding: 0;">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container headerhist">
+              <h1>
+              OS DESERTOS DE NOTÍCIA NO BRASIL
+              </h1>
+                      <div class="output" id="output" style="min-height: 250px">
+                        <h2></h2>
+                          <h4 class="cursor"></h4>
+                        <br /><br /><br /><br />
+                      </div>
             </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding:30px !important">
-            <ul class="nav navbar-nav navbar-right" style="display: inline-flex; color: black">
-                  {% for social in site.social %}
-                  <li>
-                    <a class="page-scroll" href="{{ social.url }}" class=""><i class="fab fa-{{ social.title }} fa-2x"></i></a>
-                  </li>
-                  {% endfor %}
-                  <li style="padding-top:16px; padding-left: 2px">
-                    <img src="img/vortex-layout3-05.svg" alt="Vortex Media icon" width="26px" />
-                    </li>
 
-                </ul>
-        </div>
-        -->
+        </nav>
     </div>
-
-</nav>
-
-
-
-<section id="home">
-<!-- Header -->
-	<div class="intro-header">
-
-		<div class="container">
-
-			<div class="row">
-        <div class="col-lg-6" style="padding: 0; text-align:none">
-          <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/cover_2.png" width="100%" />
-				</div>
-				<div class="col-lg-6" style="padding: 0; height:320px;">
-          <!--<button type="button" class="btn btn-primary call btn-lg">Fique por dentro</button>-->
-					<div class="intro-message-alt">
-                    <div class="output" id="output">
-                    <h2 class="cursor"></h2>
-                      <p></p>
-                    </div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-		<!-- /.container -->
-
-	</div>
-	<!-- /.intro-header -->
-</section>
+</div>
 
 <script type="text/javascript">
   // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
@@ -106,17 +73,16 @@ span{
 
   // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
   var textArray = [
-    "Um levantamento único.|Mapeamos os veículos de jornalismo no território brasileiro.",
-    "Dados abertos a todos.|Disponibilizamos integralmente nossa base de dados, de graça.",
-    "Fomento à pesquisa.|Nossos dados subsidiam estudos acadêmicos, jornalísticos e até de mercado.",
-    "Conheça o Atlas da Notícia"
+    "18% da população carece de acesso a jornalismo local",
+    "62% dos municípios não têm cobertura noticiosa",
+    "Em geral, desertos de notícias possuem 7.100 habitantes"
   ];
 
   // Speed (in milliseconds) of typing.
-  var speedForward = 40, //Typing Speed
-      speedWait = 1000, // Wait between typing and backspacing
+  var speedForward = 30, //Typing Speed
+      speedWait = 1500, // Wait between typing and backspacing
       speedBetweenLines = 600, //Wait between first and second lines
-      speedBackspace = 10; //Backspace Speed
+      speedBackspace = 3; //Backspace Speed
 
   //Run the loop
   typeWriter("output", textArray);
@@ -125,7 +91,7 @@ span{
     var element = $("#" + id),
         aString = ar[a],
         eHeader = element.children("h2"), //Header element
-        eParagraph = element.children("p"); //Subheader element
+        eParagraph = element.children("h6"); //Subheader element
 
     // Determine if animation should be typing or backspacing
     if (!isBackspacing) {

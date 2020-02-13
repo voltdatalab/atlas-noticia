@@ -469,8 +469,8 @@ color: #241F21;
 #banner{
   padding: 0;
   text-align: right;
-  background-image: url(../img/vortex-header-plenario.jpg);
-  /* background-attachment: fixed; */
+  /*background-image: url(../img/.jpg);
+   background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
