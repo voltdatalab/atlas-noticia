@@ -17,11 +17,11 @@ doks:
             - item_name: Recursos e API
               item_url: '../../plataforma'
             - item_name: Sobre o Atlas
-              item_url: '../../sobre'
+              item_url: '../../plataforma/sobre'
             - item_name: Cadastre um veículo
-              item_url: '../../formulario'
+              item_url: '../../plataforma/formulario'
             - item_name: 'Dados abertos'
-              item_url: '../../consulta'
+              item_url: '../../plataforma/consulta'
             - item_name: '<i class="icon icon--twitter fa-lg"></i>'
               item_url: 'https://twitter.com/atlasdanoticia'
 
