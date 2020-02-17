@@ -6,17 +6,19 @@ tags: "jornalismo, jornalismo local, Atlas da Notícia, dados abertos"
 
 # Theme settings
 doks:
-    baseurl: #/plataforma
+    baseurl: "/" #plataforma
     color_theme: red # Available themes: blue (default), green, purple, red and yellow
-    atualizacao: Última atualização em dezembro/2019
+    atualizacao: Última atualização em fevereiro/2020
     header:
         logo:
             text: Atlas da Notícia
             image:
         nav:
+            - item_name: Recursos e API
+              item_url: '../../plataforma'
             - item_name: Sobre o Atlas
               item_url: '../sobre'
-            - item_name: Indique um veículo
+            - item_name: Cadastre um veículo
               item_url: '../formulario'
             - item_name: 'Dados abertos'
               item_url: '../consulta'

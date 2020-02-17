@@ -45,12 +45,3 @@ O **Atlas da Notícia** é inspirado no projeto America’s Growing News Desert,
 A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros.
 
 A primeira edição do **Atlas da Notícia** foi publicada em novembro de 2017, com um recorte sobre jornais impressos e veículos online de notícias.
-
-#### Fontes do levantamento Atlas da Notícia
-- Levantamento próprio do Atlas da Notícia
-- Atlas Brasil/PNUD/IDHM
-- Associação Nacional de Jornais
-- Associações regionais de jornais (Adjoris)
-- Instituto Brasileiro de Geografia e Estatística
-- Secretaria de Comunicação da Presidência da República
-- Ministério da Ciência, Tecnologia, Inovações e Comunicações

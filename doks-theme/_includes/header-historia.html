@@ -43,7 +43,45 @@ span{
 
 }
 
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons li::before{
+  content: ""
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+ul.share-buttons img{
+  width: 32px;
+}
+
 </style>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="../doks-theme/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../doks-theme/assets/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../doks-theme/assets/js/landing-page.js"></script>
+
 
 <div class="hero-subheader">
 <!-- Navigation -->
@@ -58,6 +96,14 @@ span{
                           <h4 class="cursor"></h4>
                         <br /><br /><br /><br />
                       </div>
+
+                      <ul class="share-buttons">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.atlas.jor.br&quote=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="../graficos/icones_redes/Facebook.svg" /></a></li>
+            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.atlas.jor.br&text=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil:%20http%3A%2F%2Fwww.atlas.jor.br&via=https://twitter.com/atlasdanoticia" target="_blank" title="Tweet"><img alt="Tweet" src="../graficos/icones_redes/Twitter.svg" /></a></li>
+            <li><a href="https://getpocket.com/save?url=http%3A%2F%2Fwww.atlas.jor.br&title=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil" target="_blank" title="Add to Pocket"><img alt="Add to Pocket" src="../graficos/icones_redes/Pocket.svg" /></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.atlas.jor.br&title=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil&summary=Atlas%20da%20Not%C3%ADcia%20-%20Mapeando%20o%20jornalismo%20local%20no%20Brasil&source=http%3A%2F%2Fwww.atlas.jor.br" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="../graficos/icones_redes/LinkedIn.svg" /></a></li>
+            <li><a href="mailto:?subject=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil&body=Atlas%20da%20Not%C3%ADcia%20-%20Mapeando%20o%20jornalismo%20local%20no%20Brasil:%20http%3A%2F%2Fwww.atlas.jor.br" target="_blank" title="Send email"><img alt="Send email" src="../graficos/icones_redes/Email.svg" /></a></li>
+          </ul>
             </div>
 
         </nav>

@@ -49,6 +49,10 @@ grid_navigation:
       excerpt: Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil
       cta: Acesse
       url: 'sobre'
+    - title: Metodologia
+      excerpt: Como é feito o levantamento do Atlas sobre a imprensa local brasileira
+      cta: Acesse
+      url: 'metodologia'
     - title: Equipe
       excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
       cta: Acesse
@@ -57,7 +61,7 @@ grid_navigation:
       excerpt: Explore e faça download dos dados brutos completos do levantamento do Atlas da Notícia
       cta: Veja os dados
       url: 'consulta'
-    - title: Estatísticas
+    - title: Estatísticas básicas
       excerpt: Principais dados, análises próprias e gráficos do Atlas da Notícia
       cta: Veja os dados
       url: 'estatisticas'
