@@ -22,6 +22,8 @@ doks:
               item_url: '../../plataforma/formulario'
             - item_name: 'Dados abertos'
               item_url: '../../plataforma/consulta'
+            - item_name: 'ENGLISH'
+              item_url: '../../english'
             - item_name: '<i class="icon icon--twitter fa-lg"></i>'
               item_url: 'https://twitter.com/atlasdanoticia'
 

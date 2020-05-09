@@ -1,0 +1,203 @@
+<style>
+.headerhist{
+  text-align:center;
+  padding-top: 100px;
+}
+
+.headerhist h1{
+  font-size: 3em;
+}
+
+.headerhist h2{
+  font-weight: 400;
+  color: #444;
+  text-align: center
+}
+
+.headerhist h3{
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+.hero-subheader{
+  background-color: #f4f4f4;
+}
+
+span{
+  color: #333;
+}
+
+.intro-message-alt{
+  margin: 0 auto;
+  max-width: 670px;
+  height: 200px;
+}
+
+.intro-message-alt h4{
+  margin: 0 auto;
+  max-width: 670px;
+  color: #008596;
+  font-size: 1.2em;
+  text-align: center
+
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons li::before{
+  content: ""
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+ul.share-buttons img{
+  width: 32px;
+}
+
+</style>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="../doks-theme/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../doks-theme/assets/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../doks-theme/assets/js/landing-page.js"></script>
+
+
+<div class="hero-subheader">
+<!-- Navigation -->
+    <div class="split-header" style="padding: 0;">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container headerhist">
+              <h1>
+              THE NEWS DESERTS IN BRAZIL
+              </h1>
+                      <div class="output" id="output" style="min-height: 250px">
+                        <h2></h2>
+                          <h4 class="cursor"></h4>
+                        <br /><br /><br /><br />
+                      </div>
+
+                      <ul class="share-buttons">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.atlas.jor.br&quote=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="../graficos/icones_redes/Facebook.svg" /></a></li>
+            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.atlas.jor.br&text=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil:%20http%3A%2F%2Fwww.atlas.jor.br&via=https://twitter.com/atlasdanoticia" target="_blank" title="Tweet"><img alt="Tweet" src="../graficos/icones_redes/Twitter.svg" /></a></li>
+            <li><a href="https://getpocket.com/save?url=http%3A%2F%2Fwww.atlas.jor.br&title=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil" target="_blank" title="Add to Pocket"><img alt="Add to Pocket" src="../graficos/icones_redes/Pocket.svg" /></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.atlas.jor.br&title=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil&summary=Atlas%20da%20Not%C3%ADcia%20-%20Mapeando%20o%20jornalismo%20local%20no%20Brasil&source=http%3A%2F%2Fwww.atlas.jor.br" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="../graficos/icones_redes/LinkedIn.svg" /></a></li>
+            <li><a href="mailto:?subject=Os%20desertos%20de%20not%C3%ADcias%20no%20Brasil&body=Atlas%20da%20Not%C3%ADcia%20-%20Mapeando%20o%20jornalismo%20local%20no%20Brasil:%20http%3A%2F%2Fwww.atlas.jor.br" target="_blank" title="Send email"><img alt="Send email" src="../graficos/icones_redes/Email.svg" /></a></li>
+          </ul>
+            </div>
+
+        </nav>
+    </div>
+</div>
+
+<script type="text/javascript">
+  // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
+  var i = 0,
+      a = 0,
+      isBackspacing = false,
+      isParagraph = false;
+
+  // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
+  var textArray = [
+    "18% of the population lacks access to local journalism",
+    "62% of municipalities do not have local news coverage",
+    "News deserts are usually small cities, of some 7,100 people"
+  ];
+
+  // Speed (in milliseconds) of typing.
+  var speedForward = 30, //Typing Speed
+      speedWait = 1500, // Wait between typing and backspacing
+      speedBetweenLines = 600, //Wait between first and second lines
+      speedBackspace = 3; //Backspace Speed
+
+  //Run the loop
+  typeWriter("output", textArray);
+
+  function typeWriter(id, ar) {
+    var element = $("#" + id),
+        aString = ar[a],
+        eHeader = element.children("h2"), //Header element
+        eParagraph = element.children("h6"); //Subheader element
+
+    // Determine if animation should be typing or backspacing
+    if (!isBackspacing) {
+
+      // If full string hasn't yet been typed out, continue typing
+      if (i < aString.length) {
+
+        // If character about to be typed is a pipe, switch to second line and continue.
+        if (aString.charAt(i) == "|") {
+          isParagraph = true;
+          eHeader.removeClass("cursor");
+          eParagraph.addClass("cursor");
+          i++;
+          setTimeout(function(){ typeWriter(id, ar); }, speedBetweenLines);
+
+        // If character isn't a pipe, continue typing.
+        } else {
+          // Type header or subheader depending on whether pipe has been detected
+          if (!isParagraph) {
+            eHeader.text(eHeader.text() + aString.charAt(i));
+          } else {
+            eParagraph.text(eParagraph.text() + aString.charAt(i));
+          }
+          i++;
+          setTimeout(function(){ typeWriter(id, ar); }, speedForward);
+        }
+
+      // If full string has been typed, switch to backspace mode.
+      } else if (i == aString.length) {
+
+        isBackspacing = true;
+        setTimeout(function(){ typeWriter(id, ar); }, speedWait);
+
+      }
+
+    // If backspacing is enabled
+    } else {
+
+      // If either the header or the paragraph still has text, continue backspacing
+      if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+
+        // If paragraph still has text, continue erasing, otherwise switch to the header.
+        if (eParagraph.text().length > 0) {
+          eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+        } else if (eHeader.text().length > 0) {
+          eParagraph.removeClass("cursor");
+          eHeader.addClass("cursor");
+          eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+        }
+        setTimeout(function(){ typeWriter(id, ar); }, speedBackspace);
+
+      // If neither head or paragraph still has text, switch to next quote in array and start typing.
+      } else {
+
+        isBackspacing = false;
+        i = 0;
+        isParagraph = false;
+        a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+        setTimeout(function(){ typeWriter(id, ar); }, 50);
+
+      }
+    }
+  }</script>
