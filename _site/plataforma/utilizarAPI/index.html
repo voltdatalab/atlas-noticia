@@ -155,44 +155,44 @@
 
 <p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>.</p>
 
-<p>Abra o Postman e clique em <code class="highlighter-rouge">New &gt;&gt; Get Request</code>.</p>
+<p>Abra o Postman e clique em <code class="language-plaintext highlighter-rouge">New &gt;&gt; Get Request</code>.</p>
 
 <p><img src="../../graficos/postman_get.png" alt="postman get" /></p>
 
-<p>Na barra de naveração é necessário selecionar a opção <code class="highlighter-rouge">POST</code> e colocar a seguinte URL: <code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/auth/login</code>. Essa URL vai fazer com que sua requisição de login seja feita ao servidor do <em>Atlas da Notícia</em>.</p>
+<p>Na barra de naveração é necessário selecionar a opção <code class="language-plaintext highlighter-rouge">POST</code> e colocar a seguinte URL: <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/auth/login</code>. Essa URL vai fazer com que sua requisição de login seja feita ao servidor do <em>Atlas da Notícia</em>.</p>
 
 <p><img src="../../graficos/postman_barra_nav.png" alt="postman get" /></p>
 
 <p>Agora é necessário colocar as credenciais necessárias para que o login seja feito. Utilize seu login e senha escolhidos no momento do registro da API.</p>
 
-<p>Para isso, clique na aba <code class="highlighter-rouge">Body</code> e coloque copie e cole o seguinte código substituindo os valores abaixo por sua própria credencial:</p>
+<p>Para isso, clique na aba <code class="language-plaintext highlighter-rouge">Body</code> e coloque copie e cole o seguinte código substituindo os valores abaixo por sua própria credencial:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
     "email": "nome@email.com",
     "password": "12345678"
 }
 </code></pre></div></div>
 
-<p>Isso vai gerar um <code class="highlighter-rouge">access_token</code>, com o qual você vai poder retornar dados do nosso banco de dados. Esse recurso é utilizado para dar mais segurança às informações e evitar abusos a nossos servidores gratuitos.</p>
+<p>Isso vai gerar um <code class="language-plaintext highlighter-rouge">access_token</code>, com o qual você vai poder retornar dados do nosso banco de dados. Esse recurso é utilizado para dar mais segurança às informações e evitar abusos a nossos servidores gratuitos.</p>
 
-<p>Certifique-se de que o formato escolhido esteja com a caixa selecionada <code class="highlighter-rouge">RAW</code> e que o retorno seja em <code class="highlighter-rouge">JSON</code>, conforme as flechas indicam na figura abaixo.</p>
+<p>Certifique-se de que o formato escolhido esteja com a caixa selecionada <code class="language-plaintext highlighter-rouge">RAW</code> e que o retorno seja em <code class="language-plaintext highlighter-rouge">JSON</code>, conforme as flechas indicam na figura abaixo.</p>
 
 <p><img src="../../graficos/postman_bearer.png" alt="postman get" /></p>
 
-<p>Clique no botão azul <code class="highlighter-rouge">SEND</code>, o que retornará seu token mais abaixo na tela.</p>
+<p>Clique no botão azul <code class="language-plaintext highlighter-rouge">SEND</code>, o que retornará seu token mais abaixo na tela.</p>
 
-<p>O próximo passo é criar uma aba nova no Postman e utilizar a função <code class="highlighter-rouge">GET</code>. Isso que vai retornar os dados para dentro de seu aplitivo.</p>
+<p>O próximo passo é criar uma aba nova no Postman e utilizar a função <code class="language-plaintext highlighter-rouge">GET</code>. Isso que vai retornar os dados para dentro de seu aplitivo.</p>
 
-<p>Mas antes, é necessário informar à sua aplicação o token que você vai utilizar, caso contrário o servidor não vai reconhecer seu login. Clique em <code class="highlighter-rouge">Authorization</code> e escolha o tipo de autorização como <code class="highlighter-rouge">Type = Bearer</code>. Na caixa do lado
+<p>Mas antes, é necessário informar à sua aplicação o token que você vai utilizar, caso contrário o servidor não vai reconhecer seu login. Clique em <code class="language-plaintext highlighter-rouge">Authorization</code> e escolha o tipo de autorização como <code class="language-plaintext highlighter-rouge">Type = Bearer</code>. Na caixa do lado
 é possível colar o token que você acabou de gerar na outra aba. Lembrando que esse token se renova a cada uma hora.</p>
 
-<p>Um exemplo de API que você pode testar para ver se seu retorno está funcionando é <code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/data/analytic?estado=RO</code>, a qual retorna todos os veículos do Estado de Rondônia.</p>
+<p>Um exemplo de API que você pode testar para ver se seu retorno está funcionando é <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/data/analytic?estado=RO</code>, a qual retorna todos os veículos do Estado de Rondônia.</p>
 
-<p>Para saber as URLs válidas, que retornam dados, é preciso ler a documentação da API e entender as combinações possíveis. Por exemplo a URL <code class="highlighter-rouge">https://api.atlas.jor.br/api/v1/data/analytic?segmento=Online&amp;estado=SP</code> retorna todos os veículos online do Estado de São Paulo.</p>
+<p>Para saber as URLs válidas, que retornam dados, é preciso ler a documentação da API e entender as combinações possíveis. Por exemplo a URL <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/data/analytic?segmento=Online&amp;estado=SP</code> retorna todos os veículos online do Estado de São Paulo.</p>
 
 <p><a href="https://api.atlas.jor.br/docs"><button class="btn btn--dark btn--rounded btn--w-icon"> Acesse a documentação da API </button></a></p>
 
-<p>Basta clicar em <code class="highlighter-rouge">SEND</code> e ver abaixo na tela o resultado.</p>
+<p>Basta clicar em <code class="language-plaintext highlighter-rouge">SEND</code> e ver abaixo na tela o resultado.</p>
 
 <p><img src="../../graficos/postman_results.png" alt="postman get" /></p>
 
