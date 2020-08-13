@@ -437,10 +437,10 @@ a:focus {
 .button {
   color: #fff;
   background-color: #008596;
-  padding: .7rem 1.5rem;
+  padding: .4rem 1rem;
   transition: color .2s, background-color .2s;
   margin-right: .9375rem;
-  border-radius: .425rem;
+  border-radius: .2rem;
   font-family: "Vollkorn",sans-serif;
   font-weight: 500;
   display: inline-block;
@@ -448,9 +448,26 @@ a:focus {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #737373;
 }
 
+.button-dist{
+  color: #222222;
+  background-color: #eeeeee;
+  padding: .4rem 1rem;
+  transition: color .2s, background-color .2s;
+  margin-right: .9375rem;
+  border-radius: .2rem;
+  font-family: "Vollkorn",sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0 0 1.25rem 1rem;
+}
+
+.button-dist:hover{
+  background-color: #737373;
+  color: #fff
+}
 /* HEADER */
 
 .output {
