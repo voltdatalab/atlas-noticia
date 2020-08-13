@@ -3,7 +3,8 @@
   <div class="col-md-6 col-md-offset-3 paragrafo" style="padding: 3%; margin-top: 30px;">
     <hr />
       <p>Para estudar os <em>desertos de notícia</em> precisamos também entender algumas das principais características que eles têm, principalmente relacionadas a desenvolvimento humano.</p>
-      <p>Ao compararmos os <em>desertos</em> e <em>quase desertos</em> com dados do Índice de Desenvolvimento Humano, conseguimos ver uma clara correlação: nos municípios mais desenvolvidos, uma maior presença de veículos.</p>
+      <p>Ao compararmos os <em>desertos</em> e <em>quase desertos</em> com dados do Índice de Desenvolvimento Humano, conseguimos ver uma clara correlação: </p>
+      <p><span class="destaque">Nos municípios mais desenvolvidos, uma maior presença de veículos.</span></p>
       <p>Leve em conta que os dados <a href="http://atlasbrasil.org.br/2013/" target="_blank">Atlas Brasil</a> datam de 2012.</p>
       <p><strong>Ainda não é possível</strong> dizer que uma coisa resulta na outra. Ou seja, uma <em>correlação</em> não acarreta uma <em>causalidade</em>. Ter jornalismo local não resulta em melhores índices de desenvolvimento, e melhores índices de desenvolvimento não necessariamente resultam em mais jornalismo local. </p>
       <p>O que é possível afirmar agora é que maior presença de jornalismo local anda junto com melhor desenvolvimento humano, tendem a acontecer ao mesmo tempo. E isso diz bastante sobre os locais que temos que olhar para entender mais a fundo o acesso (ou a falta dele) à informação local no Brasil: os municípios mais pobres e carentes de educação.</p>
@@ -34377,14 +34378,30 @@
 
             <p>Identificamos e mapeamos veículos que publicam, mesmo que só esparsamente, notícias de interesse público – sejam impressos ou digitais – e com periodicidade diária, semanal ou quinzenal. Estamos falando de produtores de notícias sobre a prefeitura e a câmara municipal e temas como contas públicas, saúde, educação, segurança, mobilidade e meio-ambiente. <a href="https://www.atlas.jor.br/plataforma/metodologia/">Acesse a metodologia detalhada aqui.</a></p>
 
-            <p>O projeto é uma iniciativa do o Instituto para o Desenvolvimento do Jornalismo (Projor), mantenedor do Observatório da Imprensa, em parceria com Volt Data Lab. </p>
+            <p>O projeto é uma iniciativa do o <a href="https://www.projor.org.br/" target="_blank">Instituto para o Desenvolvimento do Jornalismo (Projor)</a>, mantenedor do Observatório da Imprensa, em parceria com a agência <a href="https://www.voltdata.info" target="_blank">Volt Data Lab</a>. </p>
 
-            <p>O <strong>Atlas da Notícia</strong> é inspirado no projeto America’s Growing News Desert, da revista Columbia Journalism Review, que mapeou a presença de jornais nos Estados Unidos em meio às mudanças no modelo de negócios do jornalismo que levaram ao fechamento de diversos veículos.</p>
+            <p>O <strong>Atlas da Notícia</strong> é inspirado no projeto <a href="https://www.cjr.org/local_news/american-news-deserts-donuts-local.php" target="_blank">America’s Growing News Deserts</a>, da revista Columbia Journalism Review, que mapeou a presença de jornais nos Estados Unidos em meio às mudanças no modelo de negócios do jornalismo que levaram ao fechamento de diversos veículos.</p>
 
             <p>A metododologia do projeto é baseada, principalmente, na contabilização de veículos de notícia no Brasil, seja através de pesquisa própria como de colaboração de terceiros. Em dezembro de 2019, foi lançada <a href="https://www.atlas.jor.br/plataforma/utilizarAPI/">uma API</a> a fim de automatizar e facilitar a coleta de dados, assim como as análises.</p>
 
             <p>A primeira edição do Atlas da Notícia foi publicada em novembro de 2017, com um recorte sobre jornais impressos e veículos online de notícias.</p>
 
+
+            <hr />
+            <h2>Estatísticas básicas</h2>
+            <p>Dados levantados na terceira edição do <strong>Atlas da Notícia</strong>, entre setembro e novembro de 2019.</p>
+
+            <div class="row" style="display: flex; flex-wrap: wrap">
+              {% for dados in site.data.dados_basicos %}
+                <div class="col-lg-12" style="margin: 0">
+                  <h3 class="title-perfil" style="margin-top:5px">{{ dados.titulo }}</h3>
+                  <small class="sub-perfil"> {{ dados.subtitulo }} </small>
+                  <p> {{ dados.desc }} </p>
+                </div>
+            {% endfor %}
+            </div>
+
+            <hr />
             <p>As fontes que sustentam essa pesquisa são:</p>
             <ul>
               <li>Levantamento próprio do Atlas da Notícia, que contou com seis pesquisadores em todas as regiões e cerca de <u><a href="https://www.atlas.jor.br/plataforma/colaboradores/">200 voluntários colaboradores</a></u>;</li>
