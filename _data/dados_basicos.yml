@@ -1,5 +1,5 @@
 - titulo: Veículos totais mapeados
-  subtitulo: 'Considera iniciativas jornalísticas e que estejam em funcionamento'
+  subtitulo: 'Considera iniciativas jornalísticas e que estejam em funcionamento até dezembro de 2019'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">versão atlas</th>
@@ -23,8 +23,8 @@
   </tr>
 </table>'
 
-- titulo: Veículos por caráter jornalístico
-  subtitulo: 'Considera apenas veículos que estejam em funcionamento'
+- titulo: Veículos por tipo
+  subtitulo: 'Considera apenas veículos que estejam em funcionamento até dezembro de 2019'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">tipo</th>
@@ -64,7 +64,7 @@
 </table>'
 
 - titulo: Veículos por fonte
-  subtitulo: 'Considera iniciativas jornalísticas e não-jornalísticas que estejam em funcionamento'
+  subtitulo: 'Considera iniciativas jornalísticas e não-jornalísticas que estejam em funcionamento até dezembro de 2019'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">fonte</th>
@@ -114,7 +114,7 @@
 </table>'
 
 - titulo: Veículos por região
-  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento'
+  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento até dezembro de 2019'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">região</th>
@@ -149,7 +149,7 @@
 </table>'
 
 - titulo: Veículos por segmento
-  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento'
+  subtitulo: 'Considera apenas iniciativas jornalísticas e que estejam em funcionamento até dezembro de 2019'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">segmento</th>

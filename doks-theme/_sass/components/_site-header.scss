@@ -49,7 +49,9 @@
 		@include link-reset;
 		display: block;
 		font-size: .875em;
-		font-weight: 500;
+		font-weight: 700;
+		color: #008596;
+		text-decoration: none;
 		font-family: $font-family-secondary;
 		line-height: calc(5.625rem - 1px);
 		text-transform: uppercase;

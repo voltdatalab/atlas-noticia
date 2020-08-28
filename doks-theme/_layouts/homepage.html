@@ -4,19 +4,22 @@
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}">
+		{% include site-header.html %}
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
 						<div class="align-container" data-mh>
 							<div class="align-inner">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" style=""><img src="{{ site.baseurl}}/doks-theme/assets/images/Atlas_verde_vermelho.svg" alt="logo" width="400px"/ style="margin-left:-35px" /></a><br />
-								<!-- {% if page.title %}
+								<h2>{{ page.title }}</h2>
+								<h4>{{ page.description }}</h4>
+								<!-- <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" style=""><img src="{{ site.baseurl}}/doks-theme/assets/images/Atlas_verde_vermelho.svg" alt="logo" width="400px"/ style="margin-left:-35px" /></a><br />
+								{% if page.title %}
 									<h1 class="hero-subheader__title">{{ page.title }}</h1>
 								{% endif %}
 								{% if page.description %}
 									<p class="hero-subheader__desc">{{ page.description }}</p>
-								{% endif %} -->
+								{% endif %}
 								{% for button in page.buttons %}
 									{% if button.external_url == true %}
 									<a href="{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon">
@@ -29,7 +32,7 @@
 										{{ button.content }}
 									</a>
 									{% endif %}
-								{% endfor %}
+								{% endfor %}-->
 							</div><!-- /.align-inner -->
 						</div><!-- /.align-container -->
 					</div><!-- /.col -->

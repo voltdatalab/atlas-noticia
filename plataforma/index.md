@@ -4,8 +4,8 @@ layout: homepage
 keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo, transparência
 
 # Hero section
-title: Atlas da Notícia
-description: Mapeando o jornalismo local no Brasil
+title: Quem somos e o que fazemos
+description: Conheça o projeto e acesse nossos dados e recursos
 buttons:
     - content: API
       url: 'utilizarAPI'
@@ -33,13 +33,17 @@ buttons:
 
 # Grid navigation
 grid_navigation:
+    - title: API Atlas da Notícia
+      excerpt: Veja os recursos que oferecemos e tenha acesso à nossa Interface de Programação de Aplicações
+      cta: Explore e utilize
+      url: 'api'
     - title: Sobre o Atlas
       excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil
-      cta: Acesse
+      cta: Conheça o projeto
       url: 'sobre'
     - title: Equipe
       excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
-      cta: Acesse
+      cta: Quem lidera a iniciativa
       url: 'equipe'
     - title: Colaboradores
       excerpt: O Atlas da Notícia conta com uma valiosa rede de voluntários, que ajudam a obter dados do mapeamento
@@ -47,20 +51,8 @@ grid_navigation:
       url: 'colaboradores'
     - title: Metodologia
       excerpt: Como é feito o levantamento do Atlas sobre a imprensa local brasileira
-      cta: Acesse
+      cta: Entenda como é feito
       url: 'metodologia'
-    - title: Acesse a API
-      excerpt: Tenha acesso à Interface de Programação de Aplicações do Atlas da Notícia
-      cta: Registre-se
-      url: 'https://api.atlas.jor.br/register'
-    - title: Utilizando a API
-      excerpt: Saiba o passo a passo para você utilizar a API do Atlas da Notícia
-      cta: Saiba como usar
-      url: 'utilizarAPI'
-    - title: Documentação da API
-      excerpt: Saiba todos os detalhes da API do Atlas da Notícia para acessar os dados diretamente
-      cta: Leia os docs
-      url: 'https://api.atlas.jor.br/docs'
     - title: Dados abertos
       excerpt: Explore e faça download dos dados brutos completos do levantamento
       cta: Consulte os dados

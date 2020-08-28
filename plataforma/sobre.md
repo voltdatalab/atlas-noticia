@@ -7,8 +7,8 @@ atualizacao:
 
 # Hero section
 title: Sobre o Atlas da Notícia
-description: "Saiba mais a respeito da iniciativa para mapear o jornalismo no Brasil."
-links: equipe
+description: "Saiba mais a respeito da iniciativa que está mapeando o jornalismo no território brasileiro"
+links: '<iframe width="100%" height="323px" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
 
 # Author box
 author:
@@ -30,9 +30,8 @@ page_nav:
         url: '#'
 ---
 
-<iframe width="100%" height="323px" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<a href="../metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Leia a metodologia</button></a>
 
-#### Mapeando os desertos de notícia
 
 O **Atlas da Notícia** é uma iniciativa para mapear veículos produtores de notícias – especialmente de jornalismo local – no território brasileiro.
 

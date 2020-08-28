@@ -8,13 +8,13 @@ atualizacao: Dezembro de 2019
 # Hero section
 title: 'Estatísticas v.3.0'
 description: "Principais análises sobre o mapeamento de veículos de jornalismo no Brasil."
-links: Acessa nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a>
+links: Acesse nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a>
 
 # Author box
 author:
     title: Relatório
     title_url: 'https://docs.google.com/presentation/d/e/2PACX-1vTedpNyScKNhwHzXo_eMIDyZQ_J0NxsdoLhgPz2QIxivW6gC6U92oO6l58ztEDa8QDxsTxfpGrYIw7n/pub?start=false&loop=false&delayms=5000'
-    external_url: true
+    #external_url: true
     description: Google Slides - Atualizado em dezembro de 2019
 
 # Micro navigation
@@ -31,6 +31,9 @@ page_nav:
 ---
 
 ### Nota metodológica
+
+<a href="../metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a>
+
 Os dados contrastam com a edição anterior (49% dos municípios possuíam ao menos um veículo), na qual não foi contabilizada a categorização entre o que é ou não um veículo jornalístico.
 
 Quando levamos em conta somente veículos que publicam algum conteúdo jornalístico, encontramos mais desertos.
@@ -42,12 +45,6 @@ Os dados abaixo consideram **apenas** veículos identificados como jornalístico
 Clique no botão abaixo para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019.
 
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&single=true&output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a>
-
-Colunas e exemplo de dados:
-
-|cidade	| estado | regiao	| codmun_ibge	| populacao	 | ano    | qtd_veiculos | veiculos_por_100k_hab | tipo |
-|-------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Abadia de Goiás	| GO | Centro-Oeste	| 5200050 | 8583	 |2018| 	2 |	23.3 | quase deserto |
 
 
 ## Quadro Geral
@@ -169,7 +166,7 @@ Foram mapeados os fechamentos de 331 veículos jornalísticos brasileiros desde 
 
 ---
 
-## Fontes do levantamento Atlas da Notícia 3.0
+## Fontes do Atlas da Notícia 3.0
 
 | fonte              | veículos | proporção |
 |--------------------|----------|-----------|

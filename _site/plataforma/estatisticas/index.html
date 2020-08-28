@@ -45,17 +45,17 @@
 	<div class="offcanvas visible-xs">
 		<ul class="offcanvas__nav">
 			
-				<li><a href="../../plataforma">Recursos e API</a></li>
+				<li><a href="../../plataforma">Plataforma Atlas</a></li>
 			
-				<li><a href="../../plataforma/sobre">Sobre o Atlas</a></li>
+				<li><a href="../../plataforma/sobre">Sobre</a></li>
 			
-				<li><a href="../../plataforma/formulario">Cadastre um veículo</a></li>
-			
-				<li><a href="../../plataforma/consulta">Dados abertos</a></li>
+				<li><a href="../../plataforma/formulario">Colabore</a></li>
 			
 				<li><a href="../../english">ENGLISH</a></li>
 			
 				<li><a href="https://twitter.com/atlasdanoticia"><i class="icon icon--twitter fa-lg"></i></a></li>
+			
+				<li><a href="https://www.facebook.com/atlasdanoticia"><i class="icon icon--facebook fa-lg"></i></a></li>
 			
 		</ul><!-- /.offcanvas__nav -->
 	</div><!-- /.offcanvas -->
@@ -67,25 +67,26 @@
 			<div class="row">
 				<div class="col-xs-12">
 					
-						<a href="/" class="site-header__logo">Atlas da Notícia</a>
+						<a href="/" class="site-header__logo"><img src="/doks-theme/assets/images/Atlas_verde_vermelho.svg" alt="logo" width="350px" style="margin-left:-35px" /></a>
+						<!--<a href="/" class="site-header__logo">Atlas da Notícia</a>-->
 					
 					
-						<ul class="site-header__nav hidden-xs">
+						<ul class="site-header__nav hidden-sm">
 							
-								<li><a href="../../plataforma">Recursos e API</a></li>
+								<li><a href="../../plataforma">Plataforma Atlas</a></li>
 							
-								<li><a href="../../plataforma/sobre">Sobre o Atlas</a></li>
+								<li><a href="../../plataforma/sobre">Sobre</a></li>
 							
-								<li><a href="../../plataforma/formulario">Cadastre um veículo</a></li>
-							
-								<li><a href="../../plataforma/consulta">Dados abertos</a></li>
+								<li><a href="../../plataforma/formulario">Colabore</a></li>
 							
 								<li><a href="../../english">ENGLISH</a></li>
 							
 								<li><a href="https://twitter.com/atlasdanoticia"><i class="icon icon--twitter fa-lg"></i></a></li>
 							
+								<li><a href="https://www.facebook.com/atlasdanoticia"><i class="icon icon--facebook fa-lg"></i></a></li>
+							
 						</ul><!-- /.site-header__nav -->
-						<button class="offcanvas-toggle visible-xs">
+						<button class="offcanvas-toggle visible-sm">
 							<span></span>
 							<span></span>
 							<span></span>
@@ -107,10 +108,10 @@
 									<h1 class="hero-subheader__title">Estatísticas v.3.0</h1>
 								
 								
-									<p class="hero-subheader__desc">Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.</p>
+									<h4 class="hero-subheader__desc">Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.</h4>
 								
 								
-									<small>Acessa nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a></small>
+									<small>Acesse nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a></small>
 								
 								
 									<br /><em><small>Última atualização em <span style="color:#d40000">Dezembro de 2019</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small></em>
@@ -148,6 +149,9 @@
 					<div class="col-md-7">
 						<div class="content">
 							<h3 id="nota-metodológica">Nota metodológica</h3>
+
+<p><a href="../metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a></p>
+
 <p>Os dados contrastam com a edição anterior (49% dos municípios possuíam ao menos um veículo), na qual não foi contabilizada a categorização entre o que é ou não um veículo jornalístico.</p>
 
 <p>Quando levamos em conta somente veículos que publicam algum conteúdo jornalístico, encontramos mais desertos.</p>
@@ -159,37 +163,6 @@
 <p>Clique no botão abaixo para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019.</p>
 
 <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&amp;single=true&amp;output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a></p>
-
-<p>Colunas e exemplo de dados:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>cidade</th>
-      <th>estado</th>
-      <th>regiao</th>
-      <th>codmun_ibge</th>
-      <th>populacao</th>
-      <th>ano</th>
-      <th>qtd_veiculos</th>
-      <th>veiculos_por_100k_hab</th>
-      <th>tipo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abadia de Goiás</td>
-      <td>GO</td>
-      <td>Centro-Oeste</td>
-      <td>5200050</td>
-      <td>8583</td>
-      <td>2018</td>
-      <td>2</td>
-      <td>23.3</td>
-      <td>quase deserto</td>
-    </tr>
-  </tbody>
-</table>
 
 <h2 id="quadro-geral">Quadro Geral</h2>
 
@@ -740,7 +713,7 @@
 
 <hr />
 
-<h2 id="fontes-do-levantamento-atlas-da-notícia-30">Fontes do levantamento Atlas da Notícia 3.0</h2>
+<h2 id="fontes-do-atlas-da-notícia-30">Fontes do Atlas da Notícia 3.0</h2>
 
 <table>
   <thead>
@@ -844,7 +817,7 @@
 							<h6><a href="https://tinyletter.com/atlasjor" target="_blank">Assine a newsletter</a></h6>
 							
 								<li>
-									<a href="https://www.facebook.com/Site.ObservatoriodaImprensa/" target="_blank" class="social-list__item social-list__item--facebook">
+									<a href="https://www.facebook.com/atlasdanoticia" target="_blank" class="social-list__item social-list__item--facebook">
 										<i class="icon icon--facebook"></i>
 									</a>
 								</li>
