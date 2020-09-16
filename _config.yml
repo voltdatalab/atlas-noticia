@@ -14,7 +14,9 @@ doks:
             text: Atlas da Notícia
             image:
         nav:
-            - item_name: Plataforma Atlas
+            - item_name: Desertos de notícia
+              item_url: '../../desertos-de-noticia/'
+            - item_name: Dados Abertos
               item_url: '../../plataforma'
             - item_name: Sobre
               item_url: '../../plataforma/sobre'
@@ -22,10 +24,6 @@ doks:
               item_url: '../../plataforma/formulario'
             - item_name: 'ENGLISH'
               item_url: '../../english'
-            - item_name: '<i class="icon icon--twitter fa-lg"></i>'
-              item_url: 'https://twitter.com/atlasdanoticia'
-            - item_name: '<i class="icon icon--facebook fa-lg"></i>'
-              item_url: 'https://www.facebook.com/atlasdanoticia'
 
     footer:
         content:
