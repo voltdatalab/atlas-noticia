@@ -16,11 +16,11 @@ description: Utilize nossos recursos para pesquisas, reportagens e projetos
 
 # Grid navigation
 grid_navigation:
-    - title: Acesse a API
+    - title: Cadastrar acesso na API
       excerpt: Cadastre seu email e tenha acesso à Interface de Programação de Aplicações do Atlas da Notícia
       cta: Registre-se
       url: 'https://api.atlas.jor.br/register'
-    - title: Utilizando a API
+    - title: Como utilizar a API
       excerpt: Saiba o passo a passo detalhado para você utilizar a API do Atlas da Notícia, usando Postman, Python e R
       cta: Saiba como usar
       url: 'utilizarAPI'

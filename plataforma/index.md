@@ -4,8 +4,8 @@ layout: homepage
 keywords: jornalismo, jornalismo de dados, atlas da notícia, mapa do jornalismo, transparência
 
 # Hero section
-title: Quem somos e o que fazemos
-description: Conheça o projeto e acesse nossos dados e recursos
+title: Plataforma Atlas da Notícia
+description: Conheça o projeto e acesse nossos recursos
 buttons:
     - content: API
       url: 'utilizarAPI'
@@ -34,52 +34,27 @@ buttons:
 # Grid navigation
 grid_navigation:
     - title: API Atlas da Notícia
-      excerpt: Veja os recursos que oferecemos e tenha acesso à nossa Interface de Programação de Aplicações
+      excerpt: Veja os recursos que oferecemos e tenha acesso à nossa Interface de Programação de Aplicações, é gratuito
       cta: Explore e utilize
       url: 'api'
     - title: Sobre o Atlas
-      excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil
+      excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil, inclusive a metodologia
       cta: Conheça o projeto
       url: 'sobre'
-    - title: Equipe
-      excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
-      cta: Quem lidera a iniciativa
-      url: 'equipe'
-    - title: Colaboradores
-      excerpt: O Atlas da Notícia conta com uma valiosa rede de voluntários, que ajudam a obter dados do mapeamento
-      cta: Veja quem nos ajudou
-      url: 'colaboradores'
-    - title: Metodologia
-      excerpt: Como é feito o levantamento do Atlas sobre a imprensa local brasileira
-      cta: Entenda como é feito
-      url: 'metodologia'
     - title: Dados abertos
-      excerpt: Explore e faça download dos dados brutos completos do levantamento
+      excerpt: Explore nossos dados e faça downloads de tabelas completas do levantamento
       cta: Consulte os dados
       url: 'consulta'
     - title: Estatísticas básicas
-      excerpt: Principais dados, análises próprias e gráficos do Atlas da Notícia
+      excerpt: Veja os principais dados, conclusões, análises e gráficos da versão mais atual da pesquisa do Atlas da Notícia
       cta: Veja as tabelas
       url: 'estatisticas'
     - title: Cadastre um veículo
-      excerpt: Ajude a mapear os veículos de comunicação do Brasil para melhorarmos o conhecimento sobre o jornalismo local. Inclui fechamentos.
+      excerpt: Conhece uma iniciativa jornalística? Cadastre seu conhecimento ou atualize informações já existentes
       cta: Preencha o formulário
       url: 'formulario'
-    - title: Atlas na mídia
-      excerpt: Veja o que saiu na imprensa e em projetos acadêmicos sobre o Atlas da Notícia
-      cta: Acesse
-      url: 'clipping'
-    - title: 1ª Edição do Atlas da Notícia
-      excerpt: Veja as análises e dados da primeira edição (v.1) do projeto
-      cta: Acessar v.1
-      url: 'atlas1'
-    - title: 2ª Edição do Atlas da Notícia
-      excerpt: Veja o que saiu na imprensa e em projetos acadêmicos sobre o Atlas da Notícia
-      cta: Acessar v.2
-      url: 'atlas2'
-    - title: Política de correções
-      excerpt: Saiba como funciona a política de correção do Atlas da Notícia
-      cta: Saiba mais
-      url: 'correcoes'
-
+    - title: Edições passadas
+      excerpt: Conheça as primeiras versões do levantamento iniciado em 2017 e veja como evoluímos
+      cta: Viaje no tempo
+      url: 'edicoes'
 ---

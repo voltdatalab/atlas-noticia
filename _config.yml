@@ -15,27 +15,29 @@ doks:
             image:
         nav:
             - item_name: Desertos de notícia
-              item_url: '../../desertos-de-noticia/'
-            - item_name: Dados Abertos
-              item_url: '../../plataforma'
+              item_url: '/desertos-de-noticia/'
+            - item_name: Plataforma Atlas
+              item_url: '/plataforma'
             - item_name: Sobre
-              item_url: '../../plataforma/sobre'
+              item_url: '/plataforma/sobre'
             - item_name: Colabore
-              item_url: '../../plataforma/formulario'
+              item_url: '/plataforma/formulario'
             - item_name: 'ENGLISH'
-              item_url: '../../english'
+              item_url: '/english'
 
     footer:
         content:
             logo:
                 text:
                 image:
-            copyright: 2020 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
+            copyright: 2020 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><br><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.
         social_list:
             - network_name: facebook
               profile_url: 'https://www.facebook.com/atlasdanoticia'
             - network_name: twitter
               profile_url: 'https://twitter.com/atlasdanoticia'
+            - network_name: medium
+              profile_url: 'https://medium.com/atlas-da-noticia'
             - network_name: github
               profile_url: 'https://github.com/voltdatalab/atlas-analytics'
     google_analytics:

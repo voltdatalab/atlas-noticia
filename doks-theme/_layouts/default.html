@@ -25,16 +25,16 @@
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								{% if page.title %}
-									<h1 class="hero-subheader__title">{{ page.title }}</h1>
+									<h1 class="hero-subheader__title" style="background-color: #ededed;display:inline">{{ page.title }}</h1><br />
 								{% endif %}
 								{% if page.description %}
-									<h4 class="hero-subheader__desc">{{ page.description }}</h4>
+									<h4 class="hero-subheader__desc" style="background-color: #ededed;display:inline">{{ page.description }}</h4><br />
 								{% endif %}
 								{% if page.links %}
-									<small>{{ page.links }}</small>
+									<small style="background-color: #ededed;display:inline">{{ page.links }}</small><br />
 								{% endif %}
 								{% if page.atualizacao %}
-									<br /><em><small>Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small></em>
+									<br /><em><small style="background-color: #ededed;display:inline">Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small></em>
 								{% endif %}
 
 								{% if page.page_nav.prev.content or page.page_nav.next.content %}

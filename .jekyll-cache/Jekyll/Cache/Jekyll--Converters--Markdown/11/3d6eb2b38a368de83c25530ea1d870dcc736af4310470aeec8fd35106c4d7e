@@ -1,0 +1,198 @@
+I"[<h3 id="mapeando-os-desertos-de-notícia">Mapeando os desertos de notícia</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>resultados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Total de veículos mapeados</strong></td>
+      <td>12.467 (impresso + online + rádio + televisão)*</td>
+    </tr>
+    <tr>
+      <td><strong>Total de cidades mapeadas</strong></td>
+      <td>2.710 (~49% dos municípios brasileiros)</td>
+    </tr>
+    <tr>
+      <td><strong>Habitantes em não desertos</strong></td>
+      <td>177 milhões (~85% da população)</td>
+    </tr>
+    <tr>
+      <td><strong>Deserto de notícias</strong></td>
+      <td>2.860 (~52% dos municípios brasileiros)</td>
+    </tr>
+    <tr>
+      <td><strong>Habitantes em desertos</strong></td>
+      <td>30 milhões (~15% da população)</td>
+    </tr>
+    <tr>
+      <td><strong>Quase desertos</strong></td>
+      <td>1.648 (30% dos municípios possuem apenas 1 ou 2 veículos de jornalismo)</td>
+    </tr>
+    <tr>
+      <td><strong>Habitantes em quase desertos</strong></td>
+      <td>34 milhões (~15% da população)</td>
+    </tr>
+    <tr>
+      <td><strong>Desertos + Quase Desertos</strong></td>
+      <td>4.508 (~80% dos municípios brasileiros)</td>
+    </tr>
+    <tr>
+      <td><strong>Habitantes em desertos + quase desertos</strong></td>
+      <td>64 milhões (~31% da população nacional)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/graficos/graficos_atlas2/charts/atlas2.0_total_por_meio.jpeg" alt="Desertos de notícias do Brasil" /></p>
+
+<p><em>Inclui TVs municipais locais</em></p>
+
+<h4 id="nota-importante"><strong>Nota importante</strong></h4>
+<p>Os dados não são diretamente comparáveis com o <a href="/atlas1/">primeiro levantamento</a> feito em novembro de 2017, considerando que na ocasião foram considerados apenas desertos de notícias em relação a jornais impressos e veículos online. Em julho de 2018, os desertos foram calculados apenas para rádio e televisão.</p>
+
+<p>Agora, pela primeira vez, o levantamento inclui todas as mídias.</p>
+
+<p>Além disso, as análises anteriores usaram dados populacionais do Censo de 2010, ao passo que a versão mais recente utiliza dados mais atuais, de 2017.</p>
+
+<hr />
+
+<h3 id="desertos-de-notícias">Desertos de notícias</h3>
+
+<p>Desertos de notícia são municípios sem veículos jornalísticos, ou seja, sem cobertura significativa de imprensa. Eles representam 51% dos municípios brasileiros, com um total de 30 milhões de pessoas.</p>
+
+<p><img src="../graficos/graficos_atlas2/mapas/atlas2_explicado.png" alt="Desertos de notícias do Brasil" /></p>
+
+<p>Por conta do vasto território brasileiro e pelo fato de municípios ao norte do país terem áreas consideravelmente maiores do que mais ao sul, podemos fazer um <em>zoom</em> em cada região para visualizarmos melhor os desertos em cada lugar.</p>
+
+<p><img src="../graficos/graficos_atlas2/mapas/atlas2_regioes_aprox_explicado.png" alt="Desertos de notícias do Brasil" /></p>
+
+<hr />
+
+<h3 id="quase-desertos-de-notícias">Quase desertos de notícias</h3>
+
+<p>Há também os quase desertos, municípios que possuem apenas 1 ou 2 veículos jornalísticos. São localidades que correm o risco de se tornar desertos. Esses locais representam 30% dos municípios do Brasil, com um total de 34 milhões de pessoas.</p>
+
+<p><img src="../graficos/graficos_atlas2/mapas/desertos_quase_gradual_explicado.png" alt="Desertos de notícias do Brasil" /></p>
+
+<p>Se colocarmos os quase desertos combinados com os desertos, para sabermos em escala única a real dimensão dos problemas enfrentados pelo jornalismo local no Brasil, temos o mapa a seguir.</p>
+
+<p><img src="../graficos/graficos_atlas2/mapas/desertos_quase_combinados_explicado.png" alt="Desertos de notícias do Brasil" /></p>
+
+<p>Também conseguimos fazer uma aproximação por região para facilitar a visualização entre desertos, quase desertos e não desertos.</p>
+
+<p><img src="../graficos/graficos_atlas2/mapas/quase_desertos_regioes_zoom_explicado.png" alt="Desertos de notícias do Brasil" /></p>
+
+<hr />
+
+<h3 id="outras-análises">Outras análises</h3>
+
+<h4 id="1-foi-constatada-uma-dependência-ainda-de-rádio-e-do-impresso-especialmente-fora-dos-grandes-centros-rio-de-janeiro-são-paulo-brasília">1. Foi constatada uma dependência ainda de Rádio e do Impresso, especialmente fora dos grandes centros (Rio de Janeiro-São Paulo-Brasília)</h4>
+
+<p><img src="../graficos/graficos_atlas2/charts/atlas2.0_pct_sobre_base_por_meio.jpeg" alt="Desertos de notícias do Brasil" /></p>
+
+<p>Já nos grande centros de notícias do Brasil, veículos digitais representam uma proporção bastante significativa. No município de São Paulo, sites de jornalismo representam 67% do total de veículos, ao passo que no Rio de Janeiro o nímero é 62%. No Distrito Federal, 45%.</p>
+
+<h4 id="2-municípios-menores-tendem-a-não-ter-cobertura-satisfatória-com-norte-e-nordeste-com-pior-cenário">2. Municípios menores tendem a não ter cobertura satisfatória, com Norte e Nordeste com pior cenário.</h4>
+
+<ul>
+  <li>Médias populacionais
+    <ul>
+      <li>Desertos de notícia &gt; <strong>~11 mil habitantes</strong></li>
+      <li>Não desertos &gt; <strong>~65 mil habitantes</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="../graficos/graficos_atlas2/charts/desertos_regioes.png" alt="Desertos de notícias do Brasil" /></p>
+
+<h4 id="3-cidades-com-presença-de-imprensa-possuem-idh-maior">3. Cidades com presença de imprensa possuem IDH maior</h4>
+
+<p>Há uma clara <strong>correlação</strong> entre presença de jornais em alguams cidades e melhor desenvolvimento humano municipal, mas ainda não é possível provar nenhum tipo de causalidade – ou seja, não sabemos se uma coisa ocorre em decorrência da outra, apenas sabemos que elas coexistem. O mesmo vale para educação e renda.</p>
+
+<p><img src="../graficos/graficos_atlas2/charts/idhm_presenca_jornalismo.png" alt="Desertos de notícias do Brasil" /></p>
+
+<p><img src="../graficos/graficos_atlas2/charts/escolaridade_presenca_jornalismo.png" alt="Desertos de notícias do Brasil" /></p>
+
+<p><img src="../graficos/graficos_atlas2/charts/renda_presenca_jornalismo.png" alt="Desertos de notícias do Brasil" /></p>
+
+<hr />
+
+<h3 id="fechamentos-de-veículos">Fechamentos de veículos</h3>
+
+<p>Foram mapeados os fechamentos de 81 veículos jornalísticos brasileiros desde 2011. Os dados foram obtidos junto à Associação Nacional dos Jornais (ANJ) e também via levantamento próprio do Atlas da Notícia. A tabela pode ser encontrada <a href="https://docs.google.com/spreadsheets/d/11EQAr1iCr9QUYeL8RGrOxiKA71e45xemzUMZZ3KGcBs/edit#gid=762283206">neste link</a>.</p>
+
+<hr />
+
+<h3 id="fontes-do-levantamento-atlas-da-notícia-20">Fontes do levantamento Atlas da Notícia 2.0</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>fonte</th>
+      <th>total</th>
+      <th>% da base</th>
+      <th>tipo*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MCTIC</td>
+      <td>6475</td>
+      <td>51.9%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Secom/PR</td>
+      <td>4388</td>
+      <td>35.2%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Crowdsoucing Atlas da Notícia 2.0</td>
+      <td>856</td>
+      <td>6.9%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Atlas da Notícia 1.0</td>
+      <td>233</td>
+      <td>1.9%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Adjori-RS</td>
+      <td>204</td>
+      <td>1.6%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Adjori-SC</td>
+      <td>129</td>
+      <td>1.0%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Central de Diários</td>
+      <td>89</td>
+      <td>0.7%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Adjori-SP</td>
+      <td>62</td>
+      <td>0.5%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+    <tr>
+      <td>Adjori-PR</td>
+      <td>31</td>
+      <td>0.2%</td>
+      <td>Atlas 2.0</td>
+    </tr>
+  </tbody>
+</table>
+:ET
