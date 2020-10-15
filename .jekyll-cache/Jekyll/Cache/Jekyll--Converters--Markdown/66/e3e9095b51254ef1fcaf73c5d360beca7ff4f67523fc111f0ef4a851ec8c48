@@ -1,0 +1,22 @@
+I"?<p>O <strong>Atlas da Notícia precisa</strong> da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.</p>
+
+<p>Essas informações serão utilizadas para subsidiar estudos, pesquisas, análises, estratégias vindas de diversos campos, desde academia e setor público até o terceiro setor, a própria imprensa e empresas privadas. A ideia é ajudar iniciativas, ideias e soluções que busquem fomentar o jornalismo, especialmente no nível local.</p>
+
+<p>Através de nossos representantes regionais (no Norte, Nordeste, Centro-Oeste, Sudeste e Sul), articulamos o preenchimento desse formulário de maneira ativa e organizada.</p>
+
+<p>Organizações que desejarem auxiliar o Atlas nessa missão poderão reivindicar crédito nominal no projeto por conta da ajuda, o qual será incluso no nosso site em uma página única.</p>
+
+<h3 id="dicas-de-preenchimento">DICAS DE PREENCHIMENTO</h3>
+
+<ul>
+  <li><strong>Verifique se o veículo já está cadastrado</strong>
+    <ul>
+      <li>basta preencher o campo <code class="language-plaintext highlighter-rouge">Nome do Veículo</code> e esperar ver se o sistema sugere pra você)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>-</p>
+
+<iframe src="https://api.atlas.jor.br/formulario" width="100%" frameborder="no" height="4500px"></iframe>
+:ET

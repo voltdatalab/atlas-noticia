@@ -12,7 +12,7 @@ description: A project to identify and map news media in Brazil. Last update in 
 # Author box
 author:
     title: Full Report (PDF)
-    title_url: {{ site.baseurl }}/graficos/atlas_report_english_v2.pdf
+    title_url: '{{ site.baseurl }}/graficos/atlas_report_english_v2.pdf'
     external_url: true
     description: PDF (4.3MB) - Jan.2019
 

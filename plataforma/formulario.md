@@ -30,14 +30,40 @@ page_nav:
         url: '#'
 ---
 
-<!-- O Atlas da Notícia precisa da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
+<style>
+iframe{
+  border: 2px dashed #008596;
+  padding: 5px 0;
+}
+</style>
 
-Essas informações serão utilizadas para subsidiar estudos, pesquisas, análises, estratégias vindas de diversos campos, desde academia e setor público até o terceiro setor, a própria imprensa e empresas privadas.
+O **Atlas da Notícia precisa** da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
 
-A ideia final é que o Atlas possa ajudar iniciativas, ideias e soluções que busquem fomentar o jornalismo, especialmente no nível local.
+Essas informações serão utilizadas para subsidiar estudos, pesquisas, análises, estratégias vindas de diversos campos, desde academia e setor público até o terceiro setor, a própria imprensa e empresas privadas. A ideia é ajudar iniciativas, ideias e soluções que busquem fomentar o jornalismo, especialmente no nível local.
 
-Através de nossos representantes regionais (no Norte, Nordeste, Centro-Oeste, Sudeste e Sul), articulamos o preenchimento desse formulário de maneira ativa e organizada.
+Através de nossos pesquisadores regionais (no Norte, Nordeste, Centro-Oeste, Sudeste e Sul), articulamos o preenchimento desse formulário de maneira ativa e organizada, mas qualquer pessoa pode colaborar.
 
-Organizações que desejarem auxiliar o Atlas nessa missão poderão reivindicar crédito nominal no projeto por conta da ajuda, o qual será incluso no nosso site em uma página única sob a rubrica “instituições que ajudaram na composição desse banco de dados -->
+Organizações que desejarem auxiliar nessa missão poderão reivindicar crédito nominal no projeto por conta da ajuda, o qual será incluso no nosso site em uma página única.
 
-<iframe src="https://api.atlas.jor.br/formulario" width="100%" frameborder="no" height="4500px"></iframe>
+Dados preenchidos neste formulário estão sujeitos à validação e homologação dos pesquisadores e coordenadores do **Atlas da Notícia**.
+
+### DICAS DE PREENCHIMENTO
+
+- **Verifique se o veículo já está cadastrado**
+    - basta preencher o campo `Nome do Veículo` e esperar ver se o sistema sugere pra você)
+
+- **Atualize informações de veículos existentes**
+    - Caso o veículo esteja na base, os campos do formulário vão se autocompletar
+
+- **Fique de olho em campos obrigatórios**
+    - Nome do veículo, cidade e data de fechamento são obrigatórios
+
+- **Os alertas de erros ficam no topo do formulário, caso não consiga enviar as informações, verifique no topo se há alguma pendência (em vermelho)**
+
+- **Estamos melhorando nossos sistemas, às vezes o carregamento pode ser um pouco lento, tenha paciência**
+
+### FORMULÁRIO
+
+
+
+<iframe src="https://api.atlas.jor.br/formulario" width="100%" frameborder="no" height="500px"></iframe>

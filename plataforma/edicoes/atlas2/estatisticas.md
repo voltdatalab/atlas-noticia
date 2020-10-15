@@ -13,7 +13,7 @@ links: dados
 # Author box
 author:
     title: Relatório
-    title_url: {{ site.baseurl }}/graficos/atlas_relatorio_v2.pdf
+    title_url: '{{ site.baseurl }}/graficos/atlas_relatorio_v2.pdf'
     external_url: true
     description: PDF (4,9MB) - Atualizado em janeiro de 2019
 
