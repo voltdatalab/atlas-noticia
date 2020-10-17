@@ -6,8 +6,8 @@ comments: false
 atualizacao:
 
 # Hero section
-title: Formulário de respostas
-description: Ajude o Atlas da Notícia a mapear todos os veículos de comunicação do Brasil e construir uma base para melhorarmos o conhecimento sobre o jornalismo local
+title: Indique um veículo de imprensa
+description: Ajude o Atlas da Notícia a mapear os veículos de comunicação do Brasil e construir uma base para ampliar o conhecimento sobre jornalismo local
 links:
 
 # Author box
@@ -37,7 +37,7 @@ iframe{
 }
 </style>
 
-O **Atlas da Notícia precisa** da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
+O **Atlas da Notícia** precisa da ajuda de pessoas e organizações de todo o país para construir uma base de dados representativa do jornalismo brasileiro.
 
 Essas informações serão utilizadas para subsidiar estudos, pesquisas, análises, estratégias vindas de diversos campos, desde academia e setor público até o terceiro setor, a própria imprensa e empresas privadas. A ideia é ajudar iniciativas, ideias e soluções que busquem fomentar o jornalismo, especialmente no nível local.
 
