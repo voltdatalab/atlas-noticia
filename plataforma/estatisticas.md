@@ -46,6 +46,9 @@ Clique no botão abaixo para fazer o download dos dados de municípios (não-des
 
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&single=true&output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a>
 
+<a href="https://docs.google.com/spreadsheets/d/1NCu65jsAGXvE1MPit0f8C1Y-GbXoIvkeAV3zo-L4QHo/edit?usp=sharing" target="_blank"><button class="btn btn--dark btn--rounded btn--w-icon">Dados no Google Sheets</button></a>
+
+
 
 ## Quadro Geral
 
