@@ -8,7 +8,7 @@ atualizacao:
 # Hero section
 title: "Pacote {{newsatlasbr}}"
 description: Acesse os dados do Atlas com facilidade utilizando a linguagem de programação R
-links: Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote <a href='https://api.atlas.jor.br/register' target='_blank'>aqui</a>.
+links: Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote R <a href='https://github.com/voltdatalab/newsatlasbr' target='_blank'>aqui</a>.
 
 # Micro navigation
 micro_nav: true
