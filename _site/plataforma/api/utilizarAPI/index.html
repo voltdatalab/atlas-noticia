@@ -30,10 +30,21 @@
 
 	<meta property="og:description" content="Como funciona seu registro e seu acesso à API do Atlas da Notícia">
 
-<meta property="og:image" content="/graficos/atlasdanoticia_img.jpg" />
+<meta property="og:image" content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlasdanoticia_img.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="https://atlas.jor.br" />
 <meta name="twitter:creator" content="@atlasdanoticia" />
+
+
+			<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
 
 	</head>
 	<body class="red" data-spy="scroll" data-target=".js-scrollspy">
@@ -107,7 +118,7 @@
 									<h4 class="hero-subheader__desc" style="background-color: #ededed;display:inline">Como funciona seu registro e seu acesso à API do Atlas da Notícia</h4><br />
 								
 								
-									<small style="background-color: #ededed;display:inline">Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>.</small><br />
+									<small style="background-color: #ededed;display:inline">Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote R<a href='https://api.atlas.jor.br/register' target='_blank'>aqui</a>.</small><br />
 								
 								
 
@@ -128,18 +139,27 @@
 
 <p>A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido a partir de sua ferramenta ou linguagem de programação favorita.</p>
 
-<p>Para ter um acesso direto mais fácil aos dados, você também pode fazer consultas diretamente no banco de dados através de nossa <a href="https://www.atlas.jor.br/plataforma/consulta/">interface de consulta</a>.</p>
+<p>Há quatro formas principais para acessar os dados da API do <strong>Atlas da Notícia</strong></p>
+
+<ul>
+  <li>Via <a href="https://www.atlas.jor.br/plataforma/consulta/">interface de consulta</a></li>
+  <li>Via aplicativos de retorno de API.</li>
+  <li>Via programação (Python, R, PHP, Javascript, Ruby etc.)</li>
+  <li>Via <a href="/plataforma/api/pacote">pacote R</a> desenvolvido por nós</li>
+</ul>
+
+<p>Nesta página mostraremos o acesso via Postman e scripts simples utilizando Python e R. Para ver o tutorial de como usar o pacote R, <a href="/plataforma/api/pacote">acesse aqui</a>.</p>
 
 <p>Caso seja um usuário mais avançado de APIs, acesse diretamente a <a href="../documentacaoAPI">documentação da API</a>.</p>
 
-<h3 id="cadastro">Cadastro</h3>
+<h2 id="cadastro">Cadastro</h2>
 <p>O primeiro passo para acessar a API do <strong>Atlas da Notícia</strong> é fazendo um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados.</p>
 
 <p><a href="https://api.atlas.jor.br/register"><button class="btn btn--dark btn--rounded btn--w-icon"> Faça o cadastro </button></a></p>
 
 <p>Note que ainda estamos aperfeiçoando nosso sistema e você não receberá nenhuma confirmação.</p>
 
-<h3 id="métodos-de-acesso">Métodos de acesso</h3>
+<h2 id="métodos-de-acesso">Métodos de acesso</h2>
 <p>Por enquanto, ao fazer o registro, o único recurso disponível a você é o acesso apenas ao retorno de dados da API.</p>
 
 <p>A API funciona a partir da geração de chaves únicas (chamadas tokens), e para isso você vai precisar utilizar o usuário e senha que criou pelo portal do <strong>Atlas da Notícia</strong>.</p>
@@ -148,9 +168,9 @@
 
 <p><span style="color:red;font-size:1em;line-height:1.5em;padding:15px;background-color:#ececec;display:block"> <strong>Não perca seu login e senha</strong>: esse registro fará com que você tenha acesso a todos os dados da API, mas, como ainda não temos um sistema público (um <em>backend</em>) que possa ser utilizado abertamente, não é possível o próprio usuário alterar suas credenciais. Caso tenha alguma dúvida e precise de uma nova senha, por favor entre mande um email para <strong><a href="mailto:contato@atlas.jor.br">contato@atlas.jor.br</a></strong>, e nossa equipe emitirá uma senha nova para você.</span></p>
 
-<h3 id="acesso-iniciante-via-postman">Acesso iniciante: via Postman</h3>
+<h2 id="acesso-iniciante-via-postman">Acesso iniciante: via Postman</h2>
 
-<p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>.</p>
+<p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>. Outros aplicativos e serviços similares incluem <a href="https://hoppscotch.io/pt-br">Hoppscotch</a>, <a href="https://cloud.google.com/apigee">Google APIGee</a>, <a href="https://aws.amazon.com/pt/api-gateway/">Amazon API Gateway</a>.</p>
 
 <p>Abra o Postman e clique em <code class="language-plaintext highlighter-rouge">New &gt;&gt; Get Request</code>.</p>
 
@@ -193,7 +213,7 @@
 
 <p><img src="../../../graficos/postman_results.png" alt="postman get" /></p>
 
-<h3 id="acesso-avançado-via-r-ou-python">Acesso avançado: via R ou Python</h3>
+<h2 id="acesso-avançado-via-r-ou-python">Acesso avançado: via R ou Python</h2>
 
 <p>O acesso utilizando a linguagem de programação R ou Python é fácil e direto. <a href="https://gist.github.com/sergiospagnuolo/f7b5bdd2fc430c791746a39d99319406">Este é o link para o gist</a> que contém os códigos</p>
 
@@ -287,7 +307,15 @@
 <script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
 <script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
 
 
 		</div><!-- /.js-footer-area -->

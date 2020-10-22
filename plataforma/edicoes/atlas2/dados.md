@@ -32,8 +32,6 @@ page_nav:
 
 ### Tabelas completas e bancos de dados
 
-Todos os dados podem ser acessados no [Github do Atlas da Notícia](https://github.com/voltdatalab/atlas-analytics). As principais tabelas e dados estão nos arquivos abaixo.
-
 | dado                               | descrição                                                                                                                                                                       | arquivo             | link                                                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------|
 | Banco de dados do Atlas da Notícia | Arquivo principal modelado como banco de dados (SQL). O arquivo pode ser explorado utilizando o software [DB Browser](https://sqlitebrowser.org/). Inclui todas as tabelas do Atlas: v.1 revisada; v.2; agregado de v.1 + v.2; tabelas populacionais do IBGE; tabelas com índices de IDHM; tabelas suplementares. **Atualizado com revisão em jun/2019** | atlas2.db           | [Link](https://github.com/voltdatalab/Atlas-Analytics/blob/atlas2.0/atlas_v2/atlas_v2.db)           |

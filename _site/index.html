@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mapeando o jornalismo local e os desertos de notícia no Brasil">
+<meta name="author" content="Volt Data Lab">
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mapeando o jornalismo local e os desertos de notícia no Brasil">
-    <meta name="author" content="Volt Data Lab">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<title>Atlas da Notícia</title>
 
-    <title>Atlas da Notícia</title>
+<!-- Bootstrap Core CSS -->
+<link href="/doks-theme/assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="/doks-theme/assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="/doks-theme/assets/css/landing-page.css" rel="stylesheet">
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
 
-    <!-- Custom CSS -->
-    <link href="/doks-theme/assets/css/landing-page.css" rel="stylesheet">
-    <link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+<!-- Custom Fonts -->
+<link href="/font-awesome-5.10.1/css/all.css" rel="stylesheet" type="text/css">
+<link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome-5.10.1/css/all.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700&display=swap" rel="stylesheet">    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700&display=swap" rel="stylesheet">    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<meta name="robots" content="index, follow">
+<meta name='keywords' content='{}'>
+<meta name="revisit-after" content="14 day">
+<meta name='description' content='Mapeando o jornalismo e os desertos de notícia no Brasil'>
+<meta name='copyright' content='Projor e Volt Data Lab'>
+<meta name='language' content='Portuguese'>
+<meta name='robots' content='index,follow'>
+<meta name='revised' content='2019'>
+<meta name='author' content='Volt Data Lab'>
+<meta name='designer' content='@sergiospagnuolo'>
+<meta name='reply-to' content='contato@atlas.jor.br'>
+<meta name='owner' content='Volt Data Lab'>
+<meta name='url' content='https://atlas.jor.br'>
+<meta name='identifier-URL' content=''>
+<meta name='pagename' content='Atlas da Notícia'>
+<meta name='coverage' content='Brasil'>
+<meta name='distribution' content='Global'>
+<meta name='rating' content='General'>
+<meta name='subtitle' content='Mapeando o jornalismo e os desertos de notícia no Brasil'>
+<meta name='target' content='all'>
+<meta name='HandheldFriendly' content='True'>
+<meta name='MobileOptimized' content='320'>
+<meta property="og:image" content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlasdanoticia_img.jpg" />
+<meta property="og:url" content="https://atlas.jor.br">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Atlas da Notícia">
+<meta property="og:description" content="Mapeando o jornalismo e os desertos de notícia no Brasil">
+<meta name="twitter:title" content="Atlas da Notícia">
+<meta name="twitter:description" content="Mapeando o jornalismo e os desertos de notícia no Brasil">
+<meta name="twitter:site" content="https://atlas.jor.br">
+<meta name="twitter:creator" content="@atlasdanoticia">
 
-    <meta name="robots" content="index, follow">
-    <meta name='keywords' content='{}'>
-    <meta name="revisit-after" content="14 day">
-    <meta name='description' content='Mapeando o jornalismo e os desertos de notícia no Brasil'>
-    <meta name='copyright' content='Projor e Volt Data Lab'>
-    <meta name='language' content='Portuguese'>
-    <meta name='robots' content='index,follow'>
-    <meta name='revised' content='2019'>
-    <meta name='author' content='Volt Data Lab'>
-    <meta name='designer' content='@sergiospagnuolo'>
-    <meta name='reply-to' content='contato@atlas.jor.br'>
-    <meta name='owner' content='Volt Data Lab'>
-    <meta name='url' content='https://atlas.jor.br'>
-    <meta name='identifier-URL' content=''>
-    <meta name='pagename' content='Atlas da Notícia'>
-    <meta name='coverage' content='Brasil'>
-    <meta name='distribution' content='Global'>
-    <meta name='rating' content='General'>
-    <meta name='subtitle' content='Mapeando o jornalismo e os desertos de notícia no Brasil'>
-    <meta name='target' content='all'>
-    <meta name='HandheldFriendly' content='True'>
-    <meta name='MobileOptimized' content='320'>
-    <meta property="og:image" content="/graficos/atlasdanoticia_img.jpg" />
-    <meta property="og:url" content="https://atlas.jor.br">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:title" content="Atlas da Notícia">
-    <meta property="og:description" content="Mapeando o jornalismo e os desertos de notícia no Brasil">
-    <meta name="twitter:title" content="Atlas da Notícia">
-    <meta name="twitter:description" content="Mapeando o jornalismo e os desertos de notícia no Brasil">
-    <meta name="twitter:site" content="https://atlas.jor.br">
-    <meta name="twitter:creator" content="@atlasdanoticia">
+		<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
 
 </head>
-
-
 	<body>
 		
 	<div class="offcanvas visible-xs">
@@ -435,7 +441,15 @@
 <script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
 <script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
 
 
 	</body>

@@ -24,10 +24,10 @@ grid_navigation:
       excerpt: Saiba o passo a passo detalhado para você utilizar a API do Atlas da Notícia, usando Postman, Python e R
       cta: Saiba como usar
       url: 'utilizarAPI'
-    - title: Pacote R
+    - title: 'Pacote R - {{newsatlasbr}}'
       excerpt: Ferramenta para acessar com facilidade dados do Atlas da Notícia usando a linguagem de programação R
-      cta: Em breve
-      #url: 'utilizarAPI'
+      cta: Instale o pacote
+      url: 'pacote'
     - title: Documentação da API
       excerpt: Saiba todos os detalhes da API do Atlas da Notícia para acessar os dados diretamente
       cta: Leia os docs

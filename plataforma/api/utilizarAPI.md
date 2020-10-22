@@ -8,7 +8,7 @@ atualizacao:
 # Hero section
 title: Utilização da API
 description: Como funciona seu registro e seu acesso à API do Atlas da Notícia
-links: Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>.
+links: Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote R<a href='https://api.atlas.jor.br/register' target='_blank'>aqui</a>.
 
 # Micro navigation
 micro_nav: true
@@ -27,18 +27,25 @@ Estamos trabalhando para melhorar sua experiência com esta API, desenvolvendo n
 
 A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido a partir de sua ferramenta ou linguagem de programação favorita.
 
-Para ter um acesso direto mais fácil aos dados, você também pode fazer consultas diretamente no banco de dados através de nossa [interface de consulta](https://www.atlas.jor.br/plataforma/consulta/).
+Há quatro formas principais para acessar os dados da API do **Atlas da Notícia**
+
+- Via [interface de consulta](https://www.atlas.jor.br/plataforma/consulta/)
+- Via aplicativos de retorno de API.
+- Via programação (Python, R, PHP, Javascript, Ruby etc.)
+- Via [pacote R]({{ site.baseurl }}/plataforma/api/pacote) desenvolvido por nós
+
+Nesta página mostraremos o acesso via Postman e scripts simples utilizando Python e R. Para ver o tutorial de como usar o pacote R, [acesse aqui]({{ site.baseurl }}/plataforma/api/pacote).
 
 Caso seja um usuário mais avançado de APIs, acesse diretamente a [documentação da API](../documentacaoAPI).
 
-### Cadastro
+## Cadastro
 O primeiro passo para acessar a API do **Atlas da Notícia** é fazendo um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados.
 
 <a href="https://api.atlas.jor.br/register"><button class="btn btn--dark btn--rounded btn--w-icon"> Faça o cadastro </button></a>
 
 Note que ainda estamos aperfeiçoando nosso sistema e você não receberá nenhuma confirmação.
 
-### Métodos de acesso
+## Métodos de acesso
 Por enquanto, ao fazer o registro, o único recurso disponível a você é o acesso apenas ao retorno de dados da API.  
 
 A API funciona a partir da geração de chaves únicas (chamadas tokens), e para isso você vai precisar utilizar o usuário e senha que criou pelo portal do **Atlas da Notícia**.
@@ -47,9 +54,9 @@ Há várias ferramentas e métodos de acesso aos dados. Abaixo, listamos alguns 
 
 <span style="color:red;font-size:1em;line-height:1.5em;padding:15px;background-color:#ececec;display:block"> **Não perca seu login e senha**: esse registro fará com que você tenha acesso a todos os dados da API, mas, como ainda não temos um sistema público (um _backend_) que possa ser utilizado abertamente, não é possível o próprio usuário alterar suas credenciais. Caso tenha alguma dúvida e precise de uma nova senha, por favor entre mande um email para **[contato@atlas.jor.br](mailto:contato@atlas.jor.br)**, e nossa equipe emitirá uma senha nova para você.</span>
 
-### Acesso iniciante: via Postman
+## Acesso iniciante: via Postman
 
-Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo [neste link](https://www.getpostman.com/).
+Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo [neste link](https://www.getpostman.com/). Outros aplicativos e serviços similares incluem [Hoppscotch](https://hoppscotch.io/pt-br), [Google APIGee](https://cloud.google.com/apigee), [Amazon API Gateway](https://aws.amazon.com/pt/api-gateway/).
 
 Abra o Postman e clique em `New >> Get Request`.
 
@@ -94,7 +101,7 @@ Basta clicar em `SEND` e ver abaixo na tela o resultado.
 
 ![postman get](../../../graficos/postman_results.png)
 
-### Acesso avançado: via R ou Python
+## Acesso avançado: via R ou Python
 
 O acesso utilizando a linguagem de programação R ou Python é fácil e direto. [Este é o link para o gist](https://gist.github.com/sergiospagnuolo/f7b5bdd2fc430c791746a39d99319406) que contém os códigos
 

@@ -45,7 +45,7 @@ grid_navigation:
       excerpt: Explore nossos dados e faça downloads de tabelas completas do levantamento
       cta: Consulte os dados
       url: 'consulta'
-    - title: Estatísticas básicas
+    - title: Estatísticas básicas v.3.0
       excerpt: Veja os principais dados, conclusões, análises e gráficos da versão mais atual da pesquisa do Atlas da Notícia
       cta: Veja as tabelas
       url: 'estatisticas'
