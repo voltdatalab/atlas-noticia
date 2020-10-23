@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Como utilizar a API</title>
+		<title>Tutorial básico de acesso à API</title>
 		
-			<meta name="description" content="Como funciona seu registro e seu acesso à API do Atlas da Notícia">
+			<meta name="description" content="Acesse a API sem saber programação com esse passo a passo detalhado">
 		
 		
 		<meta property="og:url"                content="https://www.atlas.jor.br/" />
 		<meta property="og:type"               content="page" />
-		<meta property="og:title"              content="Como utilizar a API - Atlas da Notícia" />
+		<meta property="og:title"              content="Tutorial básico de acesso à API - Atlas da Notícia" />
 		
-			<meta property="og:description" content="Como funciona seu registro e seu acesso à API do Atlas da Notícia">
+			<meta property="og:description" content="Acesse a API sem saber programação com esse passo a passo detalhado">
 		
 		<meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-<title>Como utilizar a API</title>
+<title>Tutorial básico de acesso à API</title>
 
-	<meta name="description" content="Como funciona seu registro e seu acesso à API do Atlas da Notícia">
+	<meta name="description" content="Acesse a API sem saber programação com esse passo a passo detalhado">
 
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -26,9 +26,9 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700" rel="stylesheet">
 <meta property="og:url"                content="https://www.atlas.jor.br/" />
 <meta property="og:type"               content="page" />
-<meta property="og:title"              content="Como utilizar a API" />
+<meta property="og:title"              content="Tutorial básico de acesso à API" />
 
-	<meta property="og:description" content="Como funciona seu registro e seu acesso à API do Atlas da Notícia">
+	<meta property="og:description" content="Acesse a API sem saber programação com esse passo a passo detalhado">
 
 <meta property="og:image" content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlasdanoticia_img.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
@@ -112,10 +112,10 @@
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								
-									<h1 class="hero-subheader__title" style="background-color: #ededed;display:inline">Como utilizar a API</h1><br />
+									<h1 class="hero-subheader__title" style="background-color: #ededed;display:inline">Tutorial básico de acesso à API</h1><br />
 								
 								
-									<h4 class="hero-subheader__desc" style="background-color: #ededed;display:inline">Como funciona seu registro e seu acesso à API do Atlas da Notícia</h4><br />
+									<h4 class="hero-subheader__desc" style="background-color: #ededed;display:inline">Acesse a API sem saber programação com esse passo a passo detalhado</h4><br />
 								
 								
 									<small style="background-color: #ededed;display:inline">Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote R <a href='https://github.com/voltdatalab/newsatlasbr' target='_blank'>aqui</a>.</small><br />
@@ -135,36 +135,79 @@
 				<div class="row">
 					<div class="col-md-7">
 						<div class="content">
-							<p>A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido e completo a partir de sua ferramenta ou linguagem de programação de preferência.</p>
+							<style>
+p img{
+  border: 1px solid #333
+}
+</style>
 
-<h2 id="formas-principais-de-acesso">Formas principais de acesso</h2>
+<p><small><a href="/plataforma/API/utilizarAPI">Para se cadastrar na API e ver outras formas de acesso, clique aqui</a>.</small></p>
 
-<p>Há quatro formas principais para acessar os dados da API do <strong>Atlas da Notícia</strong></p>
+<h2 id="acesso-via-hoppscotch">Acesso via Hoppscotch</h2>
 
-<ol>
-  <li><strong>Iniciante</strong>: Via <a href="https://www.atlas.jor.br/plataforma/consulta/">interface de consulta</a>;</li>
-  <li><strong>Intermediário</strong>: Via aplicativos específicos para retorno de API;</li>
-  <li><strong>Avançado</strong>: Via programação (Python, R, PHP, Javascript, Ruby etc.);</li>
-  <li><strong>Avançado</strong>: Via <a href="/plataforma/api/pacote">pacote R</a>, desenvolvido por nós mesmos.</li>
-</ol>
+<p>Hoppscotch é um aplicativo online gratuito direto e fácil de usar. Não possui todos recursos de outros aplicativos, como o Postman, mas facilita e muito a utilização para uso simples da API.</p>
 
-<h2 id="cadastro">Cadastro</h2>
-<p>O primeiro passo para acessar a API do <strong>Atlas da Notícia</strong> é fazer um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados. Note que ainda estamos aperfeiçoando nosso sistema e você pode ainda <strong>não</strong> receber uma confirmação.</p>
+<p><a href="https://hoppscotch.io/">Abra o site do Hoppscotch</a>. Você pode escolher se logar via Google ou GitHub para ter uma experiência melhor, mas não é necessário para utilizar a ferramenta.</p>
 
-<iframe src="https://api.atlas.jor.br/register" width="100%" height="500px" scrolling="no" seamless=""></iframe>
+<p>Sua área de trabalho vai estar totalmente em branco.</p>
 
-<h2 id="métodos-de-acesso">Métodos de acesso</h2>
-<p>Por enquanto, ao fazer o registro, o único recurso disponível a você é o acesso apenas ao retorno de dados da API.</p>
+<p><img src="/graficos/hopp_inicial.png" alt="" /></p>
 
-<p>A API funciona a partir da geração de chaves únicas (chamadas tokens), e para isso você vai precisar utilizar o usuário e senha que criou pelo portal do <strong>Atlas da Notícia</strong>.</p>
+<h3 id="1º-passo-retornar-seu-token-de-acesso">1º Passo: retornar seu token de acesso</h3>
 
-<p>Há várias ferramentas e métodos de acesso aos dados. Abaixo, listamos alguns métodos eficientes utilizando um <em>client</em> de acesso a APIs e mediante uso de programação.</p>
+<p>Para acessar a API do <strong>Atlas da Notícia</strong> você vai precisar estar cadastrado no nosso sistema, o que lhe permitirá gerar uma chave de acesso (ou token) para que sua aplicação possa puxar nossos dados. Isso é feito para evitar abusos nos nossos servidores, aumentado a segurança nossa e de quem usa a API.</p>
 
-<p><span style="color:red;font-size:1em;line-height:1.5em;padding:15px;background-color:#ececec;display:block"> <strong>Não perca seu login e senha</strong>: esse registro fará com que você tenha acesso a todos os dados da API, mas, como ainda não temos um sistema público (um <em>backend</em>) que possa ser utilizado abertamente, não é possível o próprio usuário alterar suas credenciais. Caso tenha alguma dúvida e precise de uma nova senha, por favor entre mande um email para <strong><a href="mailto:contato@atlas.jor.br">contato@atlas.jor.br</a></strong>, e nossa equipe emitirá uma senha nova para você.</span></p>
+<p>A forma correta de conseguir seu token é realizar uma requisição via método <code class="language-plaintext highlighter-rouge">POST</code>, que solicita ao servidor o envio de dados anexados ao corpo (ou <code class="language-plaintext highlighter-rouge">body</code>) da requisição.</p>
 
-<h2 id="acesso-iniciante-via-postman">Acesso iniciante: via Postman</h2>
+<p>No canto superior direito do Hoppscotch, altere o método para <code class="language-plaintext highlighter-rouge">POST</code>, acrescentando, ao lado, a seguinte URL <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/auth/login</code>.</p>
 
-<p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>. Outros aplicativos e serviços similares incluem <a href="https://hoppscotch.io/pt-br">Hoppscotch</a>, <a href="https://cloud.google.com/apigee">Google APIGee</a>, <a href="https://aws.amazon.com/pt/api-gateway/">Amazon API Gateway</a>.</p>
+<p><img src="/graficos/hopp_post.png" alt="" /></p>
+
+<p>Antes de enviar sua requisição para o servidor, vamos precisar também incluir suas credenciais de acesso à API – o mesmo email e senha que você usou para se cadastrar.</p>
+
+<p>Certifique-se de que o <em>Content Type</em> esteja como <code class="language-plaintext highlighter-rouge">application/json</code> (que nada mais é do que o formato que o token vai ser entregue para você) e que o botão <em>Raw input</em> esteja com o tick na esquerda, ou seja, desativado (também é possível fazer a requisição via <em>Raw input</em>, mas nesse caso não é necessário). Você pode também acrescentar um rótulo (<em>label</em>) como referência se quiser.</p>
+
+<p>Agora basta clicar <strong>ENVIAR</strong>.</p>
+
+<p><img src="/graficos/hopp_credenciais.png" alt="" /></p>
+
+<p>Caso tudo esteja certo com sua requisição aos nossos servidores, no fim da página você vai receber no pé da página uma mensagem de resposta de status <code class="language-plaintext highlighter-rouge">200</code> (sucesso), com o seu token logo abaixo. Você vai precisar copiar apenas do token (pode desconsiderar os outros dois campos).</p>
+
+<p>Note que o prazo de validade de cada token é de 3.600 segundos, ou uma hora, a partir da qual ele não será mais válido e o processo para requisitar uma nova chave terá que ser feito novamente.</p>
+
+<p><img src="/graficos/hopp_resposta200.png" alt="" /></p>
+
+<p>Com o token em mãos, podemos prosseguir para buscar os dados diretamente da API</p>
+
+<h3 id="2º-passo-utilizar-o-token">2º Passo: utilizar o token</h3>
+
+<p>Agora vamos mudar o método, utilizando agora <code class="language-plaintext highlighter-rouge">GET</code>, com o qual, em vez de solicitar aceitação de dados enviados pelo usuário, vai pedir para o servidor enviar os dados que queremos.</p>
+
+<p>Também será necessário acrescentar a autenticação de suas credenciais, mediante o uso do token que você copiou agora pouco, conforme a figura abaixo.</p>
+
+<p><img src="/graficos/hopp_bearer.png" alt="" /></p>
+
+<h3 id="3º-passo-retornando-os-dados">3º Passo: retornando os dados</h3>
+
+<p>A parte chata, de utilização do token, já ficou para trás. Agora, tudo o que vamos fazer é trabalhar com os dados do <strong>Atlas da Notícia</strong>.</p>
+
+<p>Nossa API funciona a partir de <em>endpoints</em>, ou seja, pontos que retornam os dados que queremos.</p>
+
+<p>Como exemplo, vamos utilizar o <em>endpoint</em> que nos retorna os dados com os números desertos de notícia (ou seja, municípios sem organizações jornalísticas) agregados por estado.</p>
+
+<p>Coloque o seguinte <em>endpoint</em> na barra de URL e clique enviar: <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-state</code></p>
+
+<p>Se funcionar, no campo de resposta, no pé da página, a servidor vai retornar os dados solicitados, utilizando um formato de armazenamento de dados chamado JSON.</p>
+
+<p>Voilá! Você consegui acessar os dados. Copie-os utilizando o botão no canto direito (seta vermelha da imagem).</p>
+
+<p><img src="/graficos/hopp_retorno_dados.png" alt="" /></p>
+
+<p>Agora, basta utilizar um conversor de JSON para csv, como o <a href="https://konklone.io/json/">Konklone</a>, para que tenha os dados todos tabulados para você utilizar.</p>
+
+<h2 id="acesso-yllvia-postman">Acesso yllvia Postman</h2>
+
+<p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>. Outros aplicativos e serviços similares incluem <a href="https://cloud.google.com/apigee">Google APIGee</a>, <a href="https://aws.amazon.com/pt/api-gateway/">Amazon API Gateway</a>.</p>
 
 <p>Abra o Postman e clique em <code class="language-plaintext highlighter-rouge">New &gt;&gt; Get Request</code>.</p>
 

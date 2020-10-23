@@ -23,29 +23,21 @@ page_nav:
         url: '#'
 ---
 
-Estamos trabalhando para melhorar sua experiência com esta API, desenvolvendo novos recursos, tutoriais, documentações e interfaces.
-
-A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido a partir de sua ferramenta ou linguagem de programação favorita.
-
-## Cadastro
-O primeiro passo para acessar a API do **Atlas da Notícia** é fazendo um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados.
-
-<a href="https://api.atlas.jor.br/register"><button class="btn btn--dark btn--rounded btn--w-icon"> Faça o cadastro </button></a>
-
-Note que ainda estamos aperfeiçoando nosso sistema e você não receberá nenhuma confirmação.
+A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido e completo a partir de sua ferramenta ou linguagem de programação de preferência.
 
 ## Formas principais de acesso
 
 Há quatro formas principais para acessar os dados da API do **Atlas da Notícia**
 
-1. Via [interface de consulta](https://www.atlas.jor.br/plataforma/consulta/)
-2. Via aplicativos de retorno de API.
-3. Via programação (Python, R, PHP, Javascript, Ruby etc.)
-4. Via [pacote R]({{ site.baseurl }}/plataforma/api/pacote) desenvolvido por nós
+1. **Iniciante**: Via [interface de consulta](https://www.atlas.jor.br/plataforma/consulta/);
+2. **Intermediário**: Via aplicativos específicos para retorno de API;
+3. **Avançado**: Via programação (Python, R, PHP, Javascript, Ruby etc.);
+4. **Avançado**: Via [pacote R]({{ site.baseurl }}/plataforma/api/pacote), desenvolvido por nós mesmos.
 
-Nesta página mostraremos o acesso via Postman e scripts simples utilizando Python e R. Para ver o tutorial de como usar o pacote R, [acesse aqui]({{ site.baseurl }}/plataforma/api/pacote).
+## Cadastro
+O primeiro passo para acessar a API do **Atlas da Notícia** é fazer um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados. Note que ainda estamos aperfeiçoando nosso sistema e você pode ainda **não** receber uma confirmação.
 
-Caso seja um usuário mais avançado de APIs, acesse diretamente a [documentação da API](../documentacaoAPI).
+<iframe src="https://api.atlas.jor.br/register" width="100%" height="500px" scrolling="no" seamless></iframe>
 
 ## Métodos de acesso
 Por enquanto, ao fazer o registro, o único recurso disponível a você é o acesso apenas ao retorno de dados da API.  

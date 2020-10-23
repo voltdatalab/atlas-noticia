@@ -120,12 +120,20 @@ a {
 }
 
 p a{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #008596;
 }
 
 a:hover{
 	color: #d73027 !important
+}
+
+li a{
+	color: #d73027;
+}
+
+li a:hover{
+	color: #008596;
 }
 
 /* ----- Images ----- */
