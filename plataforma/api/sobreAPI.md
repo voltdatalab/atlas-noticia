@@ -8,7 +8,7 @@ atualizacao:
 # Hero section
 title: Sobre a API
 description: "Saiba mais sobre a API do Atlas da Notícia."
-links: 
+links:
 
 # Author box
 author:
@@ -31,6 +31,8 @@ page_nav:
 ---
 
 <iframe width="100%" height="323px" src="https://www.youtube.com/embed/dVYrf29Qsdc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<a href="{{ site.baseurl }}/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a>
 
 #### Mapeando os desertos de notícia
 

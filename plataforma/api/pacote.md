@@ -23,6 +23,8 @@ page_nav:
         url: '#'
 ---
 
+<a href="{{ site.baseurl }}/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a>
+
 ## Introdução ao newsatlasbr
 
 `newsatlasbr` é um pacote criado para a quarta versão (v.4.0, de 2020) do **Atlas da Notícia**, com a finalidade de facilitar o acesso aos bancos de dados do [Atlas da Notícia](https://www.atlas.jor.br/) por parte de pesquisadores e programadores.

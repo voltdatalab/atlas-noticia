@@ -16,14 +16,12 @@ doks:
         nav:
             - item_name: Desertos de notícia
               item_url: '/desertos-de-noticia/'
-            - item_name: Dados
+            - item_name: Dados e API
               item_url: '/plataforma'
             - item_name: Sobre
               item_url: '/plataforma/sobre'
             - item_name: Colabore
               item_url: '/plataforma/formulario'
-            - item_name: Blog
-              item_url: 'https://medium.com/atlas-da-noticia'
             - item_name: 'ENGLISH'
               item_url: '/english'
 

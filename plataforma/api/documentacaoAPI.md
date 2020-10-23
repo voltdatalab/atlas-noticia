@@ -23,6 +23,8 @@ page_nav:
         url: '#'
 ---
 
+<a href="{{ site.baseurl }}/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/utilizarAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Saiba como usar </button></a>
+
 ## 1. Sobre a documentação
 
 Seja bem vindo à documentação da API do Atlas da Notícia.
@@ -52,18 +54,22 @@ Com o usuário cadastrado, você pode realizar uma solicitação `POST` na nossa
 
 #### 2.2.1 JSON Request
 
-        {
-        "email": "seu@email",
-        "password": "sua senha"
-        }
+```
+{
+"email": "seu@email",
+"password": "sua senha"
+}
+```
 
 #### 2.2.2 Resposta com o token será enviada para você
 
+```
         {
             "access_token": "seu_token",
             "token_type": "bearer",
             "expires_in": 3600
         }
+```
 
 ### 2.3 Renovando o token
 

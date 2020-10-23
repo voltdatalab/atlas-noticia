@@ -33,18 +33,14 @@ buttons:
 
 # Grid navigation
 grid_navigation:
-    - title: API Atlas da Notícia
-      excerpt: Veja os recursos que oferecemos e tenha acesso à nossa Interface de Programação de Aplicações, é gratuito
+    - title: Dados brutos e API
+      excerpt: Veja os recursos que oferecemos, nossos dados e tenha acesso à nossa Interface de Programação de Aplicações, é gratuito
       cta: Explore e utilize
       url: 'api'
     - title: Sobre o Atlas
-      excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil, inclusive a metodologia
+      excerpt: Tudo sobre a principal iniciativa para mapear o jornalismo em todo o Brasil, inclusive a metodologia
       cta: Conheça o projeto
       url: 'sobre'
-    - title: Dados abertos
-      excerpt: Explore nossos dados e faça downloads de tabelas completas do levantamento
-      cta: Consulte os dados
-      url: 'consulta'
     - title: Estatísticas básicas v.3.0
       excerpt: Veja os principais dados, conclusões, análises e gráficos da versão mais atual da pesquisa do Atlas da Notícia
       cta: Veja as tabelas
@@ -57,4 +53,8 @@ grid_navigation:
       excerpt: Conheça as primeiras versões do levantamento iniciado em 2017 e veja como evoluímos
       cta: Viaje no tempo
       url: 'edicoes'
+    - title: Blog Atlas da Notícia
+      excerpt: Acesse nosso blog no Medium para saber as últimas novidades sobre o Atlas da Notícia
+      cta: Leia mais
+      url: 'https://medium.com/atlas-da-noticia'
 ---

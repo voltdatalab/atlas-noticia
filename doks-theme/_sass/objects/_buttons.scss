@@ -5,10 +5,12 @@
 /* ----- General ----- */
 .btn {
 	@include link-reset;
-	font-family: $font-family-secondary;
-	font-weight: 500;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 0.8em;
 	display: inline-block;
-	margin: 0 0 1.25rem 0;
+	padding: 10px 15px !important;
+	text-transform: uppercase;
 }
 
 /* ----- Variations ----- */

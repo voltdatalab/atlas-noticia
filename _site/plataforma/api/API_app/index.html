@@ -54,7 +54,7 @@
 			
 				<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
 			
-				<li><a href="/plataforma">Dados</a></li>
+				<li><a href="/plataforma">Dados e API</a></li>
 			
 				<li><a href="/plataforma/sobre">Sobre</a></li>
 			
@@ -82,7 +82,7 @@
 							
 								<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
 							
-								<li><a href="/plataforma">Dados</a></li>
+								<li><a href="/plataforma">Dados e API</a></li>
 							
 								<li><a href="/plataforma/sobre">Sobre</a></li>
 							
@@ -141,7 +141,7 @@ p img{
 }
 </style>
 
-<p><small><a href="/plataforma/API/utilizarAPI">Para se cadastrar na API e ver outras formas de acesso, clique aqui</a>.</small></p>
+<p><a href="/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a></p>
 
 <h2 id="acesso-via-hoppscotch">Acesso via Hoppscotch</h2>
 
@@ -193,7 +193,7 @@ p img{
 
 <p>Nossa API funciona a partir de <em>endpoints</em>, ou seja, pontos que retornam os dados que queremos.</p>
 
-<p>Como exemplo, vamos utilizar o <em>endpoint</em> que nos retorna os dados com os números desertos de notícia (ou seja, municípios sem organizações jornalísticas) agregados por estado.</p>
+<p>Como exemplo, vamos utilizar o <em>endpoint</em> que nos retorna os dados com os números desertos de notícia (ou seja, municípios sem organizações jornalísticas) agregados por estado. Para saber todos os <em>endpoints</em> e retornos possíveis, acesse a <a href="/plataforma/api/documentacaoAPI }}">documentação</a>.</p>
 
 <p>Coloque o seguinte <em>endpoint</em> na barra de URL e clique enviar: <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/data/qtd-cities-without-media-state</code></p>
 
@@ -205,7 +205,7 @@ p img{
 
 <p>Agora, basta utilizar um conversor de JSON para csv, como o <a href="https://konklone.io/json/">Konklone</a>, para que tenha os dados todos tabulados para você utilizar.</p>
 
-<h2 id="acesso-yllvia-postman">Acesso yllvia Postman</h2>
+<h2 id="acesso-via-postman">Acesso via Postman</h2>
 
 <p>Postman é um aplicativo que, entre outras coisas, facilita o acesso aos dados de uma API. Você pode fazer o download do aplicativo <a href="https://www.getpostman.com/">neste link</a>. Outros aplicativos e serviços similares incluem <a href="https://cloud.google.com/apigee">Google APIGee</a>, <a href="https://aws.amazon.com/pt/api-gateway/">Amazon API Gateway</a>.</p>
 
@@ -244,7 +244,7 @@ p img{
 
 <p>Para saber as URLs válidas, que retornam dados, é preciso ler a documentação da API e entender as combinações possíveis. Por exemplo a URL <code class="language-plaintext highlighter-rouge">https://api.atlas.jor.br/api/v1/data/analytic?segmento=Online&amp;estado=SP</code> retorna todos os veículos online do Estado de São Paulo.</p>
 
-<p><a href="https://api.atlas.jor.br/docs"><button class="btn btn--dark btn--rounded btn--w-icon"> Acesse a documentação da API </button></a></p>
+<p><a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon"> Acesse a documentação da API </button></a></p>
 
 <p>Basta clicar em <code class="language-plaintext highlighter-rouge">SEND</code> e ver abaixo na tela o resultado.</p>
 

@@ -54,7 +54,7 @@
 			
 				<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
 			
-				<li><a href="/plataforma">Dados</a></li>
+				<li><a href="/plataforma">Dados e API</a></li>
 			
 				<li><a href="/plataforma/sobre">Sobre</a></li>
 			
@@ -82,7 +82,7 @@
 							
 								<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
 							
-								<li><a href="/plataforma">Dados</a></li>
+								<li><a href="/plataforma">Dados e API</a></li>
 							
 								<li><a href="/plataforma/sobre">Sobre</a></li>
 							
@@ -135,7 +135,9 @@
 				<div class="row">
 					<div class="col-md-7">
 						<div class="content">
-							<h2 id="1-sobre-a-documentação">1. Sobre a documentação</h2>
+							<p><a href="/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Cadastre-se na API</button></a> <a href="/plataforma/api/utilizarAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Saiba como usar </button></a></p>
+
+<h2 id="1-sobre-a-documentação">1. Sobre a documentação</h2>
 
 <p>Seja bem vindo à documentação da API do Atlas da Notícia.</p>
 
@@ -163,19 +165,19 @@
 
 <h4 id="221-json-request">2.2.1 JSON Request</h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    {
-    "email": "seu@email",
-    "password": "sua senha"
-    }
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+"email": "seu@email",
+"password": "sua senha"
+}
 </code></pre></div></div>
 
 <h4 id="222-resposta-com-o-token-será-enviada-para-você">2.2.2 Resposta com o token será enviada para você</h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    {
-        "access_token": "seu_token",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        {
+            "access_token": "seu_token",
+            "token_type": "bearer",
+            "expires_in": 3600
+        }
 </code></pre></div></div>
 
 <h3 id="23-renovando-o-token">2.3 Renovando o token</h3>
