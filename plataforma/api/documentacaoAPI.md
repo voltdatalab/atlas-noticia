@@ -23,7 +23,7 @@ page_nav:
         url: '#'
 ---
 
-<a href="{{ site.baseurl }}/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/utilizarAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Saiba como usar </button></a>
+<a href="{{ site.baseurl }}/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/utilizarAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Saiba como usar </button></a>
 
 ## 1. Sobre a documentação
 

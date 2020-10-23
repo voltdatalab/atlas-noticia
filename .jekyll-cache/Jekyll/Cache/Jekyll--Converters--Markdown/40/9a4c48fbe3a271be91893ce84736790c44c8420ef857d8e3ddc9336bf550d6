@@ -1,10 +1,10 @@
-I"�&<style>
+I"�&<style>
 p img{
   border: 1px solid #333
 }
 </style>
 
-<p><a href="/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a></p>
+<p><a href="/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a></p>
 
 <h2 id="acesso-via-hoppscotch">Acesso via Hoppscotch</h2>
 

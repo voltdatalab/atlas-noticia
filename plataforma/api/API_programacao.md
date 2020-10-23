@@ -29,7 +29,7 @@ p img{
 }
 </style>
 
-<a href="{{ site.baseurl }}/plataforma/API/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a>
+<a href="{{ site.baseurl }}/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="{{ site.baseurl }}/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a>
 
 O acesso utilizando a linguagem de programação R ou Python segue o mesmo processo daquele obtido via aplicação, cujo tutorial [pode ser encontrado neste link]({{ site.baseurl }}/plataforma/api/API_app)
 
