@@ -7,7 +7,7 @@ atualizacao:
 
 # Hero section
 title: "Tutorial básico de acesso à API"
-description: Acesse a API sem saber programação com esse passo a passo detalhado
+description: Acesse a API do Atlas da Notícia sem saber programação com esse passo a passo detalhado
 links: "Para se cadastrar na API, <a href='https://api.atlas.jor.br/register' target='_blank'>clique aqui</a>. Acesse o GitHub do pacote R <a href='https://github.com/voltdatalab/newsatlasbr' target='_blank'>aqui</a>."
 
 # Micro navigation
@@ -44,7 +44,7 @@ Sua área de trabalho vai estar totalmente em branco.
 
 ### 1º Passo: retornar seu token de acesso
 
-Para acessar a API do **Atlas da Notícia** você vai precisar estar cadastrado no nosso sistema, o que lhe permitirá gerar uma chave de acesso (ou token) para que sua aplicação possa puxar nossos dados. Isso é feito para evitar abusos nos nossos servidores, aumentado a segurança nossa e de quem usa a API.
+Para acessar a API do **Atlas da Notícia** você vai precisar estar cadastrado no nosso sistema, o que lhe permitirá gerar uma chave de acesso (ou token) para que sua aplicação possa puxar nossos dados. Isso é feito para evitar abusos nos servidores, aumentado a segurança.
 
 A forma correta de conseguir seu token é realizar uma requisição via método `POST`, que solicita ao servidor o envio de dados anexados ao corpo (ou `body`) da requisição.
 
@@ -54,13 +54,15 @@ No canto superior direito do Hoppscotch, altere o método para `POST`, acrescent
 
 Antes de enviar sua requisição para o servidor, vamos precisar também incluir suas credenciais de acesso à API -- o mesmo email e senha que você usou para se cadastrar.
 
+<a href="{{ site.baseurl }}/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a>
+
 Certifique-se de que o _Content Type_ esteja como `application/json` (que nada mais é do que o formato que o token vai ser entregue para você) e que o botão _Raw input_ esteja com o tick na esquerda, ou seja, desativado (também é possível fazer a requisição via _Raw input_, mas nesse caso não é necessário). Você pode também acrescentar um rótulo (_label_) como referência se quiser.
 
 Agora basta clicar **ENVIAR**.
 
 ![]({{ site.baseurl }}/graficos/hopp_credenciais.png)
 
-Caso tudo esteja certo com sua requisição aos nossos servidores, no fim da página você vai receber no pé da página uma mensagem de resposta de status `200` (sucesso), com o seu token logo abaixo. Você vai precisar copiar apenas do token (pode desconsiderar os outros dois campos).
+Caso tudo esteja certo com sua requisição aos nossos servidores, você vai receber no pé da página uma mensagem de resposta de status `200` (sucesso), com o seu token logo abaixo. Você vai precisar copiar apenas do token (pode desconsiderar os outros dois campos).
 
 Note que o prazo de validade de cada token é de 3.600 segundos, ou uma hora, a partir da qual ele não será mais válido e o processo para requisitar uma nova chave terá que ser feito novamente.
 
@@ -70,9 +72,9 @@ Com o token em mãos, podemos prosseguir para buscar os dados diretamente da API
 
 ### 2º Passo: utilizar o token
 
-Agora vamos mudar o método, utilizando agora `GET`, com o qual, em vez de solicitar aceitação de dados enviados pelo usuário, vai pedir para o servidor enviar os dados que queremos.
+Agora vamos mudar o método, utilizando agora `GET`, com o qual, em vez de solicitar aceitação de dados enviados pelo usuário, vamos pedir para o servidor enviar os dados que queremos.
 
-Também será necessário acrescentar a autenticação de suas credenciais, mediante o uso do token que você copiou agora pouco, conforme a figura abaixo.
+Também será necessário acrescentar a autenticação de suas credenciais, mediante o uso do _bearer_ token que você copiou agora pouco, conforme a figura abaixo.
 
 ![]({{ site.baseurl }}/graficos/hopp_bearer.png)
 
@@ -141,9 +143,3 @@ Para saber as URLs válidas, que retornam dados, é preciso ler a documentação
 Basta clicar em `SEND` e ver abaixo na tela o resultado.
 
 ![postman get](../../../graficos/postman_results.png)
-
-## Acesso avançado: via R ou Python
-
-O acesso utilizando a linguagem de programação R ou Python é fácil e direto. [Este é o link para o gist](https://gist.github.com/sergiospagnuolo/f7b5bdd2fc430c791746a39d99319406) que contém os códigos
-
-<script src="https://gist.github.com/sergiospagnuolo/f7b5bdd2fc430c791746a39d99319406.js"></script>
