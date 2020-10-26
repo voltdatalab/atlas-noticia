@@ -1,13 +1,14 @@
-I"�	<p>A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido e completo a partir de sua ferramenta ou linguagem de programação de preferência.</p>
+I"
+<p>A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido e completo a partir de sua ferramenta ou linguagem de programação de preferência.</p>
 
 <h2 id="formas-principais-de-acesso">Formas principais de acesso</h2>
 
 <p>Há quatro formas principais para acessar os dados da API do <strong>Atlas da Notícia</strong></p>
 
 <ol>
-  <li><strong>Iniciante</strong>: Via <a href="https://www.atlas.jor.br/plataforma/consulta/">interface de consulta</a>;</li>
-  <li><strong>Intermediário</strong>: Via aplicativos específicos para retorno de API;</li>
-  <li><strong>Avançado</strong>: Via programação (Python, R, PHP, Javascript, Ruby etc.);</li>
+  <li><strong>Iniciante</strong>: Via <a href="/plataforma/consulta/">interface de consulta</a>;</li>
+  <li><strong>Intermediário</strong>: Via <a href="/plataforma/api/API_app">aplicativos específicos</a> para retorno de API;</li>
+  <li><strong>Avançado</strong>: Via <a href="/plataforma/api/API_programacao">programação</a> (Python, R, PHP, Javascript, Ruby etc.);</li>
   <li><strong>Avançado</strong>: Via <a href="/plataforma/api/pacote">pacote R</a>, desenvolvido por nós mesmos.</li>
 </ol>
 

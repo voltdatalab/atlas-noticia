@@ -29,9 +29,9 @@ A API tem a função de ser um recurso útil para construção de aplicações, 
 
 Há quatro formas principais para acessar os dados da API do **Atlas da Notícia**
 
-1. **Iniciante**: Via [interface de consulta](https://www.atlas.jor.br/plataforma/consulta/);
-2. **Intermediário**: Via aplicativos específicos para retorno de API;
-3. **Avançado**: Via programação (Python, R, PHP, Javascript, Ruby etc.);
+1. **Iniciante**: Via [interface de consulta]({{ site.baseurl }}/plataforma/consulta/);
+2. **Intermediário**: Via [aplicativos específicos]({{ site.baseurl }}/plataforma/api/API_app) para retorno de API;
+3. **Avançado**: Via [programação]({{ site.baseurl }}/plataforma/api/API_programacao) (Python, R, PHP, Javascript, Ruby etc.);
 4. **Avançado**: Via [pacote R]({{ site.baseurl }}/plataforma/api/pacote), desenvolvido por nós mesmos.
 
 ## Cadastro
