@@ -64,7 +64,7 @@ _**Observação**: alguma familiaridade com uso da linguagem R é recomendada._
 
 ### Logar na API
 
-Para acessar a API do Atlas da Notícia, os usuários [devem ser registrados](https://api.atlas.jor.br/login) e inserir o e-mail e senha para autenticação. A função `atlasbr_sigin` registra essa informação na sessão de R do usuário, para ela ser usada na obtenção do Bearer token de acesso a API.
+Para acessar a API do Atlas da Notícia, os usuários [devem ser registrados](https://api.atlas.jor.br/login) e inserir o e-mail e senha para autenticação. A função `atlas_signin` registra essa informação na sessão de R do usuário, para ela ser usada na obtenção do Bearer token de acesso a API.
 
 A função grava o e-mail e senha somente na sessão *atual* do usuário. Assim, ele deve repetir essa operação a cada nova sessão de R em que ele queira utilizar o pacote. *O usuário e senha são pessoais. Então, os usuários devem ser cautelosos ao escrevê-los e salvá-los em scripts, para evitar o seu compartilhamento*.
 
