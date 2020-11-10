@@ -69,7 +69,7 @@ Para acessar a API do Atlas da Notícia, os usuários [devem ser registrados](ht
 A função grava o e-mail e senha somente na sessão *atual* do usuário. Assim, ele deve repetir essa operação a cada nova sessão de R em que ele queira utilizar o pacote. *O usuário e senha são pessoais. Então, os usuários devem ser cautelosos ao escrevê-los e salvá-los em scripts, para evitar o seu compartilhamento*.
 
 ```r
-atlasbr_signin(email = "example@account_exeample.com", password = "pass")
+atlas_signin(email = "example@account_exeample.com", password = "pass")
 ```
 
 ### Dados agregados de municípios/estados/regiões

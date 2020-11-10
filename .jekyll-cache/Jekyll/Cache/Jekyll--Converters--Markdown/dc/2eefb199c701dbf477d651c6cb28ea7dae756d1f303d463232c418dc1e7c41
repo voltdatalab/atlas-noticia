@@ -1,4 +1,4 @@
-I"�B<p><a href="/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a></p>
+I"�B<p><a href="/plataforma/api/utilizarAPI"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline">Cadastre-se na API</button></a> <a href="/plataforma/api/documentacaoAPI }}"><button class="btn btn--dark btn--rounded btn--w-icon" style="display:inline"> Acesse a documentação </button></a></p>
 
 <h2 id="introdução-ao-newsatlasbr">Introdução ao newsatlasbr</h2>
 
@@ -43,7 +43,7 @@
 
 <p>A função grava o e-mail e senha somente na sessão <em>atual</em> do usuário. Assim, ele deve repetir essa operação a cada nova sessão de R em que ele queira utilizar o pacote. <em>O usuário e senha são pessoais. Então, os usuários devem ser cautelosos ao escrevê-los e salvá-los em scripts, para evitar o seu compartilhamento</em>.</p>
 
-<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">atlasbr_signin</span><span class="p">(</span><span class="n">email</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"example@account_exeample.com"</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"pass"</span><span class="p">)</span><span class="w">
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">atlas_signin</span><span class="p">(</span><span class="n">email</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"example@account_exeample.com"</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"pass"</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
 <h3 id="dados-agregados-de-municípiosestadosregiões">Dados agregados de municípios/estados/regiões</h3>
