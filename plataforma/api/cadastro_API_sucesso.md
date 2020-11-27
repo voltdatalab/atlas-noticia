@@ -18,10 +18,10 @@ body{
 }
 </style>
 
-### Obrigado por se cadastrar na API!
+## Cadastro efetuado com sucesso!
 
 Seu cadastro à API do **Atlas da Notícia** foi concluído com sucesso. Você não receberá confirmação por email.
 
-Ainda estamos melhorando nossos sistemas. Case precise mudar sua senha, é necessário nos contatar. Mande um email para [contato@atlas.jor.br](mailto:contato@atlas.jor.br)
+Qualquer dúvida, envie um email para [contato@atlas.jor.br](mailto:contato@atlas.jor.br).
 
 Boa análise de dados!
