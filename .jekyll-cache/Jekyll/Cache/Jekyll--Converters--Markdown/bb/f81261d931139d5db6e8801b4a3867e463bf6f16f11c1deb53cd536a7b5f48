@@ -1,4 +1,10 @@
-I"
+I"}<style>
+iframe{
+  border: 2px dashed #008596;
+  padding: 5px 0;
+}
+</style>
+
 <p>A API tem a função de ser um recurso útil para construção de aplicações, automação de análises e rotinas e acesso rápido e completo a partir de sua ferramenta ou linguagem de programação de preferência.</p>
 
 <h2 id="formas-principais-de-acesso">Formas principais de acesso</h2>
@@ -15,6 +21,8 @@
 <h2 id="cadastro">Cadastro</h2>
 <p>O primeiro passo para acessar a API do <strong>Atlas da Notícia</strong> é fazer um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados. Note que ainda estamos aperfeiçoando nosso sistema e você pode ainda <strong>não</strong> receber uma confirmação.</p>
 
+<p><strong><a href="https://api.atlas.jor.br/password/reset">Se esqueceu sua senha ou quer cadastrar uma nova, clique aqui.</a></strong></p>
+
 <iframe src="https://api.atlas.jor.br/register" width="100%" height="500px" scrolling="no" seamless=""></iframe>
 
 <h2 id="métodos-de-acesso">Métodos de acesso</h2>
@@ -23,6 +31,4 @@
 <p>A API funciona a partir da geração de chaves únicas (chamadas tokens), e para isso você vai precisar utilizar o usuário e senha que criou pelo portal do <strong>Atlas da Notícia</strong>.</p>
 
 <p>Há várias ferramentas e métodos de acesso aos dados. Abaixo, listamos alguns métodos eficientes utilizando um <em>client</em> de acesso a APIs e mediante uso de programação.</p>
-
-<p><span style="color:red;font-size:1em;line-height:1.5em;padding:15px;background-color:#ececec;display:block"> <strong>Não perca seu login e senha</strong>: esse registro fará com que você tenha acesso a todos os dados da API, mas, como ainda não temos um sistema público (um <em>backend</em>) que possa ser utilizado abertamente, não é possível o próprio usuário alterar suas credenciais. Caso tenha alguma dúvida e precise de uma nova senha, por favor entre mande um email para <strong><a href="mailto:contato@atlas.jor.br">contato@atlas.jor.br</a></strong>, e nossa equipe emitirá uma senha nova para você.</span></p>
 :ET

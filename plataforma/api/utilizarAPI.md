@@ -44,6 +44,8 @@ Há quatro formas principais para acessar os dados da API do **Atlas da Notícia
 ## Cadastro
 O primeiro passo para acessar a API do **Atlas da Notícia** é fazer um cadastro, criando seu próprio login e senha, que serão utilizados como credenciais de uso do nosso banco de dados. Note que ainda estamos aperfeiçoando nosso sistema e você pode ainda **não** receber uma confirmação.
 
+<strong>[Se esqueceu sua senha ou quer cadastrar uma nova, clique aqui.](https://api.atlas.jor.br/password/reset)</strong>
+
 <iframe src="https://api.atlas.jor.br/register" width="100%" height="500px" scrolling="no" seamless></iframe>
 
 ## Métodos de acesso
