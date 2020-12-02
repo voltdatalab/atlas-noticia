@@ -24,4 +24,6 @@ Seu cadastro à API do **Atlas da Notícia** foi concluído com sucesso. Você n
 
 Qualquer dúvida, envie um email para [contato@atlas.jor.br](mailto:contato@atlas.jor.br).
 
+<strong>[Se esqueceu sua senha ou quer cadastrar uma nova, clique aqui.](https://api.atlas.jor.br/password/reset)</strong>
+
 Boa análise de dados!
