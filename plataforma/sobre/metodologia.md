@@ -21,19 +21,7 @@ A metodologia do **Atlas da Notícia** envolveu, basicamente, dois levantamentos
 
 - **Levantamento 2 (iniciativa própria)**: pesquisa da própria equipe do **Atlas** mediante utilização de contribuições públicas abertas, voluntários e colaboradores recrutados e pesquisadores próprios. Veja [neste link]({{ site.baseurl }}/plataforma/sobre/equipe) quem compõe a equipe do **Atlas** e [neste link]({{ site.baseurl }}/plataforma/sobre/colaboradores) quem foram os colaboradores voluntários da terceira edição.
 
-
 Desde 2017, primeiro ano de publicação da pesquisa, os dados da Secom e do MCTIC representam a maior parte do levantamento, em número de veículos mapeados. No entanto, a participação do levantamento próprio do **Atlas da Notícia** tem paulatinamente crescimento tanto em proporção sobre o total de veículos mapeados quanto na expansão das informações obtidas.
-
-| fonte              | veículos | proporção |
-|--------------------|----------|-----------|
-| MCTIC              | 6.460    | 47,0%     |
-| Secom/PR           | 4.164    | 30,3%     |
-| Atlas da Notícia   | 2.613    | 19,0%     |
-| Adjori-RS          | 193      | 1,4%      |
-| Adjori-SC          | 128      | 0,9%      |
-| Central de Diários | 86       | 0,6%      |
-| Adjori-SP          | 60       | 0,4%      |
-| Adjori-PR          | 28       | 0,2%      |
 
 No primeiro levantamento (2017) e no segundo (2018), foram apuradas como informações centrais do levantamento apenas dados sobre nome do veículo, município, unidade federativa e região. Nesses dois casos, os levantamentos foram basicamente manuais -- ou seja, pesquisadores acrescentaram diretamente as informações no banco de dados.
 
@@ -41,12 +29,7 @@ Desde o primeiro ano, levantamento próprio do **Atlas** é realizado mediante o
 
 Vale dizer que o **Atlas** mapeia *todos* os veículos de comunicação que consegue encontrar, mas considera para sua pesquisa *somente* veículos que possuem algum viés jornalístico. No banco de dados, há uma notação indicando quais consideramos ou não jornalísticos.
 
-Veículos não-jornalísticos incluem canais de TV pertencidos a Estados e municípios, periódicos de sindicatos e associações e outros veículos que não se encaixam em padrões de produção jornalístico. Com 13.732 veículos cadastrados em 2019, base é constantemente avaliada e atualizada.
-
-| tipo              | veículos | proporção |
-|-------------------|----------|-----------|
-| jornalísticos     | 11.833   | 86%       |
-| não-jornalísticos | 1.899    | 14%       |
+Veículos não-jornalísticos incluem canais de TV pertencidos a Estados e municípios, periódicos de sindicatos e associações corporativas e outros veículos que não se encaixam em padrões de produção jornalística. Nossa base é constantemente avaliada e atualizada.
 
 Em 2018, contando com financiamento para o projeto, o **Atlas** passou a ter pesquisadores regionais (um em cada região), e com isso passou a construir uma rede de colaboradores a fim de expandir a base de conhecimento sobre os veículos mapeados.
 

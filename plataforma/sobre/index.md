@@ -9,10 +9,10 @@ description: Quem somos, o que fazemos e detalhes sobre o projeto
 
 # Grid navigation
 grid_navigation:
-    - title: Cadastre um veículo
-      excerpt: Conhece uma iniciativa jornalística? Cadastre seu conhecimento ou atualize informações já existentes
-      cta: Preencha o formulário
-      url: '../formulario'
+    - title: Metodologia
+      excerpt: Como é feito o levantamento do Atlas sobre a imprensa local brasileira
+      cta: Entenda como é feito
+      url: 'metodologia'
     - title: Origem do Atlas
       excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil
       cta: Conheça o projeto
@@ -32,15 +32,15 @@ grid_navigation:
     - title: Atlas na academia
       excerpt: Veja trabalhos acadêmicos que citaram a pesquisa do Atlas da Notícia
       cta: EM BREVE
-      url: ''
-    - title: Metodologia
-      excerpt: Como é feito o levantamento do Atlas sobre a imprensa local brasileira
-      cta: Entenda como é feito
-      url: 'metodologia'
+      url: 'academico'
     - title: Política de correções
       excerpt: Saiba como funciona a política de correção do Atlas da Notícia
       cta: Saiba mais
       url: 'correcoes'
+    - title: Cadastre um veículo
+      excerpt: Conhece uma iniciativa jornalística? Cadastre seu conhecimento ou atualize informações já existentes
+      cta: Preencha o formulário
+      url: '../formulario'
 
 
 ---
