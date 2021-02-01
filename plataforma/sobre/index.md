@@ -31,7 +31,7 @@ grid_navigation:
       url: 'clipping'
     - title: Atlas na academia
       excerpt: Veja trabalhos acadêmicos que citaram a pesquisa do Atlas da Notícia
-      cta: EM BREVE
+      cta: Acesse
       url: 'academico'
     - title: Política de correções
       excerpt: Saiba como funciona a política de correção do Atlas da Notícia

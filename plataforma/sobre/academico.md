@@ -7,7 +7,7 @@ atualizacao:
 
 # Hero section
 title: Atlas na academia
-description: Conheça os artigos que citam o Atlas da Notícia
+description: Conheça os artigos acadêmicos que citam o Atlas da Notícia
 #links: Conheça também a <a href='../equipe'>equipe do Atlas</a> e veja nossas <a href='../estatisticas'>análises</a>
 
 # Author box
