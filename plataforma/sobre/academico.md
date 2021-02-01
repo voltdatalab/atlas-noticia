@@ -47,8 +47,8 @@ Foram identificados **{{ count }} artigos** acadêmicos que citam o **Atlas da N
     <tr>  
     <th>Ano</th>
     <th>Instituição</th>
-    <th>Autor</th>
     <th>Título</th>
+    <th>Autor</th>
     </tr>
 
 {% for artigo in site.data.academico %}
