@@ -42,7 +42,6 @@ page_nav:
 
 {{ dados.desc }}
 
-![{{ dados.titulo }}]({{ dados.chart }})
-
+![]({{ dados.chart }})
 
 {% endfor %}
