@@ -16,17 +16,25 @@ description: Estatísticas básicas e consulta do banco de dados do Atlas da Not
 
 # Grid navigation
 grid_navigation:
-    - title: Desertos de Notícias
-      excerpt: Saiba o que são desertos de notícias e sua distribuição no território Brasileiro
-      cta: Saiba como usar
-      url: '../../desertos-de-noticia/'
-    - title: Estatísticas básicas v.3.0
+    - title: Estatísticas básicas v.4
       excerpt: Veja os principais dados, conclusões, análises e gráficos da versão mais atual da pesquisa do Atlas da Notícia
-      cta: Veja as tabelas
+      cta: Acesse os dados
       url: '../estatisticas'
+    - title: Desertos de notícia (v4)
+      excerpt: Saiba o que são desertos de notícias e sua distribuição no território Brasileiro
+      cta: EM BREVE
+      url:
     - title: Dados abertos
       excerpt: Explore e faça download dos dados brutos completos do levantamento utilizando nossa interface de consulta
       cta: Consulte os dados
       url: '../consulta'
+    - title: Estatísticas básicas v.3
+      excerpt: Veja os principais dados, conclusões, análises e gráficos da versão mais atual da pesquisa do Atlas da Notícia
+      cta: Veja as tabelas
+      url: '../estatisticas-v3'
+    - title: Desertos de Notícias (v3)
+      excerpt: Saiba o que são desertos de notícias e sua distribuição no território Brasileiro
+      cta: Veja a análise
+      url: '../../desertos-de-noticia/'
 
 ---

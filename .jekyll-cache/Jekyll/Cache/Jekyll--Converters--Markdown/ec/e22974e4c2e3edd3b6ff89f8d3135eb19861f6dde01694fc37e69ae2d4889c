@@ -1,0 +1,120 @@
+I"�/<p><a href="/plataforma/sobre/metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a></p>
+
+<p><a href="/plataforma/consulta"><button class="btn btn--dark btn--rounded btn--w-icon">Acesse os dados aqui</button></a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;h3&gt;Municípios com noticiário&lt;/h3&gt;
+  &lt;h4&gt; Considera não desertos (+3 veiculos) e quase desertos (1-2 veículos) &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;versão&lt;/th&gt; &lt;th&gt;n&lt;/th&gt; &lt;th&gt;% do total de municípios&lt;/th&gt; &lt;th&gt;diferença v4-v3&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;v3 (2019)&lt;/td&gt; &lt;td&gt;2.083&lt;/td&gt; &lt;td&gt;37,4%&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;v4 (2021)&lt;/td&gt; &lt;td&gt;2.290&lt;/td&gt; &lt;td&gt;41,1%&lt;/td&gt; &lt;td&gt;207&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="../../graficos/atlas_v4/atlas_v4_desertos_naodesertos.png" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Desertos de notícia&lt;/h3&gt;
+  &lt;h4&gt; Considera municípios que não possuem veículos cadastrados &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;versão&lt;/th&gt; &lt;th&gt;n&lt;/th&gt; &lt;th&gt;% do total de municípios&lt;/th&gt; &lt;th&gt;diferença v4-v3&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;v3 (2019)&lt;/td&gt; &lt;td&gt;3.487&lt;/td&gt; &lt;td&gt;62,6%&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;v4 (2021)&lt;/td&gt; &lt;td&gt;3.280&lt;/td&gt; &lt;td&gt;58,9%&lt;/td&gt; &lt;td&gt;-207&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="../../graficos/atlas_v4/atlas_desertos_destaque.png" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Não desertos&lt;/h3&gt;
+  &lt;h4&gt; Considera municípios com 3 ou mais veículos cadastrados &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;versão&lt;/th&gt; &lt;th&gt;n&lt;/th&gt; &lt;th&gt;% do total de municípios&lt;/th&gt; &lt;th&gt;diferença v4-v3&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;v3 (2019)&lt;/td&gt; &lt;td&gt;1.009&lt;/td&gt; &lt;td&gt;18,1%&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;v4 (2021)&lt;/td&gt; &lt;td&gt;1.103&lt;/td&gt; &lt;td&gt;19,8%&lt;/td&gt; &lt;td&gt;94&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Quase desertos&lt;/h3&gt;
+  &lt;h4&gt; Considera municípios com 1 ou 2 veículos cadastrados &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;versão&lt;/th&gt; &lt;th&gt;n&lt;/th&gt; &lt;th&gt;% do total de municípios&lt;/th&gt; &lt;th&gt;diferença v4-v3&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;v3 (2019)&lt;/td&gt; &lt;td&gt;1.074&lt;/td&gt; &lt;td&gt;19,3%&lt;/td&gt; &lt;td&gt; - &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;v4 (2021)&lt;/td&gt; &lt;td&gt;1.187&lt;/td&gt; &lt;td&gt;21,3%&lt;/td&gt; &lt;td&gt;113&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;População em desertos (1)&lt;/h3&gt;
+  &lt;h4&gt; Número combinado de habitantes por tipo de município &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;tipo&lt;/th&gt; &lt;th&gt;população&lt;/th&gt; &lt;th&gt;proporção&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Desertos&lt;br&gt;(0 veículos)&lt;/td&gt; &lt;td&gt;33.717.134&lt;/td&gt; &lt;td&gt;16,0%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Quase desertos&lt;br&gt;(1 ou 2 veículos)&lt;/td&gt; &lt;td&gt;28.963.829&lt;/td&gt; &lt;td&gt;13,7%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Não desertos&lt;br&gt;(+3 veículos)&lt;/td&gt; &lt;td&gt;149.074.729&lt;/td&gt; &lt;td&gt;70,3%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="../../graficos/atlas_v4/atlas_v4_pop_populacao_desertos.png" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;População em desertos (2)&lt;/h3&gt;
+  &lt;h4&gt; Número combinado de habitantes por tipo de município &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;tipo&lt;/th&gt; &lt;th&gt;população&lt;/th&gt; &lt;th&gt;proporção&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;com veículos&lt;/td&gt; &lt;td&gt;178.038.558&lt;/td&gt; &lt;td&gt;84,0%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;sem veículos&lt;/td&gt; &lt;td&gt;33.717.134&lt;/td&gt; &lt;td&gt;16,0%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Tamanho dos municípios&lt;/h3&gt;
+  &lt;h4&gt; População média e mediana dos municípios &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;tipo&lt;/th&gt; &lt;th&gt;média&lt;/th&gt; &lt;th&gt;mediana&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Desertos&lt;br&gt;(0 veículos)&lt;/td&gt; &lt;td&gt;10.281&lt;/td&gt; &lt;td&gt;6.892&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Quase desertos&lt;br&gt;(1 ou 2 veículos)&lt;/td&gt; &lt;td&gt;24.433&lt;/td&gt; &lt;td&gt;16.979&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Não desertos&lt;br&gt;(+3 veículos)&lt;/td&gt; &lt;td&gt;135.153&lt;/td&gt; &lt;td&gt;47.825&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Cidades com pelo menos 1 veículo&lt;/td&gt; &lt;td&gt;77.832&lt;/td&gt; &lt;td&gt;26.264&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="../../graficos/atlas_v4/atlas_v4_prop_populacao_tamanho.png" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Veículos totais mapeados&lt;/h3&gt;
+  &lt;h4&gt; Número de iniciativas cadastradas no banco de dados &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;tr&gt; &lt;th class="tg-0lax"&gt;versão atlas&lt;/th&gt; &lt;th class="tg-0lax"&gt;veículos&lt;/th&gt; &lt;th class="tg-0lax"&gt;% sobre ano anterior&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;v.1.0&lt;/td&gt; &lt;td class="tg-0lax"&gt;11.829&lt;/td&gt; &lt;td class="tg-0lax"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;v.2.0&lt;/td&gt; &lt;td class="tg-0lax"&gt;12.467&lt;/td&gt; &lt;td class="tg-0lax"&gt;5,4%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;v.3.0&lt;/td&gt; &lt;td class="tg-0lax"&gt;13.732&lt;/td&gt; &lt;td class="tg-0lax"&gt;10,1%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;v.4.0&lt;/td&gt; &lt;td class="tg-0lax"&gt;15.216&lt;/td&gt; &lt;td class="tg-0lax"&gt;10,8%&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Cadastros jornalísticos&lt;/h3&gt;
+  &lt;h4&gt; Número de veículos classificados como jornalismo ou não &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;tr&gt; &lt;th class="tg-0lax"&gt;tipo&lt;/th&gt; &lt;th class="tg-0lax"&gt;veículos&lt;/th&gt; &lt;th class="tg-0lax"&gt;proporção&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;jornalísticos (v3)&lt;/td&gt; &lt;td class="tg-0lax"&gt;11.833&lt;/td&gt; &lt;td class="tg-0lax"&gt;86%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;não-jornalísticos (v3)&lt;/td&gt; &lt;td class="tg-0lax"&gt;1.899&lt;/td&gt; &lt;td class="tg-0lax"&gt;14%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;&lt;strong&gt;jornalísticos (v4)&lt;/strong&gt;&lt;/td&gt; &lt;td class="tg-0lax"&gt;13.092&lt;/td&gt; &lt;td class="tg-0lax"&gt;86%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;&lt;strong&gt;não-jornalísticos (v4)&lt;/strong&gt;&lt;/td&gt; &lt;td class="tg-0lax"&gt;2.124&lt;/td&gt; &lt;td class="tg-0lax"&gt;14%&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Veículos fechados&lt;/h3&gt;
+  &lt;h4&gt; Considera fechamentos em qualquer momento nos últimos 20 anos &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;tr&gt; &lt;th class="tg-0lax"&gt;tipo&lt;/th&gt; &lt;th class="tg-0lax"&gt;veículos&lt;/th&gt; &lt;th class="tg-0lax"&gt;proporção&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;jornalísticos (v3)&lt;/td&gt; &lt;td class="tg-0lax"&gt;331&lt;/td&gt; &lt;td class="tg-0lax"&gt;93,3%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;não-jornalísticos (v3)&lt;/td&gt; &lt;td class="tg-0lax"&gt;10&lt;/td&gt; &lt;td class="tg-0lax"&gt;4,4%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;&lt;strong&gt;jornalísticos (v4)&lt;/strong&gt;&lt;/td&gt; &lt;td class="tg-0lax"&gt;331&lt;/td&gt; &lt;td class="tg-0lax"&gt;93,3%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="tg-0lax"&gt;&lt;strong&gt;não-jornalísticos (v4)&lt;/strong&gt;&lt;/td&gt; &lt;td class="tg-0lax"&gt;10&lt;/td&gt; &lt;td class="tg-0lax"&gt;4,4%&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Veículos por região&lt;/h3&gt;
+  &lt;h4&gt; Número de iniciativas por região do Brasil &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;região&lt;/th&gt; &lt;th&gt;veículos v4&lt;/th&gt; &lt;th&gt;proporção v4&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Sudeste&lt;/td&gt; &lt;td&gt;4517&lt;/td&gt; &lt;td&gt;34,5%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Sul&lt;/td&gt; &lt;td&gt;3315&lt;/td&gt; &lt;td&gt;25,3%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Nordeste&lt;/td&gt; &lt;td&gt;2402&lt;/td&gt; &lt;td&gt;18,3%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Centro-Oeste&lt;/td&gt; &lt;td&gt;1898&lt;/td&gt; &lt;td&gt;14,5%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Norte&lt;/td&gt; &lt;td&gt;960&lt;/td&gt; &lt;td&gt;7,3%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Veículos por segmento&lt;/h3&gt;
+  &lt;h4&gt; Classificação das mídias consideradas na pesquisa &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;segmento&lt;/th&gt; &lt;th&gt;n veiculos v4&lt;/th&gt; &lt;th&gt;proporção v4&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Rádio&lt;/td&gt; &lt;td&gt;4.403&lt;/td&gt; &lt;td&gt;33,6%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Impresso&lt;/td&gt; &lt;td&gt;3.229&lt;/td&gt; &lt;td&gt;24,7%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Online&lt;/td&gt; &lt;td&gt;4.221&lt;/td&gt; &lt;td&gt;32,2%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Televisão&lt;/td&gt; &lt;td&gt;1.239&lt;/td&gt; &lt;td&gt;9,5%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="../../graficos/atlas_v4/atlas_v4_por_segmento.png" width="100%"&gt;
+
+
+
+
+  &lt;h3&gt;Veículos por fonte&lt;/h3&gt;
+  &lt;h4&gt; Origem dos dados dos cadastros do nosso banco de dados &lt;/h4&gt;
+  &lt;p&gt; &lt;table class="tg"&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;fonte&lt;/th&gt; &lt;th&gt;veículos v4&lt;/th&gt; &lt;th&gt;proporção v4&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;MCTIC&lt;/td&gt; &lt;td&gt;6.185&lt;/td&gt; &lt;td&gt;45,0%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Atlas da Notícia&lt;/td&gt; &lt;td&gt;5.366&lt;/td&gt; &lt;td&gt;39,1%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Secom/PR&lt;/td&gt; &lt;td&gt;3.256&lt;/td&gt; &lt;td&gt;23,7%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Adjori-RS&lt;/td&gt; &lt;td&gt;139&lt;/td&gt; &lt;td&gt;1,0%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Adjori-SC&lt;/td&gt; &lt;td&gt;123&lt;/td&gt; &lt;td&gt;0,9%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Central de Diários&lt;/td&gt; &lt;td&gt;70&lt;/td&gt; &lt;td&gt;0,5%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Adjori-SP&lt;/td&gt; &lt;td&gt;59&lt;/td&gt; &lt;td&gt;0,4%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Adjori-PR&lt;/td&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;0,1%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/p&gt;
+
+  &lt;img src="" width="100%"&gt;
+</code></pre></div></div>
+
+:ET

@@ -36,7 +36,7 @@
 									<small style="background-color: #ededed;display:inline">{{ page.links }}</small><br />
 								{% endif %}
 								{% if page.atualizacao %}
-									<br /><em><small style="background-color: #ededed;display:inline">Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="https://github.com/voltdatalab/atlas-analytics" target="_blank"><i class="icon icon--github"></i>  Acesse todos os dados</span></a></small></em>
+									<br /><em><small style="background-color: #ededed;display:inline">Última atualização em <span style="color:#d40000">{{ page.atualizacao }}</span>  <span style="float:right"><a href="{{ baseurl }}/plataforma/consulta" target="_blank">Acesse todos os dados</span></a></small></em>
 								{% endif %}
 
 								{% if page.page_nav.prev.content or page.page_nav.next.content %}

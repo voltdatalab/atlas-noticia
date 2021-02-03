@@ -1,0 +1,151 @@
+I"l#<p><a href="/plataforma/sobre/metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a></p>
+
+<p><a href="/plataforma/consulta"><button class="btn btn--dark btn--rounded btn--w-icon">Acesse os dados aqui</button></a></p>
+
+<div class="row" style="display: flex; flex-wrap: wrap">
+  
+  <div class="column">
+    <div>
+      <h3>Municípios com noticiário</h3>
+      <h4> Considera não desertos (+3 veiculos) e quase desertos (1-2 veículos) </h4>
+      <p> <table class="tg"> <thead> <tr> <th>versão</th> <th>n</th> <th>% do total de municípios</th> <th>diferença v4-v3</th> </tr> </thead> <tbody> <tr> <td>v3 (2019)</td> <td>2.083</td> <td>37,4%</td> <td></td> </tr> <tr> <td>v4 (2021)</td> <td>2.290</td> <td>41,1%</td> <td>207</td> </tr> </tbody> </table> </p>
+
+      <img src="../../graficos/atlas_v4/atlas_v4_desertos_naodesertos.png" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Desertos de notícia</h3>
+      <h4> Considera municípios que não possuem veículos cadastrados </h4>
+      <p> <table class="tg"> <thead> <tr> <th>versão</th> <th>n</th> <th>% do total de municípios</th> <th>diferença v4-v3</th> </tr> </thead> <tbody> <tr> <td>v3 (2019)</td> <td>3.487</td> <td>62,6%</td> <td></td> </tr> <tr> <td>v4 (2021)</td> <td>3.280</td> <td>58,9%</td> <td>-207</td> </tr> </tbody> </table> </p>
+
+      <img src="../../graficos/atlas_v4/atlas_desertos_destaque.png" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Não desertos</h3>
+      <h4> Considera municípios com 3 ou mais veículos cadastrados </h4>
+      <p> <table class="tg"> <thead> <tr> <th>versão</th> <th>n</th> <th>% do total de municípios</th> <th>diferença v4-v3</th> </tr> </thead> <tbody> <tr> <td>v3 (2019)</td> <td>1.009</td> <td>18,1%</td> <td></td> </tr> <tr> <td>v4 (2021)</td> <td>1.103</td> <td>19,8%</td> <td>94</td> </tr> </tbody> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Quase desertos</h3>
+      <h4> Considera municípios com 1 ou 2 veículos cadastrados </h4>
+      <p> <table class="tg"> <thead> <tr> <th>versão</th> <th>n</th> <th>% do total de municípios</th> <th>diferença v4-v3</th> </tr> </thead> <tbody> <tr> <td>v3 (2019)</td> <td>1.074</td> <td>19,3%</td> <td> - </td> </tr> <tr> <td>v4 (2021)</td> <td>1.187</td> <td>21,3%</td> <td>113</td> </tr> </tbody> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>População em desertos (1)</h3>
+      <h4> Número combinado de habitantes por tipo de município </h4>
+      <p> <table class="tg"> <thead> <tr> <th>tipo</th> <th>população</th> <th>proporção</th> </tr> </thead> <tbody> <tr> <td>Desertos<br />(0 veículos)</td> <td>33.717.134</td> <td>16,0%</td> </tr> <tr> <td>Quase desertos<br />(1 ou 2 veículos)</td> <td>28.963.829</td> <td>13,7%</td> </tr> <tr> <td>Não desertos<br />(+3 veículos)</td> <td>149.074.729</td> <td>70,3%</td> </tr> </tbody> </table> </p>
+
+      <img src="../../graficos/atlas_v4/atlas_v4_pop_populacao_desertos.png" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>População em desertos (2)</h3>
+      <h4> Número combinado de habitantes por tipo de município </h4>
+      <p> <table class="tg"> <thead> <tr> <th>tipo</th> <th>população</th> <th>proporção</th> </tr> </thead> <tbody> <tr> <td>com veículos</td> <td>178.038.558</td> <td>84,0%</td> </tr> <tr> <td>sem veículos</td> <td>33.717.134</td> <td>16,0%</td> </tr> </tbody> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Tamanho dos municípios</h3>
+      <h4> População média e mediana dos municípios </h4>
+      <p> <table class="tg"> <thead> <tr> <th>tipo</th> <th>média</th> <th>mediana</th> </tr> </thead> <tbody> <tr> <td>Desertos<br />(0 veículos)</td> <td>10.281</td> <td>6.892</td> </tr> <tr> <td>Quase desertos<br />(1 ou 2 veículos)</td> <td>24.433</td> <td>16.979</td> </tr> <tr> <td>Não desertos<br />(+3 veículos)</td> <td>135.153</td> <td>47.825</td> </tr> <tr> <td>Cidades com pelo menos 1 veículo</td> <td>77.832</td> <td>26.264</td> </tr> </tbody> </table> </p>
+
+      <img src="../../graficos/atlas_v4/atlas_v4_prop_populacao_tamanho.png" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Veículos totais mapeados</h3>
+      <h4> Número de iniciativas cadastradas no banco de dados </h4>
+      <p> <table class="tg"> <tr> <th class="tg-0lax">versão atlas</th> <th class="tg-0lax">veículos</th> <th class="tg-0lax">% sobre ano anterior</th> </tr> <tr> <td class="tg-0lax">v.1.0</td> <td class="tg-0lax">11.829</td> <td class="tg-0lax">-</td> </tr> <tr> <td class="tg-0lax">v.2.0</td> <td class="tg-0lax">12.467</td> <td class="tg-0lax">5,4%</td> </tr> <tr> <td class="tg-0lax">v.3.0</td> <td class="tg-0lax">13.732</td> <td class="tg-0lax">10,1%</td> </tr> <tr> <td class="tg-0lax">v.4.0</td> <td class="tg-0lax">15.216</td> <td class="tg-0lax">10,8%</td> </tr> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Cadastros jornalísticos</h3>
+      <h4> Número de veículos classificados como jornalismo ou não </h4>
+      <p> <table class="tg"> <tr> <th class="tg-0lax">tipo</th> <th class="tg-0lax">veículos</th> <th class="tg-0lax">proporção</th> </tr> <tr> <td class="tg-0lax">jornalísticos (v3)</td> <td class="tg-0lax">11.833</td> <td class="tg-0lax">86%</td> </tr> <tr> <td class="tg-0lax">não-jornalísticos (v3)</td> <td class="tg-0lax">1.899</td> <td class="tg-0lax">14%</td> </tr> <tr> <td class="tg-0lax"><strong>jornalísticos (v4)</strong></td> <td class="tg-0lax">13.092</td> <td class="tg-0lax">86%</td> </tr> <tr> <td class="tg-0lax"><strong>não-jornalísticos (v4)</strong></td> <td class="tg-0lax">2.124</td> <td class="tg-0lax">14%</td> </tr> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Veículos fechados</h3>
+      <h4> Considera fechamentos em qualquer momento nos últimos 20 anos </h4>
+      <p> <table class="tg"> <tr> <th class="tg-0lax">tipo</th> <th class="tg-0lax">veículos</th> <th class="tg-0lax">proporção</th> </tr> <tr> <td class="tg-0lax">jornalísticos (v3)</td> <td class="tg-0lax">331</td> <td class="tg-0lax">93,3%</td> </tr> <tr> <td class="tg-0lax">não-jornalísticos (v3)</td> <td class="tg-0lax">10</td> <td class="tg-0lax">4,4%</td> </tr> <tr> <td class="tg-0lax"><strong>jornalísticos (v4)</strong></td> <td class="tg-0lax">331</td> <td class="tg-0lax">93,3%</td> </tr> <tr> <td class="tg-0lax"><strong>não-jornalísticos (v4)</strong></td> <td class="tg-0lax">10</td> <td class="tg-0lax">4,4%</td> </tr> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Veículos por região</h3>
+      <h4> Número de iniciativas por região do Brasil </h4>
+      <p> <table class="tg"> <thead> <tr> <th>região</th> <th>veículos v4</th> <th>proporção v4</th> </tr> </thead> <tbody> <tr> <td>Sudeste</td> <td>4517</td> <td>34,5%</td> </tr> <tr> <td>Sul</td> <td>3315</td> <td>25,3%</td> </tr> <tr> <td>Nordeste</td> <td>2402</td> <td>18,3%</td> </tr> <tr> <td>Centro-Oeste</td> <td>1898</td> <td>14,5%</td> </tr> <tr> <td>Norte</td> <td>960</td> <td>7,3%</td> </tr> </tbody> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Veículos por segmento</h3>
+      <h4> Classificação das mídias consideradas na pesquisa </h4>
+      <p> <table class="tg"> <thead> <tr> <th>segmento</th> <th>n veiculos v4</th> <th>proporção v4</th> </tr> </thead> <tbody> <tr> <td>Rádio</td> <td>4.403</td> <td>33,6%</td> </tr> <tr> <td>Impresso</td> <td>3.229</td> <td>24,7%</td> </tr> <tr> <td>Online</td> <td>4.221</td> <td>32,2%</td> </tr> <tr> <td>Televisão</td> <td>1.239</td> <td>9,5%</td> </tr> </tbody> </table> </p>
+
+      <img src="../../graficos/atlas_v4/atlas_v4_por_segmento.png" width="100%" />
+
+    </div>
+    </div>
+
+  <div class="column">
+    <div>
+      <h3>Veículos por fonte</h3>
+      <h4> Origem dos dados dos cadastros do nosso banco de dados </h4>
+      <p> <table class="tg"> <thead> <tr> <th>fonte</th> <th>veículos v4</th> <th>proporção v4</th> </tr> </thead> <tbody> <tr> <td>MCTIC</td> <td>6.185</td> <td>45,0%</td> </tr> <tr> <td>Atlas da Notícia</td> <td>5.366</td> <td>39,1%</td> </tr> <tr> <td>Secom/PR</td> <td>3.256</td> <td>23,7%</td> </tr> <tr> <td>Adjori-RS</td> <td>139</td> <td>1,0%</td> </tr> <tr> <td>Adjori-SC</td> <td>123</td> <td>0,9%</td> </tr> <tr> <td>Central de Diários</td> <td>70</td> <td>0,5%</td> </tr> <tr> <td>Adjori-SP</td> <td>59</td> <td>0,4%</td> </tr> <tr> <td>Adjori-PR</td> <td>18</td> <td>0,1%</td> </tr> </tbody> </table> </p>
+
+      <img src="" width="100%" />
+
+    </div>
+    </div>
+
+</div>
+:ET

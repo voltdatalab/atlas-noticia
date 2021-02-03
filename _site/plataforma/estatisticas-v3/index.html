@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estatísticas v.3.0</title>
+		
+			<meta name="description" content="Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.">
+		
+		
+			<meta name="keywords" content="jornalismo, veículos de comunicação, atlas da notícia, desertos de notícias">
+		
+		<meta property="og:url"                content="https://www.atlas.jor.br/" />
+		<meta property="og:type"               content="page" />
+		<meta property="og:title"              content="Estatísticas v.3.0 - Atlas da Notícia" />
+		
+			<meta property="og:description" content="Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.">
+		
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Estatísticas v.3.0</title>
+
+	<meta name="description" content="Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.">
+
+
+	<meta name="keywords" content="jornalismo, veículos de comunicação, atlas da notícia, desertos de notícias">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Vollkorn:400,700" rel="stylesheet">
+<meta property="og:url"                content="https://www.atlas.jor.br/" />
+<meta property="og:type"               content="page" />
+<meta property="og:title"              content="Estatísticas v.3.0" />
+
+	<meta property="og:description" content="Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.">
+
+<meta property="og:image" content="https://raw.githubusercontent.com/voltdatalab/atlas-noticia/gh-pages/graficos/atlasdanoticia_img.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="https://atlas.jor.br" />
+<meta name="twitter:creator" content="@atlasdanoticia" />
+
+
+			<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+	</head>
+	<body class="red" data-spy="scroll" data-target=".js-scrollspy">
+		
+	<div class="offcanvas visible-xs">
+		<ul class="offcanvas__nav">
+			
+				<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
+			
+				<li><a href="/plataforma/dados">Dados</a></li>
+			
+				<li><a href="/plataforma/api">API</a></li>
+			
+				<li><a href="/plataforma/sobre">Sobre</a></li>
+			
+				<li><a href="/plataforma/formulario">Colabore</a></li>
+			
+				<li><a href="/english">ENGLISH</a></li>
+			
+		</ul><!-- /.offcanvas__nav -->
+	</div><!-- /.offcanvas -->
+
+
+
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+						<a href="/" class="site-header__logo"><img src="/doks-theme/assets/images/Atlas_verde_vermelho.svg" alt="logo" width="350px" style="margin-left:-35px" /></a>
+						<!--<a href="/" class="site-header__logo">Atlas da Notícia</a>-->
+					
+					
+						<ul class="site-header__nav hidden-xs">
+							
+								<li><a href="/desertos-de-noticia/">Desertos de notícia</a></li>
+							
+								<li><a href="/plataforma/dados">Dados</a></li>
+							
+								<li><a href="/plataforma/api">API</a></li>
+							
+								<li><a href="/plataforma/sobre">Sobre</a></li>
+							
+								<li><a href="/plataforma/formulario">Colabore</a></li>
+							
+								<li><a href="/english">ENGLISH</a></li>
+							
+						</ul><!-- /.site-header__nav -->
+						<button class="offcanvas-toggle visible-xs">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button><!-- /.offcanvas-toggle -->
+					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header><!-- /.site-header -->
+
+
+		<div class="hero-subheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								
+									<h1 class="hero-subheader__title" style="background-color: #ededed;display:inline">Estatísticas v.3.0</h1><br />
+								
+								
+									<h4 class="hero-subheader__desc" style="background-color: #ededed;display:inline">Principais análises sobre o mapeamento de veículos de jornalismo no Brasil.</h4><br />
+								
+								
+									<small style="background-color: #ededed;display:inline">Acesse nossa interface de consulta dos dados brutos <a href='../consulta'>neste link</a></small><br />
+								
+								
+									<br /><em><small style="background-color: #ededed;display:inline">Última atualização em <span style="color:#d40000">Dezembro de 2019</span>  <span style="float:right"><a href="/plataforma/consulta" target="_blank">Acesse todos os dados</span></a></small></em>
+								
+
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+						<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+							<div class="align-container" data-mh>
+								<div class="align-inner">
+									<div class="hero-subheader__author">
+										<p class="hero-subheader__author-title">
+											
+											<a href="https://docs.google.com/presentation/d/e/2PACX-1vTedpNyScKNhwHzXo_eMIDyZQ_J0NxsdoLhgPz2QIxivW6gC6U92oO6l58ztEDa8QDxsTxfpGrYIw7n/pub?start=false&loop=false&delayms=5000" class="btn btn--read-more">
+												Relatório
+												<i class="icon icon--arrow-right"></i>
+											</a>
+											
+										</p><!-- /.hero-subheader__author-title -->
+										<br /><em><p>Google Slides - Atualizado em dezembro de 2019</p></em>
+									</div><!-- /.hero-subheader__author -->
+								</div><!-- /.align-inner -->
+							</div><!-- /.align-container -->
+						</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="content">
+							<h3 id="nota-metodológica">Nota metodológica</h3>
+
+<p><a href="/plataforma/sobre/metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a></p>
+
+<p>Os dados contrastam com a edição anterior (49% dos municípios possuíam ao menos um veículo), na qual não foi contabilizada a categorização entre o que é ou não um veículo jornalístico.</p>
+
+<p>Quando levamos em conta somente veículos que publicam algum conteúdo jornalístico, encontramos mais desertos.</p>
+
+<p>Veículos excluídos são, em sua grande maioria, mídias institucionais e estatais, tais como canais de TV de prefeituras, assembleias legislativas, publicações sindicais ou de associações.</p>
+
+<p>Os dados abaixo consideram <strong>apenas</strong> veículos identificados como jornalísticos que se encontram em operação.</p>
+
+<p>Clique no botão abaixo para fazer o download dos dados de municípios (não-desertos, quase desertos e desertos), unificados em uma tabela (333kb). Última atualização dessa tabela em 01/12/2019.</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1WHRJXiqZGUdgN82Pjqx-O91q0lkf7t9_1S-FTVOQP6L9oWYszFeydkYaedkkE3h_avOr_0206DLe/pub?gid=0&amp;single=true&amp;output=csv"><button class="btn btn--dark btn--rounded btn--w-icon">Download de Dados Brutos</button></a></p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/1NCu65jsAGXvE1MPit0f8C1Y-GbXoIvkeAV3zo-L4QHo/edit?usp=sharing" target="_blank"><button class="btn btn--dark btn--rounded btn--w-icon">Dados no Google Sheets</button></a></p>
+
+<h2 id="quadro-geral">Quadro Geral</h2>
+
+<h4 id="população-total-com-ou-sem-acesso-a-veículos-jornalísticos">População total com ou sem acesso a veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>população</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>com veículos</td>
+      <td>171.197.923</td>
+      <td>82,1%</td>
+    </tr>
+    <tr>
+      <td>sem veículos</td>
+      <td>37.296.977</td>
+      <td>17,9%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="../../graficos/atlas_v3/atlas_nao_desertos.png" alt="Desertos de notícias do Brasil" /></p>
+
+<h4 id="população-total-com-ou-sem-acesso-a-veículos-jornalísticos-1">População total com ou sem acesso a veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>região</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sudeste</td>
+      <td>4.521</td>
+      <td>38%</td>
+    </tr>
+    <tr>
+      <td>Sul</td>
+      <td>3.164</td>
+      <td>27%</td>
+    </tr>
+    <tr>
+      <td>Nordeste</td>
+      <td>1.722</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>Centro-Oeste</td>
+      <td>1.612</td>
+      <td>14%</td>
+    </tr>
+    <tr>
+      <td>Norte</td>
+      <td>814</td>
+      <td>7%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="veículos-por-segmento-e-uf-apenas-veículos-jornalísticos">Veículos por segmento e UF apenas veículos jornalísticos</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>estado</th>
+      <th>Impresso</th>
+      <th>Online</th>
+      <th>Rádio</th>
+      <th>Televisão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AC</td>
+      <td>9</td>
+      <td>35</td>
+      <td>15</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>AL</td>
+      <td>14</td>
+      <td>60</td>
+      <td>42</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td>15</td>
+      <td>72</td>
+      <td>51</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td>7</td>
+      <td>15</td>
+      <td>13</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>BA</td>
+      <td>71</td>
+      <td>110</td>
+      <td>246</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>CE</td>
+      <td>26</td>
+      <td>22</td>
+      <td>187</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>DF</td>
+      <td>78</td>
+      <td>140</td>
+      <td>41</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>ES</td>
+      <td>47</td>
+      <td>23</td>
+      <td>67</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>140</td>
+      <td>63</td>
+      <td>278</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>MA</td>
+      <td>26</td>
+      <td>31</td>
+      <td>74</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>MG</td>
+      <td>375</td>
+      <td>138</td>
+      <td>507</td>
+      <td>166</td>
+    </tr>
+    <tr>
+      <td>MS</td>
+      <td>82</td>
+      <td>156</td>
+      <td>164</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>MT</td>
+      <td>78</td>
+      <td>140</td>
+      <td>94</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>PA</td>
+      <td>30</td>
+      <td>41</td>
+      <td>86</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>PB</td>
+      <td>9</td>
+      <td>40</td>
+      <td>86</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>PE</td>
+      <td>26</td>
+      <td>51</td>
+      <td>111</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>PI</td>
+      <td>8</td>
+      <td>39</td>
+      <td>82</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>PR</td>
+      <td>298</td>
+      <td>382</td>
+      <td>369</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <td>RJ</td>
+      <td>248</td>
+      <td>211</td>
+      <td>139</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>RN</td>
+      <td>17</td>
+      <td>19</td>
+      <td>59</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>RO</td>
+      <td>32</td>
+      <td>47</td>
+      <td>55</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>RR</td>
+      <td>4</td>
+      <td>8</td>
+      <td>12</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>RS</td>
+      <td>450</td>
+      <td>197</td>
+      <td>486</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>SC</td>
+      <td>404</td>
+      <td>163</td>
+      <td>224</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>5</td>
+      <td>23</td>
+      <td>35</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>SP</td>
+      <td>906</td>
+      <td>795</td>
+      <td>641</td>
+      <td>183</td>
+    </tr>
+    <tr>
+      <td>TO</td>
+      <td>24</td>
+      <td>30</td>
+      <td>31</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="desertos-e-quase-desertos-de-notícias">Desertos e quase desertos de notícias</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>população</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Desertos(0 veículos)</td>
+      <td>37.296.977</td>
+      <td>17,9%</td>
+    </tr>
+    <tr>
+      <td>Quase desertos(1 ou 2 veículos)</td>
+      <td>27.495.351</td>
+      <td>13,2%</td>
+    </tr>
+    <tr>
+      <td>Não desertos(+3 veículos)</td>
+      <td>143.702.572</td>
+      <td>68,9%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cidades-e-desertos-por-região-considera-apenas-veículos-jornalísticos-abertos">Cidades e desertos por região considera apenas veículos jornalísticos abertos</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>região</th>
+      <th>qtd_cidades</th>
+      <th>qtd_desertos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Centro-Oeste</td>
+      <td>467</td>
+      <td>183</td>
+      <td>39,2%</td>
+    </tr>
+    <tr>
+      <td>Nordeste</td>
+      <td>1.794</td>
+      <td>1.318</td>
+      <td>73,5%</td>
+    </tr>
+    <tr>
+      <td>Norte</td>
+      <td>450</td>
+      <td>323</td>
+      <td>71,8%</td>
+    </tr>
+    <tr>
+      <td>Sudeste</td>
+      <td>1.668</td>
+      <td>1.010</td>
+      <td>60,6%</td>
+    </tr>
+    <tr>
+      <td>Sul</td>
+      <td>1.191</td>
+      <td>653</td>
+      <td>54,8%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="quantidade-de-desertos-por-uf">Quantidade de desertos por UF</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>estado</th>
+      <th>qtd_municipios</th>
+      <th>qtd_desertos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AC</td>
+      <td>22</td>
+      <td>13</td>
+      <td>59,1%</td>
+    </tr>
+    <tr>
+      <td>AL</td>
+      <td>102</td>
+      <td>75</td>
+      <td>73,5%</td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td>62</td>
+      <td>39</td>
+      <td>62,9%</td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td>16</td>
+      <td>9</td>
+      <td>56,3%</td>
+    </tr>
+    <tr>
+      <td>BA</td>
+      <td>417</td>
+      <td>270</td>
+      <td>64,7%</td>
+    </tr>
+    <tr>
+      <td>CE</td>
+      <td>184</td>
+      <td>105</td>
+      <td>57,1%</td>
+    </tr>
+    <tr>
+      <td>ES</td>
+      <td>78</td>
+      <td>41</td>
+      <td>52,6%</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>246</td>
+      <td>106</td>
+      <td>43,1%</td>
+    </tr>
+    <tr>
+      <td>MA</td>
+      <td>217</td>
+      <td>167</td>
+      <td>77,0%</td>
+    </tr>
+    <tr>
+      <td>MG</td>
+      <td>853</td>
+      <td>598</td>
+      <td>70,1%</td>
+    </tr>
+    <tr>
+      <td>MS</td>
+      <td>79</td>
+      <td>12</td>
+      <td>15,2%</td>
+    </tr>
+    <tr>
+      <td>MT</td>
+      <td>141</td>
+      <td>65</td>
+      <td>46,1%</td>
+    </tr>
+    <tr>
+      <td>PA</td>
+      <td>144</td>
+      <td>96</td>
+      <td>66,7%</td>
+    </tr>
+    <tr>
+      <td>PB</td>
+      <td>223</td>
+      <td>182</td>
+      <td>81,6%</td>
+    </tr>
+    <tr>
+      <td>PE</td>
+      <td>185</td>
+      <td>132</td>
+      <td>71,4%</td>
+    </tr>
+    <tr>
+      <td>PI</td>
+      <td>224</td>
+      <td>186</td>
+      <td>83,0%</td>
+    </tr>
+    <tr>
+      <td>PR</td>
+      <td>399</td>
+      <td>212</td>
+      <td>53,1%</td>
+    </tr>
+    <tr>
+      <td>RJ</td>
+      <td>92</td>
+      <td>24</td>
+      <td>26,1%</td>
+    </tr>
+    <tr>
+      <td>RN</td>
+      <td>167</td>
+      <td>143</td>
+      <td>85,6%</td>
+    </tr>
+    <tr>
+      <td>RO</td>
+      <td>52</td>
+      <td>31</td>
+      <td>59,6%</td>
+    </tr>
+    <tr>
+      <td>RR</td>
+      <td>15</td>
+      <td>11</td>
+      <td>73,3%</td>
+    </tr>
+    <tr>
+      <td>RS</td>
+      <td>497</td>
+      <td>283</td>
+      <td>56,9%</td>
+    </tr>
+    <tr>
+      <td>SC</td>
+      <td>295</td>
+      <td>158</td>
+      <td>53,6%</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>75</td>
+      <td>58</td>
+      <td>77,3%</td>
+    </tr>
+    <tr>
+      <td>SP</td>
+      <td>645</td>
+      <td>347</td>
+      <td>53,8%</td>
+    </tr>
+    <tr>
+      <td>TO</td>
+      <td>139</td>
+      <td>124</td>
+      <td>89,2%</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="fechamentos-de-veículos">Fechamentos de veículos</h2>
+
+<p>Foram mapeados os fechamentos de 331 veículos jornalísticos brasileiros desde 2011. Os dados foram obtidos junto à Associação Nacional dos Jornais (ANJ) e também via levantamento próprio do Atlas da Notícia.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>tipo</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>jornalísticos</td>
+      <td>331</td>
+      <td>93,3%</td>
+    </tr>
+    <tr>
+      <td>não-jornalísticos</td>
+      <td>10</td>
+      <td>4,4%</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="fontes-do-atlas-da-notícia-30">Fontes do Atlas da Notícia 3.0</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>fonte</th>
+      <th>veículos</th>
+      <th>proporção</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MCTIC</td>
+      <td>6.460</td>
+      <td>47,04%</td>
+    </tr>
+    <tr>
+      <td>Secom/PR</td>
+      <td>4.164</td>
+      <td>30,32%</td>
+    </tr>
+    <tr>
+      <td>Atlas da Notícia</td>
+      <td>2.613</td>
+      <td>19,03%</td>
+    </tr>
+    <tr>
+      <td>Adjori-RS</td>
+      <td>193</td>
+      <td>1,41%</td>
+    </tr>
+    <tr>
+      <td>Adjori-SC</td>
+      <td>128</td>
+      <td>0,93%</td>
+    </tr>
+    <tr>
+      <td>Central de Diários</td>
+      <td>86</td>
+      <td>0,63%</td>
+    </tr>
+    <tr>
+      <td>Adjori-SP</td>
+      <td>60</td>
+      <td>0,44%</td>
+    </tr>
+    <tr>
+      <td>Adjori-PR</td>
+      <td>28</td>
+      <td>0,20%</td>
+    </tr>
+  </tbody>
+</table>
+
+						</div><!-- /.content -->
+					</div><!-- /.col -->
+					<div class="col-md-4 col-md-offset-1">
+						<div class="sections-list-wrapper">
+							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.section -->
+		
+		<div class="js-footer-area">
+			
+			
+				<div class="micro-nav">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="/" class="micro-nav__back">
+					<i class="icon icon--arrow-left"></i>
+					Voltar à home
+				</a><!-- /.micro-nav__back -->
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</div><!-- /.micro-nav -->
+
+			
+			
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h6>Realização <img src="/doks-theme/assets/images/outros_logos/logo_projor.png" class="logosfooter" /></h6><br />
+					<h6>Desenvolvimento <img src="/doks-theme/assets/images/outros_logos/logo_volt.png" width="90px" class="logosfooter"/> </h6><br />
+					<h6>Apoio <img src="/doks-theme/assets/images/outros_logos/facebook_logo.png" class="logosfooter"/> </h6><br />
+					<h6>Parceria institucional <img src="/doks-theme/assets/images/outros_logos/abraji_logo.png"  style="margin-top:-10px" class="logosfooter"/> &nbsp;&nbsp; <img src="/doks-theme/assets/images/outros_logos/intercom.png" class="logosfooter"/></h6><br />
+					<hr />
+					
+					
+					  <p class="site-footer__copyright" style="line-height:1.6em">2020 - Projeto licenciado sob <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><br><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />.</p>
+					
+				</div><!-- /.col -->
+				
+					<div class="col-sm-6 align-right">
+						<ul class="social-list">
+							
+								<li>
+									<a href="https://www.facebook.com/atlasdanoticia" target="_blank" class="social-list__item social-list__item--facebook">
+										<i class="icon icon--facebook"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://twitter.com/atlasdanoticia" target="_blank" class="social-list__item social-list__item--twitter">
+										<i class="icon icon--twitter"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://medium.com/atlas-da-noticia" target="_blank" class="social-list__item social-list__item--medium">
+										<i class="icon icon--medium"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://github.com/voltdatalab/atlas-analytics" target="_blank" class="social-list__item social-list__item--github">
+										<i class="icon icon--github"></i>
+									</a>
+								</li>
+							
+						</ul><!-- /.social-list -->
+						<a href="mailto:contato@atlas.jor.br"><h6><strong>contato@atlas.jor.br</strong></h6></a>
+
+					</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-104963816-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+
+		</div><!-- /.js-footer-area -->
+	</body>
+</html>
