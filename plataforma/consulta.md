@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Atlas da Notícia
+title: Dados abertos - interface de consulta
 subTitle: Mapeando o jornalismo no Brasil
 ---
 
