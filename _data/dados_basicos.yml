@@ -263,27 +263,22 @@
   <tr>
     <th class="tg-0lax">tipo</th>
     <th class="tg-0lax">veículos</th>
-    <th class="tg-0lax">proporção</th>
   </tr>
   <tr>
     <td class="tg-0lax">jornalísticos (v3)</td>
     <td class="tg-0lax">331</td>
-    <td class="tg-0lax">93,3%</td>
   </tr>
   <tr>
     <td class="tg-0lax">não-jornalísticos (v3)</td>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax">4,4%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><strong>jornalísticos (v4)</strong></td>
-    <td class="tg-0lax">331</td>
-    <td class="tg-0lax">93,3%</td>
+    <td class="tg-0lax">606</td>
   </tr>
   <tr>
     <td class="tg-0lax"><strong>não-jornalísticos (v4)</strong></td>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax">4,4%</td>
+    <td class="tg-0lax">26</td>
   </tr>
 </table>'
 
@@ -300,17 +295,17 @@
 <tbody>
   <tr>
     <td>Sudeste</td>
-    <td>4517</td>
+    <td>4.517</td>
     <td>34,5%</td>
   </tr>
   <tr>
     <td>Sul</td>
-    <td>3315</td>
+    <td>3.315</td>
     <td>25,3%</td>
   </tr>
   <tr>
     <td>Nordeste</td>
-    <td>2402</td>
+    <td>2.402</td>
     <td>18,3%</td>
   </tr>
   <tr>

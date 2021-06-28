@@ -1,3 +1,4 @@
 #remove página de veículos de landing
 *.veiculos.html
 *.indique.html
+*.jekyll-cache
