@@ -280,7 +280,8 @@
     <td class="tg-0lax"><strong>não-jornalísticos (v4)</strong></td>
     <td class="tg-0lax">26</td>
   </tr>
-</table>'
+</table>
+<h6>* Note que os dados não correspondem ao ano de fechamento dos veículos, ou seja, em 2019 não fecharam os 331 veículos, e sim foi o tanto de fechamentos que compilamos neste mesmo ano a partir de registros de anos anteriores. Infelizmente, ainda não temos dados confiáveis de fechamentos por ano.  </h6>'
 
 - titulo: Veículos por região
   subtitulo: 'Número de iniciativas por região do Brasil'
@@ -321,7 +322,7 @@
 </tbody>
 </table>'
 
-- titulo: Veículos por segmento
+- titulo: Veículos por segmento*
   subtitulo: 'Classificação das mídias consideradas na pesquisa'
   chart: ../../graficos/atlas_v4/atlas_v4_por_segmento.png
   desc: '<table class="tg">
@@ -354,7 +355,8 @@
     <td>9,5%</td>
   </tr>
 </tbody>
-</table>'
+</table>
+'
 
 - titulo: Veículos por fonte
   subtitulo: 'Origem dos dados dos cadastros do nosso banco de dados'
