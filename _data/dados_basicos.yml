@@ -258,7 +258,7 @@
 </table>'
 
 - titulo: Veículos fechados
-  subtitulo: 'Considera fechamentos em qualquer momento nos últimos 20 anos'
+  subtitulo: 'Considera fechamentos em qualquer momento nos últimos 20 anos. <u><a href="https://docs.google.com/spreadsheets/d/1YWk2aOBW50RUGgxE42QplOP1N3YLK5uko8hF2nKbI1Y/edit?usp=sharing" target="_blank">Acesse aqui a tabela com nosso levantamento de veículos fechados</a></u>'
   desc: '<table class="tg">
   <tr>
     <th class="tg-0lax">tipo</th>
