@@ -135,7 +135,21 @@
 						<div class="content">
 							<p>Assine gratuitamente nossa newsletter.</p>
 
-<form style="padding:3px;text-align:left;" action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><input type="text" style="height:25px;width:180px" name="email" id="tlemail" placeholder="insira seu email" /><input type="hidden" value="1" name="embed" /><input style="border:none;height:25px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" value="assinar" /></p></form>
+<form style="padding:3px;text-align:left;" action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br />
+	<input type="text" name="name" id="name" />
+	<br />
+	<label for="email">Email</label><br />
+	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+	<label for="hp">HP</label><br />
+	<input type="text" name="hp" id="hp" />
+	</div>
+	<input type="hidden" name="list" value="7Hx5O7QmgeoWG6M2WVTmkg" />
+	<input type="hidden" name="subform" value="yes" />
+	<input style="border:none;height:25px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" name="submit" id="submit" placeholder="Receber" />
+</form>
+
+<p><br /></p>
 
 <p>Caso você escolha assinar nossa newsletter, seu email será usado somente para comunicação enviada pelo Núcleo Jornalismo ou pelo Volt Data Lab - empresa por trás do Núcleo;</p>
 
@@ -226,7 +240,21 @@
 					</div><!-- /.col -->
 				
 				<br /><br /><br />
-				<form style="padding:3px;text-align:right;" action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><h6>Assine nossa newsletter. É gratuita.</h6><input type="text" style="width:140px" name="email" id="tlemail" placeholder="email" /><input  type="hidden" value="1" name="embed"/><input style="border:none;height:24px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" value="assinar" /></p></form>
+				<form style="padding:3px;text-align:right;" action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+					<h6>Assine nossa newsletter. É gratuita.</h6>
+					<!--<label for="name">Name</label><br/>-->
+					<input type="text" name="name" id="name" placeholder="Nome"/>
+					<br/>
+					<!--<label for="email">Email</label><br/>-->
+					<input type="email" name="email" id="email" placeholder="Email"/><br />
+					<div style="display:none;">
+					<label for="hp">HP</label>
+					<input type="text" name="hp" id="hp"/>
+					</div>
+					<input type="hidden" name="list" value="7Hx5O7QmgeoWG6M2WVTmkg"/>
+					<input type="hidden" name="subform" value="yes"/>
+					<input style="border:none;height:24px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" name="submit" id="submit" placeholder="Receber"/>
+				</form>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</footer><!-- /.site-footer -->

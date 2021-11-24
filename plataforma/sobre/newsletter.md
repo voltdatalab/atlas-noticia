@@ -32,7 +32,21 @@ page_nav:
 
 Assine gratuitamente nossa newsletter.
 
-<form style="padding:3px;text-align:left;" action="https://tinyletter.com/atlasjor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/atlasjor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><input type="text" style="height:25px;width:180px" name="email" id="tlemail" placeholder="insira seu email" /><input  type="hidden" value="1" name="embed"/><input style="border:none;height:25px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" value="assinar" /></p></form>
+<form style="padding:3px;text-align:left;" action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="7Hx5O7QmgeoWG6M2WVTmkg"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input style="border:none;height:25px;background-color:#008596 !important;color:#fff !important;cursor:pointer" type="submit" name="submit" id="submit" placeholder="Receber"/>
+</form>
+
+<br>
 
 Caso você escolha assinar nossa newsletter, seu email será usado somente para comunicação enviada pelo Núcleo Jornalismo ou pelo Volt Data Lab - empresa por trás do Núcleo;
 

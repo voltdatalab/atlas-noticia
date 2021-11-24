@@ -17,6 +17,10 @@ grid_navigation:
       excerpt: Saiba mais a respeito da principal iniciativa para mapear o jornalismo em todo o Brasil
       cta: Conheça o projeto
       url: 'origem'
+    - title: Newsletter Mensal
+      excerpt: Fique por dentro de novidades sobre o Atlas da Notícia. Enviada mensalmente pela nossa equipe.
+      cta: Assinar newsletter
+      url: 'newsletter'
     - title: Equipe
       excerpt: Saiba quem desenvolve o projeto no dia a dia, nossas equipes institucionais, de desenvolvimento e de pesquisa
       cta: Quem lidera a iniciativa
