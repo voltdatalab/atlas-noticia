@@ -32,9 +32,13 @@ page_nav:
 
 O levantamento do **Atlas da Notícia** faz um mapeamento geográfico da imprensa, e não uma qualificação dos veículos ou acompanhamento trabalhista. Nossos dados podem fornecer informações para estudos que sigam nessa direção, mas eles mesmos não se propõem a cobrir essas questões.
 
-<a href="{{ site.baseurl }}/plataforma/sobre/metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acessa a metodologia completa aqui</button></a>
+<a href="{{ site.baseurl }}/plataforma/sobre/metodologia"><button class="btn btn--dark btn--rounded btn--w-icon">Acesse a metodologia completa aqui</button></a>
 
 <a href="{{ site.baseurl }}/plataforma/consulta"><button class="btn btn--dark btn--rounded btn--w-icon">Acesse os dados aqui</button></a>
+
+<a href="https://docs.google.com/spreadsheets/d/171qh3uEKySIXj8pB1ndZIAb3scBqNPPT4Ws_ox_DSDM/edit#gid=0
+"><button class="btn btn--dark btn--rounded btn--w-icon">Dados de fechamentos de veículos</button></a>
+
 
 {% for dados in site.data.dados_basicos %}
 
